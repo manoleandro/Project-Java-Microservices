@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="TipoHoraDTOType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0,1]\d|2[0-5]):([0-5]\d):([0-5]\d)"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+
+

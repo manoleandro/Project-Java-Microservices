@@ -1,0 +1,28 @@
+{
+    "onsPortalApp": {
+        "manter-agendamento" : {
+            "home": {
+                "title": "Manter Agendamento",
+                "scheduleOrigin": "Origem do Agendamento",
+                "initialMonth": "Mês Inicial",
+                "lastMonth": "Mês Final",
+                "schedulingRateCalculations": "Agendamento de Cáculo de Taxa",
+                "schedulingRectification": "Agendamento de Retificação",
+                "schedulingScenario": "Agendamento de Cenário",
+                "pesquisar": "Pesquisar",
+                "filters": "Filtros",
+                "calcTaxa": "Cálculo Taxa",
+                "scenario": "Cenário",
+                "retifications": "Retificações",
+                "facilitiesSelection": "Selecionar Instalações",
+                "save": "Salvar",
+                "cancel": "Cancelar",
+                "back": "Voltar"
+            },
+            "cenario": {
+            	"title": "Cenário",
+            	"modal-title": "Agendamento {{ param }}"
+            }
+        }
+    }
+}

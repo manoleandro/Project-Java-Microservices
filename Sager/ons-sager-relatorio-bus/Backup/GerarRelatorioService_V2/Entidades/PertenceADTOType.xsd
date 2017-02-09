@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO" xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO" schemaLocation="../Entidades/UsinaDTOType.xsd"/>
+	<xs:complexType name="PertenceADTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Usina" type="ns1:UsinaDTOType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

@@ -1,0 +1,11 @@
+Ignore-Scanning-Archives: eureka-client-1.4.9.jar, eureka-core-1.4.9.jar, governator-1.12.10.jar, 
+ governator-api-1.12.10.jar, governator-core-1.12.10.jar, hystrix-core-1.5.3.jar, hystrix-javanica-1.5.3.jar, 
+ hystrix-metrics-event-stream-1.5.3.jar, netflix-commons-util-0.1.1.jar, netflix-eventbus-0.3.0.jar, 
+ netflix-statistics-0.1.1.jar, spring-cloud-netflix-core-1.1.4.RELEASE.jar, 
+ spring-cloud-netflix-eureka-client-1.1.4.RELEASE.jar, spring-cloud-netflix-spectator-1.1.4.RELEASE.jar, 
+ spring-cloud-spring-service-connector-1.2.3.RELEASE.jar, spring-cloud-starter-1.1.1.RELEASE.jar, 
+ spring-cloud-starter-archaius-1.1.4.RELEASE.jar, spring-cloud-starter-config-1.1.2.RELEASE.jar, 
+ spring-cloud-starter-eureka-1.1.4.RELEASE.jar, spring-cloud-starter-hystrix-1.1.4.RELEASE.jar, 
+ spring-cloud-starter-ribbon-1.1.4.RELEASE.jar, spring-cloud-starter-spectator-1.1.4.RELEASE.jar, 
+ ribbon-2.2.0.jar, ribbon-core-2.2.0.jar, ribbon-eureka-2.2.0.jar, ribbon-httpclient-2.2.0.jar, 
+ ribbon-loadbalancer-2.2.0.jar, ribbon-transport-2.2.0.jar, archaius-core-0.7.4.jar

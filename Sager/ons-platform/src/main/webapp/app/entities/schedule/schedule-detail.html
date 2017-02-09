@@ -1,0 +1,31 @@
+
+<div>
+    <h2><span>Schedule</span> {{vm.schedule.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span>Schedule Date</span></dt>
+        <dd>
+            <span>{{vm.schedule.scheduleDate | date:'medium'}}</span>
+        </dd>
+        <dt><span>User Id</span></dt>
+        <dd>
+            <span>{{vm.schedule.userId}}</span>
+        </dd>
+        <dt><span>Creation Date</span></dt>
+        <dd>
+            <span>{{vm.schedule.creationDate | date:'medium'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button" ui-sref="schedule-detail.edit({id:vm.schedule.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-xs hidden-sm"> Edit</span>
+    </button>
+</div>

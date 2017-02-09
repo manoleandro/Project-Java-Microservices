@@ -1,0 +1,34 @@
+{
+    "sagerApp": {
+        "taxa" : {
+            "home": {
+                "title": "Taxas",
+                "createLabel": "Criar novo Taxa",
+                "memoria": "Memória de Cálculo",
+                "search": "Pesquisar por Taxa"
+            },
+            "created": "Um novo Taxa é criado com o identificador {{ param }}",
+            "updated": "Um Taxa é atualizado com o identificador {{ param }}",
+            "deleted": "Um Taxa é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Taxa {{ id }}?"
+            },
+            "detail": {
+                "title": "Taxa"
+            },
+            "dtRef": "Dt Ref",
+            "usiid": "Usiid",
+            "usi": "Usi",
+            "teipmes": "Teipmes",
+            "teipfcmes": "Teipfcmes",
+            "teipfc": "Teipfc",
+            "teipoper": "Teipoper",
+            "teifames": "Teifames",
+            "teifafcmes": "Teifafcmes",
+            "teifa": "Teifa",
+            "teiffc": "Teiffc",
+            "teifoper": "Teifoper",
+            "ii": "Ii"
+        }
+    }
+}

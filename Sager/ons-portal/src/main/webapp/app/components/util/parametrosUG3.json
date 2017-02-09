@@ -1,0 +1,239 @@
+[
+			
+			{
+				"ident":1,
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HEP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-02-01",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":1,
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HEP",
+					"valorParam": 12,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-02-01",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 6,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":1,
+				"equipamento": 
+				{
+					"nome": "UG03",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"equipamento": 
+				{
+					"nome": "UG03",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG03",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 17,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG03",
+				"param": 
+				{
+					"nomeParam": "HEP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-02-01",
+				"equipamento": 
+				{
+					"nome": "UG03",
+					"valorPotencia": 50,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG03",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			}
+			
+					
+]

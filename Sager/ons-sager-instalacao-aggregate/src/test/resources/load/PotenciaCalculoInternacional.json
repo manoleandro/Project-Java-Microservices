@@ -1,0 +1,65 @@
+[ {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSGBI1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "1100.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BRPYANACY",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "TSTI2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "127.420000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "UYBRRSLIV2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "74.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSCUR",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSGBI2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "1100.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "TSTI1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "363.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "UYBRRSCTA-",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "350.000000000000"
+} ]

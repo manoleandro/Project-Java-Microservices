@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			xmlns="http://schemas.ons.org.br/trans/dto/2011/04/07/TipoPatamarDTO" 
+			targetNamespace="http://schemas.ons.org.br/trans/dto/2011/04/07/TipoPatamarDTO" 
+			elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="TipoPatamarDTOType">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="1|2|3"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

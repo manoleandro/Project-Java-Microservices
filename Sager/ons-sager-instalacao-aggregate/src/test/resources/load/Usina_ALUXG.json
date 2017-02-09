@@ -1,0 +1,42 @@
+[
+	{
+		"_class": "br.org.ons.geracao.cadastro.Usina",
+		"id": "ALUXG",
+		"codigoAneel": "UHE.PH.SE.027.053-9.01",
+		"codigoVisaoApuracaoGeracao": "1",
+		"cosr": "COSR-NE",
+		"dataProrrogacao": "2012-12-04T00:00:00",
+		"nomeCurto": "USINA XINGO",
+		"tipo": "UHE",
+		"dataOutorgaImplantacao": "1994-04-30T00:00:00",
+		"agenteProprietario": {
+			"id": "CHF",
+			"nomeCurto": "CHESF",
+			"sigla": "CHF"
+		},
+		"taxasReferencia": [
+			{
+				"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+				"tipo": "REFERENCIA",
+				"periodo": {
+					"_class": "br.org.ons.geracao.modelagem.Periodo",
+					"dataInicio": "1994-04-01T00:00:00",
+					"dataFim": ""
+				},
+				"codigo": "TEIFa",
+				"valor": "0.0600"
+			},
+			{
+				"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+				"tipo": "REFERENCIA",
+				"periodo": {
+					"_class": "br.org.ons.geracao.modelagem.Periodo",
+					"dataInicio": "1994-04-01T00:00:00",
+					"dataFim": ""
+				},
+				"codigo": "TEIP",
+				"valor": "0.0800"
+			}
+		]
+	}
+]

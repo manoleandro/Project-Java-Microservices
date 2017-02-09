@@ -1,0 +1,270 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "title" : "Serviço Gerar Relatório",
+    "description" : "Este serviço gera os arquivos XML e Dat para os relatórios do Sager",
+    "version" : "1.0.0"
+  },
+  "basePath" : "/GerarRelatorio/resources",
+  "tags" : [ {
+    "name" : "ArqDispVer",
+    "description" : "Gera os arquivos de tipo DispVer"
+  }, {
+    "name" : "ArqTipSinc",
+    "description" : "Gera os arquivos de tipo TipSinc"
+  }, {
+    "name" : "ArqIndAcum",
+    "description" : "Gera os arquivos de tipo IndAcum"
+  } ],
+  "paths" : {
+    "/ArqDispVer/{download}" : {
+      "post" : {
+        "tags" : [ "departments" ],
+        "summary" : "Gera os arquivos de tipo DispVer",
+        "description" : "Gera os arquivos de tipo DispVer.",
+        "operationId" : "geraDispVer",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/ArqDispVer"
+          }
+        }, {
+          "name" : "download",
+          "in" : "path",
+          "description" : "Verifica se os arquivos serão apenas gravados no servidor ou também será feito o downlod.",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Updated"
+          },
+          "400" : {
+            "description" : "There was a problem with the request"
+          },
+          "404" : {
+            "description" : "The department cannot be found"
+          },
+          "500" : {
+            "description" : "A problem occurred updating the department"
+          }
+        }
+      }
+    },
+    "/ArqTipSinc/{download}" : {
+      "post" : {
+        "tags" : [ "departments" ],
+        "summary" : "Gera os arquivos de tipo TipSinc",
+        "description" : "Gera os arquivos de tipo TipSinc.",
+        "operationId" : "geraTipSinc",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/ArqTipSinc"
+          }
+        }, {
+          "name" : "download",
+          "in" : "path",
+          "description" : "Verifica se os arquivos serão apenas gravados no servidor ou também será feito o downlod.",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Updated"
+          },
+          "400" : {
+            "description" : "There was a problem with the request"
+          },
+          "404" : {
+            "description" : "The department cannot be found"
+          },
+          "500" : {
+            "description" : "A problem occurred updating the department"
+          }
+        }
+      }
+    },
+    "/ArqIndAcum/{download}" : {
+      "post" : {
+        "tags" : [ "departments" ],
+        "summary" : "Gera os arquivos de tipo IndAcum",
+        "description" : "Gera os arquivos de tipo IndAcum.",
+        "operationId" : "geraIndAcum",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "body",
+          "description" : "",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/ArqIndAcum"
+          }
+        }, {
+          "name" : "download",
+          "in" : "path",
+          "description" : "Verifica se os arquivos serão apenas gravados no servidor ou também será feito o downlod.",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Updated"
+          },
+          "400" : {
+            "description" : "There was a problem with the request"
+          },
+          "404" : {
+            "description" : "The department cannot be found"
+          },
+          "500" : {
+            "description" : "A problem occurred updating the department"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "ArqDispVer" : {
+      "required" : [ "data", "hora", "tipoUsina", "nomeUnidadeGeradora", "codDPP", "idUGE", "valorDisponibilidade", "descEstadoOperativo", "codEstadoOperativo", "descCondicaoOperativa", "dadoIndefinido" ],
+      "properties" : {
+        "data" : {
+          "type" : "string",
+          "description" : "Data Verificada"
+        },
+        "hora" : {
+          "type" : "string",
+          "description" : "Hora Verificada"
+        },
+        "tipoUsina" : {
+          "type" : "string",
+          "description" : "Valor Fixo"
+        },
+        "nomeUnidadeGeradora" : {
+          "type" : "string",
+          "description" : "Nome Longo Unidade Geradora"
+        },
+        "codDPP" : {
+          "type" : "string",
+          "description" : "codDPP"
+        },
+        "idUGE" : {
+          "type" : "string",
+          "description" : "Id Unidade Geradora"
+        },
+        "valorDisponibilidade" : {
+          "type" : "string",
+          "description" : "Valor Potencia Disponivel"
+        },
+        "descEstadoOperativo" : {
+          "type" : "string",
+          "description" : "Descrição Estado Operativo"
+        },
+        "codEstadoOperativo" : {
+          "type" : "string",
+          "description" : "Estado Operativo"
+        },
+        "descCondicaoOperativa" : {
+          "type" : "string",
+          "description" : "Descriçao Condicao Operativa"
+        },
+        "dadoIndefinido" : {
+          "type" : "string",
+          "description" : "Dado vazio na planilha UC02502_Gerar_Relatórios_SAGER.xls"
+        }
+      },
+      "description" : "Registros do arquivo de tipo DispVer"
+    },
+    "ArqTipSinc" : {
+      "required" : [ "data", "hora", "tipoUsina", "nomeUnidadeGeradora", "codDPP", "idUGE", "codCCEE", "flgSincrono", "Comentario" ],
+      "properties" : {
+        "data" : {
+          "type" : "string",
+          "description" : "Data Verificada"
+        },
+        "hora" : {
+          "type" : "string",
+          "description" : "Hora Verificada"
+        },
+        "tipoUsina" : {
+          "type" : "string",
+          "description" : "Valor Fixo"
+        },
+        "nomeUnidadeGeradora" : {
+          "type" : "string",
+          "description" : "Nome Longo Unidade Geradora"
+        },
+        "codDPP" : {
+          "type" : "string",
+          "description" : "codDPP"
+        },
+        "idUGE" : {
+          "type" : "string",
+          "description" : "Id Unidade Geradora"
+        },
+        "codCCEE" : {
+          "type" : "string",
+          "description" : "O atributo codCCEE indica se a unidade geradora está cadastrada para receber encargo de serviço de sistema por compensador síncrono"
+        },
+        "flgSincrono" : {
+          "type" : "string",
+          "description" : "Dado 1 ou 0 na planilha UC02502_Gerar_Relatórios_SAGER.xls"
+        },
+        "Comentario" : {
+          "type" : "string",
+          "description" : "Dado vazio na planilha UC02502_Gerar_Relatórios_SAGER.xls"
+        }
+      },
+      "description" : "Registros do arquivo de tipo TipSinc"
+    },
+    "ArqIndAcum" : {
+      "required" : [ "mesAno", "tipoUsina", "nomeUnidadeGeradora", "codDPP", "TEIFa", "valorTEIFa", "TEIP", "valorTEIP", "dadoIndefinido" ],
+      "properties" : {
+        "mesAno" : {
+          "type" : "string",
+          "description" : "Mês e ano da taxa acumulada"
+        },
+        "tipoUsina" : {
+          "type" : "string",
+          "description" : "Valor Fixo"
+        },
+        "nomeUnidadeGeradora" : {
+          "type" : "string",
+          "description" : "Nome Curto Unidade Geradora"
+        },
+        "TEIFa" : {
+          "type" : "string",
+          "description" : "Valor Fixo"
+        },
+        "valorTEIFa" : {
+          "type" : "string",
+          "description" : "Valor da taxa TEIFa"
+        },
+        "TEIP" : {
+          "type" : "string",
+          "description" : "Valor Fixo"
+        },
+        "valorTEIP" : {
+          "type" : "string",
+          "description" : "Valor da taxa TEIP"
+        },
+        "dadoIndefinido" : {
+          "type" : "string",
+          "description" : "Dado vazio na planilha UC02502_Gerar_Relatórios_SAGER.xls"
+        }
+      },
+      "description" : "Registros do arquivo de tipo IndAcum"
+    }
+  }
+}

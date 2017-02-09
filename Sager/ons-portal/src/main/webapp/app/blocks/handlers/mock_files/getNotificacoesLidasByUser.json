@@ -1,0 +1,14 @@
+[ {
+  "idLida" : "7VzPUp2SSTSN-TDcK16vowsageradmin",
+  "id" : "7VzPUp2SSTSN-TDcK16vow",
+  "protocolo" : "manter-agendamento",
+  "status" : "glyphicon-credit-card",
+  "tipo" : "info",
+  "comando" : "Cálculo agendado com sucesso!",
+  "usuario" : "sageradmin",
+  "roles" : [ "ROLE_CNOS", "ROLE_COSR_NCO", "ROLE_COSR_NE", "ROLE_AGENTE", "ROLE_ADMIN", "ROLE_COSR_S", "ROLE_COSR_SE" ],
+  "data" : "2017-01-17T22:17:28.621+0000",
+  "lida" : "lida",
+  "protocoloID" : "000002-2017",
+  "idBusca" : "W6vDJS-7RBiRZGUhWO2OEA"
+} ]

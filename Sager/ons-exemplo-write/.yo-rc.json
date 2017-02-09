@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.5.1",
+    "baseName": "ONSExemploWrite",
+    "packageName": "br.org.ons.exemplo",
+    "packageFolder": "br/org/ons/exemplo",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "6186ebd00717855d55bfedc42bf7f59e4ae02c31",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

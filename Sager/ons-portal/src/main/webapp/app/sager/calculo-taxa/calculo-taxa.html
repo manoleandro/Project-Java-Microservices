@@ -1,0 +1,69 @@
+<div ng-cloak></div>
+
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active">Solicitar Cálculo de Taxa</li>
+	</ol>
+	<header ng-model="collapsed" ng-click="collapsed=!collapsed">Solicitar Cálculo de Taxa
+		<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+		<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+	</header>
+	
+	<!-- Mensagens de erro -->
+	<fieldset style="padding: 0 30px 0;">
+	 	<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong><div class="criticaErro"> Crítica do Erro: {{erro.critica}} </div><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+	</fieldset>
+	
+	<fieldset ng-show="collapsed"> 
+		<div class="row">
+			<!-- linha 1 -->
+			<div class="col col-12 date-fields">
+				<section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Inicial:</label>
+					<div id="id_startDate">
+		                <p class="input-group">
+		                   <input id="mesInicial" ng-model="mesInicial" type="text" class="form-control" name="mesInicial" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+	                     	is-open="vm.datePickerOpenStatus.mesInicial" enable-time="false" ng-change="changeDate()" readonly />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                    	<button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('mesInicial')">
+		                        <i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+		           </div>
+	           </section>
+	           <section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Final:</label>
+					<div>
+		                <p class="input-group">
+		                    <input  id="mesFinal" ng-model="mesFinal" type="text" class="form-control" name="mesFinal" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsFinal" 
+	                     		is-open="vm.datePickerOpenStatus.mesFinal" enable-time="false" ng-change="changeDate()" readonly />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                        <button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('mesFinal')">
+		                        <i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+					</div>
+				</section>
+			</div>
+			<section class="col col-12">
+				<ui-instalacoes instalacao="vm.instalacaoSelecionada" instalacoes-selecionadas="vm.instalacoesSelecionada"></ui-instalacoes>
+			</section>
+		</div>
+	
+		<section class="col col-2" style="float: right; margin-right: -20px;">
+		   	<button id="btnAgendarCalculo" ng-click="vm.validarBtnAgendarCalculo()" type="button" class="btn-dt btn btn-success btn-sm">
+			   	<span class="fa fa-calendar"></span> Agendar cálculo
+		    </button>
+		</section>
+	</fieldset>
+</form>

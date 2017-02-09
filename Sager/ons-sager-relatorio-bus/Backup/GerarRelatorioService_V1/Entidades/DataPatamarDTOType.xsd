@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+			xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/PatamarDTO" 
+			targetNamespace="http://schemas.ons.org.br/infra/dto/2011/04/07/DataPatamarDTO"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/PatamarDTO" 
+			   schemaLocation="../Entidades/PatamarDTOType.xsd"/>
+	<xs:complexType name="DataPatamarDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Data" type="xs:date" minOccurs="0"/>
+			<xs:element name="TipoDia" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:pattern value="1|2|3|4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Patamares" type="ns1:PatamarDTOType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

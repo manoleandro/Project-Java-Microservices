@@ -1,0 +1,49 @@
+<div class="modal-content" style="padding:0px 20px;">
+	<form action="#" id="sky-form" class="sky-form sky-form-campos ng-pristine ng-valid-required ng-invalid ng-invalid-datetime" style="border: 0px;">
+		<!-- Header modal -->
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="vm.clear()">×</button>
+			<h2 class="modal-title" id="myCalculoTaxaLabel">Agendamento {{vm.agendamento.nomeCenario}}</h2>
+		</div>
+  
+		<!-- Período escolhido -->
+		<section class="col col-6" style="margin:10px 0px;">
+			 <label class="control-label">Instalação:</label>
+		 	 <span>{{vm.agendamento.nomeInstalacao}}</span> - 
+		 	 <label class="control-label">Solicitante:</label>
+		 	 <span>{{vm.agendamento.solicitante}}</span>
+		</section>
+		<!-- Combos data e hora agendamento -->
+		<div class="col-xs-12 col-sm-12 col-lg-12" style="background-color:#f1f3f4; margin-bottom:10px; padding:10px 0px;">
+			<section class="col-xs-6 col-sm-6 col-lg-6 date-fields">
+						<label class="control-label">Data Agendamento:</label>
+					<!-- Data de agendamento -->
+						<div id="id_startDate">
+							<p class="input-group">
+						        <input id="field_endDate" type="text" class="form-control" name="endtDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsPop" 
+						                  	ng-model="vm.dataPopUp" is-open="vm.datePickerOpenStatus.endDate" datetime-picker="mediumDate" enable-time="true" close-on-date-selection="false" 
+						                   		ng-change="changeDate()" readonly/>
+						        <span class="input-group-btn" style="vertical-align: top !important;">
+						        	<button type="button" class="btn-dt btn btn-default ui-datepicker-start" ng-click="vm.openCalendar('endDate')">
+						        		<i class="fa fa-calendar"></i>
+					        		</button>
+						        </span>
+					        </p>
+						</div>
+			 </section>
+		</div>
+
+	<!-- Botões cancelar e agendar -->
+	<footer class="text-right" style="margin:10px 0px; margin-top: 164px;">
+		<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="vm.clear()">
+			<span class="fa fa-chevron-left"></span>&nbsp;
+			<span translate="onsPortalApp.manter-agendamento.home.back">Voltar</span>
+		</button>
+		<button id="btnAgendar" type="button" class="btn-u" ng-click="vm.update()">
+			<span class="fa fa-check"></span>&nbsp;
+			<span translate="onsPortalApp.manter-agendamento.home.save">Salvar</span>
+		</button>
+      </footer>
+  </form>
+</div>
+

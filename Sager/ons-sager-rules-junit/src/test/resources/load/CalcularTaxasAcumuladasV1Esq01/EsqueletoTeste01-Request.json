@@ -1,0 +1,269 @@
+{
+	"calcularTaxasAcumuladasRequestV1": {
+		"janelaCalculo": {
+			"_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2005-06-01T00:00:00.000-0300",
+			"dataFim": "2005-06-30T00:00:00.000-0300"
+		},
+		"instalacao": {
+			"_class": "br.org.ons.geracao.cadastro.Usina",
+			"nomeCurto": "USINA XINGO",
+			"dataOutorgaImplantacao": "1994-04-30T00:00:00.000-0300",
+			"taxasReferencia": [{
+				"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+				"id": null,
+				"versao": null,
+				"codigo": "TEIP",
+				"valor": 0.08,
+				"numerador": null,
+				"denominador": null,
+				"descricao": null,
+				"descricaoAuxiliar": null,
+				"tipo": "REFERENCIA",
+				"periodo": {
+					"_class": "br.org.ons.geracao.modelagem.Periodo",
+					"dataInicio": "1994-04-01T00:00:00.000-0300",
+					"dataFim": null
+				},
+				"memoriaCalculo": [],
+				"participacoesEquipamentos": [],
+				"comentarios": []
+			}, {
+				"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+				"id": null,
+				"versao": null,
+				"codigo": "TEIFa",
+				"valor": 0.06,
+				"numerador": null,
+				"denominador": null,
+				"descricao": null,
+				"descricaoAuxiliar": null,
+				"tipo": "REFERENCIA",
+				"periodo": {
+					"_class": "br.org.ons.geracao.modelagem.Periodo",
+					"dataInicio": "1994-04-01T00:00:00.000-0300",
+					"dataFim": null
+				},
+				"memoriaCalculo": [],
+				"participacoesEquipamentos": [],
+				"comentarios": []
+			}],
+			"taxasAjustadas": [],
+			"id": "ALUXG",
+			"versao": null,
+			"tipo": "UHE",
+			"cosr": null,
+			"dataProrrogacao": "2012-12-04T00:00:00.000-0200",
+			"codigoVisaoApuracaoGeracao": "1",
+			"codigoAneel": "UHE.PH.SE.027.053-9.01",
+			"unidadesGeradoras": [{
+				"_class": "br.org.ons.geracao.cadastro.UnidadeGeradora",
+				"id": "ALUXG-0UG1",
+				"versao": null,
+				"nome": null,
+				"tipoInstalacao": "USINA",
+				"dataEventoEOC": null,
+				"dataDesativacao": null,
+				"quantidadeHorasServico": null,
+				"dataImplantacao": "1997-08-22T00:00:00.000-0300",
+				"dataRenovacaoProrrogacaoConcessao": null,
+				"potenciasCalculo": [{
+					"valor": 527.0,
+					"vigencia": {
+						"_class": "br.org.ons.geracao.modelagem.Periodo",
+						"dataInicio": "2003-04-03T00:00:00.000-0300",
+						"dataFim": "2012-02-06T00:00:00.000-0200"
+					}
+				}],
+				"franquias": [],
+				"suspensoes": [],
+				"tipoFonteEnergetica": "UHE",
+				"codigoIdDpp": null,
+				"codigoOns": null,
+				"codigoCcee": null,
+				"idVisaoPlanejamentoOpEnergetica": null,
+				"idDpp": null
+			}],
+			"agenteProprietario": {
+				"id": "CHF",
+				"sigla": "CHF",
+				"nomeCurto": "CHESF"
+			}
+		},
+		"taxas": [{
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "70RTdVgcSNamml0nEOIxdA",
+			"versao": null,
+			"codigo": "TEIP_fc",
+			"valor": null,
+			"numerador": null,
+			"denominador": null,
+			"descricao": "Taxa Equivalente de Indisponibilidade Programada por falta de combustível",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": [],
+			"participacoesEquipamentos": [],
+			"comentarios": [{
+				"_class": "br.org.ons.geracao.evento.Comentario",
+				"tipo": "AVISO",
+				"descricao": "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+				"dataInsercao": "2017-02-02T14:49:02.826-0200",
+				"origem": "SISTEMA"
+			}]
+		}, {
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "DjVefOJ8SzWLhqm2zSIlHw",
+			"versao": null,
+			"codigo": "TEIF_oper",
+			"valor": 0,
+			"numerador": 0.0,
+			"denominador": 527.0,
+			"descricao": "Taxa Equivalente de Indisponibilidade Forçada operacional",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": ["ZTYk-Q2kT769xoJn8vYJ1g", "-Su6LVqLT-OKNMxzEDbS-w", "wVfQ7Ae5SFmfrFLBPZ561A"],
+			"participacoesEquipamentos": [{
+				"id": "eLJDD-uoSM6WRYtwaen-hQ",
+				"versao": null,
+				"codigo": "Parcela do equipamento null na TEIF_oper",
+				"valor": null,
+				"numerador": 0.0,
+				"denominador": 0.0,
+				"descricao": "Parcela do equipamento null na TEIF_oper",
+				"descricaoAuxiliar": null,
+				"idParticipante": "ALUXG-0UG1",
+				"potencia": 527,
+				"codigoONS": null
+			}],
+			"comentarios": []
+		}, {
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "kCGWj0QeSBSboh4PzwxHTg",
+			"versao": null,
+			"codigo": "TEIFa",
+			"valor": 0,
+			"numerador": 0.0,
+			"denominador": 527.0,
+			"descricao": "Taxa Equivalente de Indisponibilidade Forçada",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": ["n0oHEregTx6NeHuf4adtog", "CsZ0gJeASti_a5w7WMNHVA", "kKEbirAFRxeYQUptSRMqJQ", "C8GcaPjOTtGBN0BlfvV9bg", "an5SY5BqT2GvJEWpo2e2iA"],
+			"participacoesEquipamentos": [{
+				"id": "QIcQO17ARmuZZG4MKspDiw",
+				"versao": null,
+				"codigo": "Parcela do equipamento null na TEIFa",
+				"valor": null,
+				"numerador": 0.0,
+				"denominador": 0.0,
+				"descricao": "Parcela do equipamento null na TEIFa",
+				"descricaoAuxiliar": null,
+				"idParticipante": "ALUXG-0UG1",
+				"potencia": 527,
+				"codigoONS": null
+			}],
+			"comentarios": []
+		}, {
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "NdwQ3ybFTOGGTAm7xd-N0A",
+			"versao": null,
+			"codigo": "TEIFa_fc",
+			"valor": null,
+			"numerador": null,
+			"denominador": null,
+			"descricao": "Taxa Equivalente de Indisponibilidade Forçada por falta de combustível",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": [],
+			"participacoesEquipamentos": [],
+			"comentarios": [{
+				"_class": "br.org.ons.geracao.evento.Comentario",
+				"tipo": "AVISO",
+				"descricao": "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+				"dataInsercao": "2017-02-02T14:49:02.826-0200",
+				"origem": "SISTEMA"
+			}]
+		}, {
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "ACPWliHOSQ6PWDzq5IuDqA",
+			"versao": null,
+			"codigo": "TEIP_oper",
+			"valor": 0.00678241,
+			"numerador": 3.574328701381,
+			"denominador": 527.0,
+			"descricao": "Taxa Equivalente de Indisponibilidade Programada",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": ["-e2O5ZquR5ucWJb_oYXznQ", "vOG6woGWT2qsYi0skZGE1Q", "pqgZT5JZTOyQz155Vey_uQ"],
+			"participacoesEquipamentos": [{
+				"id": "3caD3rKmRPG4tBpG7OJpIQ",
+				"versao": null,
+				"codigo": "Parcela do equipamento null na TEIP",
+				"valor": 1.0,
+				"numerador": 3.574328701381,
+				"denominador": 3.574328701381,
+				"descricao": "Parcela do equipamento null na TEIP",
+				"descricaoAuxiliar": null,
+				"idParticipante": "ALUXG-0UG1",
+				"potencia": 527,
+				"codigoONS": null
+			}],
+			"comentarios": []
+		}, {
+			"_class": "br.org.ons.geracao.evento.taxa.Taxa",
+			"id": "INsUyYZnSle1uik-VayIVA",
+			"versao": null,
+			"codigo": "TEIP",
+			"valor": 0.00678241,
+			"numerador": 3.574328701381,
+			"denominador": 527.0,
+			"descricao": "Taxa Equivalente de Indisponibilidade Programada",
+			"descricaoAuxiliar": null,
+			"tipo": "MENSAL",
+			"periodo": {
+				"_class": "br.org.ons.geracao.modelagem.Periodo",
+				"dataInicio": "2005-06-01T00:00:00.000-0300",
+				"dataFim": "2005-06-30T00:00:00.000-0300"
+			},
+			"memoriaCalculo": ["-e2O5ZquR5ucWJb_oYXznQ", "vOG6woGWT2qsYi0skZGE1Q", "pqgZT5JZTOyQz155Vey_uQ"],
+			"participacoesEquipamentos": [{
+				"id": "3caD3rKmRPG4tBpG7OJpIQ",
+				"versao": null,
+				"codigo": "Parcela do equipamento null na TEIP",
+				"valor": 1.0,
+				"numerador": 3.574328701381,
+				"denominador": 3.574328701381,
+				"descricao": "Parcela do equipamento null na TEIP",
+				"descricaoAuxiliar": null,
+				"idParticipante": "ALUXG-0UG1",
+				"potencia": 527,
+				"codigoONS": null
+			}],
+			"comentarios": []
+		}]
+	}
+}

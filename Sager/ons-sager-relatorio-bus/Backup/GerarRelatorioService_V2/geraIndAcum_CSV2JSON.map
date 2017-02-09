@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var"/>
+    <input path="/ArqIndAcumDat.xsd" var="var1"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var2"/>
+    <output path="/IndAcum_MessageDTOType.xsd" var="var3"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="out7" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO"/>
+        <namespace kind="supplement" prefix="out6" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/GeraDTO"/>
+        <namespace kind="supplement" prefix="out9" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO"/>
+        <namespace kind="supplement" prefix="out8" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO"/>
+        <namespace kind="supplement" prefix="out3" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/RequestDTO"/>
+        <namespace kind="supplement" prefix="out11" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/IndAcum_MessageDTO"/>
+        <namespace kind="supplement" prefix="out2" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/ApuracaoDTO"/>
+        <namespace kind="supplement" prefix="out12" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/IndAcum_PayloadDTO"/>
+        <namespace kind="supplement" prefix="out5" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO"/>
+        <namespace kind="supplement" prefix="out4" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO"/>
+        <namespace kind="supplement" prefix="out10" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/GeracaoDTO"/>
+        <namespace kind="supplement" prefix="out15" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO"/>
+        <namespace kind="supplement" prefix="out14" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/HeaderDTO"/>
+        <namespace kind="supplement" prefix="out13" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ReplyDTO"/>
+        <namespace kind="supplement" prefix="out" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SignatureDTO"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="geraIndAcum_CSV2JSON">
+        <input path="$var/mb:env(Environment)" var="Environment"/>
+        <input path="$var1/mb:msg(ArqIndAcumDat,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_ArqIndAcumDat"/>
+        <output path="$var2/mb:env(Environment)" var="Environment1"/>
+        <output namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/IndAcum_MessageDTO" path="$var3/mb:msg(IndAcum_Message,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_IndAcum_Message"/>
+        <passthrough>
+            <input path="$Environment/."/>
+            <output path="$Environment1/."/>
+            <updates>
+                <move>
+                    <input path="$Environment/Variables/any"/>
+                    <output path="$Environment1/Variables/any"/>
+                </move>
+            </updates>
+        </passthrough>
+        <move>
+            <input path="$ComIbmMessageAssembly_ArqIndAcumDat/Properties"/>
+            <output path="$ComIbmMessageAssembly_IndAcum_Message/Properties"/>
+        </move>
+        <foreach>
+            <input path="$ComIbmMessageAssembly_ArqIndAcumDat/ArqIndAcumDat/record"/>
+            <output path="$ComIbmMessageAssembly_IndAcum_Message/IndAcum_Message/Payload"/>
+            <move>
+                <input path="mesAno"/>
+                <output path="Usina/Possui/Apuracao/MesAno"/>
+            </move>
+            <move>
+                <input path="tipoUsina"/>
+                <output path="Usina/TipoUsina"/>
+            </move>
+            <move>
+                <input path="nomeUnidadeGeradora"/>
+                <output path="Usina/Nome"/>
+            </move>
+            <move>
+                <input path="codDPP"/>
+                <output path="Usina/Cod_DPP"/>
+            </move>
+            <move>
+                <input path="teifaMes"/>
+                <output path="Usina/Possui/Apuracao/TEIFAMes"/>
+            </move>
+            <move>
+                <input path="teifaAcumulado"/>
+                <output path="Usina/Possui/Apuracao/TEIFAAcumulado"/>
+            </move>
+            <move>
+                <input path="teipMes"/>
+                <output path="Usina/Possui/Apuracao/TEIPMes"/>
+            </move>
+            <move>
+                <input path="teipAcumulado"/>
+                <output path="Usina/Possui/Apuracao/TEIPAcumulado"/>
+            </move>
+        </foreach>
+    </mappingDeclaration>
+</mappingRoot>

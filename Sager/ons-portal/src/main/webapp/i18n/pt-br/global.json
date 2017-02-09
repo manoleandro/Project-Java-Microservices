@@ -1,0 +1,200 @@
+{
+    "global": {
+    	"instalacoes" : {
+            "home": {
+                "title": "Instala��es",
+                "filter": "Filtros",
+                "initialMonth": "M�s Inicial",
+                "lastMonth": "M�s Final",
+                "usina": "Nome",
+                "agente": "Agente",
+                "tipo": "Tipo",
+                "rateTypes":"Tipos de Taxa",
+                "facilitiesSelection": "Sele��o de Instala��es",
+                "cancelar": "Cancel",
+                "teipMensal": "TEIP Mensal",
+				"teifMensal": "TEIF mensal",
+				"teifaMensal": "TEIFa mensal",
+				"teifaAcum": "TEIFa acumulada",
+				"teipAcum": "TEIP acumulada",
+				"teipFcAcum": "TEIP_fc acumulada",
+				"teifaFcMensal": "TEIFa_fc mensal",
+				"teifaFcAcum": "TEIFa_fc acumulada",
+				"teipOperMensal": "TEIP oper mensal",
+				"teipOperAcum": "TEIP oper acumulada",
+				"teifOperMensal": "TEIF oper mensal",
+				"teifOperAcum": "TEIF oper acumulada",
+				"indisponibilidade": "Indisponibilidade",
+				"teipFcMensal": "TEIP_fc mensal",
+				"teifAcum": "TEIF acumulada"
+            },
+            "created": "A new Scheduling is created with identifier {{ param }}",
+            "updated": "A Rate Scheduling is updated with identifier {{ param }}",
+            "deleted": "A Rate Scheduling is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Scheduling {{ id }}?"
+            },
+            "detail": {
+                "title": "Schedule Rate Calculation"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        },
+        "title": "ONS Portal",
+        "browsehappy": "Você está usando um navegador <strong>desatualizado</strong>. Favor <a href=\"http://browsehappy.com/?locale=pt_BR\">atualizar o seu navegador</a> para ter uma experiência melhor.",
+        "menu": {
+            "home": "Início",
+            "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+            "entities": {
+                "main": "Entidades",
+                "cadastroUsina": "Cadastro Usina",
+                "cadastroEvento": "Cadastro Evento",
+                "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+            },
+            "account": {
+                "main": "Conta",
+                "settings": "Configuração",
+                "password": "Senha",
+                "sessions": "Sessões",
+                "login": "Entrar",
+                "logout": "Sair",
+                "register": "Registrar"
+            },
+            "admin": {
+                "main": "Administração",
+                "gateway": "Gateway",
+                "userManagement": "Gerenciamento de usuário",
+                "tracker": "Rastreamento de usuário",
+                "metrics": "Métricas",
+                "health": "Estado do Sistema",
+                "configuration": "Configuração",
+                "logs": "Logs",
+                "audits": "Auditorias",
+                "apidocs": "API",
+                "database": "Banco de dados",
+                "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+            },
+            "language": "Idioma"
+        },
+        "form": {
+            "username": "Usuário",
+            "username.placeholder": "Seu usuário",
+            "newpassword": "Nova senha",
+            "newpassword.placeholder": "Nova senha",
+            "confirmpassword": "Confirmação de nova senha",
+            "confirmpassword.placeholder": "Confirme a nova senha",
+            "email": "E-mail",
+            "email.placeholder": "Seu e-mail"
+        },
+        "messages": {
+            "info": {
+                "authenticated": "Para <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">entrar</a>, utilize as seguintes contas padrões:<br/>- Administrador (usuário=\"admin\" and senha=\"admin\") <br/>- Usuário (usuário=\"user\" and senha=\"user\").",
+                "register": "Não possui uma conta ainda? <a class=\"alert-link\" href=\"\" ng-click=\"vm.register()\">Crie uma nova conta</a>"
+            },
+            "error": {
+                "dontmatch" : "A senha e sua confirmação devem ser iguais!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "A senha é obrigatória.",
+                    "minlength": "A senha deve ter pelo menos 5 caracteres",
+                    "maxlength": "A senha não pode ter mais de 50 caracteres",
+                    "strength": "Nível de dificuldade da senha:"
+                },
+                "confirmpassword": {
+                    "required": "A confirmação da senha é obrigatória.",
+                    "minlength": "A confirmação da senha deve ter pelo menos 5 caracteres",
+                    "maxlength": "A confirmação da senha não pode ter mais de 50 caracteres"
+                },
+                "email": {
+                    "required": "O e-mail é obrigatório.",
+                    "invalid": "E-mail inválido.",
+                    "minlength": "O e-mail deve ter pelo menos 5 caracteres",
+                    "maxlength": "O e-mail não pode ter mais de 50 caracteres"
+                }
+            }
+        },
+        "field": {
+            "id" : "Código"
+        },
+        "ribbon": {
+            "dev":"Development"
+        }
+    },
+    "entity": {
+        "action": {
+            "addblob": "Adicionar blob",
+            "addimage": "Adicionar imagem",
+            "back": "Voltar",
+            "cancel": "Cancelar",
+            "delete": "Excluir",
+            "edit": "Editar",
+            "open": "Open",
+            "save": "Salvar",
+            "view": "Visualizar"
+        },
+        "detail": {
+            "field": "Campo",
+            "value": "Valor"
+        },
+        "delete": {
+            "title": "Confirme a exclusão"
+        },
+        "validation": {
+            "required": "O campo é obrigatório.",
+            "minlength": "Este campo deve ter ao menos {{min}} caracteres.",
+            "maxlength": "Este campo não pode ter mais que {{max}} caracteres.",
+            "min": "Este campo deve ser maior que {{min}}.",
+            "max": "Este campo não pode ser maior que {{max}}.",
+            "minbytes": "Este campo deve ter ao menos {{min}} bytes.",
+            "maxbytes": "Este campo não pode ter mais que {{max}} bytes.",
+            "pattern": "Este campo deve estar dentro do seguinte padrão {{pattern}}.",
+            "number": "Este campo é do tipo número.",
+            "datetimelocal": "Este campo é do tipo data/hora."
+        }
+    },
+    "sager": {
+        "action": {
+            "addblob": "Adicionar blob",
+            "addimage": "Adicionar imagem",
+            "back": "Voltar",
+            "cancel": "Cancelar",
+            "delete": "Excluir",
+            "edit": "Editar",
+            "open": "Open",
+            "save": "Salvar",
+            "view": "Visualizar"
+        },
+        "detail": {
+            "field": "Campo",
+            "value": "Valor"
+        },
+        "delete": {
+            "title": "Confirme a exclusão"
+        },
+        "validation": {
+            "required": "O campo é obrigatório.",
+            "minlength": "Este campo deve ter ao menos {{min}} caracteres.",
+            "maxlength": "Este campo não pode ter mais que {{max}} caracteres.",
+            "min": "Este campo deve ser maior que {{min}}.",
+            "max": "Este campo não pode ser maior que {{max}}.",
+            "minbytes": "Este campo deve ter ao menos {{min}} bytes.",
+            "maxbytes": "Este campo não pode ter mais que {{max}} bytes.",
+            "pattern": "Este campo deve estar dentro do seguinte padrão {{pattern}}.",
+            "number": "Este campo é do tipo número.",
+            "datetimelocal": "Este campo é do tipo data/hora."
+        }
+    },
+    "error": {
+        "server.not.reachable": "Servidor indisponível",
+        "url.not.found": "Not found",
+        "NotNull": "O Campo {{fieldName}} não pode ser vazio!",
+        "Size": "O campo {{fieldName}} não obedece os requisitos de tamanho mínimo ou máximo!",
+        "userexists": "Usuário já existente!",
+        "emailexists": "Este email já está cadastrado!",
+        "idexists": "Novo(a) {{entityName}} não pode ter uma ID"
+    },
+    "footer": ""
+}

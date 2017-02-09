@@ -1,0 +1,16 @@
+target
+FFDC/
+.settings/
+.factorypath
+.classpath
+.project
+.metadata/
+./metadata
+.metadata
+./.metadata/*
+*.classpath
+ons-platform-common/pom.xml/ons-platform-common/.classpath
+.recommenders
+.recommendesr/*
+ons-sager-cucumber/drivers/chromedriver-linux-64bit.version
+ons-sager-cucumber/drivers/chromedriver-linux-64bit

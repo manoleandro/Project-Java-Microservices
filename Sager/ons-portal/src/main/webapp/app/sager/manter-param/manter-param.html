@@ -1,0 +1,88 @@
+<style type="text/css">
+  .css-form input.ng-invalid.ng-touched {
+    background-color: LightCoral ;
+  }
+
+  .css-form input.ng-valid.ng-touched {
+    background-color: LightGreen;
+  }
+  .editableCell{
+  	background-color: rgba(172, 249, 249, 0.38) !important;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgba(81, 203, 238, 1);
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3px 0px 3px 3px;	
+  }
+</style>
+
+<div ng-cloak></div>
+
+<div action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active" translate="onsPortalApp.manterParam.home.title">Manter Parametrização</li>
+	</ol>
+	<header translate="onsPortalApp.manterParam.home.title">Manter Parametrização</header>
+	
+	<fieldset>
+		<!-- Mensagens de erro -->
+	    <div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha! </strong> <br><strong>Mensagem:</strong> {{erro.mensagem}}<br>
+			</div>
+		</div>
+		 <div id="mensagemSucesso">
+			<div class="alert alert-success alert-dismissible" role="alert" ng-hide="mostrarAlertaSucesso" ng-repeat="sucesso in listaSucesso">
+				 <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaSucesso=true">
+				 	<span aria-hidden="true">&times;</span>
+				 </button>
+				 <strong>Sucesso!</strong> <br><strong>Mensagem:</strong> {{sucesso.mensagem}}
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+		<section class="col col-3 date-fields">
+			<label class="select">
+				<label class="label">Agendamento para:</label>
+				<label class="select">
+					<select name="instalacao">
+						<option value="0" selected="" disabled="">Tarefa de Retificação</option>
+					</select>
+					<i></i>
+				</label>
+			</label>
+		</section>
+		
+		<section class="col col-12">
+			<div class="p-message date-fields" style="width: 60%;">
+				<p>
+		      		<span  translate="onsPortalApp.manterParam.home.message1">
+		      			Mensagem
+		      		</span>
+		      	</p>
+		      	<p>
+		      		<span  translate="onsPortalApp.manterParam.home.message2">
+		      			Mensagem2
+		      		</span>
+		      	</p>
+			</div>
+		</section>
+	</fieldset>
+	
+	
+	<fieldset>
+		<section class="col col-12">
+			<div class="grid" ui-grid="gridOptionsParams" ui-grid-resize-columns ui-grid-edit="" ui-grid-row-edit=""></div>
+		</section>
+		<section class="col col-12">
+			<button id="btnIncluir" class="btn-dt btn btn-success btn-sm" ng-click="addAgendamento()" style="float: right; margin-top: -10px;margin-right: 10px;">
+				Incluir
+				<span class="fa fa-plus"></span>
+			</button>
+		</section>
+	</fieldset>
+</div>

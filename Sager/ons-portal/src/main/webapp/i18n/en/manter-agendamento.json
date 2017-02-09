@@ -1,0 +1,21 @@
+{
+    "onsPortalApp": {
+        "manter-agendamento" : {
+            "home": {
+                "title": "Keep Scheduling",
+                "scheduleOrigin": "Schedule Origin",
+                "initialMonth": "Initial Month",
+                "lastMonth": "Last Month",
+                "schedulingRateCalculations": "Scheduling Rate Calculations",
+                "schedulingRectification": "Scheduling Rectification",
+                "schedulingScenario": "Scheduling Scenario",
+                "pesquisar": "Search",
+                "filters": "Filters",
+                "calcTaxa": "Calculation Rate",
+                "scenario": "Scenario",
+                "retifications": "Retification",
+                "facilitiesSelection": "Facilities Selection"
+            }
+        }
+    }
+}

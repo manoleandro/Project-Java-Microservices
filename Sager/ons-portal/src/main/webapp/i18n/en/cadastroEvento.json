@@ -1,0 +1,31 @@
+{
+    "onsPortalApp": {
+        "cadastroEvento" : {
+            "home": {
+                "title": "Cadastro Eventos",
+                "createLabel": "Create a new Cadastro Evento",
+                "createOrEditLabel": "Create or edit a Cadastro Evento",
+                "search": "Search for Cadastro Evento"
+            },
+            "created": "A new Cadastro Evento is created with identifier {{ param }}",
+            "updated": "A Cadastro Evento is updated with identifier {{ param }}",
+            "deleted": "A Cadastro Evento is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cadastro Evento {{ id }}?"
+            },
+            "detail": {
+                "title": "Cadastro Evento"
+            },
+            "dataVerificada": "Data Verificada",
+            "estadoOperativo": "Estado Operativo",
+            "condicaoOperativa": "Condicao Operativa",
+            "classificacaoOrigem": "Classificacao Origem",
+            "potenciaDisponivel": "Potencia Disponivel",
+            "aggregateId": "Aggregate Id",
+            "aggregateVersion": "Aggregate Version",
+            "timelineId": "Timeline Id",
+            "timelineDate": "Timeline Date",
+            "correlationId": "Correlation Id"
+        }
+    }
+}

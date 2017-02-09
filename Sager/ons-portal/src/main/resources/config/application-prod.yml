@@ -1,0 +1,73 @@
+# ===================================================================
+# Spring Boot configuration for the "prod" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+zuul:
+    host:
+        connect-timeout-millis: 5000
+        socket-timeout-millis: 10000
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 10000
+                        
+ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 10000
+    
+spring:
+    autoconfigure:
+        exclude: org.springframework.boot.autoconfigure.data.cassandra.CassandraDataAutoConfiguration, org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration
+    devtools:
+        restart:
+            enabled: false
+        livereload:
+            enabled: false
+    mail:
+        host: localhost
+        port: 25
+        username:
+        password:
+
+server:
+    port: 80
+    compression:
+        enabled: true
+        mime-types: text/html,text/xml,text/plain,text/css, application/javascript, application/json
+        min-response-size: 1024
+
+pop:
+    portalUrl: https://poptst.ons.org.br # mapear no arquivo hosts 172.20.249.36
+    serviceUrl: http://172.20.249.26
+    domain: ONS
+    username: rkey.scala
+    password: shinranifga-z5
+
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    http:
+        cache: # Used by the CachingHttpHeadersFilter
+            timeToLiveInDays: 1461
+    security:
+        authentication:
+            jwt:
+                secret: 8053f8a98ecad8107a45391e0a0ff9ab39eb0c69
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400
+    mail: # specific JHipster mail property, for standard properties see MailProperties
+        from: ONSPortal@localhost

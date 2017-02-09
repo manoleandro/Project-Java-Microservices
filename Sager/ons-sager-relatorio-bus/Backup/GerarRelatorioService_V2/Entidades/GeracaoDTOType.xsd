@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/cnx/dto/2011/04/07/GeracaoDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO" xmlns:ns2="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO" xmlns:ns3="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoGeracaoDTO" xmlns:ns4="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoEnvioDTO" xmlns:ns5="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" xmlns:ns6="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoRestricaoDTO" targetNamespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/GeracaoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO" schemaLocation="../Entidades/MotivoDespachoDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO" schemaLocation="../Entidades/MontanteAlocacaoESSDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoGeracaoDTO" schemaLocation="../Entidades/Tipos/TipoGeracaoDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoEnvioDTO" schemaLocation="../Entidades/Tipos/TipoEnvioDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" schemaLocation="../Entidades/Tipos/TipoHoraDTOType.xsd"/>
+  <xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoRestricaoDTO" schemaLocation="../Entidades/Tipos/TipoRestricaoDTOType.xsd"/>
+  <xs:complexType name="GeracaoDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Tipo" type="ns3:TipoGeracaoDTOType" minOccurs="0"/>
+			<xs:element name="Envio" type="ns4:TipoEnvioDTOType" minOccurs="0"/>
+			<xs:element name="Data" type="xs:date" minOccurs="0"/>
+			<xs:element name="Hora" type="ns5:TipoHoraDTOType" minOccurs="0"/>
+			<xs:element name="Valor" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="TipoRestricao" type="ns6:TipoRestricaoDTOType" minOccurs="0"/>
+			<xs:element name="Comentario" type="xs:string" minOccurs="0"/>
+			<xs:element name="DespachadaPor" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element name="MotivoDespacho" type="ns1:MotivoDespachoDTOType" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GeraESS" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence minOccurs="0" maxOccurs="unbounded">
+						<xs:element name="MontanteAlocacaoESS" type="ns2:MontanteAlocacaoESSDTOType" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SignatureDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SignatureDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="SignatureDTOType">
+		<xs:sequence>
+			<xs:element name="DigitalSign" type="xs:string" minOccurs="0"/>
+			<xs:element name="Hash" type="xs:string" minOccurs="0"/>
+			<xs:element name="ValidityToken" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

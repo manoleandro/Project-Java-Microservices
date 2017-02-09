@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ReplyDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ReplyDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="ReplyDTOType">
+		<xs:sequence>
+			<xs:element name="ReplyCode" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>Reply code, 0 to OK or Error Code</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ReplyText" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Reply Details</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ID" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Resulting transaction ID</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

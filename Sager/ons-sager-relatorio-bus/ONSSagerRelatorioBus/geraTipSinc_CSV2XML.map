@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var"/>
+    <input path="/ArqTipSincDat.xsd" var="var1"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var3"/>
+    <output path="/TipSinc_MessageDTOType.xsd" var="var2"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="out7" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO"/>
+        <namespace kind="supplement" prefix="out6" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO"/>
+        <namespace kind="supplement" prefix="out9" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/GeraDTO"/>
+        <namespace kind="supplement" prefix="out8" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/CompensadorDTO"/>
+        <namespace kind="supplement" prefix="out3" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/ApuracaoDTO"/>
+        <namespace kind="supplement" prefix="out11" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO"/>
+        <namespace kind="supplement" prefix="out2" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SignatureDTO"/>
+        <namespace kind="supplement" prefix="out12" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipSinc_MessageDTO"/>
+        <namespace kind="supplement" prefix="out5" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipSinc_PayloadDTO"/>
+        <namespace kind="supplement" prefix="out4" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/RequestDTO"/>
+        <namespace kind="supplement" prefix="out10" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO"/>
+        <namespace kind="supplement" prefix="out22" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO"/>
+        <namespace kind="supplement" prefix="out19" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO"/>
+        <namespace kind="supplement" prefix="out21" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/AtuouComoDTO"/>
+        <namespace kind="supplement" prefix="out18" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/HeaderDTO"/>
+        <namespace kind="supplement" prefix="out20" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO"/>
+        <namespace kind="supplement" prefix="out17" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/UnidadeGeradoraDTO"/>
+        <namespace kind="supplement" prefix="out16" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ReplyDTO"/>
+        <namespace kind="supplement" prefix="out15" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO"/>
+        <namespace kind="supplement" prefix="out14" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/GeracaoDTO"/>
+        <namespace kind="supplement" prefix="out13" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO"/>
+        <namespace kind="supplement" prefix="out" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="geraTipSinc_CSV2XML">
+        <input path="$var/mb:env(Environment)" var="Environment"/>
+        <input path="$var1/mb:msg(ArqTipSincDat,assembly,DFDL,Properties)" var="ComIbmMessageAssembly_ArqTipSincDat"/>
+        <output path="$var3/mb:env(Environment)" var="Environment1"/>
+        <output namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipSinc_MessageDTO" path="$var2/mb:msg(TipSinc_Message,assembly,XMLNSC,Properties)" var="ComIbmMessageAssembly_TipSinc_Message"/>
+        <passthrough>
+            <input path="$Environment/."/>
+            <output path="$Environment1/."/>
+            <updates>
+                <move>
+                    <input path="$Environment/Variables/any"/>
+                    <output path="$Environment1/Variables/any"/>
+                </move>
+            </updates>
+        </passthrough>
+        <move>
+            <input path="$ComIbmMessageAssembly_ArqTipSincDat/Properties"/>
+            <output path="$ComIbmMessageAssembly_TipSinc_Message/Properties"/>
+        </move>
+        <foreach>
+            <input path="$ComIbmMessageAssembly_ArqTipSincDat/ArqTipSincDat/record"/>
+            <output path="$ComIbmMessageAssembly_TipSinc_Message/TipSinc_Message/Payload"/>
+            <move>
+                <input path="data"/>
+                <output path="UnidadeGeradora/AtuouComo/Compensador/Data"/>
+            </move>
+            <move>
+                <input path="hora"/>
+                <output path="UnidadeGeradora/AtuouComo/Compensador/Hora"/>
+            </move>
+            <move>
+                <input path="tipoUsina"/>
+                <output path="UnidadeGeradora/PertenceA/Usina/TipoUsina"/>
+            </move>
+            <move>
+                <input path="nomeUnidadeGeradora"/>
+                <output path="UnidadeGeradora/Nome"/>
+            </move>
+            <move>
+                <input path="codDPP"/>
+                <output path="UnidadeGeradora/PertenceA/Usina/Cod_DPP"/>
+            </move>
+            <move>
+                <input path="idUGE"/>
+                <output path="UnidadeGeradora/Cod_DPP"/>
+            </move>
+            <move>
+                <input path="codCCEE"/>
+                <output path="UnidadeGeradora/CodPontoMedicao"/>
+            </move>
+            <move>
+                <input path="flgSincrono"/>
+                <output path="UnidadeGeradora/AtuouComo/Compensador/FlgSincrono"/>
+            </move>
+            <move>
+                <input path="comentario"/>
+                <output path="UnidadeGeradora/AtuouComo/Compensador/Comentario"/>
+            </move>
+        </foreach>
+    </mappingDeclaration>
+</mappingRoot>

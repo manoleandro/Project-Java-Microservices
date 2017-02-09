@@ -1,0 +1,59 @@
+
+<form name="editForm" role="form" novalidate>
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="vm.clear()">&times;</button>
+        <h4 class="modal-title" id="myCadastroEventoLabel">Criar ou Editar um Cadastro Evento</h4>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" ng-show="vm.cadastroEvento.id">
+            <label for="id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="vm.cadastroEvento.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_dataVerificada">Data Verificada</label>
+                <div class="input-group">
+                    <input id="field_dataVerificada" type="text" class="form-control" name="dataVerificada" datetime-picker="dd/MM/yyyy HH:mm" datepicker-options="vm.datepickerOptions"
+                    		ng-model="vm.cadastroEvento.dataVerificada" is-open="vm.datePickerOpenStatus.dataVerificada" />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="vm.openCalendar('dataVerificada')"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_estadoOperativo">Estado Operativo</label>
+            <input type="text" class="form-control" name="estadoOperativo" id="field_estadoOperativo"
+                    ng-model="vm.cadastroEvento.estadoOperativo"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_condicaoOperativa">Condicao Operativa</label>
+            <input type="text" class="form-control" name="condicaoOperativa" id="field_condicaoOperativa"
+                    ng-model="vm.cadastroEvento.condicaoOperativa"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_classificacaoOrigem">Classificacao Origem</label>
+            <input type="text" class="form-control" name="classificacaoOrigem" id="field_classificacaoOrigem"
+                    ng-model="vm.cadastroEvento.classificacaoOrigem"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="field_potenciaDisponivel">Potencia Disponivel</label>
+            <input type="number" class="form-control" name="potenciaDisponivel" id="field_potenciaDisponivel"
+                    ng-model="vm.cadastroEvento.potenciaDisponivel"
+                     />
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="button" ng-click="vm.save()" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

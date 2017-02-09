@@ -1,0 +1,24 @@
+ 
+<md-dialog aria-label="Mango (Fruit)" class="modal-content" style="padding: 0px 20px;max-height:100%;max-width:100%; min-width:80%; min-height:70%">
+	<div ng-cloak></div>
+	<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="ctrl.cancel()" >&times;</button>
+			
+			<section class="col col-3">
+				<h4 class="modal-title" id="exampleModalLabel">Gráfico Memoria de Calculo
+					<span class="fa fa-bar-chart"></span>
+				</h4>
+				<label for="searchCommand" class="label">Instalacao: {{ctrl.parent.instalacao}}</label><br/>
+				<label for="searchCommand" class="label">Taxa: {{ctrl.parent.taxaSelecionada}}</label> 
+			</section>
+		</div>
+		<canvas id="bar" class="chart chart-line" chart-data="ctrl.parent.data" chart-labels="ctrl.parent.labels" chart-series="ctrl.parent.series">
+	</form>
+	<footer class="text-right" style="margin: 10px 0px;">
+			<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="ctrl.cancel()">
+				<span class="fa fa-chevron-left"></span>&nbsp; 
+				<span>Votar</span>
+			</button>
+		</footer>
+</md-dialog>

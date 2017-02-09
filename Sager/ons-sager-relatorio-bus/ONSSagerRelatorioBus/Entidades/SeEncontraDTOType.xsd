@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO" xmlns:ns1="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO" xmlns:ns2="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO" schemaLocation="../Entidades/EstadoOperativoDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO" schemaLocation="../Entidades/CondicaoOperativaDTOType.xsd"/>
+	<xs:complexType name="SeEncontraDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="EstadoOperativo" type="ns1:EstadoOperativoDTOType"/>
+			<xs:element name="CondicaoOperativa" type="ns2:CondicaoOperativaDTOType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+
+

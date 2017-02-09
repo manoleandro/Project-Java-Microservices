@@ -1,0 +1,17 @@
+version: '2'
+services:
+    onssagerparametrizacao-mongodb:
+        container_name: onssagerparametrizacao-mongodb
+        image: mongo:3.3.9
+        ports:
+            - "27017:27017"
+        command: mongos --configdb onssagerparametrizacao-mongodb-config
+    onssagerparametrizacao-mongodb-node:
+        build:
+            context: .
+            dockerfile: mongodb/MongoDB.Dockerfile
+        command: mongod --replSet rs1 --noprealloc --smallfiles
+    onssagerparametrizacao-mongodb-config:
+        image: mongo:mongo:3.3.9
+        container_name: onssagerparametrizacao-mongodb-config
+        command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db

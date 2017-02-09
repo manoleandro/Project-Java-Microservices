@@ -1,0 +1,11 @@
+[
+	{
+		"_class": "br.org.ons.exemplo.domain.CadastroUsina",
+		"id": "MTUSCU",
+		"version": "1.1",
+		"nomeCurto": "TUCURUI",
+		"tipoUsina": "UTE",
+		"potenciaCalculo": "100.0",
+		"apuracoes": ""
+	}
+]

@@ -1,0 +1,263 @@
+/* CSS de customização */
+
+body {
+	background-color: #dbdee0 !important;
+	font-family:"Arial Narrow",Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.breadcrumb {
+	font-family:"Arial Narrow",Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 0;
+}
+
+.label-warning {
+	color:#fff !important;
+}
+
+.label-success {
+	color:#fff !important;
+}
+
+.label-danger {
+	color:#fff !important;	
+}
+
+.label-info {
+	color:#fff !important;	
+}
+
+
+/* Painel adicionar outros participantes  */
+ .add-painel-participante {
+	 width: 0;
+	 height: 0; 
+	 margin-top:5px; 
+	 border-top: 20px solid transparent; 
+	 border-bottom: 20px solid transparent; 
+	 border-right:20px solid #486018; 
+	 float:right;
+ }
+
+/* Lista do item "Outros eventos" intercalando a cor de bg */
+tbody tr:nth-child(odd) {
+   background-color:#f1f3f4!important;
+}
+
+/* Logos rodapÃ© - patrocinadores/ apoio (HTML5) */
+.owl-demo .item {
+	display: block;
+	cursor: pointer;
+	background: #fff;
+	padding: 10px 0px;
+	margin: 5px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+}
+.owl-demo .item:hover {
+    background: #f1f3f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#486018;
+}
+
+p, li, li a, label {
+    /* color: #636266; */
+	/* color: #fff; */
+}
+
+/* Deixar o formulÃ¡rio em 100% width */
+.col-md-9{width:100%;}
+
+.texto {
+	margin: 20px 20px 0px 30px;
+}
+
+/* TÃ­tulo do evento/curso */
+.headline {
+	margin: 10px 0 10px 0;
+}
+
+/*Cor do botÃ£o */
+.btn-u.btn-u-dark-blue {
+	background-color:#486018;
+	/*background-color:#2d537a;*/
+}
+.btn-u.btn-u-dark-blue:hover {
+	background-color:#f59c00;
+}
+
+.btn-u {
+	background-color:#486018;
+}
+.btn-u:hover {
+	background-color:#8fbe30;
+}
+
+.btn-dt {
+	background-color:#486018;
+}
+
+/* Tabs */
+.tab-v1 {
+	padding: 0px 15px 0px 15px;
+}
+
+.tab-v1 .nav-tabs {
+	border-bottom: solid 2px #486018;
+	display: block;
+	/* background-color:#eee; */
+}
+
+.tab-v1 .nav-tabs > li > a:hover {
+	background-color:#486018;
+}
+
+.tab-v1 .nav-tabs > .active > a, .tab-v1 .nav-tabs > .active > a:hover, .tab-v1 .nav-tabs > .active > a:focus {
+	background-color:#486018;
+}
+
+/*classe usada para destacar as opÃ§Ãµes de pagamento */
+.opcao_pagamento {	
+	color:#486018; 
+	font-weight:bold;
+	border-bottom:1px dashed #486018;
+}
+
+/* Classe especifica para a o campo do cartÃ£o de crÃ©dito (com imagem do cartao)*/
+/*
+form#sky-form input {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  color: #333;
+  display: block;
+  font-size: 18px;
+  height: 32px;
+  padding: 0 5px;
+  width: 275px;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+*/
+
+/* estilo para os campos */
+form.sky-form-campos input::-webkit-input-placeholder {
+  color: #404040;
+}
+form.sky-form-campos input:-moz-placeholder {
+  color: #404040;
+  opacity: 1;
+}
+form.sky-form-campos input::-moz-placeholder {
+  color: #404040;
+  opacity: 1;
+}
+form.sky-form-campos input:-ms-input-placeholder {
+  color: #404040;
+}
+form.sky-form-campos input:focus {
+  outline: 1px solid #3388dd;
+}
+/* campos do cartÃ£o de crÃ©dito */
+form.sky-form-campos #masq-valid-cartao2 {
+  background-image: url(../imagens/images.png), url(../imagens/images.png);
+  background-position: 2px -121px, 260px -61px;
+  background-size: 120px 361px, 120px 361px;
+  background-repeat: no-repeat;
+  padding-left: 54px;
+  width: 225px;
+}
+form.sky-form-campos #masq-valid-cartao2.diners_club_international {
+  background-position: 2px -247px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.elo {
+  background-position: 2px -247px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.visa {
+  background-position: 2px -163px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.visa_electron {
+  background-position: 2px -205px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.mastercard {
+  background-position: 2px -247px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.maestro {
+  background-position: 2px -289px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.discover {
+  background-position: 2px -331px, 260px -61px;
+}
+
+form.sky-form-campos #masq-valid-cartao2.valid.diners_club_international {
+  background-position: 2px -247px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.elo {
+  background-position: 2px -247px, 260px -61px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.visa {
+  background-position: 2px -163px, 260px -87px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.visa_electron {
+  background-position: 2px -205px, 260px -87px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.mastercard {
+  background-position: 2px -247px, 260px -87px;
+}
+form.sky-form-campos #masq-valid-cartao2.diners_club_international {
+  background-position: 2px -247px, 260px -87px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.maestro {
+  background-position: 2px -289px, 260px -87px;
+}
+form.sky-form-campos #masq-valid-cartao2.valid.discover {
+  background-position: 2px -331px, 260px -87px;
+}
+
+/* Todos os elementos img devem ter uma largura mÃ¡xima de 100% do seu elemento pai.*/
+img {
+      max-width: 100%;
+      /*height: auto;*/
+}
+
+/*Estilo cabeÃ§alho logos AHK e DE */
+#cabecalho-logos {
+	height:100px; 
+	width:100%; 
+	background-color:#fff; 
+	padding:20px 20px 0px 20px;
+}
+
+/*Imagem - cabeÃ§allho*/
+ .img-torres-target {
+	 float:right;
+}
+  
+/*Esconder logo DE do cabeÃ§alho caso a visualizaÃ§Ã£o seja em Mobile */
+@media (max-width: 500px) {
+  .img-torres-target {
+     display: none;
+  }
+}
+/*Esconder imagem do evento caso a visualizaÃ§Ã£o seja em Mobile */
+@media (max-width: 500px) {
+.img-responsive {
+	display: none;
+}
+
+/*Remover margin-top dos Ã­cones de compartilhamento */
+.social-icons {
+	margin-top: 0px;
+}
+
+/* Cor da lista alternada para outros eventos */
+tbody tr:nth-child(odd) {
+   background-color:#a9cdeb;
+}

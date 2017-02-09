@@ -1,0 +1,27 @@
+{
+    "onsPortalApp": {
+        "taxaRef" : {
+            "home": {
+                "title": "Taxa Refs",
+                "createLabel": "Create a new Taxa Ref",
+                "createOrEditLabel": "Create or edit a Taxa Ref",
+                "search": "Search for Taxa Ref"
+            },
+            "created": "A new Taxa Ref is created with identifier {{ param }}",
+            "updated": "A Taxa Ref is updated with identifier {{ param }}",
+            "deleted": "A Taxa Ref is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Taxa Ref {{ id }}?"
+            },
+            "detail": {
+                "title": "Taxa Ref"
+            },
+            "cos": "Centro",
+            "usi": "Usina",
+            "usiid": "id",
+            "dtRef": "Data Referência",
+            "teif": "TEIF",
+            "ip": "IP"
+        }
+    }
+}

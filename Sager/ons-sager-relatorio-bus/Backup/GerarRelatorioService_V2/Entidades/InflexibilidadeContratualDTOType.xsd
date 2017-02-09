@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO" 
+	xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoAnoDTO" 
+	xmlns:ns2="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO" schemaLocation="../Entidades/ValoresMensaisDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoAnoDTO" schemaLocation="../Entidades/Tipos/TipoAnoDTOType.xsd"/>
+	<xs:complexType name="InflexibilidadeContratualDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">			
+			<xs:element name="Ano" type="ns1:TipoAnoDTOType" />
+			<xs:element name="ValoresMensais" type="ns2:ValoresMensaisDTOType"/>
+			
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+				

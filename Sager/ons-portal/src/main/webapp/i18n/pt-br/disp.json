@@ -1,0 +1,23 @@
+{
+    "onsPortalApp": {
+        "disp" : {
+            "home": {
+                "chart": "Gerar Gráfico",
+                "title": "Consultar Disponibilidade",
+                "createLabel": "Consultar Disponibilidades",
+                "createOrEditLabel": "Consultar Disponibilidades",
+                "search": "Pesquisar por Disponibilidades",
+                "agente": "Agente",
+                "tipo": "Tipo",
+                "usina": "Usina",
+                "pesquisar": "Pesquisar",
+                "filters": "Filtros",
+                "availabilitiesSelection": "Seleção de Disponibilidade",
+                "facilitiesSelection": "Seleção de Instalações",
+                "availabilities": "Disponibilidades",
+                "back":"Voltar",
+                "save":"Salvar"
+            }            
+        }
+    }
+}

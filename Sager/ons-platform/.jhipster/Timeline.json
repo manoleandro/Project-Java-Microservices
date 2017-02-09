@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "fieldName": "aggregateId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "aggregateType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "majorVersion",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "isDefault",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "parentId",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160804200403",
+  "entityTableName": "timeline",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "microserviceName": "onsplatform"
+}

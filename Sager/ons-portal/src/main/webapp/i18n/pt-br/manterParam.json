@@ -1,0 +1,17 @@
+{
+    "onsPortalApp": {
+        "manterParam" : {
+            "home": {
+                "title": "Manter Parametrização",
+                "checkParam": "Consultar Parametrização",
+                "scheduleTo": "Agendamento para",
+                "grindingTask": "Tarefa de Retificação",
+                "message1": "A transferência de eventos será realizada mensalmente e de forma automática no dia e hora abaixo: ",
+                "message2": "Dia útil = 00 e hora = 00:00 indica agendamento imediato e as demais parametrizações serão ignoradas.",
+                "save": "Salvar",
+                "delete": "Excluir",
+                "Change": "Alterar"
+            }
+        }
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.5.1",
+    "baseName": "ONSSagerInstalacaoAggregate",
+    "packageName": "br.org.ons.sager.instalacao",
+    "packageFolder": "br/org/ons/sager/instalacao",
+    "serverPort": "8086",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "f72f84f29b269e19e7ffa31816bc523fae1570cc",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

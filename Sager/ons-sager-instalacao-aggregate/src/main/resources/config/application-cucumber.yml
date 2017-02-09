@@ -1,0 +1,70 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+
+spring:
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: false # we use gulp + BrowserSync for livereload
+    jackson:
+        serialization.indent_output: false
+    mail:
+        host: localhost
+        port: 25
+        username:
+        password:
+    messages:
+        cache-seconds: 1
+    profiles:
+        include: swagger # automatically set the 'swagger' profile
+
+server:
+    port: 8086
+
+onsplatform:
+    url: http://localhost:8081/onsplatform
+        
+#odm:
+#    host: localhost
+#    port: 9080
+#    username: admin
+#    password: admin
+odm:
+    host: des-ssodm-02
+    port: 80
+    username: resAdmin
+    password: S46er5A4t5ca1A
+    
+mq:
+    queueManager: QMONS01
+    host: des-ssmq-01
+    port: 1414
+    channel: SYSTEM.DEF.SVRCONN
+    username: mqm
+    password: 
+    
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400

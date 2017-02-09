@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/FlgSincronoDTO" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/CompensadorDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/CompensadorDTO" xmlns:ns2="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/FlgSincronoDTO" schemaLocation="../Entidades/Tipos/FlgSincronoDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" schemaLocation="../Entidades/Tipos/TipoHoraDTOType.xsd"/>
+	<xs:complexType name="CompensadorDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Data" type="xs:date" minOccurs="0"/>
+			<xs:element name="Hora" type="ns2:TipoHoraDTOType" minOccurs="0"/>
+			<xs:element name="FlgSincrono" type="ns1:FlgSincronoDTOType" minOccurs="0"/>
+			<xs:element name="Comentario" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

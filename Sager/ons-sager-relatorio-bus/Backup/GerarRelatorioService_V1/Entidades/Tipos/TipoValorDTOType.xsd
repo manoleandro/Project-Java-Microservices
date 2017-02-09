@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="TipoValorDTOType">
+		<xs:restriction base="xs:double">
+             <xs:pattern value="([0-9]{1,5})\.([0-9]{8})"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+onssageragendamento/api/agendamentos-calculo?cacheBuster=1484691447996&acao=SALVAR
+POST
+agendamentos-calculo.json
+
+
+onssageragendamento/api/agendamentos-calculo-by-instalacao?cacheBuster=1484691520531
+POST
+agendamentos-calculo-by-instalacao.json
+
+notificacaoByRoles?cacheBuster=1484691863357&roles=ROLE_CNOS&roles=ROLE_COSR_NCO&roles=ROLE_COSR_NE&roles=ROLE_AGENTE&roles=ROLE_ADMIN&roles=ROLE_COSR_S&roles=ROLE_COSR_SE&usuario=sageradmin
+GET
+
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/memoriacalculo?cacheBuster=1484698962796&dataApuracao=2014-12-01T02:00:00.000Z&instalacao=ALUXG&taxaMemoriaCalculo=TEIFa+acumulada&versaoCenario=1&versaoTaxa=1
+POST
+
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/eventos?cacheBuster=1484704691615&ids=2288935&ids=2219737&ids=2346873&ids=2001913&ids=2338235&ids=1927483&ids=2269984&ids=1896189&ids=2194729&ids=2312498&ids=1907449&ids=2383553&ids=2387002&ids=2103671
+PUT
+
+http://sager.ons.org.br:8080/onsportal/onssageragendamento/api/agendamentos-calculo-by-date?cacheBuster=1484741366012&dtFim=2017-02-01T01:59:59.999Z&dtInicio=2017-01-01T02:00:00.000Z
+POST
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/taxaReferenciaByTipoInstalacao?cacheBuster=1484780397926&tipoInstalacao=USINA
+GET
+
+http://sager.ons.org.br:8080/onsportal/onssagerparametrizacao/api/parametrizacao-retificacoes?cacheBuster=1484781401705&page=0&size=5&sort=dia,asc&sort=hora
+GET
+
+http://sager.ons.org.br:8080/onsportal/onssagerparametrizacao/api/parametrizacao-retificacoes?cacheBuster=1484782604424
+POST
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/disp?cacheBuster=1484784024182&dtFim=2014-05-01T02:59:59.999Z&dtInicio=2014-04-01T03:00:00.000Z&page=0&size=20&sort=id,asc&tipos=O&tipos=C&tipos=E
+PUT
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/disp?cacheBuster=1484784044610&dtFim=2014-05-01T02:59:59.999Z&dtInicio=2014-04-01T03:00:00.000Z&page=0&size=20&sort=id,asc&tipos=O&tipos=C&tipos=E
+POST
+
+http://sager.ons.org.br:8080/onsportal/onssagerread/api/excel-disp?cacheBuster=1484825045591&dtFim=2014-05-01T02:59:59.999Z&dtInicio=2014-04-01T03:00:00.000Z&page=0&size=20&sort=id,asc&tipos=O&tipos=C&tipos=E
+POST	
+Cache-Control:no-cache, no-store, max-age=0, must-revalidate
+Content-Disposition:attachment; filename=CalculoDisponibilidade.xlsx
+Content-Transfer-Encoding:binary
+Content-Type:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Date:Thu, 19 Jan 2017 11:24:07 GMT
+Expires:0
+Pragma:no-cache
+Transfer-Encoding:chunked
+X-Application-Context:ONSPortal:swagger,dev:8080
+X-Content-Type-Options:nosniff
+X-XSS-Protection:1; mode=block
+

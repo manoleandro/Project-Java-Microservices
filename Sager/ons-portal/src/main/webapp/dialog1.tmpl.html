@@ -1,0 +1,22 @@
+<md-dialog aria-label="Mango (Fruit)" style="max-height:100%;max-width:100%; min-width:80%; min-height:90%">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2 style="color:#fff">Grafico das Taxas</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <span class="fa fa-times" aria-hidden="true"></span>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <canvas id="bar" class="chart chart-bar"
+		  chart-data="data" chart-labels="labels"> chart-series="series"
+	  </canvas>
+     
+    </md-dialog-content>
+
+    
+  </form>
+</md-dialog>

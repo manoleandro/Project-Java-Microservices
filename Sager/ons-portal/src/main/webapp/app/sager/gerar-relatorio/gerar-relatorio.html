@@ -1,0 +1,105 @@
+<div ng-cloak></div>
+
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active">Gerar Relatórios</li>
+	</ol>
+	<header ng-model="collapsed" ng-click="collapsed=!collapsed">Gerar Relatórios
+		<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+		<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+	</header>
+	
+	<!-- Mensagens de erro -->
+	<fieldset style="padding: 0 30px 0;">
+	 	<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong><div class="criticaErro"> Crítica do Erro: {{erro.critica}} </div><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+	</fieldset>
+	
+	<fieldset ng-show="collapsed">
+		<div class="row">
+			<div class="col col-12 date-fields">
+			<!-- linha 1 -->
+				<section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Inicial:</label>
+		            <div id="id_startDate">
+		                <p class="input-group">
+		                    <input id="field_startDate"  type="text" class="form-control" name="startDate" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+		                    ng-model="vm.dtInicio" is-open="vm.datePickerOpenStatus.startDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+		                      />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                        <button type="button" class="btn-dt btn btn-default ui-datepicker-start" id="btn-datepicker-start" ng-click="vm.openCalendar('startDate')"><i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+		            </div>
+  				 </section>
+	           	 <section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Final:</label>
+		            <div>
+		                <p class="input-group">
+		                    <input id="field_endDate"  type="text" class="form-control" name="endtDate" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsFinal" 
+		                    ng-model="vm.dtFim" is-open="vm.datePickerOpenStatus.endDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+		                      />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                        <button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('endDate')"><i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+		            </div>
+				</section>
+			</div>		
+			<!-- linha 2 -->
+			<section class="col col-12 date-fields">
+				<div class="col sm-3 headline" style="margin-top: -6px; margin-left: 60px;">
+	  				<h5>Tipo Taxa</h5>
+					<div class="row">
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpRelat" name="tipoRelatorio" value="dispVer" ng-change='radioTipoRelat(tpRelat)' >
+								<i></i>dispVer 
+						</label>
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpRelat" name="tipoRelatorio" value="tipSinc" ng-change='radioTipoRelat(tpRelat)'>
+								<i></i>tipSinc
+						</label>
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpRelat" name="tipoRelatorio" value="indAcum" ng-change='radioTipoRelat(tpRelat)'>
+							<i></i>indAcum
+						</label>
+					</div>
+				</div>
+				<div class="col sm-3 headline" style="margin-top: -6px; margin-left: 60px;">
+	  				<h5>Tipo Arquivo</h5>
+					<div class="row">
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpArq" name="tipoArquivo" value="xml" ng-change='radioTipoArquivo(tpArq)'>
+								<i></i>XML 
+						</label>
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpArq" name="tipoArquivo" value="dat" ng-change='radioTipoArquivo(tpArq)'>
+								<i></i>DAT
+						</label>
+						<label class="radio" style="margin-left: 10px;">
+							<input type="radio" ng-model="tpArq" name="tipoArquivo" value="ambos" ng-change='radioTipoArquivo(tpArq)'>
+							<i></i>AMBOS
+						</label>
+					</div>
+				</div>
+			</section>
+			<section class="col col-12">
+				<ui-instalacoes instalacao="vm.instalacaoSelecionada" instalacoes-selecionadas="vm.instalacoesSelecionada" ></ui-instalacoes>
+			</section>
+			<section class="col col-2" style="float: right; margin-right: -92px;">
+		    	<button id="btnGerarRelatorio" ng-click="vm.validarBtnGerarRelatorio()" class="btn-dt btn btn-success btn-sm" type="button">
+					<span> Gerar </span>
+				</button>
+			</section>
+		</div>
+	</fieldset>
+</form>

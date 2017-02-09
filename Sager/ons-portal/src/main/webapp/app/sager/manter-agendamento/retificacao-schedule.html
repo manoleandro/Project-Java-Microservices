@@ -1,0 +1,36 @@
+<div ng-cloak></div>
+
+<div class="panel panel-default">
+	<h4 id="instalacoes" ng-model="collapsed2" ng-click="collapsed2=!collapsed2" style="margin-left: 15px;">
+		<span class="span-label" translate="onsPortalApp.manter-agendamento.home.retifications">
+		Consultar Agendamentos - Retificação</span>
+	</h4>
+	<div class="panel-body">
+		<div class="panel-body" ng-if="showRetificacao" id="tableRefresh">
+			<div id="gridAgendamentos" ui-grid="gridOptions" ui-grid-selection ui-grid-pagination ui-grid-resize-columns ui-grid-expandable class="grid"></div>
+			<br/><hr style="margin-top: -15px;">
+			<div class="container-fluid">
+	            <div class="col-xs-5 no-padding-left" style="float: right;margin-right: -50px;">
+	                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.validateBeforeAction('runNow')">
+	                    <span class="fa fa-play"></span>
+	                    <span>
+	                        Executar agora
+	                    </span>
+	                </button>
+	                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.validateBeforeAction('goEdit')">
+	                    <span class="fa fa-calendar"></span>
+	                    <span>
+	                        Reagendar
+	                    </span>
+	                </button>
+	                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.cancelar()">
+	                    <span class="fa fa-times"></span>
+	                    <span>
+	                        Cancelar
+	                    </span>
+	                </button>
+	            </div>
+		    </div>
+		</div>
+	</div>
+</div>

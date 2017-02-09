@@ -1,0 +1,49 @@
+<!-- <div id="sky-form" class="sky-form sky-form-campos" style="border:0px;">	 -->
+	<fieldset ng-show="collapsed">
+		<section class="col col-12">
+			<ui-instalacoes instalacao="vm.instalacaoSelecionada" instalacoes-selecionadas="vm.instalacoesSelecionada" ></ui-instalacoes>
+		</section>
+		<section class="col col-2" style="float: right; margin-right: -60px;">
+	    	<button id="pesquisar" type="button" class="btn-dt btn btn-success btn-sm" ng-click="vm.searchCalcTaxa()">
+				<span class="fa fa-search"></span>
+				<span  translate="onsPortalApp.manter-agendamento.home.pesquisar">
+	            	Pesquisar
+	            </span>
+			</button>
+		</section>
+	</fieldset>
+	<fieldset>
+		<div class="panel-body">
+			<div class="panel-body" ng-if="calcTaxaAgenda">
+				<div class="alert alert-success alert-dismissible" role="alert" style="text-align: center;" ng-show="message">
+					 <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaSucesso=true"><span aria-hidden="true">&times;</span></button>
+					 Exibindo<strong> todos </strong>os agendamentos.
+				</div>
+				<div id="gridAgendamentos" ui-grid="gridOptions" ui-grid-selection ui-grid-resize-columns ui-grid-move-columns ui-i18n="{{lang}}"
+					class="grid ui-grid ng-isolate-scope grid1483466308611" ui-grid-empty-base-layer ui-grid-auto-resize ui-grid-pagination ui-grid-expandable ui-grid-pinningclass="grid"></div>
+				<br/>
+				<div class="container-fluid">
+		            <div class="col-xs-5 no-padding-left" style="float: right;margin-right: -50px;">
+		                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.validateBeforeAction('runNow')">
+		                    <span class="fa fa-play"></span>
+		                    <span>
+		                        Executar agora
+		                    </span>
+		                </button>
+		                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.validateBeforeAction('goEdit')">
+		                    <span class="fa fa-calendar"></span>
+		                    <span>
+		                        Reagendar
+		                    </span>
+		                </button>
+		                <button class="btn-dt btn btn-success btn-sm" ng-click="vm.validateBeforeAction('cancelar')">
+		                    <span class="fa fa-times"></span>
+		                    <span>
+		                        Cancelar
+		                    </span>
+		                </button>
+		            </div>
+			    </div>
+			</div>
+		</div>
+	</fieldset>

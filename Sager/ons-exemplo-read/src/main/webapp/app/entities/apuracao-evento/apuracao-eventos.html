@@ -1,0 +1,43 @@
+<div>
+    <h2>Apuracao Eventos</h2>
+    <jhi-alert></jhi-alert>
+    <div class="form-group">
+    	<h4>Filtro por Usina</h4>
+    	<select id="field_usina" class="form-control" ng-options="usina as usina.nomeCurto for usina in vm.cadastroUsinas track by usina.id" 
+    			ng-model="vm.selectedUsina" ng-change="vm.loadEventosByUsinaId()"></select>
+    </div>
+    <div class="table-responsive" ng-show="vm.cadastroEventos">
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="col-xs-4 no-padding-left">
+	                <button class="btn btn-primary" ui-sref="apuracao-evento.apuracao({id:vm.selectedUsina.id})" >
+	                    <span class="glyphicon glyphicon-plus"></span>
+	                    <span>
+	                        Apurar Novos Eventos {{vm.selectedUsina.nomeCurto}}
+	                    </span>
+	                </button>
+	            </div>
+	        </div>
+	    </div>
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span>Data Verificada</span></th>
+                    <th><span>Estado Operativo</span></th>
+                    <th><span>Condicao Operativa</span></th>
+                    <th><span>Classificacao Origem</span></th>
+                    <th><span>Potencia Disponivel</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="cadastroEvento in vm.cadastroEventos track by cadastroEvento.id">
+                    <td>{{cadastroEvento.dataVerificada | date : 'dd/MM/yyyy HH:mm'}}</td>
+                    <td>{{cadastroEvento.estadoOperativo}}</td>
+                    <td>{{cadastroEvento.condicaoOperativa}}</td>
+                    <td>{{cadastroEvento.classificacaoOrigem}}</td>
+                    <td>{{cadastroEvento.potenciaDisponivel}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

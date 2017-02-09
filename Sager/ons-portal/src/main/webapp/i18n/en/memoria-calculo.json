@@ -1,0 +1,15 @@
+{
+    "onsPortalApp": {
+        "memoria-calculo" : {
+            "home": {
+                "title": "Calculation Memory",
+                "text1": "Monthly TEIP of the month 1/2003 (Old Rule)",
+                "text2": "Generating units that enter into commercial operation at different times",
+                "premissa": "Premises",
+                "view": "View events",
+                "generateGraph": "Genarate Graph",
+                "exportExcel": "Export Excel"
+            }
+        }
+    }
+}

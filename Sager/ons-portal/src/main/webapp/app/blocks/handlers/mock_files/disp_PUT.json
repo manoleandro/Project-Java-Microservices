@@ -1,0 +1,213 @@
+{
+  "instalacoes" : [ {
+    "id" : "ALUXG",
+    "nome" : "USINA XINGO",
+    "equipamentos" : [ {
+      "nome" : "UG  527 MW USINA XINGO               2 AL",
+      "id" : "ALUXG-0UG2",
+      "codigoOns" : "ALUXG_18P0_UG2"
+    }, {
+      "nome" : "UG  527 MW USINA XINGO               4 AL",
+      "id" : "ALUXG-0UG4",
+      "codigoOns" : "ALUXG_18P0_UG4"
+    }, {
+      "nome" : "UG  527 MW USINA XINGO               6 AL",
+      "id" : "ALUXG-0UG6",
+      "codigoOns" : "ALUXG_18P0_UG6"
+    }, {
+      "nome" : "UG  527 MW USINA XINGO               1 AL",
+      "id" : "ALUXG-0UG1",
+      "codigoOns" : "ALUXG_18P0_UG1"
+    }, {
+      "nome" : "UG  527 MW USINA XINGO               3 AL",
+      "id" : "ALUXG-0UG3",
+      "codigoOns" : "ALUXG_18P0_UG3"
+    }, {
+      "nome" : "UG  527 MW USINA XINGO               5 AL",
+      "id" : "ALUXG-0UG5",
+      "codigoOns" : "ALUXG_18P0_UG5"
+    } ],
+    "comentarios" : null,
+    "comentariosAviso" : [ {
+      "id" : null,
+      "tipo" : "AVISO",
+      "descricao" : "Não há dados no período informado para as seguintes instalações pois as mesmas estão desativadas Instalação: TERMONORTE I",
+      "dataInsercao" : "2017-01-19T00:00:37.634+0000",
+      "dataInicio" : "2013-01-31T02:00:00.000+0000",
+      "dataFim" : null,
+      "statusObjeto" : "DESATIVADO",
+      "tipoObjeto" : "USINA",
+      "nomeObjeto" : "TERMONORTE I",
+      "idInstalacao" : "ROTNE1"
+    } ],
+    "comentariosErro" : null,
+    "hasDisponibilidades" : true,
+    "hasComentarios" : true,
+    "hasExcel" : false,
+    "minorVersion" : 1,
+    "file" : null
+  }, {
+    "id" : "ROTNE1",
+    "nome" : "TERMONORTE I",
+    "equipamentos" : [ {
+      "nome" : "UG   16 MW TERMONORTE I              1 RO",
+      "id" : "ROTNE10UG1",
+      "codigoOns" : "ROTNE1_13P8_UG1"
+    }, {
+      "nome" : "UG   16 MW TERMONORTE I              3 RO",
+      "id" : "ROTNE10UG3",
+      "codigoOns" : "ROTNE1_13P8_UG3"
+    }, {
+      "nome" : "UG   16 MW TERMONORTE I              2 RO",
+      "id" : "ROTNE10UG2",
+      "codigoOns" : "ROTNE1_13P8_UG2"
+    }, {
+      "nome" : "UG   16 MW TERMONORTE I              4 RO",
+      "id" : "ROTNE10UG4",
+      "codigoOns" : "ROTNE1_13P8_UG4"
+    } ],
+    "comentarios" : null,
+    "comentariosAviso" : [ {
+      "id" : null,
+      "tipo" : "AVISO",
+      "descricao" : "Não há dados no período informado para as seguintes instalações pois as mesmas estão desativadas Instalação: TERMONORTE I",
+      "dataInsercao" : "2017-01-19T00:00:37.634+0000",
+      "dataInicio" : "2013-01-31T02:00:00.000+0000",
+      "dataFim" : null,
+      "statusObjeto" : "DESATIVADO",
+      "tipoObjeto" : "USINA",
+      "nomeObjeto" : "TERMONORTE I",
+      "idInstalacao" : "ROTNE1"
+    } ],
+    "comentariosErro" : null,
+    "hasDisponibilidades" : false,
+    "hasComentarios" : true,
+    "hasExcel" : false,
+    "minorVersion" : 1,
+    "file" : null
+  }, {
+    "id" : "RJUSCP",
+    "nome" : "CAMPOS",
+    "equipamentos" : [ {
+      "nome" : "UG   13 MW USI CAMPOS                1 RJ",
+      "id" : "RJUSCP0UG1",
+      "codigoOns" : "RJUSCP_13P8_UG1"
+    }, {
+      "nome" : "UG   12 MW USI CAMPOS                2 RJ",
+      "id" : "RJUSCP0UG2",
+      "codigoOns" : "RJUSCP_13P8_UG2"
+    } ],
+    "comentarios" : null,
+    "comentariosAviso" : [ {
+      "id" : null,
+      "tipo" : "AVISO",
+      "descricao" : "Não há dados no período informado para as seguintes instalações pois as mesmas estão suspensas Instalação: CAMPOS",
+      "dataInsercao" : "2017-01-19T00:00:39.402+0000",
+      "dataInicio" : "2012-12-14T02:00:00.000+0000",
+      "dataFim" : "2015-04-08T03:00:00.000+0000",
+      "statusObjeto" : "SUSPENSO",
+      "tipoObjeto" : "USINA",
+      "nomeObjeto" : "CAMPOS",
+      "idInstalacao" : "RJUSCP"
+    } ],
+    "comentariosErro" : null,
+    "hasDisponibilidades" : false,
+    "hasComentarios" : true,
+    "hasExcel" : false,
+    "minorVersion" : 1,
+    "file" : null
+  }, {
+    "id" : "RJUTME",
+    "nome" : "UT MARIO LAGO",
+    "equipamentos" : [ {
+      "nome" : "UG 45P8 MW UT MARIO LAGO             1 RJ",
+      "id" : "RJUTME0UG1",
+      "codigoOns" : "RJUTML_13P8_UG1"
+    }, {
+      "nome" : "UG 45P5 MW UT MARIO LAGO            11 RJ",
+      "id" : "RJUTME0UG11",
+      "codigoOns" : "RJUTML_13P8_UG11"
+    }, {
+      "nome" : "UG 46P4 MW UT MARIO LAGO            13 RJ",
+      "id" : "RJUTME0UG13",
+      "codigoOns" : "RJUTML_13P8_UG13"
+    }, {
+      "nome" : "UG 45P6 MW UT MARIO LAGO            15 RJ",
+      "id" : "RJUTME0UG15",
+      "codigoOns" : "RJUTML_13P8_UG15"
+    }, {
+      "nome" : "UG 46P1 MW UT MARIO LAGO            17 RJ",
+      "id" : "RJUTME0UG17",
+      "codigoOns" : "RJUTML_13P8_UG17"
+    }, {
+      "nome" : "UG 47P2 MW UT MARIO LAGO            19 RJ",
+      "id" : "RJUTME0UG19",
+      "codigoOns" : "RJUTML_13P8_UG19"
+    }, {
+      "nome" : "UG 47P2 MW UT MARIO LAGO            20 RJ",
+      "id" : "RJUTME0UG20",
+      "codigoOns" : "RJUTML_13P8_UG20"
+    }, {
+      "nome" : "UG 46P3 MW UT MARIO LAGO             4 RJ",
+      "id" : "RJUTME0UG4",
+      "codigoOns" : "RJUTML_13P8_UG4"
+    }, {
+      "nome" : "UG 46P5 MW UT MARIO LAGO             6 RJ",
+      "id" : "RJUTME0UG6",
+      "codigoOns" : "RJUTML_13P8_UG6"
+    }, {
+      "nome" : "UG 45P8 MW UT MARIO LAGO             8 RJ",
+      "id" : "RJUTME0UG8",
+      "codigoOns" : "RJUTML_13P8_UG8"
+    }, {
+      "nome" : "UG 45P5 MW UT MARIO LAGO            10 RJ",
+      "id" : "RJUTME0UG10",
+      "codigoOns" : "RJUTML_13P8_UG10"
+    }, {
+      "nome" : "UG 44P1 MW UT MARIO LAGO            12 RJ",
+      "id" : "RJUTME0UG12",
+      "codigoOns" : "RJUTML_13P8_UG12"
+    }, {
+      "nome" : "UG 46P4 MW UT MARIO LAGO            14 RJ",
+      "id" : "RJUTME0UG14",
+      "codigoOns" : "RJUTML_13P8_UG14"
+    }, {
+      "nome" : "UG 47P0 MW UT MARIO LAGO            16 RJ",
+      "id" : "RJUTME0UG16",
+      "codigoOns" : "RJUTML_13P8_UG16"
+    }, {
+      "nome" : "UG 46P3 MW UT MARIO LAGO            18 RJ",
+      "id" : "RJUTME0UG18",
+      "codigoOns" : "RJUTML_13P8_UG18"
+    }, {
+      "nome" : "UG 45P0 MW UT MARIO LAGO             2 RJ",
+      "id" : "RJUTME0UG2",
+      "codigoOns" : "RJUTML_13P8_UG2"
+    }, {
+      "nome" : "UG 46P0 MW UT MARIO LAGO             3 RJ",
+      "id" : "RJUTME0UG3",
+      "codigoOns" : "RJUTML_13P8_UG3"
+    }, {
+      "nome" : "UG 46P7 MW UT MARIO LAGO             5 RJ",
+      "id" : "RJUTME0UG5",
+      "codigoOns" : "RJUTML_13P8_UG5"
+    }, {
+      "nome" : "UG 46P4 MW UT MARIO LAGO             7 RJ",
+      "id" : "RJUTME0UG7",
+      "codigoOns" : "RJUTML_13P8_UG7"
+    }, {
+      "nome" : "UG 45P9 MW UT MARIO LAGO             9 RJ",
+      "id" : "RJUTME0UG9",
+      "codigoOns" : "RJUTML_13P8_UG9"
+    } ],
+    "comentarios" : null,
+    "comentariosAviso" : null,
+    "comentariosErro" : null,
+    "hasDisponibilidades" : true,
+    "hasComentarios" : false,
+    "hasExcel" : false,
+    "minorVersion" : 1,
+    "file" : null
+  } ],
+  "hasExcelGeral" : false
+}

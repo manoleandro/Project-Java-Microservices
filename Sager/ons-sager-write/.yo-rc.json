@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.5.1",
+    "baseName": "ONSSagerWrite",
+    "packageName": "br.org.ons.sager.write",
+    "packageFolder": "br/org/ons/sager/write",
+    "serverPort": "8085",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "67e2e7c11c71c8d942d32f2e60d78b0f87cf0804",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

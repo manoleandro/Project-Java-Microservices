@@ -1,0 +1,687 @@
+[ {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "BAUSB",
+    "codigoAneel" : "UHE.PH.BA.002.755-3.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "U.SOBRADINHO",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "1979-04-30T00:00:00",
+    "agenteProprietario" : {
+        "id" : "CHF",
+        "nomeCurto" : "CHESF",
+        "sigla" : "CHF"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1979-04-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0809"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1979-04-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0253"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "CEUTPD",
+    "codigoAneel" : "UTE.CM.CE.030.098-5.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "PORTO PECEM II",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2013-10-18T00:00:00",
+    "agenteProprietario" : {
+        "id" : "PPM",
+        "nomeCurto" : "PECEM II",
+        "sigla" : "PPM"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0350"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0150"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "MAUTNV",
+    "codigoAneel" : "UTE.GN.MA.030.196-5.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "U.NV.VENECIA2",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2013-10-23T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0200"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0100"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "PRGBM",
+    "codigoAneel" : "UHE.PH.PR.000.984-9.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-S",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "BENTO MUNHOZ",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "1980-10-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "COG",
+        "nomeCurto" : "COPEL-GT",
+        "sigla" : "COG"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1980-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.1212"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1980-10-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0292"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RJUTME",
+    "codigoAneel" : "UTE.GN.RJ.028.029-1.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-SE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "UT MARIO LAGO",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2001-12-19T00:00:00",
+    "agenteProprietario" : {
+        "id" : "PBR",
+        "nomeCurto" : "PETROBRAS",
+        "sigla" : "PBR"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2001-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0200"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2001-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0350"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RNUPU",
+    "codigoAneel" : "UTE.PE.RN.028.655-9.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "POTIGUAR",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2009-03-03T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RSUTEC",
+    "codigoAneel" : "UTE.CM.RS.029.767-4.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-S",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "CANDIOTA III",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2011-01-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "GTE",
+        "nomeCurto" : "CGTEE",
+        "sigla" : "GTE"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2011-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0410"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2011-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0550"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2014-06-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.1027"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2014-06-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.1644"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "TSTC1",
+    "codigoAneel" : "UTE.CM.CE.029.720-8.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "PORTO PECEM I - CENA",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2012-12-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "TSTU1",
+    "codigoAneel" : "UTE.GN.MA.030.196-5.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "U.NV.VENECIA2 - DESA",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2013-10-23T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "ALUXG",
+    "codigoAneel" : "UHE.PH.SE.027.053-9.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "2012-12-04T00:00:00",
+    "nomeCurto" : "USINA XINGO",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "1994-04-30T00:00:00",
+    "agenteProprietario" : {
+        "id" : "CHF",
+        "nomeCurto" : "CHESF",
+        "sigla" : "CHF"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1994-04-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0800"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1994-04-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0600"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "AMBA",
+    "codigoAneel" : "UHE.PH.AM.000.190-2.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "UHE BALBINA",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "1989-02-13T00:00:00",
+    "agenteProprietario" : {
+        "id" : "AG",
+        "nomeCurto" : "AMAZONAS GT",
+        "sigla" : "AG"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2015-05-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0540"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2015-05-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0167"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "APSAJ",
+    "codigoAneel" : "UHE.PH.AP.026.792-9.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "STO.ANT.JARI",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "2014-09-17T00:00:00",
+    "agenteProprietario" : {
+        "id" : "EEP",
+        "nomeCurto" : "ECE PARTICIPAÇÕES",
+        "sigla" : "EEP"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2014-09-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0809"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2014-09-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0253"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "CEUTFO",
+    "codigoAneel" : "UTE.GN.CE.028.357-6.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "UT. FORTALEZA",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2003-12-27T00:00:00",
+    "agenteProprietario" : {
+        "id" : "CGF",
+        "nomeCurto" : "CGTF",
+        "sigla" : "CGF"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2003-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0191"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2003-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0194"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "CEUTPC",
+    "codigoAneel" : "UTE.CM.CE.029.720-8.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "PORTO PECEM I",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2012-12-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "PPG",
+        "nomeCurto" : "PORTO PECEM",
+        "sigla" : "PPG"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2012-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0830"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2012-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0170"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RJUSCP",
+    "codigoAneel" : "UTE.GN.RJ.027.935-8.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-SE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "CAMPOS",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "1977-07-07T00:00:00",
+    "agenteProprietario" : {
+        "id" : "FUR",
+        "nomeCurto" : "FURNAS",
+        "sigla" : "FUR"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1977-07-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.1225"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1977-07-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0206"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "ROTN2",
+    "codigoAneel" : "UTE.GN.RO.028.033-0.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "TERMONORTE II",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "1990-12-31T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "ROTNE1",
+    "codigoAneel" : "",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "TERMONORTE I",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "1990-12-31T00:00:00",
+    "agenteProprietario" : {
+        "id" : "TNE",
+        "nomeCurto" : "TERMONORTE",
+        "sigla" : "TNE"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1990-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0500"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1990-12-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0500"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "ROUHJI",
+    "codigoAneel" : "UHE.PH.RO.029.736-4.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NCO",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "UHE JIRAU",
+    "tipo" : "UHE",
+    "dataOutorgaImplantacao" : "2013-09-06T00:00:00",
+    "agenteProprietario" : {
+        "id" : "ESB",
+        "nomeCurto" : "ENERGIA SUSTENTÁVEL",
+        "sigla" : "ESB"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-09-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0000"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "2013-09-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.0050"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RSUPME",
+    "codigoAneel" : "UTE.CM.RS.002.150-4.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-S",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "P.MEDICI",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "1974-01-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "GTE",
+        "nomeCurto" : "CGTEE",
+        "sigla" : "GTE"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1974-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.0978"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1974-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.1338"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "RSUTCH",
+    "codigoAneel" : "UTE.CM.RS.000.760-9.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-S",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "U.CHARQUEADAS",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "1962-01-04T00:00:00",
+    "agenteProprietario" : {
+        "id" : "GSU",
+        "nomeCurto" : "ENGIE",
+        "sigla" : "GSU"
+    },
+    "taxasReferencia" : [ {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1962-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIP",
+        "valor" : "0.1225"
+    }, {
+        "_class" : "br.org.ons.geracao.evento.taxa.Taxa",
+        "tipo" : "REFERENCIA",
+        "periodo" : {
+            "_class" : "br.org.ons.geracao.modelagem.Periodo",
+            "dataInicio" : "1962-01-01T00:00:00",
+            "dataFim" : ""
+        },
+        "codigo" : "TEIFa",
+        "valor" : "0.1394"
+    } ]
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "TSTC2",
+    "codigoAneel" : "UTE.CM.CE.030.098-5.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-NE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "PORTO PECEM II - CEN",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2013-10-18T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.Usina",
+    "id" : "TSTU2",
+    "codigoAneel" : "UTE.GN.RJ.030.769-6.01",
+    "codigoVisaoApuracaoGeracao" : "1",
+    "cosr" : "COSR-SE",
+    "dataProrrogacao" : "",
+    "nomeCurto" : "B.FLUMINENSE",
+    "tipo" : "UTE",
+    "dataOutorgaImplantacao" : "2014-03-01T00:00:00",
+    "agenteProprietario" : {
+        "id" : "",
+        "nomeCurto" : "",
+        "sigla" : ""
+    }
+} ]

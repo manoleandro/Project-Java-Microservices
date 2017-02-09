@@ -1,0 +1,72 @@
+{
+	"calcularParametrosRequest": {
+		"janelaCalculo": {
+			"_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2013-02-16T21:00:00.000+0000",
+			"dataFim": "2013-02-17T22:00:00.000+0000"
+		},
+		"eventos": [{
+			"id": "1",
+			"version": null,
+			"idEquipamento": "UG   18 MW U.CHARQUEADAS             3 RS",
+			"dataVerificada": "2013-02-16T21:50:00.000+0000",
+			"estadoOperativo": "LIG",
+			"condicaoOperativa": null,
+			"classificacaoOrigem": "",
+			"valorPotenciaDisponivel": 100.0,
+			"dataCriacao": null,
+			"tipoOperacao": null,
+			"dataUltimaConsolidacao": null,
+			"status": "RETIFICADO_ALTERADO",
+			"justificativaRestricaoDesligamento": null,
+			"comentarios": [],
+			"ficticio": false,
+			"eventoEspelho": false
+		}, {
+			"id": "2",
+			"version": null,
+			"idEquipamento": null,
+			"dataVerificada": "2013-02-17T04:00:00.000+0000",
+			"estadoOperativo": "DCO",
+			"condicaoOperativa": null,
+			"classificacaoOrigem": "",
+			"valorPotenciaDisponivel": 15.0,
+			"dataCriacao": null,
+			"tipoOperacao": null,
+			"dataUltimaConsolidacao": null,
+			"status": "RETIFICADO_ALTERADO",
+			"justificativaRestricaoDesligamento": null,
+			"comentarios": [],
+			"ficticio": false,
+			"eventoEspelho": false
+		}],
+		"equipamento": {
+			"_class": "br.org.ons.geracao.cadastro.UnidadeGeradora",
+			"id": "UG   18 MW U.CHARQUEADAS             3 RS",
+			"versao": null,
+			"nome": "LIN",
+			"tipoInstalacao": "USINA",
+			"dataEventoEOC": null,
+			"dataDesativacao": "2007-06-14T03:00:00.000+0000",
+			"quantidadeHorasServico": null,
+			"dataImplantacao": "2000-02-01T02:00:00.000+0000",
+			"dataRenovacaoProrrogacaoConcessao": null,
+			"potenciasCalculo": [{
+				"valor": 200.0,
+				"vigencia": {
+					"_class": "br.org.ons.geracao.modelagem.Periodo",
+					"dataInicio": "2013-02-16T21:00:00.000+0000",
+					"dataFim": "2013-02-17T22:00:00.000+0000"
+				}
+			}],
+			"franquias": [],
+			"suspensoes": [],
+			"tipoFonteEnergetica": "UTE",
+			"codigoIdDpp": null,
+			"codigoOns": "COSR-S  36732/2007",
+			"codigoCcee": null,
+			"idVisaoPlanejamentoOpEnergetica": null,
+			"idDpp": null
+		}
+	}
+}

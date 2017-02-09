@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoMesDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoMesDTO" 
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:simpleType name="TipoMesDTOType">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="01|02|03|04|05|06|07|08|09|10|11|12"/>
+		</xs:restriction>
+  </xs:simpleType>
+</xs:schema>

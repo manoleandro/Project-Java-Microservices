@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="CondicaoOperativaDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Descricao" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,84 @@
+<div ng-cloak></div>
+	<div action="#" id="sky-form" class="sky-form sky-form-campos" style="border: 0px;">
+		<!-- / breadcrumb -->
+		<ol class="breadcrumb">
+			<li><a href="#">SAGER</a></li>
+			<li class="active">Manter Agendamentos</li>
+		</ol>
+		<header ng-model="collapsed" ng-click="collapsed=!collapsed">Manter Agendamentos {{page}}
+			<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+			<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+		</header>
+		
+		<!-- Mensagens de erro -->
+		<fieldset style="padding: 0 30px 0;">
+		 	<div id="mensagemErro">
+				<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<strong>Falha!</strong><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+				</div>
+			</div>
+			<jhi-alert></jhi-alert>
+			<div id="mensagemSucesso">
+				<div class="alert alert-success alert-dismissible" role="alert" ng-hide="mostrarAlertaSucesso" ng-repeat="sucesso in listaSucesso">
+					 <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaSucesso=true"><span aria-hidden="true">&times;</span></button>
+					 <strong>Sucesso!</strong> Codigo do sucesso: {{sucesso.sucessoCod}}<br> Mensagem: {{sucesso.mensagem}}
+				</div>
+			</div>
+			<jhi-alert></jhi-alert>
+		</fieldset>
+		
+		<fieldset ng-show="collapsed">
+			<div class="row">
+				<section class="col col-12">
+					<section class="col col-3">
+						<label for="searchCommand" class="label">Origem do Agendamento</label> 
+						<label class="select">
+							<select id="searchCommand" class="form-control" ng-options="command as command.description for command in vm.commands track by command.className"
+								ng-model="vm.searchCommand">
+							</select>
+							<i></i>
+						</label>
+					</section>
+					<section class="col col-3" >
+						<label class="label">Data Inicial:</label>
+						<div id="id_startDate">	
+			                <p class="input-group">
+			                    <input readonly="readonly" id="field_startDate"  type="text" class="form-control" name="startDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+			                    	ng-model="vm.dtInicio" is-open="vm.datePickerOpenStatus.startDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+			                      />
+			                    <span class="input-group-btn" style="vertical-align: top !important;">
+			                        <button type="button" class="btn-dt btn btn-default ui-datepicker-start" id="btn-datepicker-start" ng-click="vm.openCalendar('startDate')"><i class="fa fa-calendar"></i></button>
+			                    </span>
+			                </p>
+			           </div>
+		           </section>
+		           <section class="col col-3" >
+						<label class="label">Data Final:</label>
+						<div>	
+			                <p class="input-group" >
+			                    <input readonly="readonly" id="field_endDate"  type="text" class="form-control" name="endtDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsFinal" 
+			                    	ng-model="vm.dtFim" is-open="vm.datePickerOpenStatus.endDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+			                      />
+			                    <span class="input-group-btn" style="vertical-align: top !important;">
+			                        <button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('endDate')"><i class="fa fa-calendar"></i></button>
+			                    </span>
+			                </p>
+						</div>
+					</section>
+				</section>
+				
+				<section class="col col-1" style="float: right; margin-right: 186px;" ng-if="!calcTaxa">
+			    	<button id="pesquisar" type="button" class="btn-dt btn btn-success btn-sm" ng-click="vm.search()">
+						<span class="fa fa-search"></span>
+						<span  translate="onsPortalApp.manter-agendamento.home.pesquisar">
+			            	Pesquisar
+			            </span>
+					</button>
+				</section>
+			</div>
+		</fieldset>
+	<div ui-view="calculo-taxa-schedule"></div>
+</div>

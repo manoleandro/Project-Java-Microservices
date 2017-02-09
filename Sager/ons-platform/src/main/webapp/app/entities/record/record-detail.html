@@ -1,0 +1,53 @@
+
+<div>
+    <h2><span translate="onsPortalApp.record.detail.title">Record</span> {{vm.record.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="onsPortalApp.record.correlationId">Correlation Id</span></dt>
+        <dd>
+            <span>{{vm.record.correlationId}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.type">Type</span></dt>
+        <dd>
+            <span translate="{{'onsPortalApp.RecordType.' + vm.record.type}}">{{vm.record.type}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.name">Name</span></dt>
+        <dd>
+            <span>{{vm.record.name}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.handlerName">Handler Name</span></dt>
+        <dd>
+            <span>{{vm.record.handlerName}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.handlerVersion">Handler Version</span></dt>
+        <dd>
+            <span>{{vm.record.handlerVersion}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.timelineDate">Timeline Date</span></dt>
+        <dd>
+            <span>{{vm.record.timelineDate | date:'medium'}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.creationDate">Creation Date</span></dt>
+        <dd>
+            <span>{{vm.record.creationDate | date:'medium'}}</span>
+        </dd>
+        <dt><span translate="onsPortalApp.record.content">Content</span></dt>
+        <dd>
+            <div ng-if="vm.record.content">
+                <a ng-click="vm.openFile(vm.record.contentContentType, vm.record.content)" translate="entity.action.open">open</a>
+                {{vm.record.contentContentType}}, {{vm.byteSize(vm.record.content)}}
+            </div>
+        </dd>
+        <dt><span translate="onsPortalApp.record.timeline">Timeline</span></dt>
+        <dd>
+            <a ui-sref="timeline-detail({id:vm.record.timeline.id})">{{vm.record.timeline.id}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

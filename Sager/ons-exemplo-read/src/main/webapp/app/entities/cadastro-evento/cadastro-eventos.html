@@ -1,0 +1,80 @@
+<div>
+    <h2>Retificacao Eventos</h2>
+    <jhi-alert></jhi-alert>
+    
+    <div class="form-group">
+    	<h4>Filtro por Usina</h4>
+    	<select id="field_usina" class="form-control" ng-options="usina as usina.nomeCurto for usina in vm.cadastroUsinas track by usina.id" 
+    			ng-model="vm.selectedUsina" ng-change="vm.loadEventosByUsinaId()"></select>
+    </div>
+    <div class="table-responsive" ng-show="vm.cadastroEventos">
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="col-xs-4 no-padding-left">
+	                <button type="button" class="btn btn-primary" ng-click="vm.newEvento()" >
+	                    <span class="glyphicon glyphicon-plus"></span>&nbsp;<span>Adicionar</span>
+	                </button>
+	            </div>
+	        </div>
+	    </div>
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                		<span class="glyphicon glyphicon-menu-hamburger"></span>
+               		</th>
+                    <th><span translate="onsPortalApp.cadastroEvento.dataVerificada">Data Verificada</span></th>
+                    <th><span translate="onsPortalApp.cadastroEvento.estadoOperativo">Estado Operativo</span></th>
+                    <th><span translate="onsPortalApp.cadastroEvento.condicaoOperativa">Condicao Operativa</span></th>
+                    <th><span translate="onsPortalApp.cadastroEvento.classificacaoOrigem">Classificacao Origem</span></th>
+                    <th><span translate="onsPortalApp.cadastroEvento.potenciaDisponivel">Potencia Disponivel</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="cadastroEvento in vm.cadastroEventos track by $index">
+                	<td>
+                		<span class="glyphicon glyphicon-asterisk" ng-show="cadastroEvento.dirty"></span>
+                		<span class="glyphicon glyphicon-remove" ng-show="cadastroEvento.deleted"></span>
+                	</td>
+                    <td ng-class="{strike: cadastroEvento.deleted}">{{cadastroEvento.dataVerificada | date : 'dd/MM/yyyy HH:mm'}}</td>
+                    <td ng-class="{strike: cadastroEvento.deleted}">{{cadastroEvento.estadoOperativo}}</td>
+                    <td ng-class="{strike: cadastroEvento.deleted}">{{cadastroEvento.condicaoOperativa}}</td>
+                    <td ng-class="{strike: cadastroEvento.deleted}">{{cadastroEvento.classificacaoOrigem}}</td>
+                    <td ng-class="{strike: cadastroEvento.deleted}">{{cadastroEvento.potenciaDisponivel}}</td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="button" ng-disabled="cadastroEvento.deleted || $index === 0"
+                                    ng-click="vm.editEvento($index)"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="button" ng-disabled="cadastroEvento.deleted || $index === 0"
+                                    ng-click="vm.deleteEvento($index)"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                            <button type="button" ng-disabled="vm.disableRestore(cadastroEvento)"
+                                    ng-click="vm.restoreEvento($index)"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-backward"></span>
+                                <span class="hidden-xs hidden-sm">Restaurar</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="no-padding-right" style="text-align: right">
+	                <button type="button" ng-disabled="vm.isSaving" class="btn btn-primary" ng-click="vm.retificar()" >
+	                    <span class="glyphicon glyphicon-save-file"></span>&nbsp;<span>Retificar</span>
+	                </button>
+	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>

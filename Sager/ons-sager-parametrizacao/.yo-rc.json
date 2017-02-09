@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.5.1",
+    "baseName": "ONSSagerParametrizacao",
+    "packageName": "br.org.ons.sager.parametrizacao",
+    "packageFolder": "br/org/ons/sager/parametrizacao",
+    "serverPort": "8088",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "f7a5a559fe583c7c535f5692439c48b3a04fe815",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

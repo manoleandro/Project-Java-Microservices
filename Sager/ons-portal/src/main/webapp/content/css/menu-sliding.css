@@ -1,0 +1,97 @@
+/* CSS Document */
+
+/* Configurações collapsed menu */
+.pai-nav-side-menu {
+	border-bottom: 1px solid #d5dccf;
+    padding: 6px 4px 6px 4px;
+}
+
+.nav-side-menu ul,
+.nav-side-menu li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 35px;
+  cursor: pointer;
+}
+/* Seta menu principal */
+.nav-side-menu ul :not(collapsed) .arrow:before,
+.nav-side-menu li :not(collapsed) .arrow:before {
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+}
+/*Cor e icone da seta para o submenu */
+.nav-side-menu ul .sub-menu li.active,
+.nav-side-menu li .sub-menu li.active {
+  color: #fbc90b;
+}
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  content: "\f105";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-side-menu li a {
+  color: #fff;
+}
+/* Fim Configurações collapsed menu */
+
+.side-menu-wrapper {
+	overflow: hidden;
+	background: #486018;
+	padding: 40px 0 0 40px;
+	position: fixed;
+	top: 0;
+	left: -340px;
+	height: 100%;
+	z-index: 9999;
+	transition: 0.5s;
+	width: 340px;
+	font-family:"Arial Narrow", Arial,sans-serif;
+}
+.side-menu-wrapper > ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+    overflow-y: auto;
+	width:500px;
+	height:95%;
+}
+.side-menu-wrapper > ul > li > a {
+    display: block;
+    /* border-bottom: 1px solid #131313; */
+	border-bottom: 1px solid #d5dccf;
+    padding: 6px 4px 6px 4px;
+    /* color: #989898; */
+	color: #fff;
+    transition: 0.3s;
+	text-decoration: none;
+}
+.side-menu-wrapper > a.menu-close {
+    padding: 8px 0 4px 23px;
+    /* color: #6B6B6B; */
+	color: #fff;
+    display: block;
+    margin: -30px 0 -10px -20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+.side-menu-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}

@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.5.1",
+    "baseName": "ONSPlatformBusMock",
+    "packageName": "br.org.ons.platform.bus",
+    "packageFolder": "br/org/ons/platform/bus",
+    "serverPort": "8079",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": "no",
+    "buildTool": "maven",
+    "jwtSecretKey": "d371be7d460bd641d7b918bf3f943593db48b6a7",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

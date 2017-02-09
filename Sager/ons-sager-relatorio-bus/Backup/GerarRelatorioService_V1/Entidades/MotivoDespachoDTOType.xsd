@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO" xmlns:ns1="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoMotivoDespachoDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoMotivoDespachoDTO" schemaLocation="../Entidades/Tipos/TipoMotivoDespachoDTOType.xsd"/>
+	<xs:complexType name="MotivoDespachoDTOType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Valor" type="xs:decimal" minOccurs="0"/>
+			<xs:element name="Tipo" type="ns1:TipoMotivoDespachoDTOType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

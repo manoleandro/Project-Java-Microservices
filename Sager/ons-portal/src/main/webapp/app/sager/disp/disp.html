@@ -1,0 +1,171 @@
+<div ng-cloak></div>
+
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active">Consultar Disponibilidades</li>
+	</ol>
+	<header ng-model="collapsed" ng-click="collapsed=!collapsed">Consultar Disponibilidades
+		<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+		<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+	</header>
+	
+	<!-- Mensagens de erro -->
+	<fieldset style="padding: 0 30px 0;">
+	 	<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong><div class="criticaErro"> Crítica do Erro: {{erro.critica}} </div><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+	</fieldset>
+	
+	<fieldset ng-show="collapsed">
+		<div class="row">
+			<div class="col-12 date-fields">
+			<!-- linha 1 -->
+				<section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Inicial:</label>
+		            <div id="id_startDate">
+		                <p class="input-group">
+		                    <input readonly="readonly" id="field_startDate"  type="text" class="form-control" name="startDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+		                    ng-model="vm.dtInicio" is-open="vm.datePickerOpenStatus.startDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+		                      />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                        <button type="button" class="btn-dt btn btn-default ui-datepicker-start" id="btn-datepicker-start" ng-click="vm.openCalendar('startDate')"><i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+		            </div>
+  				 </section>
+	           	 <section class="col col-4" style="margin-bottom: 10px">
+					<label class="label">Data Final:</label>
+		            <div>
+		                <p class="input-group">
+		                    <input readonly="readonly" id="field_endDate"  type="text" class="form-control" name="endtDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsFinal" 
+		                    ng-model="vm.dtFim" is-open="vm.datePickerOpenStatus.endDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required
+		                      />
+		                    <span class="input-group-btn" style="vertical-align: top !important;">
+		                        <button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('endDate')"><i class="fa fa-calendar"></i></button>
+		                    </span>
+		                </p>
+		            </div>
+				</section>
+			</div>		
+			<!-- linha 2 -->
+			<section class="col col-6 date-fields">
+				<label class="checkbox">
+					<input type="checkbox" name="checkbox" ng-checked="isChecked()" ng-click="toggleAll()">
+					<i></i>Todos Tipos de Disponibilidades
+				</label>
+				
+				<div style="padding-left: 30px;" flex="100" >
+					<section class="col"  ng-repeat="item in vm.tipoDisp">
+						<label class="checkbox" >
+							<input type="checkbox" name="checkbox" id="{{ item.name }} " ng-checked="exists(item, vm.tipoDispSelecionadas)" ng-click="toggle(item, vm.tipoDispSelecionadas)">
+								<i></i>{{ item.name }} 
+						</label>
+					</section>
+				</div>
+			</section>
+			<section class="col col-12">
+				<ui-instalacoes instalacao="vm.instalacaoSelecionada" instalacoes-selecionadas="vm.instalacoesSelecionada" ></ui-instalacoes>
+			</section>
+			<section class="col col-1" style="float: right; margin-right: 35px;">
+		    	<button id="pesquisar" type="button" class="btn-dt btn btn-success btn-sm" ng-click="vm.consultarDisp()">
+					<span class="fa fa-search"></span>
+					<span  translate="onsPortalApp.disp.home.pesquisar">
+		            	Pesquisar
+		            </span>
+				</button>
+			</section>
+		</div>
+	</fieldset>
+
+	<!-- Resposta -->    
+	<header ng-show="vm.showDisp" translate="onsPortalApp.disp.home.availabilities">Disponibilidades</header>
+	<fieldset ng-show="vm.showDisp">
+		<div class="row">
+			<div class="tab-v1">
+				<md-tabs md-dynamic-height md-border-bottom md-swipe-content id="dispResults">
+					<md-tab ng-repeat="disp in vm.disp" label="{{disp.nome}}" md-on-select="vm.changeTab(disp.nome)">
+						<md-tab-label style="background-color:#486018">
+							<div id="aba{{disp.nome}}">	
+								{{disp.nome}}
+							</div>
+						</md-tab-label>
+						<br/>
+						<md-tab-body>
+							<div ng-show="!disp.hasDisponibilidades" class="p-message date-fields" style="height: 50px;">
+								<p style="margin-top: 20px;">Não há dados no período informado</p>
+								<button id="abrirComentarios" type="button" class="btn-dt btn btn-success btn-sm" ui-sref="disp-comentarios({comentariosAviso:disp.comentariosAviso, comentariosErro: disp.comentariosErro, comentarios: disp.comentarios})"
+									    style="float: right; margin-top: -20px;">
+									<span class="fa fa-eye"></span>
+								</button>
+								<md-tooltip md-direction="up">Abrir comentários</md-tooltip>
+							</div>
+							
+							<div ng-show="vm.disp.hasExcelGeral && disp.hasDisponibilidades" class="p-message date-fields" style="height: 50px;">
+								<p style="margin-top: 20px;">Excel gerado com as disponibilidades calculadas.</p>
+							</div>
+						</md-tab-body>
+					</md-tab>
+				</md-tabs>
+				
+				
+				
+				<div ng-show="!vm.disp.hasExcelGeral && vm.dispSelecionada.hasDisponibilidades">
+					<div  class="panel-heading" style="margin-top: 1px; z-index: 1; background: #486018 !important; width: 100%;"> 
+						<strong>Disponibilidades calculadas</strong>
+						
+						<div class="btn-group btn-group-xs pull-right">
+							<button type="button" class="btn-dt btn btn-success" ui-sref="disp-chart({disp_datas: vm.dispSelecionada})" id="GerarGrafico">
+								Gerar Gráfico <span class="fa fa-bar-chart"></span>
+							</button>
+							<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+						</div>
+						
+						<div class="btn-group btn-group-xs pull-right">
+							<button type="button" class="btn-dt btn btn-success" ng-click="exportToExcel()" id="Exportar Excel">
+								Exportar Excel <span class="fa fa-download"></span>
+							</button>
+							<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+						</div>
+						
+						<div class="btn-group btn-group-xs pull-right" ng-show="vm.dispSelecionada.hasComentarios">
+							<button id="abrirComentarios" type="button" class="btn-dt btn btn-success btn-sm" style="background-color: #f1c40f; margin-right: 20px;"
+								ui-sref="disp-comentarios({comentariosAviso:vm.dispSelecionada.comentariosAviso, comentariosErro: vm.dispSelecionada.comentariosErro, comentarios: vm.dispSelecionada.comentarios})" >
+								<span class="fa fa-eye" style="color: #000"></span>
+								<md-tooltip md-direction="up">Abrir comentários</md-tooltip>
+							</button>
+						</div>
+					</div>
+					<div class="col-sm-12" style="padding-left: 0; overflow-y:scroll; height:350px;">
+						<table id="{{vm.dispSelecionada.id}}" class="table table-striped table-bordered" cellspacing="0" role="grid" aria-describedby="example_info">
+							<thead>
+								<tr role="row">
+									<th></th>
+						        	<th id="head" ng-repeat="equip in vm.dispSelecionada.equipamentos" colspan={{vm.tipoDispSelecionadas.length}}
+						        		tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="{{equip.codigoOns}}
+										: activate to sort column descending" style="width: 216px; padding-left: 0;" aria-sort="ascending">{{equip.codigoOns}}</th>
+								</tr>
+								<tr>
+									<th id="head2" class="thCOE" ng-repeat="(key,value) in vm.dispSelecionada.colunas" style="padding-left: 0; text-align: center;" ng-show="vm.showTh(value)">{{value}}</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="body" class="odd" ng-repeat="dispo in vm.dispSelecionada.disponibilidades">
+									<td class='DATA{{dispo.data | date: "ddMMyyyy"}}' style="white-space: nowrap; padding-left: 4px; padding-right: 4px;" ng-class="{negrito:!dispo.isDispConsolidada}" aria-hidden="false">{{dispo.data | date: "dd/MM/yyyy HH"}}</td>
+		            				<td ng-repeat="(key,value) in dispo.valores" ng-show="vm.showTd(key)" class="{{key | nospace}}" style="padding-left: 4px; padding-right: 4px; text-align:right !important">{{value | number:3}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</fieldset>	
+</form>

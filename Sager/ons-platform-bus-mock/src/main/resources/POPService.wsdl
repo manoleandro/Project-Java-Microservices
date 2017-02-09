@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions name="POPService" targetNamespace="http://POPService/v1"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
+	xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy"
+	xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract"
+	xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+	xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:tns="http://POPService/v1" xmlns:wsa10="http://www.w3.org/2005/08/addressing"
+	xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+	<wsp:Policy wsu:Id="nettcp_policy">
+		<wsp:ExactlyOne>
+			<wsp:All>
+				<msb:BinaryEncoding
+					xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+				<sp:TransportBinding
+					xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+					<wsp:Policy>
+						<sp:TransportToken>
+							<wsp:Policy>
+								<msf:WindowsTransportSecurity
+									xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+									<msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+								</msf:WindowsTransportSecurity>
+							</wsp:Policy>
+						</sp:TransportToken>
+						<sp:AlgorithmSuite>
+							<wsp:Policy>
+								<sp:Basic256 />
+							</wsp:Policy>
+						</sp:AlgorithmSuite>
+						<sp:Layout>
+							<wsp:Policy>
+								<sp:Strict />
+							</wsp:Policy>
+						</sp:Layout>
+					</wsp:Policy>
+				</sp:TransportBinding>
+				<wsaw:UsingAddressing />
+			</wsp:All>
+		</wsp:ExactlyOne>
+	</wsp:Policy>
+	<wsp:Policy wsu:Id="nettcpSign_policy">
+		<wsp:ExactlyOne>
+			<wsp:All>
+				<msb:BinaryEncoding
+					xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+				<sp:TransportBinding
+					xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+					<wsp:Policy>
+						<sp:TransportToken>
+							<wsp:Policy>
+								<msf:WindowsTransportSecurity
+									xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+									<msf:ProtectionLevel>Sign</msf:ProtectionLevel>
+								</msf:WindowsTransportSecurity>
+							</wsp:Policy>
+						</sp:TransportToken>
+						<sp:AlgorithmSuite>
+							<wsp:Policy>
+								<sp:Basic256 />
+							</wsp:Policy>
+						</sp:AlgorithmSuite>
+						<sp:Layout>
+							<wsp:Policy>
+								<sp:Strict />
+							</wsp:Policy>
+						</sp:Layout>
+					</wsp:Policy>
+				</sp:TransportBinding>
+				<wsaw:UsingAddressing />
+			</wsp:All>
+		</wsp:ExactlyOne>
+	</wsp:Policy>
+	<wsp:Policy wsu:Id="basicHttpBinding_policy">
+		<wsp:ExactlyOne>
+			<wsp:All>
+				<http:NegotiateAuthentication
+					xmlns:http="http://schemas.microsoft.com/ws/06/2004/policy/http" />
+			</wsp:All>
+		</wsp:ExactlyOne>
+	</wsp:Policy>
+	<wsdl:types>
+		<xs:schema elementFormDefault="qualified" targetNamespace="http://POPService/v1"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:import
+				namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+			<xs:import namespace="http://schemas.popprovider.org/2014/01/EscopoDTO" />
+			<xs:import namespace="http://schemas.popprovider.org/2014/01/UsuarioPOP" />
+			<xs:import
+				namespace="http://schemas.popprovider.org/2014/01/TipoStatusUsuarioEnum" />
+			<xs:element name="ObterTicket">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="codAplicacao" nillable="true"
+							type="xs:string" />
+						<xs:element minOccurs="0" name="login" nillable="true"
+							type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObterTicketResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="ObterTicketResult"
+							nillable="true" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObterAcessos">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="codAplicacao" nillable="true"
+							type="xs:string" />
+						<xs:element minOccurs="0" name="ticket" nillable="true"
+							type="xs:string" />
+						<xs:element minOccurs="0" name="codTpEscopo" nillable="true"
+							type="xs:string" />
+						<xs:element minOccurs="0" name="nomeDefinicaoPermissaoLista"
+							nillable="true" type="q9:ArrayOfstring"
+							xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObterAcessosResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="ObterAcessosResult"
+							nillable="true" type="q10:ArrayOfEscopoDTO"
+							xmlns:q10="http://schemas.popprovider.org/2014/01/EscopoDTO" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObterUsuarioPOP">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="ticket" nillable="true"
+							type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ObterUsuarioPOPResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element minOccurs="0" name="ObterUsuarioPOPResult"
+							nillable="true" type="q17:UsuarioPOP"
+							xmlns:q17="http://schemas.popprovider.org/2014/01/UsuarioPOP" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+		<xs:schema attributeFormDefault="qualified"
+			elementFormDefault="qualified"
+			targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+			<xs:element name="anyType" nillable="true" type="xs:anyType" />
+			<xs:element name="anyURI" nillable="true" type="xs:anyURI" />
+			<xs:element name="base64Binary" nillable="true" type="xs:base64Binary" />
+			<xs:element name="boolean" nillable="true" type="xs:boolean" />
+			<xs:element name="byte" nillable="true" type="xs:byte" />
+			<xs:element name="dateTime" nillable="true" type="xs:dateTime" />
+			<xs:element name="decimal" nillable="true" type="xs:decimal" />
+			<xs:element name="double" nillable="true" type="xs:double" />
+			<xs:element name="float" nillable="true" type="xs:float" />
+			<xs:element name="int" nillable="true" type="xs:int" />
+			<xs:element name="long" nillable="true" type="xs:long" />
+			<xs:element name="QName" nillable="true" type="xs:QName" />
+			<xs:element name="short" nillable="true" type="xs:short" />
+			<xs:element name="string" nillable="true" type="xs:string" />
+			<xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte" />
+			<xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt" />
+			<xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong" />
+			<xs:element name="unsignedShort" nillable="true"
+				type="xs:unsignedShort" />
+			<xs:element name="char" nillable="true" type="tns:char" />
+			<xs:simpleType name="char">
+				<xs:restriction base="xs:int" />
+			</xs:simpleType>
+			<xs:element name="duration" nillable="true" type="tns:duration" />
+			<xs:simpleType name="duration">
+				<xs:restriction base="xs:duration">
+					<xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?" />
+					<xs:minInclusive value="-P10675199DT2H48M5.4775808S" />
+					<xs:maxInclusive value="P10675199DT2H48M5.4775807S" />
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:element name="guid" nillable="true" type="tns:guid" />
+			<xs:simpleType name="guid">
+				<xs:restriction base="xs:string">
+					<xs:pattern
+						value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}" />
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:attribute name="FactoryType" type="xs:QName" />
+			<xs:attribute name="Id" type="xs:ID" />
+			<xs:attribute name="Ref" type="xs:IDREF" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+			<xs:complexType name="ArrayOfstring">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="string"
+						nillable="true" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="ArrayOfstring" nillable="true"
+				type="tns:ArrayOfstring" />
+			<xs:complexType name="ArrayOfKeyValueOfstringstring">
+				<xs:annotation>
+					<xs:appinfo>
+						<IsDictionary
+							xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+					</xs:appinfo>
+				</xs:annotation>
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded"
+						name="KeyValueOfstringstring">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Key" nillable="true" type="xs:string" />
+								<xs:element name="Value" nillable="true" type="xs:string" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="ArrayOfKeyValueOfstringstring" nillable="true"
+				type="tns:ArrayOfKeyValueOfstringstring" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.datacontract.org/2004/07/System"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/System"
+			xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
+			<xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+			<xs:complexType name="ArgumentException">
+				<xs:complexContent mixed="false">
+					<xs:extension base="tns:SystemException" />
+				</xs:complexContent>
+			</xs:complexType>
+			<xs:element name="ArgumentException" nillable="true"
+				type="tns:ArgumentException" />
+			<xs:complexType name="SystemException">
+				<xs:complexContent mixed="false">
+					<xs:extension base="tns:Exception" />
+				</xs:complexContent>
+			</xs:complexType>
+			<xs:element name="SystemException" nillable="true"
+				type="tns:SystemException" />
+			<xs:complexType name="Exception">
+				<xs:sequence>
+					<xs:any minOccurs="0" maxOccurs="unbounded" namespace="##local"
+						processContents="skip" />
+				</xs:sequence>
+				<xs:attribute ref="ser:FactoryType" />
+			</xs:complexType>
+			<xs:element name="Exception" nillable="true" type="tns:Exception" />
+			<xs:complexType name="ApplicationException">
+				<xs:complexContent mixed="false">
+					<xs:extension base="tns:Exception" />
+				</xs:complexContent>
+			</xs:complexType>
+			<xs:element name="ApplicationException" nillable="true"
+				type="tns:ApplicationException" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/EscopoDTO"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.popprovider.org/2014/01/EscopoDTO">
+			<xs:import
+				namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+			<xs:complexType name="ArrayOfEscopoDTO">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="EscopoDTO"
+						nillable="true" type="tns:EscopoDTO" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="ArrayOfEscopoDTO" nillable="true"
+				type="tns:ArrayOfEscopoDTO" />
+			<xs:complexType name="EscopoDTO">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="CodTpEscopo" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="IdEscopo" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="IdTipoEscopo" type="xs:int" />
+					<xs:element minOccurs="0" name="NomeEscopo" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="PermissaoLista"
+						nillable="true" type="q1:ArrayOfstring"
+						xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="EscopoDTO" nillable="true" type="tns:EscopoDTO" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/TipoEscopoDTO"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.popprovider.org/2014/01/TipoEscopoDTO">
+			<xs:complexType name="ArrayOfTipoEscopoDTO">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="TipoEscopoDTO"
+						nillable="true" type="tns:TipoEscopoDTO" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="ArrayOfTipoEscopoDTO" nillable="true"
+				type="tns:ArrayOfTipoEscopoDTO" />
+			<xs:complexType name="TipoEscopoDTO">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="CodTpEscopo" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="IdTpEscopo" type="xs:int" />
+					<xs:element minOccurs="0" name="NomeTpEscopo" nillable="true"
+						type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="TipoEscopoDTO" nillable="true"
+				type="tns:TipoEscopoDTO" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/UsuarioPOP"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.popprovider.org/2014/01/UsuarioPOP">
+			<xs:import namespace="http://schemas.popprovider.org/2014/01/EscopoDTO" />
+			<xs:import
+				namespace="http://schemas.popprovider.org/2014/01/TipoStatusUsuarioEnum" />
+			<xs:import
+				namespace="http://schemas.popprovider.org/2014/01/TipoMotivoStatusUsuarioEnum" />
+			<xs:import namespace="http://schemas.popprovider.org/2014/01/TipoOrigemEnum" />
+			<xs:import namespace="http://schemas.popprovider.org/2014/01/TipoUsuarioEnum" />
+			<xs:complexType name="UsuarioPOP">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="DataUltimaalteracaosenha"
+						nillable="true" type="xs:dateTime" />
+					<xs:element minOccurs="0" name="DscPerguntasecreta"
+						nillable="true" type="xs:string" />
+					<xs:element minOccurs="0" name="Email" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="EscopoLista" nillable="true"
+						type="q1:ArrayOfEscopoDTO" xmlns:q1="http://schemas.popprovider.org/2014/01/EscopoDTO" />
+					<xs:element minOccurs="0" name="FlgGrupo" type="xs:boolean" />
+					<xs:element minOccurs="0" name="FlgPoliticasenha" type="xs:boolean" />
+					<xs:element minOccurs="0" name="Login" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="Nome" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="SID" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="Status"
+						type="q2:TipoStatusUsuarioEnum"
+						xmlns:q2="http://schemas.popprovider.org/2014/01/TipoStatusUsuarioEnum" />
+					<xs:element minOccurs="0" name="TipoMotivoStatusUsuario"
+						type="q3:TipoMotivoStatusUsuarioEnum"
+						xmlns:q3="http://schemas.popprovider.org/2014/01/TipoMotivoStatusUsuarioEnum" />
+					<xs:element minOccurs="0" name="TipoOrigem" type="q4:TipoOrigemEnum"
+						xmlns:q4="http://schemas.popprovider.org/2014/01/TipoOrigemEnum" />
+					<xs:element minOccurs="0" name="TipoUsuario" type="q5:TipoUsuarioEnum"
+						xmlns:q5="http://schemas.popprovider.org/2014/01/TipoUsuarioEnum" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="UsuarioPOP" nillable="true" type="tns:UsuarioPOP" />
+			<xs:complexType name="ArrayOfUsuarioPOP">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioPOP"
+						nillable="true" type="tns:UsuarioPOP" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="ArrayOfUsuarioPOP" nillable="true"
+				type="tns:ArrayOfUsuarioPOP" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/TipoStatusUsuarioEnum"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:tns="http://schemas.popprovider.org/2014/01/TipoStatusUsuarioEnum">
+			<xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+			<xs:simpleType name="TipoStatusUsuarioEnum">
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Solicitado">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Ativo">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Reprovado">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Bloqueado">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="Excluido">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:element name="TipoStatusUsuarioEnum" nillable="true"
+				type="tns:TipoStatusUsuarioEnum" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/TipoMotivoStatusUsuarioEnum"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:tns="http://schemas.popprovider.org/2014/01/TipoMotivoStatusUsuarioEnum">
+			<xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+			<xs:simpleType name="TipoMotivoStatusUsuarioEnum">
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="SolicitacaoDecadastroPOP">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="SolicitacaoDecadastroCDRE">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="ImportadoDaBaseAntigadoPOP">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="ImportadodoAD">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="AprovadoPeloAdministradorPOP">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="AprovadoPeloAdministradorCDRE">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">6</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="DesbloqueadoPeloAdministradorPOP">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="DesbloqueadoPeloAdministradorCDRE">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="ReprovadoPeloAdministradorDadosIncompletos">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="ReprovadoPeloAdministradorUsuarioduplicado">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPeloAdministradorPorFerias">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">11</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPeloAdministradorPorLicensa">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">12</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPeloAdministradorPorDemissao">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">13</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPeloAdministradorOutros">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">14</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPeloAD">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">15</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPorErrosSucessivosDeSenha">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPorErrosSucessivosDaRespostaSecreta">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">17</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPorInatividade">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">20</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="ExcluidoPeloAdministradorPOP" />
+					<xs:enumeration value="ExcluidoPeloAdministradorCDRE" />
+					<xs:enumeration value="ExcluidodoAD">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="RecuperadoPeloAdminPO">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">22</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="DesbloqueioSolicitadoPeloUsuario">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">23</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="BloqueadoPorDataDeExpiracao">
+						<xs:annotation>
+							<xs:appinfo>
+								<EnumerationValue
+									xmlns="http://schemas.microsoft.com/2003/10/Serialization/">24</EnumerationValue>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:element name="TipoMotivoStatusUsuarioEnum" nillable="true"
+				type="tns:TipoMotivoStatusUsuarioEnum" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/TipoOrigemEnum"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.popprovider.org/2014/01/TipoOrigemEnum">
+			<xs:simpleType name="TipoOrigemEnum">
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Todos" />
+					<xs:enumeration value="POP" />
+					<xs:enumeration value="AD" />
+					<xs:enumeration value="CDRE" />
+					<xs:enumeration value="GestaoIdentidade" />
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:element name="TipoOrigemEnum" nillable="true"
+				type="tns:TipoOrigemEnum" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/TipoUsuarioEnum"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.popprovider.org/2014/01/TipoUsuarioEnum">
+			<xs:simpleType name="TipoUsuarioEnum">
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Todos" />
+					<xs:enumeration value="Interno" />
+					<xs:enumeration value="Externo" />
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:element name="TipoUsuarioEnum" nillable="true"
+				type="tns:TipoUsuarioEnum" />
+		</xs:schema>
+		<xs:schema elementFormDefault="qualified"
+			targetNamespace="http://schemas.popprovider.org/2014/01/BaseWebApiRequestDTO"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:tns="http://schemas.popprovider.org/2014/01/BaseWebApiRequestDTO">
+			<xs:complexType name="BaseWebApiRequestDTO">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="CodAppEncrypt" nillable="true"
+						type="xs:string" />
+					<xs:element minOccurs="0" name="Ticket" nillable="true"
+						type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+			<xs:element name="BaseWebApiRequestDTO" nillable="true"
+				type="tns:BaseWebApiRequestDTO" />
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="POPService_ObterTicket_InputMessage">
+		<wsdl:part name="parameters" element="tns:ObterTicket" />
+	</wsdl:message>
+	<wsdl:message name="POPService_ObterTicket_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ObterTicketResponse" />
+	</wsdl:message>
+	<wsdl:message
+		name="POPService_ObterTicket_ArgumentExceptionFault_FaultMessage">
+		<wsdl:part name="detail" element="q5:ArgumentException"
+			xmlns:q5="http://schemas.datacontract.org/2004/07/System" />
+	</wsdl:message>
+	<wsdl:message name="POPService_ObterAcessos_InputMessage">
+		<wsdl:part name="parameters" element="tns:ObterAcessos" />
+	</wsdl:message>
+	<wsdl:message name="POPService_ObterAcessos_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ObterAcessosResponse" />
+	</wsdl:message>
+	<wsdl:message name="POPService_ObterUsuarioPOP_InputMessage">
+		<wsdl:part name="parameters" element="tns:ObterUsuarioPOP" />
+	</wsdl:message>
+	<wsdl:message name="POPService_ObterUsuarioPOP_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ObterUsuarioPOPResponse" />
+	</wsdl:message>
+	<wsdl:portType name="POPService">
+		<wsdl:operation name="ObterTicket">
+			<wsdl:input wsaw:Action="http://POPService/v1/POPService/ObterTicket"
+				message="tns:POPService_ObterTicket_InputMessage" />
+			<wsdl:output wsaw:Action="http://POPService/v1/POPService/ObterTicketResponse"
+				message="tns:POPService_ObterTicket_OutputMessage" />
+			<wsdl:fault
+				wsaw:Action="http://POPService/v1/POPService/ObterTicketArgumentExceptionFault"
+				name="ArgumentExceptionFault"
+				message="tns:POPService_ObterTicket_ArgumentExceptionFault_FaultMessage" />
+		</wsdl:operation>
+		<wsdl:operation name="ObterAcessos">
+			<wsdl:input wsaw:Action="http://POPService/v1/POPService/ObterAcessos"
+				message="tns:POPService_ObterAcessos_InputMessage" />
+			<wsdl:output wsaw:Action="http://POPService/v1/POPService/ObterAcessosResponse"
+				message="tns:POPService_ObterAcessos_OutputMessage" />
+		</wsdl:operation>
+		<wsdl:operation name="ObterUsuarioPOP">
+			<wsdl:input wsaw:Action="http://POPService/v1/POPService/ObterUsuarioPOP"
+				message="tns:POPService_ObterUsuarioPOP_InputMessage" />
+			<wsdl:output
+				wsaw:Action="http://POPService/v1/POPService/ObterUsuarioPOPResponse"
+				message="tns:POPService_ObterUsuarioPOP_OutputMessage" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="nettcp" type="tns:POPService">
+		<wsp:PolicyReference URI="#nettcp_policy" />
+		<soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+		<wsdl:operation name="ObterTicket">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterTicket"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="ArgumentExceptionFault">
+				<soap12:fault use="literal" name="ArgumentExceptionFault"
+					namespace="" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="ObterAcessos">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterAcessos"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ObterUsuarioPOP">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterUsuarioPOP"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="nettcpSign" type="tns:POPService">
+		<wsp:PolicyReference URI="#nettcpSign_policy" />
+		<soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+		<wsdl:operation name="ObterTicket">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterTicket"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="ArgumentExceptionFault">
+				<soap12:fault use="literal" name="ArgumentExceptionFault"
+					namespace="" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="ObterAcessos">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterAcessos"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ObterUsuarioPOP">
+			<soap12:operation soapAction="http://POPService/v1/POPService/ObterUsuarioPOP"
+				style="document" />
+			<wsdl:input>
+				<soap12:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="basicHttpBinding" type="tns:POPService">
+		<wsp:PolicyReference URI="#basicHttpBinding_policy" />
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="ObterTicket">
+			<soap:operation soapAction="http://POPService/v1/POPService/ObterTicket"
+				style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+			<wsdl:fault name="ArgumentExceptionFault">
+				<soap:fault use="literal" name="ArgumentExceptionFault"
+					namespace="" />
+			</wsdl:fault>
+		</wsdl:operation>
+		<wsdl:operation name="ObterAcessos">
+			<soap:operation soapAction="http://POPService/v1/POPService/ObterAcessos"
+				style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ObterUsuarioPOP">
+			<soap:operation soapAction="http://POPService/v1/POPService/ObterUsuarioPOP"
+				style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="POPService">
+		<wsdl:port name="nettcp" binding="tns:nettcp">
+			<soap12:address
+				location="net.tcp://tst-app-01.ons.org.br/AuthorizationServices/POPService.svc/v1/nettcp" />
+			<wsa10:EndpointReference>
+				<wsa10:Address>net.tcp://tst-app-01.ons.org.br/AuthorizationServices/POPService.svc/v1/nettcp
+				</wsa10:Address>
+				<Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+					<Upn>spsadmingit@ons.org.br</Upn>
+				</Identity>
+			</wsa10:EndpointReference>
+		</wsdl:port>
+		<wsdl:port name="nettcpSign" binding="tns:nettcpSign">
+			<soap12:address
+				location="net.tcp://tst-app-01.ons.org.br/AuthorizationServices/POPService.svc/v1/nettcpSign" />
+			<wsa10:EndpointReference>
+				<wsa10:Address>net.tcp://tst-app-01.ons.org.br/AuthorizationServices/POPService.svc/v1/nettcpSign
+				</wsa10:Address>
+				<Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+					<Upn>spsadmingit@ons.org.br</Upn>
+				</Identity>
+			</wsa10:EndpointReference>
+		</wsdl:port>
+		<wsdl:port name="basicHttpBinding" binding="tns:basicHttpBinding">
+			<soap:address
+				location="http://172.20.249.26/AuthorizationServices/POPService.svc" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

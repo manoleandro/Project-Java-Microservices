@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://schemas.ons.org.br/cnx/dto/2011/04/07/ClassificacaoMontanteAlocacaoDTO" targetNamespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/ClassificacaoMontanteAlocacaoDTO" schemaLocation="../Entidades/Tipos/ClassificacaoMontanteAlocacaoDTOType.xsd"/>
+	<xs:complexType name="MontanteAlocacaoESSDTOType">
+		<xs:sequence minOccurs="0">
+			<xs:element name="Valor" type="xs:decimal" minOccurs="0"/>
+			<xs:element name="Tipo" type="ns0:ClassificacaoMontanteAlocacaoDTOType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>	
+</xs:schema>
+

@@ -1,0 +1,51 @@
+
+entity Scenario {
+	id String,
+    aggregateId String,
+    timelineId String,
+    description String,
+    type ScenarioType,
+    status ScenarioStatus,
+    startDate ZonedDateTime,
+    endDate ZonedDateTime
+    creationDate ZonedDateTime,
+    userId String
+}
+
+entity Timeline {
+	id String,
+    aggregateId String,
+    majorVersion Long,
+    isDefault Boolean
+}
+
+enum ScenarioType {
+	DEFAULT, PARALLEL, TEST
+}
+
+enum ScenarioStatus {
+	ACTIVE, INACTIVE
+}
+
+entity Record {
+	id String,
+    minorVersion Long,
+    correlationId String,
+    creationDate ZonedDateTime,
+    recordDate ZonedDateTime,
+    type RecordType,
+    name String,
+    metadata Blob,
+    payload Blob
+}
+
+enum RecordType {
+	COMMAND, EVENT, SNAPSHOT
+}
+
+relationship OneToMany {
+	Timeline{records} to
+	Record
+}
+
+microservice * with ons-platform

@@ -1,0 +1,62 @@
+<div>
+    <h2 translate="onsPortalApp.cadastroUsina.home.title">Cadastro Usinas</h2>
+    <jhi-alert></jhi-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="cadastro-usina.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span  translate="onsPortalApp.cadastroUsina.home.createLabel">
+                        Create new Cadastro Usina
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span translate="global.field.id">ID</span></th>
+                    <th><span translate="onsPortalApp.cadastroUsina.version">Version</span></th>
+                    <th><span translate="onsPortalApp.cadastroUsina.nomeCurto">Nome Curto</span></th>
+                    <th><span translate="onsPortalApp.cadastroUsina.tipoUsina">Tipo Usina</span></th>
+                    <th><span translate="onsPortalApp.cadastroUsina.potenciaCalculo">Potencia Calculo</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="cadastroUsina in vm.cadastroUsinas track by cadastroUsina.id">
+                    <td><a ui-sref="cadastro-usina-detail({id:cadastroUsina.id})">{{cadastroUsina.id}}</a></td>
+                    <td>{{cadastroUsina.version}}</td>
+                    <td>{{cadastroUsina.nomeCurto}}</td>
+                    <td>{{cadastroUsina.tipoUsina}}</td>
+                    <td>{{cadastroUsina.potenciaCalculo}}</td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="cadastro-usina-detail({id:cadastroUsina.id})"
+                                    class="btn btn-info btn-sm">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="cadastro-usina.edit({id:cadastroUsina.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="cadastro-usina.delete({id:cadastroUsina.id})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

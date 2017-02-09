@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/HeaderDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/HeaderDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="HeaderDTOType">
+		<xs:sequence>
+			<xs:element name="Verb" type="xs:string"/>
+			<xs:element name="Noun" type="xs:string"/>
+			<xs:element name="TimeDate" type="xs:string"/>
+			<xs:element name="AsyncReplyFlag" type="xs:boolean"/>
+			<xs:element name="AckRequired" type="xs:boolean"/>
+			<xs:element name="MessageID" type="xs:string"/>
+			<xs:element name="Nonce" type="xs:string" minOccurs="0"/>
+			<xs:element name="Revision" type="xs:string" minOccurs="0"/>
+			<xs:element name="Source" type="xs:string" minOccurs="0"/>
+			<xs:element name="SourcePathName" type="xs:string" minOccurs="0"/>
+			<xs:element name="ReplyAddress" type="xs:string" minOccurs="0"/>
+			<xs:element name="UserID" type="xs:string" minOccurs="0"/>
+			<xs:element name="ParentMessageID" type="xs:string" minOccurs="0"/>
+			<xs:element name="Comment" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

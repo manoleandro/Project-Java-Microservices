@@ -1,0 +1,66 @@
+<div>
+    <h2>Manter Cenarios</h2>
+    <jhi-alert></jhi-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="scenario.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span >
+                        Novo Cenario
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span>ID</span></th>
+                    <th><span>Nome</span></th>
+                    <th><span>Descricao</span></th>
+                    <th><span>Tipo</span></th>
+                    <th><span>Status</span></th>
+                    <th><span>Inicio Vigencia</span></th>
+                    <th><span>Encerramento</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="scenario in vm.scenarios track by scenario.id">
+                    <td><a ui-sref="scenario-detail({id:scenario.id})">{{scenario.id}}</a></td>
+                    <td>{{scenario.aggregateName}}</td>
+                    <td>{{scenario.description}}</td>
+                    <td>{{scenario.type}}</td>
+                    <td>{{scenario.status}}</td>
+                    <td>{{scenario.startDate | date:'medium'}}</td>
+                    <td>{{scenario.endDate | date:'medium'}}</td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit" ng-disabled="scenario.type == 'DEFAULT'"
+                                    ui-sref="scenario.end({id:scenario.id, makeDefault:true})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-floppy-saved"></span>
+                                <span class="hidden-xs hidden-sm">Incorporar</span>
+                            </button>
+                            <button type="submit" ng-disabled="scenario.type == 'DEFAULT'"
+                                    ui-sref="scenario.end({id:scenario.id, makeDefault:false})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-floppy-remove"></span>
+                                <span class="hidden-xs hidden-sm">Desativar</span>
+                            </button>
+                            <button type="submit" ng-disabled="scenario.type != 'TEST'"
+                                    ui-sref="scenario.delete({id:scenario.id})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm">Excluir</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

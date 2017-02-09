@@ -1,0 +1,14 @@
+<div ng-cloak id="paginaHome">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 translate="home.title">Bem-vindo!</h1>
+            <p class="lead" translate="home.subtitle">Bem-vindo ao Sistema de Apura&ccedil;&atilde;o da Gera&ccedil;&atilde;o</p>
+
+            <div ng-switch="vm.isAuthenticated()">
+                <div class="alert alert-success" ng-switch-when="true" translate="home.logged.message" translate-values="{username: '{{vm.account.login}}'}">
+                    Voc&ecirc; est&aacute; autenticado como "{{vm.account.firstName}} {{vm.account.lastName}}".
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

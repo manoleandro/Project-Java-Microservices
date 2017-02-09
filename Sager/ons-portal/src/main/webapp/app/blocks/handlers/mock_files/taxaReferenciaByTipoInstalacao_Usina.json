@@ -1,0 +1,199 @@
+[ {
+  "id" : "9b766858-6c24-4162-97c1-21ec8cf08c05",
+  "cos" : "COSR-S",
+  "usi" : "CANDIOTA III",
+  "usiid" : "RSUTEC",
+  "dtRef" : "2014-06-01",
+  "teif" : 0.1644,
+  "ip" : 0.1027,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "4f9f6d06-bd93-4b27-b37a-c25712e93b5d",
+  "cos" : "COSR-NCO",
+  "usi" : "TERMONORTE II",
+  "usiid" : "ROTN2",
+  "dtRef" : "1990-12-01",
+  "teif" : 0.05,
+  "ip" : 0.05,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "447aa08e-609d-41c0-897b-02fe33b82391",
+  "cos" : "COSR-NCO",
+  "usi" : "UHE JIRAU",
+  "usiid" : "ROUHJI",
+  "dtRef" : "2013-09-01",
+  "teif" : 0.005,
+  "ip" : 0.0,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "2215f19a-2869-4f1a-b648-72f794041366",
+  "cos" : "COSR-NE",
+  "usi" : "UT. FORTALEZA",
+  "usiid" : "CEUTFO",
+  "dtRef" : "2003-12-01",
+  "teif" : 0.0194,
+  "ip" : 0.0191,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "b7d1ef34-e3a9-4632-a364-8f99deee783a",
+  "cos" : "COSR-S",
+  "usi" : "P.MEDICI",
+  "usiid" : "RSUPME",
+  "dtRef" : "1974-01-01",
+  "teif" : 0.1338,
+  "ip" : 0.0978,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "7460dcb6-a265-4d6c-ae80-2895d1bb25b4",
+  "cos" : "COSR-NCO",
+  "usi" : "UHE BALBINA",
+  "usiid" : "AMBA",
+  "dtRef" : "2015-05-01",
+  "teif" : 0.0167,
+  "ip" : 0.054,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "e924d1ef-1486-4fa4-bce6-44c66ad4c4fe",
+  "cos" : "COSR-NCO",
+  "usi" : "TERMONORTE I",
+  "usiid" : "ROTNE1",
+  "dtRef" : "1990-12-01",
+  "teif" : 0.05,
+  "ip" : 0.05,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "4f10e051-3b7a-4651-a127-149f2719c26e",
+  "cos" : "COSR-SE",
+  "usi" : "UT MARIO LAGO",
+  "usiid" : "RJUTME",
+  "dtRef" : "2001-12-01",
+  "teif" : 0.035,
+  "ip" : 0.02,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "4eec5102-70da-4155-a6dd-f45ee6585ae8",
+  "cos" : "COSR-S",
+  "usi" : "BENTO MUNHOZ",
+  "usiid" : "PRGBM",
+  "dtRef" : "1980-10-01",
+  "teif" : 0.0292,
+  "ip" : 0.1212,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "3e837a0a-7931-4e35-b380-462c6c6d2c81",
+  "cos" : "COSR-NE",
+  "usi" : "PORTO PECEM I",
+  "usiid" : "CEUTPC",
+  "dtRef" : "2012-12-01",
+  "teif" : 0.017,
+  "ip" : 0.083,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "f46f9412-dab4-4601-8721-66b80820ff67",
+  "cos" : "COSR-NE",
+  "usi" : "PORTO PECEM I - CENA",
+  "usiid" : "TSTC1",
+  "dtRef" : "2012-12-01",
+  "teif" : 0.017,
+  "ip" : 0.083,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "5597f5fd-560f-45f3-a1d7-747e5f99eb4f",
+  "cos" : "COSR-SE",
+  "usi" : "B.FLUMINENSE",
+  "usiid" : "TSTU2",
+  "dtRef" : "2014-03-01",
+  "teif" : 0.02,
+  "ip" : 0.03,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "905fd000-2ef6-44f4-8026-25cfce31864f",
+  "cos" : "COSR-NE",
+  "usi" : "U.SOBRADINHO",
+  "usiid" : "BAUSB",
+  "dtRef" : "1979-04-01",
+  "teif" : 0.0253,
+  "ip" : 0.0809,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "c28f61da-2f91-49c0-a016-c9ee5c93dca2",
+  "cos" : "COSR-NCO",
+  "usi" : "STO.ANT.JARI",
+  "usiid" : "APSAJ",
+  "dtRef" : "2014-09-01",
+  "teif" : 0.0253,
+  "ip" : 0.0809,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "c828ce0d-0d65-43b2-8c0e-835fe96ee969",
+  "cos" : "COSR-NE",
+  "usi" : "PORTO PECEM II",
+  "usiid" : "CEUTPD",
+  "dtRef" : "2013-10-01",
+  "teif" : 0.015,
+  "ip" : 0.035,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "b02f0f76-53e5-40f4-9558-dc2ef98fa817",
+  "cos" : "COSR-S",
+  "usi" : "U.CHARQUEADAS",
+  "usiid" : "RSUTCH",
+  "dtRef" : "1962-01-01",
+  "teif" : 0.1394,
+  "ip" : 0.1225,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "382f93bd-01d1-464d-a3b2-1c7fecfa575a",
+  "cos" : "COSR-NE",
+  "usi" : "USINA XINGO",
+  "usiid" : "ALUXG",
+  "dtRef" : "1994-04-01",
+  "teif" : 0.06,
+  "ip" : 0.08,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "1d6677f6-85d6-4580-b457-f354d30812c5",
+  "cos" : "COSR-NE",
+  "usi" : "POTIGUAR",
+  "usiid" : "RNUPU",
+  "dtRef" : "2009-03-01",
+  "teif" : 0.02,
+  "ip" : 0.02,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "d85d0eba-e8d2-4712-8568-c0b8f82fc88c",
+  "cos" : "COSR-S",
+  "usi" : "CANDIOTA III",
+  "usiid" : "RSUTEC",
+  "dtRef" : "2011-01-01",
+  "teif" : 0.055,
+  "ip" : 0.041,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "647de8a9-ed97-4db1-b362-ef9d296a688f",
+  "cos" : "COSR-NE",
+  "usi" : "PORTO PECEM II - CEN",
+  "usiid" : "TSTC2",
+  "dtRef" : "2013-10-01",
+  "teif" : 0.015,
+  "ip" : 0.035,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "bc5bf5c4-df2b-461e-817a-a8f957c038e7",
+  "cos" : "COSR-NCO",
+  "usi" : "U.NV.VENECIA2 - DESA",
+  "usiid" : "TSTU1",
+  "dtRef" : "2013-10-01",
+  "teif" : 0.01,
+  "ip" : 0.02,
+  "tipoInstalacao" : "USINA"
+}, {
+  "id" : "d8759719-d438-4361-aef0-0096e7a3433f",
+  "cos" : "COSR-SE",
+  "usi" : "CAMPOS",
+  "usiid" : "RJUSCP",
+  "dtRef" : "1977-07-01",
+  "teif" : 0.0206,
+  "ip" : 0.1225,
+  "tipoInstalacao" : "USINA"
+} ]

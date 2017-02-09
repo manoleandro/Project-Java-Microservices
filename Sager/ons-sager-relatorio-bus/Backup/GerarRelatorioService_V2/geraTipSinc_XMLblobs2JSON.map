@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <inlinedXMLSchema><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">     
+                  <xsd:element name="dadosXML" nillable="true" type="xsd:string"/>     
+    <xsd:element name="arquivoXML" nillable="true" type="xsd:string"/>     
+            </xsd:schema>]]></inlinedXMLSchema>
+    <input inlinedXMLSchema="true" path="../schema_0.xsd" var="var1"/>
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/BlobMessage.xsd" var="var4"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var"/>
+    <imports>
+        <import kind="java" location="com.sager.Utils" namespace="xalan://com.sager.Utils"/>
+    </imports>
+    <namespaces>
+        <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="supplement" prefix="in2" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SignatureDTO"/>
+        <namespace kind="supplement" prefix="in4" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/RequestDTO"/>
+        <namespace kind="supplement" prefix="in3" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/ApuracaoDTO"/>
+        <namespace kind="supplement" prefix="in" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO"/>
+        <namespace kind="supplement" prefix="in19" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO"/>
+        <namespace kind="supplement" prefix="in18" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/HeaderDTO"/>
+        <namespace kind="supplement" prefix="in15" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO"/>
+        <namespace kind="supplement" prefix="in14" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/GeracaoDTO"/>
+        <namespace kind="supplement" prefix="in17" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/UnidadeGeradoraDTO"/>
+        <namespace kind="supplement" prefix="in16" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ReplyDTO"/>
+        <namespace kind="supplement" prefix="in9" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/GeraDTO"/>
+        <namespace kind="supplement" prefix="in11" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO"/>
+        <namespace kind="supplement" prefix="in10" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO"/>
+        <namespace kind="supplement" prefix="in22" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO"/>
+        <namespace kind="supplement" prefix="in13" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MontanteAlocacaoESSDTO"/>
+        <namespace kind="supplement" prefix="in21" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/AtuouComoDTO"/>
+        <namespace kind="supplement" prefix="in12" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipSinc_MessageDTO"/>
+        <namespace kind="supplement" prefix="in20" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/CondicaoOperativaDTO"/>
+        <namespace kind="supplement" prefix="in5" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipSinc_PayloadDTO"/>
+        <namespace kind="supplement" prefix="in6" uri="http://schemas.ons.org.br/cnx/dto/2011/04/07/MotivoDespachoDTO"/>
+        <namespace kind="supplement" prefix="in7" uri="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO"/>
+        <namespace kind="supplement" prefix="in8" uri="http://schemas.ons.org.br/ger/dto/2011/04/07/CompensadorDTO"/>
+        <namespace kind="extension" prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+        <namespace kind="extension" prefix="Utils" uri="xalan://com.sager.Utils"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="geraTipSinc_XMLblobs2JSON">
+        <input path="$var4/mb:msg(BLOB,assembly,BLOB,Properties)" var="MessageAssembly"/>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var/mb:msg(JSON,assembly,JSON,Properties)" var="ComIbmMessageAssembly_JSON">
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONObject" ref="var" var="anyType"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="arquivoXML" ref="var1" var="any"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="dadosXML" ref="var1" var="any1"/>
+        </output>
+        <assign value="TIPSINC.XML">
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/arquivoXML"/>
+        </assign>
+        <function ref="xs:base64Binary">
+            <input path="$MessageAssembly/BLOB/text()" var="value"/>
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/dadosXML"/>
+            <param name="primitive" value="$BLOB"/>
+        </function>
+    </mappingDeclaration>
+</mappingRoot>

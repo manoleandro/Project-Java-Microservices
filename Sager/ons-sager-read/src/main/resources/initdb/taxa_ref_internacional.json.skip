@@ -1,0 +1,24 @@
+[
+	{
+		"_class": "br.org.ons.sager.read.domain.TaxaRefInternacional",
+		"id": "lIklzOnTStCY-drsIFfZvg",
+		"tipo": "Interligação Internacional",
+		"cos": "COSR-S",
+		"usiid": "RSGBI1",
+		"usi": "CI CV.GARABI 1",
+		"dtRef": "2001-01-01",
+		"teif": 0,
+		"ip": 0.03
+	},
+	{
+		"_class": "br.org.ons.sager.read.domain.TaxaRefInternacional",
+		"id": "FQfktjd0Suuz64oKoNxFgw",
+		"tipo": "Interligação Internacional",
+		"cos": "COSR-S",
+		"usiid": "RSGBI2",
+		"usi": "CI CV.GARABI 2",
+		"dtRef": "2001-01-01",
+		"teif": 0,
+		"ip": 0.0274
+	}
+]

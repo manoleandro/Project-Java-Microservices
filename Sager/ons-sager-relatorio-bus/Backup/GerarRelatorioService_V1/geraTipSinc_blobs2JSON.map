@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <inlinedXMLSchema><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+    <xsd:element name="blobDat" type="xsd:string"/> 
+    <xsd:element name="dadosXML" nillable="true" type="xsd:string"/> 
+    <xsd:element name="arquivoXML" nillable="true" type="xsd:string"/> 
+    <xsd:element name="dadosDat" nillable="true" type="xsd:string"/> 
+    <xsd:element name="arquivoDat" nillable="true" type="xsd:string"/> 
+</xsd:schema>]]></inlinedXMLSchema>
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/BlobMessage.xsd" var="var2"/>
+    <input inlinedXMLSchema="true" path="../schema_0.xsd" var="var1"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="extension" prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="geraTipSinc_blobs2JSON">
+        <input path="$var2/mb:msg(BLOB,assembly,BLOB,LocalEnvironment,Properties)" var="ComIbmMessageAssembly_BLOB">
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_BLOB/LocalEnvironment/Variables/any" qualifier="blobDat" ref="var1"/>
+        </input>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var/mb:msg(JSON,assembly,JSON,Properties)" var="ComIbmMessageAssembly_JSON">
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONObject" ref="var"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="arquivoDat" ref="var1"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="dadosDat" ref="var1"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="arquivoXML" ref="var1"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/any" qualifier="dadosXML" ref="var1"/>
+        </output>
+        <move>
+            <input path="$ComIbmMessageAssembly_BLOB/Properties"/>
+            <output path="$ComIbmMessageAssembly_JSON/Properties"/>
+            <override>
+                <assign value="">
+                    <output path="$ComIbmMessageAssembly_JSON/Properties/MessageSet"/>
+                </assign>
+                <assign value="">
+                    <output path="$ComIbmMessageAssembly_JSON/Properties/MessageType"/>
+                </assign>
+                <assign value="">
+                    <output path="$ComIbmMessageAssembly_JSON/Properties/MessageFormat"/>
+                </assign>
+                <assign value="1208">
+                    <output path="$ComIbmMessageAssembly_JSON/Properties/CodedCharSetId"/>
+                </assign>
+            </override>
+        </move>
+        <assign value="TIPSINC.dat">
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/arquivoDat"/>
+        </assign>
+        <move>
+            <input path="$ComIbmMessageAssembly_BLOB/LocalEnvironment/Variables/blobDat"/>
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/dadosDat"/>
+        </move>
+        <assign value="TIPSINC.XML">
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/arquivoXML"/>
+        </assign>
+        <function ref="xs:base64Binary">
+            <input path="$ComIbmMessageAssembly_BLOB/BLOB/text()" var="value"/>
+            <output path="$ComIbmMessageAssembly_JSON/JSON/spath('Data',2)/dadosXML"/>
+            <param name="primitive" value="$value"/>
+        </function>
+    </mappingDeclaration>
+</mappingRoot>

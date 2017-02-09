@@ -1,0 +1,24 @@
+<settings>
+  <!-- proxies>
+   <proxy>
+      <id>sorocaba-http</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>sorocaba.ons.org.br</host>
+      <port>80</port>
+      <username></username>
+      <password></password>
+      <nonProxyHosts></nonProxyHosts>
+    </proxy>
+   <proxy>
+      <id>sorocaba-https</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>sorocaba.ons.org.br</host>
+      <port>80</port>
+      <username></username>
+      <password></password>
+      <nonProxyHosts></nonProxyHosts>
+    </proxy>
+  </proxies -->
+</settings>

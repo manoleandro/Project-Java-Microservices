@@ -1,0 +1,17 @@
+{
+    "onsPortalApp": {
+        "manterParam" : {
+            "home": {
+                "title": "Keep Parameterization",
+                "checkParam": "Check Parametrization",
+                "scheduleTo": "Schedule for",
+                "grindingTask": "Grinding Task",
+                "message1": "The transfer events will be held monthly and automatically on the date and time below: ",
+                "message2": "Weekday = 00 and time = 00:00 indicates immediate scheduling and other parameterization will be ignored.",
+                "save": "Save",
+                "delete": "Delete",
+                "change": "Change"
+            }
+        }
+	}
+}

@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.org.ons.exemplo</groupId>
+	<artifactId>ons-exemplo-common</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>ons-exemplo-common</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<ons-platform.version>0.0.1-SNAPSHOT</ons-platform.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>br.org.ons.platform</groupId>
+			<artifactId>ons-platform-common</artifactId>
+			<version>${ons-platform.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	
+    <repositories>
+        <repository>
+            <id>onsrepo</id>
+            <name>ONS Artifacts Repo</name>
+            <url>http://nexus-tsuru.rhcloud.com/nexus/content/repositories/ons/</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+   		<snapshotRepository>
+      		<id>onsrepo</id>
+	   		<url>http://nexus-tsuru.rhcloud.com/nexus/content/repositories/ons/</url>
+	   </snapshotRepository>
+	</distributionManagement>
+</project>

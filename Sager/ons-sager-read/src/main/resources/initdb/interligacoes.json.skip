@@ -1,0 +1,107 @@
+[
+	{
+		"_class": "br.org.ons.sager.read.domain.Interligacoes",
+		"id": "PYACY",
+		"versao": 1,
+		"iddpp": 383001,
+		"cintdpp": 383,
+		"dtdesativacao": "2000-06-01",
+		"dtimplantacao": "2000-06-01",
+		"dtprorrogacaorenovacaoconcessao": "2000-06-01",
+		"nome": "CI ACARAY",
+		"qthorasservico": 0,
+		"idagente": "COG",
+		"nomeagente": "COPEL-GT",
+		"siglaagente": "COG",
+		"centroopid": "S",
+		"nomecentroop": "COSR-S",
+		"equipamentos":[
+			{"nome": "CI ACARAY - Equip 1", "id":"CI ACARAY"}                
+		],
+		"minorVersion" : 1
+	},
+	{
+		"_class": "br.org.ons.sager.read.domain.Interligacoes",
+		"id": "RSCUR",
+		"versao": 1,
+		"iddpp": 382001,
+		"cintdpp": 382,
+		"dtdesativacao": "2000-06-01",
+		"dtimplantacao": "2000-06-01",
+		"dtprorrogacaorenovacaoconcessao": "2000-06-01",
+		"nome": "CI CV.URUGUAIANA",
+		"qthorasservico": 0,
+		"idagente": "ESU",
+		"nomeagente": "ELETROSUL",
+		"siglaagente": "ESU",
+		"centroopid": "S",
+		"nomecentroop": "COSR-S",
+		"equipamentos":[
+			{"nome": "CI CV.URUGUAIANA - Equip 1", "id":"CI CV.URUGUAIANA"}                
+		],
+		"minorVersion" : 1
+	},
+	{
+		"_class": "br.org.ons.sager.read.domain.Interligacoes",
+		"id": "RSGBI1",
+		"versao": 1,
+		"iddpp": 37001,
+		"cintdpp": 37,
+		"dtdesativacao": "2000-06-21",
+		"dtimplantacao": "2000-06-21",
+		"dtprorrogacaorenovacaoconcessao": "2000-06-21",
+		"nome": "CI CV.GARABI 1",
+		"qthorasservico": 0,
+		"idagente": "CIE",
+		"nomeagente": "CIEN",
+		"siglaagente": "CIE",
+		"centroopid": "S",
+		"nomecentroop": "COSR-S",
+		"equipamentos":[
+			{"nome": "CI CV.GARABI 1 - Equip 1", "id":"CI CV.GARABI 1"}                
+		],
+		"minorVersion" : 1
+	},
+	{
+		"_class": "br.org.ons.sager.read.domain.Interligacoes",
+		"id": "RSGBI2",
+		"versao": 1,
+		"iddpp": 38001,
+		"cintdpp": 38,
+		"dtdesativacao": "2002-05-01",
+		"dtimplantacao": "2002-05-01",
+		"dtprorrogacaorenovacaoconcessao": "2002-05-01",
+		"nome": "CI CV.GARABI 2",
+		"qthorasservico": 0,
+		"idagente": "CIE",
+		"nomeagente": "CIEN",
+		"siglaagente": "CIE",
+		"centroopid": "S",
+		"nomecentroop": "COSR-S",
+		"equipamentos":[
+			{"nome": "CI CV.GARABI 2 - Equip 1", "id":"CI CV.GARABI 2"}                
+		],
+		"minorVersion" : 1
+	},
+	{
+		"_class": "br.org.ons.sager.read.domain.Interligacoes",
+		"id": "RSLIV2",
+		"versao": 1,
+		"iddpp": 384001,
+		"cintdpp": 384,
+		"dtdesativacao": "2001-07-16",
+		"dtimplantacao": "2001-07-16",
+		"dtprorrogacaorenovacaoconcessao": "2001-07-16",
+		"nome": "CI LIVRAMENTO 2",
+		"qthorasservico": 0,
+		"idagente": "ESU",
+		"nomeagente": "ELETROSUL",
+		"siglaagente": "ESU",
+		"centroopid": "S",
+		"nomecentroop": "COSR-S",
+		"equipamentos":[
+			{"nome": "CI CV.URUGUAIANA - Equip 1", "id":"CI CV.URUGUAIANA"}                
+		],
+		"minorVersion" : 1
+	}
+]

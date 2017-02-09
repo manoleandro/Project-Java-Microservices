@@ -1,0 +1,61 @@
+<div ng-cloak></div>
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="vm.clear()">&times;</button>
+		<h4 class="modal-title" id="exampleModalLabel">Comentários do Cálculo de Disponibilidades 
+			<span class="fa fa-comments-o"></span>
+		</h4>
+	</div>
+
+	<fieldset>
+		<div class="row">
+			<section class="col col-12" style="height: 250px; overflow-y: scroll; overflow-x: hidden;">
+				  <div id="comentariosAviso">
+					<div class="alert alert-warning alert-dismissible" role="alert" ng-hide="mostrarComentariosAviso" ng-repeat="comentario in vm.comentariosAviso">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarComentariosAviso=true">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<strong>Aviso!</strong>
+						<div class="mensagem"> 
+							Mensagem: {{comentario.descricao}};
+							<span ng-show="{{comentario.dataInicio != null}}"> Data início: {{comentario.dataInicio | date: "dd/MM/yyyy"}};</span>
+							<span ng-show="{{comentario.dataFim != null}}"> Data fim: {{comentario.dataFim | date: "dd/MM/yyyy"}}</span>
+						</div>
+					</div>
+				</div>
+				 <div id="comentariosErro">
+					<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarComentariosErro" ng-repeat="comentario in vm.comentariosErro">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarComentariosErro=true">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<strong>Falha!</strong>
+						<div class="mensagem">
+							Mensagem: {{comentario.descricao}};
+							<span ng-show="{{comentario.dataInicio != null}}"> Data início: {{comentario.dataInicio | date: "dd/MM/yyyy"}};</span>
+							<span ng-show="{{comentario.dataFim != null}}"> Data fim: {{comentario.dataFim | date: "dd/MM/yyyy"}}</span>
+						</div>
+					</div>
+				</div>
+				 <div id="comentarios">
+					<div class="alert alert-info alert-dismissible" role="alert" ng-hide="mostrarComentarios" ng-repeat="comentario in vm.comentarios">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarComentarios=true">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<strong>Comentário!</strong>
+						<div class="mensagem"> 
+							Mensagem: {{comentario.descricao}};
+							<span ng-show="{{comentario.dataInicio != null}}"> Data início: {{comentario.dataInicio | date: "dd/MM/yyyy"}};</span>
+							<span ng-show="{{comentario.dataFim != null}}"> Data fim: {{comentario.dataFim | date: "dd/MM/yyyy"}}</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="text-right" style="margin: 10px 0px;">
+			<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="vm.clear()">
+				<span class="fa fa-chevron-left"></span>&nbsp;
+				<span translate="onsPortalApp.disp.home.back">Voltar</span>
+			</button>
+		</footer>
+	</fieldset>
+</form>

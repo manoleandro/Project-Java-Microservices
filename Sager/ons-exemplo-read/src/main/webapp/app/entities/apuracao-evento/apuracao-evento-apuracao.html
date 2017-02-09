@@ -1,0 +1,30 @@
+<div>
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="vm.clear()">&times;</button>
+        <h4 class="modal-title" id="myApuracaoEventoLabel">Apurar Novos  Eventos ({{vm.selectedUsina.nomeCurto}})</h4>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group">
+            <label class="control-label" for="field_mesAnoApuracao">Mes/Ano Apuracao</label>
+                <div class="input-group">
+                    <input id="field_mesAnoApuracao" type="text" class="form-control" name="mesAnoApuracao" datepicker-options="{minMode: 'month'}" enable-time="false" 
+                    		datetime-picker="MMMM/yyyy" ng-model="vm.mesAnoApuracao" is-open="vm.datePickerOpenStatus.mesAnoApuracao"
+                      />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="vm.openCalendar('mesAnoApuracao')"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="button" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary" ng-click="vm.save()">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</div>

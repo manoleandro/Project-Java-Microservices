@@ -1,0 +1,826 @@
+[
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG1",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG2",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG3",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG4",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG5",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2003-12-15T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-01-03T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2006-12-26T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2009-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2010-02-02T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2011-12-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2012-04-18T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-05T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-17T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2014-11-27T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-03-21T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-06-25T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-07-01T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-06T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-10T00:00:00"
+		},
+		"valor": 527
+	},
+	{
+		"_class": "br.org.ons.geracao.cadastro.PotenciaCalculo",
+		"idEquipamento": "ALUXG-0UG6",
+		"vigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2015-11-12T00:00:00"
+		},
+		"valor": 527
+	}
+]

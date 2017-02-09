@@ -1,0 +1,1112 @@
+[1mdiff --git a/ons-platform-bus-mock/src/main/resources/config/application-dev.yml b/ons-platform-bus-mock/src/main/resources/config/application-dev.yml[m
+[1mindex 246c784..c4d15c4 100644[m
+[1m--- a/ons-platform-bus-mock/src/main/resources/config/application-dev.yml[m
+[1m+++ b/ons-platform-bus-mock/src/main/resources/config/application-dev.yml[m
+[36m@@ -41,8 +41,8 @@[m [mmq:[m
+     host: localhost[m
+     port: 1414[m
+     channel: SYSTEM.DEF.SVRCONN[m
+[31m-    username: MUSR_MQADMIN[m
+[31m-    password: temp@123[m
+[31m-#    username: mqm[m
+[31m-#    password: mqm[m
+[32m+[m[32m#    username: MUSR_MQADMIN[m
+[32m+[m[32m#    password: temp@123[m
+[32m+[m[32m    username: mqm[m
+[32m+[m[32m    password: mqm[m
+     [m
+\ No newline at end of file[m
+[1mdiff --git a/ons-platform/pom.xml b/ons-platform/pom.xml[m
+[1mindex 3243d8a..999f77e 100644[m
+[1m--- a/ons-platform/pom.xml[m
+[1m+++ b/ons-platform/pom.xml[m
+[36m@@ -638,7 +638,7 @@[m
+                     <password />[m
+                     <referenceUrl>hibernate:spring:br.org.ons.platform.domain?dialect=org.hibernate.dialect.MySQL5InnoDBDialect&amp;hibernate.ejb.naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy</referenceUrl>[m
+                     <verbose>true</verbose>[m
+[31m-                    <logging>debug</logging>[m
+[32m+[m[32m                    <logging>info</logging>[m
+                 </configuration>[m
+             </plugin>[m
+             <plugin>[m
+[1mdiff --git a/ons-platform/src/main/resources/config/application-dev.yml b/ons-platform/src/main/resources/config/application-dev.yml[m
+[1mindex f080da9..49d9ea9 100644[m
+[1m--- a/ons-platform/src/main/resources/config/application-dev.yml[m
+[1m+++ b/ons-platform/src/main/resources/config/application-dev.yml[m
+[36m@@ -27,8 +27,8 @@[m [mspring:[m
+         url: jdbc:h2:tcp://localhost/./target/h2db/db/onsplatform;DB_CLOSE_DELAY=-1;INIT=create schema if not exists platform[m
+ #        url: jdbc:h2:tcp://10.11.106.31/./target/h2db/db/onsplatform;DB_CLOSE_DELAY=-1;INIT=create schema if not exists platform[m
+         name:[m
+[31m-        username: platform[m
+[31m-        password: temp@123[m
+[32m+[m[32m        username: sa[m
+[32m+[m[32m        password:[m[41m [m
+ [m
+         hikari:[m
+             data-source-properties:[m
+[36m@@ -80,10 +80,10 @@[m [mmq:[m
+     host: localhost[m
+     port: 1414[m
+     channel: SYSTEM.DEF.SVRCONN[m
+[31m-    username: MUSR_MQADMIN[m
+[31m-    password: temp@123[m
+[31m-#    username: mqm[m
+[31m-#    password: mqm[m
+[32m+[m[32m#    username: MUSR_MQADMIN[m
+[32m+[m[32m#    password: temp@123[m
+[32m+[m[32m    username: mqm[m
+[32m+[m[32m    password: mqm[m
+ [m
+ # ===================================================================[m
+ # JHipster specific properties[m
+[1mdiff --git a/ons-portal/src/main/webapp/app/app.module.js b/ons-portal/src/main/webapp/app/app.module.js[m
+[1mindex 3bf6a40..1ddc202 100644[m
+[1m--- a/ons-portal/src/main/webapp/app/app.module.js[m
+[1m+++ b/ons-portal/src/main/webapp/app/app.module.js[m
+[36m@@ -33,24 +33,24 @@[m
+             'ui.grid.autoResize', [m
+             'ui.grid.pinning',[m
+             'ui.grid.exporter',[m
+[31m-            'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.expandable',[m
+[31m-            'ngMockE2E'[m
+[32m+[m[32m            'ui.grid.edit', 'ui.grid.rowEdit', 'ui.grid.cellNav', 'ui.grid.expandable'[m
+[32m+[m[32m//            'ngMockE2E'[m
+         ])[m
+         .run(run);[m
+ [m
+[31m-//    run.$inject = ['stateHandler', 'translationHandler'];[m
+[32m+[m[32m    run.$inject = ['stateHandler', 'translationHandler'];[m
+ [m
+[31m-//    function run(stateHandler, translationHandler) {[m
+[31m-//        stateHandler.initialize();[m
+[31m-//        translationHandler.initialize();[m
+[31m-//    }[m
+[31m-    run.$inject = ['stateHandler', 'translationHandler','mockHandler'];[m
+[31m-    [m
+[31m-    function run(stateHandler, translationHandler,mockHandler) {[m
+[31m-    	stateHandler.initialize();[m
+[31m-    	translationHandler.initialize();[m
+[31m-    	mockHandler.initialize();[m
+[32m+[m[32m    function run(stateHandler, translationHandler) {[m
+[32m+[m[32m        stateHandler.initialize();[m
+[32m+[m[32m        translationHandler.initialize();[m
+     }[m
+[32m+[m[32m//    run.$inject = ['stateHandler', 'translationHandler','mockHandler'];[m
+[32m+[m[41m    [m
+[32m+[m[32m//    function run(stateHandler, translationHandler,mockHandler) {[m
+[32m+[m[32m//    	stateHandler.initialize();[m
+[32m+[m[32m//    	translationHandler.initialize();[m
+[32m+[m[32m//    	mockHandler.initialize();[m
+[32m+[m[32m//    }[m
+     [m
+     // Desativando warnings do Aria (incluso no Material Design)[m
+     angular[m
+[1mdiff --git a/ons-portal/src/main/webapp/app/blocks/handlers/mock.handler.js b/ons-portal/src/main/webapp/app/blocks/handlers/mock.handler.js[m
+[1mindex 0da3b6f..42913ba 100644[m
+[1m--- a/ons-portal/src/main/webapp/app/blocks/handlers/mock.handler.js[m
+[1m+++ b/ons-portal/src/main/webapp/app/blocks/handlers/mock.handler.js[m
+[36m@@ -1,291 +1,291 @@[m
+[31m-(function() {[m
+[31m-	'use strict';[m
+[31m-[m
+[31m-	angular.module('onsPortalApp').factory('mockHandler', mockHandler);[m
+[31m-[m
+[31m-	mockHandler.$inject = [ '$httpBackend', '$http' ];[m
+[31m-[m
+[31m-	function mockHandler($httpBackend, $http) {[m
+[31m-		return {[m
+[31m-			initialize : initialize[m
+[31m-		};[m
+[31m-[m
+[31m-		function initialize() {[m
+[31m-			[m
+[31m-			var usinas;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/usinas.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  usinas = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var interligacaoInternacional;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/interligacaoInternacional.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  interligacaoInternacional = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var instalacaoTaxasByInstalacaoPeriodo;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/instalacaoTaxasByInstalacaoPeriodo.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  instalacaoTaxasByInstalacaoPeriodo = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var agendamentosCalculoByInstalacao;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo-by-instalacao.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  agendamentosCalculoByInstalacao = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var agendamentosCalculo;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  agendamentosCalculo = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var notificacaoByRoles;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/notificacaoByRoles.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  notificacaoByRoles = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var getNotificacoesLidasByUser;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/getNotificacoesLidasByUser.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  getNotificacoesLidasByUser = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			//OBS - jcardoso - retorna [][m
+[31m-			var lerNotificacao = {};[m
+[31m-			[m
+[31m-			var memoriacaAcumuladaRegraNova = function(method, url, data, headers, params) {[m
+[31m-				var result;[m
+[31m-				if (params.taxaMemoriaCalculo.indexOf('acumulada') > -1 && new Date(params.dataApuracao) > new Date(2014,9,1) ){[m
+[31m-					$.ajax({[m
+[31m-					  url: 'app/blocks/handlers/mock_files/memoriaAcumuladaRegraNova.json',[m
+[31m-					  async: false,[m
+[31m-					  dataType: 'json',[m
+[31m-					  success: function (response) {[m
+[31m-						  result = response;[m
+[31m-					  }[m
+[31m-					});[m
+[31m-				} else if (params.taxaMemoriaCalculo.indexOf('acumulada') > -1  ){[m
+[31m-					$.ajax({[m
+[31m-						  url: 'app/blocks/handlers/mock_files/memoriaAcumuladaRegraAntiga.json',[m
+[31m-						  async: false,[m
+[31m-						  dataType: 'json',[m
+[31m-						  success: function (response) {[m
+[31m-							  result = response;[m
+[31m-						  }[m
+[31m-						});[m
+[31m-				} else {[m
+[31m-					$.ajax({[m
+[31m-						  url: 'app/blocks/handlers/mock_files/memoriaMensal.json',[m
+[31m-						  async: false,[m
+[31m-						  dataType: 'json',[m
+[31m-						  success: function (response) {[m
+[31m-							  result = response;[m
+[31m-						  }[m
+[31m-						});[m
+[31m-				}[m
+[31m-				[m
+[31m-				return [200, result, {}, ""] ;[m
+[31m-			};[m
+[31m-			[m
+[31m-			var eventos;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/eventos.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  eventos = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var eventos2407;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/eventos2407.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  eventos2407 = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var agendamentosCalculoByDate;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo-by-date.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  agendamentosCalculoByDate = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var agendamentosRetificacoesByDate;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/agendamentos-retificacoes-by-date.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  agendamentosRetificacoesByDate = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-			[m
+[31m-			var taxaReferenciaByTipoInstalacao = function(method, url, data, headers, params) {[m
+[31m-				var result;[m
+[31m-				if (params.tipoInstalacao.indexOf('USINA') > -1 ){[m
+[31m-					$.ajax({[m
+[31m-					  url: 'app/blocks/handlers/mock_files/taxaReferenciaByTipoInstalacao_Usina.json',[m
+[31m-					  async: false,[m
+[31m-					  dataType: 'json',[m
+[31m-					  success: function (response) {[m
+[31m-						  result = response;[m
+[31m-					  }[m
+[31m-					});[m
+[31m-				}[m
+[31m-				return [200, result, {}, ""] ;[m
+[31m-			}[m
+[31m-			[m
+[31m-			var parametrizacaoRetificacoes;[m
+[31m-			$.ajax({[m
+[31m-			  url: 'app/blocks/handlers/mock_files/parametrizacao-retificacoes.json',[m
+[31m-			  async: false,[m
+[31m-			  dataType: 'json',[m
+[31m-			  success: function (response) {[m
+[31m-				  parametrizacaoRetificacoes = response;[m
+[31m-			  }[m
+[31m-			});[m
+[31m-			[m
+[31m-			var parametrizacaoRetificacoesPOST;[m
+[31m-			$.ajax({[m
+[31m-			  url: 'app/blocks/handlers/mock_files/parametrizacao-retificacoes_POST.json',[m
+[31m-			  async: false,[m
+[31m-			  dataType: 'json',[m
+[31m-			  success: function (response) {[m
+[31m-				  parametrizacaoRetificacoesPOST = response;[m
+[31m-			  }[m
+[31m-			});[m
+[31m-			[m
+[31m-			var dispPUT;[m
+[31m-			$.ajax({[m
+[31m-				  url: 'app/blocks/handlers/mock_files/disp_PUT.json',[m
+[31m-				  async: false,[m
+[31m-				  dataType: 'json',[m
+[31m-				  success: function (response) {[m
+[31m-					  dispPUT = response;[m
+[31m-				  }[m
+[31m-				});[m
+[31m-				[m
+[31m-			var dispPOST = function(method, url, data, headers, params) {[m
+[31m-				var result;[m
+[31m-				if (data.indexOf('\"id\":\"ALUXG\"') > -1 ){[m
+[31m-					$.ajax({[m
+[31m-					  url: 'app/blocks/handlers/mock_files/disp_POST.json',[m
+[31m-					  async: false,[m
+[31m-					  dataType: 'json',[m
+[31m-					  success: function (response) {[m
+[31m-						  result = response;[m
+[31m-					  }[m
+[31m-					});[m
+[31m-				} else if (data.indexOf('\"id\":\"RJUTME\"') > -1 ){[m
+[31m-					$.ajax({[m
+[31m-						  url: 'app/blocks/handlers/mock_files/disp_POST2.json',[m
+[31m-						  async: false,[m
+[31m-						  dataType: 'json',[m
+[31m-						  success: function (response) {[m
+[31m-							  result = response;[m
+[31m-						  }[m
+[31m-						});[m
+[31m-					}[m
+[31m-				[m
+[31m-				[m
+[31m-				return [200, result, {}, ""] ;[m
+[31m-			};[m
+[31m-			[m
+[31m-			var excelDisp = function(method, url, data, headers, params) {[m
+[31m-				var result;[m
+[31m-				$.ajax({[m
+[31m-					  url: 'app/blocks/handlers/mock_files/CalculoDisponibilidade.xlsx',[m
+[31m-					  async: false,[m
+[31m-					  dataType: 'vnd.openxmlformats-officedocument.spreadsheetml.sheet',[m
+[31m-					  success: function (response) {[m
+[31m-						  result = response;[m
+[31m-					  }[m
+[31m-				});[m
+[31m-//				var blob = new Blob(result, {[m
+[31m-//		            type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8"[m
+[31m-//		        });[m
+[31m-				[m
+[31m-				saveAs(result, "CalculoDisponibilidade.xlsx");[m
+[31m-				[m
+[31m-				return [200, result, {}, ""] ;[m
+[31m-			};[m
+[31m-			[m
+[31m-	        [m
+[31m-			[m
+[31m-			$httpBackend.whenGET(/\/interligacoes.*/).respond(interligacaoInternacional);[m
+[31m-			$httpBackend.whenGET(/\/usinas.*/).respond(usinas);[m
+[31m-			//2405 -- Manter Agendamentos - OBS cuidado com a ordem dessa URL, pode ser influenciada pela URL do 2401 - agendamentos-calculo[m
+[31m-			$httpBackend.whenPOST(/\/agendamentos-calculo-by-date.*/).respond(agendamentosCalculoByDate);[m
+[31m-			$httpBackend.whenPOST(/\/agendamentos-retificacoes-by-date.*/).respond(agendamentosRetificacoesByDate);[m
+[31m-			//2401 -- Solicitar Cálculo de Taxas[m
+[31m-			$httpBackend.whenPOST(/\/agendamentos-calculo-by-instalacao.*/).respond(agendamentosCalculoByInstalacao);[m
+[31m-			$httpBackend.whenPOST(/\/agendamentos-calculo.*/).respond(agendamentosCalculo);[m
+[31m-			//2402 - Consultar Taxas[m
+[31m-			$httpBackend.whenPOST(/\/instalacaoTaxasByInstalacaoPeriodo.*/).respond(instalacaoTaxasByInstalacaoPeriodo);[m
+[31m-			$httpBackend.whenPOST(/\/memoriacalculo.*/).respond(memoriacaAcumuladaRegraNova);[m
+[31m-			$httpBackend.whenPUT(/\/eventos.*/).respond(eventos);[m
+[31m-			//2406 -- Exibir Notificações[m
+[31m-			$httpBackend.whenGET(/\/notificacaoByRoles.*/).respond(notificacaoByRoles);[m
+[31m-			$httpBackend.whenGET(/\/getNotificacoesLidasByUser.*/).respond(getNotificacoesLidasByUser);[m
+[31m-			$httpBackend.whenPOST(/\/lerNotificacao.*/).respond(lerNotificacao);[m
+[31m-			//2407 -- Consultar Eventos[m
+[31m-			$httpBackend.whenPOST(/\/eventos.*/).respond(eventos2407);[m
+[31m-			//Taxa Ref[m
+[31m-			$httpBackend.whenGET(/\/taxaReferenciaByTipoInstalacao.*/).respond(taxaReferenciaByTipoInstalacao);[m
+[31m-			//0607 -- Manter Parametrização[m
+[31m-			$httpBackend.whenGET(/\/parametrizacao-retificacoes.*/).respond(parametrizacaoRetificacoes);[m
+[31m-			$httpBackend.whenPOST(/\/parametrizacao-retificacoes.*/).respond(parametrizacaoRetificacoesPOST);[m
+[31m-			//2403 -- Consultar Disponibilidades[m
+[31m-			$httpBackend.whenPUT(/\/disp.*/).respond(dispPUT);[m
+[31m-			$httpBackend.whenPOST(/\/disp.*/).respond(dispPOST);[m
+[31m-			$httpBackend.whenPOST(/\/excel-disp.*/).respond(excelDisp);[m
+[31m-			[m
+[31m-			[m
+[31m-			$httpBackend.whenPOST(/.*/).passThrough();[m
+[31m-			$httpBackend.whenGET(/.*/).passThrough();[m
+[31m-			$httpBackend.whenPUT(/.*/).passThrough();[m
+[31m-			$httpBackend.whenDELETE(/.*/).passThrough();[m
+[32m+[m[32m//(function() {[m
+[32m+[m[32m//	'use strict';[m
+ //[m
+[32m+[m[32m//	angular.module('onsPortalApp').factory('mockHandler', mockHandler);[m
+[32m+[m[32m//[m
+[32m+[m[32m//	mockHandler.$inject = [ '$httpBackend', '$http' ];[m
+[32m+[m[32m//[m
+[32m+[m[32m//	function mockHandler($httpBackend, $http) {[m
+[32m+[m[32m//		return {[m
+[32m+[m[32m//			initialize : initialize[m
+[32m+[m[32m//		};[m
+[32m+[m[32m//[m
+[32m+[m[32m//		function initialize() {[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var usinas;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/usinas.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  usinas = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var interligacaoInternacional;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/interligacaoInternacional.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  interligacaoInternacional = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var instalacaoTaxasByInstalacaoPeriodo;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/instalacaoTaxasByInstalacaoPeriodo.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  instalacaoTaxasByInstalacaoPeriodo = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var agendamentosCalculoByInstalacao;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo-by-instalacao.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  agendamentosCalculoByInstalacao = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var agendamentosCalculo;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  agendamentosCalculo = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var notificacaoByRoles;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/notificacaoByRoles.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  notificacaoByRoles = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var getNotificacoesLidasByUser;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/getNotificacoesLidasByUser.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  getNotificacoesLidasByUser = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			//OBS - jcardoso - retorna [][m
+[32m+[m[32m//			var lerNotificacao = {};[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var memoriacaAcumuladaRegraNova = function(method, url, data, headers, params) {[m
+[32m+[m[32m//				var result;[m
+[32m+[m[32m//				if (params.taxaMemoriaCalculo.indexOf('acumulada') > -1 && new Date(params.dataApuracao) > new Date(2014,9,1) ){[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//					  url: 'app/blocks/handlers/mock_files/memoriaAcumuladaRegraNova.json',[m
+[32m+[m[32m//					  async: false,[m
+[32m+[m[32m//					  dataType: 'json',[m
+[32m+[m[32m//					  success: function (response) {[m
+[32m+[m[32m//						  result = response;[m
+[32m+[m[32m//					  }[m
+[32m+[m[32m//					});[m
+[32m+[m[32m//				} else if (params.taxaMemoriaCalculo.indexOf('acumulada') > -1  ){[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//						  url: 'app/blocks/handlers/mock_files/memoriaAcumuladaRegraAntiga.json',[m
+[32m+[m[32m//						  async: false,[m
+[32m+[m[32m//						  dataType: 'json',[m
+[32m+[m[32m//						  success: function (response) {[m
+[32m+[m[32m//							  result = response;[m
+[32m+[m[32m//						  }[m
+[32m+[m[32m//						});[m
+[32m+[m[32m//				} else {[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//						  url: 'app/blocks/handlers/mock_files/memoriaMensal.json',[m
+[32m+[m[32m//						  async: false,[m
+[32m+[m[32m//						  dataType: 'json',[m
+[32m+[m[32m//						  success: function (response) {[m
+[32m+[m[32m//							  result = response;[m
+[32m+[m[32m//						  }[m
+[32m+[m[32m//						});[m
+[32m+[m[32m//				}[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				return [200, result, {}, ""] ;[m
+[32m+[m[32m//			};[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var eventos;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/eventos.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  eventos = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var eventos2407;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/eventos2407.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  eventos2407 = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var agendamentosCalculoByDate;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/agendamentos-calculo-by-date.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  agendamentosCalculoByDate = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var agendamentosRetificacoesByDate;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/agendamentos-retificacoes-by-date.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  agendamentosRetificacoesByDate = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var taxaReferenciaByTipoInstalacao = function(method, url, data, headers, params) {[m
+[32m+[m[32m//				var result;[m
+[32m+[m[32m//				if (params.tipoInstalacao.indexOf('USINA') > -1 ){[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//					  url: 'app/blocks/handlers/mock_files/taxaReferenciaByTipoInstalacao_Usina.json',[m
+[32m+[m[32m//					  async: false,[m
+[32m+[m[32m//					  dataType: 'json',[m
+[32m+[m[32m//					  success: function (response) {[m
+[32m+[m[32m//						  result = response;[m
+[32m+[m[32m//					  }[m
+[32m+[m[32m//					});[m
+[32m+[m[32m//				}[m
+[32m+[m[32m//				return [200, result, {}, ""] ;[m
+[32m+[m[32m//			}[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var parametrizacaoRetificacoes;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//			  url: 'app/blocks/handlers/mock_files/parametrizacao-retificacoes.json',[m
+[32m+[m[32m//			  async: false,[m
+[32m+[m[32m//			  dataType: 'json',[m
+[32m+[m[32m//			  success: function (response) {[m
+[32m+[m[32m//				  parametrizacaoRetificacoes = response;[m
+[32m+[m[32m//			  }[m
+[32m+[m[32m//			});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var parametrizacaoRetificacoesPOST;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//			  url: 'app/blocks/handlers/mock_files/parametrizacao-retificacoes_POST.json',[m
+[32m+[m[32m//			  async: false,[m
+[32m+[m[32m//			  dataType: 'json',[m
+[32m+[m[32m//			  success: function (response) {[m
+[32m+[m[32m//				  parametrizacaoRetificacoesPOST = response;[m
+[32m+[m[32m//			  }[m
+[32m+[m[32m//			});[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var dispPUT;[m
+[32m+[m[32m//			$.ajax({[m
+[32m+[m[32m//				  url: 'app/blocks/handlers/mock_files/disp_PUT.json',[m
+[32m+[m[32m//				  async: false,[m
+[32m+[m[32m//				  dataType: 'json',[m
+[32m+[m[32m//				  success: function (response) {[m
+[32m+[m[32m//					  dispPUT = response;[m
+[32m+[m[32m//				  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//			var dispPOST = function(method, url, data, headers, params) {[m
+[32m+[m[32m//				var result;[m
+[32m+[m[32m//				if (data.indexOf('\"id\":\"ALUXG\"') > -1 ){[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//					  url: 'app/blocks/handlers/mock_files/disp_POST.json',[m
+[32m+[m[32m//					  async: false,[m
+[32m+[m[32m//					  dataType: 'json',[m
+[32m+[m[32m//					  success: function (response) {[m
+[32m+[m[32m//						  result = response;[m
+[32m+[m[32m//					  }[m
+[32m+[m[32m//					});[m
+[32m+[m[32m//				} else if (data.indexOf('\"id\":\"RJUTME\"') > -1 ){[m
+[32m+[m[32m//					$.ajax({[m
+[32m+[m[32m//						  url: 'app/blocks/handlers/mock_files/disp_POST2.json',[m
+[32m+[m[32m//						  async: false,[m
+[32m+[m[32m//						  dataType: 'json',[m
+[32m+[m[32m//						  success: function (response) {[m
+[32m+[m[32m//							  result = response;[m
+[32m+[m[32m//						  }[m
+[32m+[m[32m//						});[m
+[32m+[m[32m//					}[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				return [200, result, {}, ""] ;[m
+[32m+[m[32m//			};[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			var excelDisp = function(method, url, data, headers, params) {[m
+[32m+[m[32m//				var result;[m
+[32m+[m[32m//				$.ajax({[m
+[32m+[m[32m//					  url: 'app/blocks/handlers/mock_files/CalculoDisponibilidade.xlsx',[m
+[32m+[m[32m//					  async: false,[m
+[32m+[m[32m//					  dataType: 'vnd.openxmlformats-officedocument.spreadsheetml.sheet',[m
+[32m+[m[32m//					  success: function (response) {[m
+[32m+[m[32m//						  result = response;[m
+[32m+[m[32m//					  }[m
+[32m+[m[32m//				});[m
+[32m+[m[32m////				var blob = new Blob(result, {[m
+[32m+[m[32m////		            type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8"[m
+[32m+[m[32m////		        });[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				saveAs(result, "CalculoDisponibilidade.xlsx");[m
+[32m+[m[32m//[m[41m				[m
+[32m+[m[32m//				return [200, result, {}, ""] ;[m
+[32m+[m[32m//			};[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//[m[41m	        [m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/interligacoes.*/).respond(interligacaoInternacional);[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/usinas.*/).respond(usinas);[m
+[32m+[m[32m//			//2405 -- Manter Agendamentos - OBS cuidado com a ordem dessa URL, pode ser influenciada pela URL do 2401 - agendamentos-calculo[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/agendamentos-calculo-by-date.*/).respond(agendamentosCalculoByDate);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/agendamentos-retificacoes-by-date.*/).respond(agendamentosRetificacoesByDate);[m
+[32m+[m[32m//			//2401 -- Solicitar Cálculo de Taxas[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/agendamentos-calculo-by-instalacao.*/).respond(agendamentosCalculoByInstalacao);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/agendamentos-calculo.*/).respond(agendamentosCalculo);[m
+[32m+[m[32m//			//2402 - Consultar Taxas[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/instalacaoTaxasByInstalacaoPeriodo.*/).respond(instalacaoTaxasByInstalacaoPeriodo);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/memoriacalculo.*/).respond(memoriacaAcumuladaRegraNova);[m
+[32m+[m[32m//			$httpBackend.whenPUT(/\/eventos.*/).respond(eventos);[m
+[32m+[m[32m//			//2406 -- Exibir Notificações[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/notificacaoByRoles.*/).respond(notificacaoByRoles);[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/getNotificacoesLidasByUser.*/).respond(getNotificacoesLidasByUser);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/lerNotificacao.*/).respond(lerNotificacao);[m
+[32m+[m[32m//			//2407 -- Consultar Eventos[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/eventos.*/).respond(eventos2407);[m
+[32m+[m[32m//			//Taxa Ref[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/taxaReferenciaByTipoInstalacao.*/).respond(taxaReferenciaByTipoInstalacao);[m
+[32m+[m[32m//			//0607 -- Manter Parametrização[m
+[32m+[m[32m//			$httpBackend.whenGET(/\/parametrizacao-retificacoes.*/).respond(parametrizacaoRetificacoes);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/parametrizacao-retificacoes.*/).respond(parametrizacaoRetificacoesPOST);[m
+[32m+[m[32m//			//2403 -- Consultar Disponibilidades[m
+[32m+[m[32m//			$httpBackend.whenPUT(/\/disp.*/).respond(dispPUT);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/disp.*/).respond(dispPOST);[m
+[32m+[m[32m//			$httpBackend.whenPOST(/\/excel-disp.*/).respond(excelDisp);[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//[m[41m			[m
+[32m+[m[32m//			$httpBackend.whenPOST(/.*/).passThrough();[m
+[32m+[m[32m//			$httpBackend.whenGET(/.*/).passThrough();[m
+[32m+[m[32m//			$httpBackend.whenPUT(/.*/).passThrough();[m
+[32m+[m[32m//			$httpBackend.whenDELETE(/.*/).passThrough();[m
+[32m+[m[32m////[m
+[32m+[m[32m////		}[m
+ //		}[m
+[31m-		}[m
+[31m-	}[m
+[31m-})();[m
+[32m+[m[32m//	}[m
+[32m+[m[32m//})();[m
+[1mdiff --git a/ons-portal/src/main/webapp/app/sager/calculo-taxa/calculo-taxa.controller.js b/ons-portal/src/main/webapp/app/sager/calculo-taxa/calculo-taxa.controller.js[m
+[1mindex 8dccff8..537ecd5 100644[m
+[1m--- a/ons-portal/src/main/webapp/app/sager/calculo-taxa/calculo-taxa.controller.js[m
+[1m+++ b/ons-portal/src/main/webapp/app/sager/calculo-taxa/calculo-taxa.controller.js[m
+[36m@@ -77,6 +77,7 @@[m
+     	[m
+         [m
+         function validarBtnAgendarCalculo(){[m
+[32m+[m[41m        [m	[32mconsole.log("agendando");[m
+         	$scope.listaErro =[];[m
+         	var flagErro = false;[m
+         	[m
+[1mdiff --git a/ons-sager-agendamento/pom.xml b/ons-sager-agendamento/pom.xml[m
+[1mindex 8835cc7..a9cfefc 100644[m
+[1m--- a/ons-sager-agendamento/pom.xml[m
+[1m+++ b/ons-sager-agendamento/pom.xml[m
+[36m@@ -72,11 +72,6 @@[m
+     </dependencyManagement>[m
+ [m
+     <dependencies>[m
+[31m-    	<dependency>[m
+[31m-		    <groupId>org.apache.httpcomponents</groupId>[m
+[31m-		    <artifactId>httpcore</artifactId>[m
+[31m-		    <version>4.4.5</version>[m
+[31m-		</dependency>[m
+         <!-- jhipster-needle-maven-add-dependency -->[m
+         <dependency>[m
+             <groupId>br.org.ons.sager</groupId>[m
+[36m@@ -195,6 +190,11 @@[m
+             <version>2.0</version>[m
+         </dependency>[m
+         <dependency>[m
+[32m+[m[32m            <groupId>org.apache.httpcomponents</groupId>[m
+[32m+[m[32m            <artifactId>httpcore</artifactId>[m
+[32m+[m[32m            <version>4.4.5</version>[m
+[32m+[m[32m        </dependency>[m
+[32m+[m[32m        <dependency>[m
+             <groupId>org.assertj</groupId>[m
+             <artifactId>assertj-core</artifactId>[m
+             <version>${assertj-core.version}</version>[m
+[1mdiff --git a/ons-sager-read/src/main/java/br/org/ons/sager/read/config/mq/MQConfiguration.java b/ons-sager-read/src/main/java/br/org/ons/sager/read/config/mq/MQConfiguration.java[m
+[1mindex eb1785d..adc31d3 100644[m
+[1m--- a/ons-sager-read/src/main/java/br/org/ons/sager/read/config/mq/MQConfiguration.java[m
+[1m+++ b/ons-sager-read/src/main/java/br/org/ons/sager/read/config/mq/MQConfiguration.java[m
+[36m@@ -35,7 +35,7 @@[m [mpublic class MQConfiguration {[m
+ 	/**[m
+ 	 * Tempo limite de espera de mensagens recebidas através de GET[m
+ 	 */[m
+[31m-	private static final long RECEIVE_TIMEOUT = 300000;[m
+[32m+[m	[32mprivate static final long RECEIVE_TIMEOUT = 900000000; //300000[m
+ [m
+ 	private MQProperties properties;[m
+ [m
+[1mdiff --git a/ons-sager-read/src/main/java/br/org/ons/sager/read/service/ReprodutibilidadeService.java b/ons-sager-read/src/main/java/br/org/ons/sager/read/service/ReprodutibilidadeService.java[m
+[1mindex fef1985..d1693f8 100644[m
+[1m--- a/ons-sager-read/src/main/java/br/org/ons/sager/read/service/ReprodutibilidadeService.java[m
+[1m+++ b/ons-sager-read/src/main/java/br/org/ons/sager/read/service/ReprodutibilidadeService.java[m
+[36m@@ -4,8 +4,10 @@[m [mimport static com.querydsl.collections.CollQueryFactory.from;[m
+ import static com.querydsl.core.alias.Alias.$;[m
+ import static com.querydsl.core.alias.Alias.alias;[m
+ [m
+[32m+[m[32mimport java.math.BigDecimal;[m
+ import java.text.SimpleDateFormat;[m
+ import java.util.ArrayList;[m
+[32m+[m[32mimport java.util.Calendar;[m
+ import java.util.Date;[m
+ import java.util.List;[m
+ [m
+[36m@@ -14,19 +16,32 @@[m [mimport javax.jms.JMSException;[m
+ [m
+ import org.slf4j.Logger;[m
+ import org.slf4j.LoggerFactory;[m
+[32m+[m[32mimport org.springframework.data.keyvalue.core.IterableConverter;[m
+ import org.springframework.jms.annotation.JmsListener;[m
+ import org.springframework.stereotype.Service;[m
+ [m
+ import br.org.ons.geracao.evento.taxa.ParametroTaxa;[m
+[32m+[m[32mimport br.org.ons.geracao.evento.taxa.Participacao;[m
+ import br.org.ons.geracao.evento.taxa.Taxa;[m
+ import br.org.ons.geracao.evento.taxa.TaxaAcumulada;[m
+ import br.org.ons.geracao.evento.taxa.TaxaAcumuladaEstendida;[m
+[32m+[m[32mimport br.org.ons.geracao.evento.taxa.TipoTaxa;[m
+ import br.org.ons.platform.common.EventMessage;[m
+ import br.org.ons.platform.common.EventMetadata;[m
+ import br.org.ons.sager.instalacao.event.TaxasAcumuladasCalculadasV1Event;[m
+ import br.org.ons.sager.instalacao.event.TaxasAcumuladasCalculadasV2Event;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.Equipamento;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.EquipamentoUGParam;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.InstalacaoTaxas;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.Interligacoes;[m
+ import br.org.ons.sager.read.domain.MCEquipamentoParametro;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.QInstalacaoTaxas;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.QMCEquipamentoParametro;[m
+ import br.org.ons.sager.read.domain.Reprodutibilidade;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.TaxaEventosUGParam;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.UGParam;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.Usinas;[m
+[32m+[m[32mimport br.org.ons.sager.read.domain.Valores;[m
+ import br.org.ons.sager.read.repository.InstalacaoTaxasRepository;[m
+ import br.org.ons.sager.read.repository.InterligacoesRepository;[m
+ import br.org.ons.sager.read.repository.MCEquipamentoParametroRepository;[m
+[36m@@ -63,6 +78,41 @@[m [mpublic class ReprodutibilidadeService {[m
+ 	containerFactory = "JmsTopicListenerContainerFactory", selector = "isReplay = TRUE")[m
+ 	public void handleTaxasAcumuladasCalculadasV1Event(EventMessage<TaxasAcumuladasCalculadasV1Event> eventMessage) throws JMSException {[m
+ 		[m
+[32m+[m		[32mCalcularTaxasService calcularTaxasServices = new CalcularTaxasService(usinasRepository, interligacoesRepository,[m
+[32m+[m				[32minstalacaoTaxasRepository,mcEquipParamRepository);[m
+[32m+[m[41m		[m
+[32m+[m		[32mEventMetadata metadata = null;[m
+[32m+[m		[32mTaxasAcumuladasCalculadasV1Event event = null;[m
+[32m+[m[41m		[m
+[32m+[m		[32mtry{[m
+[32m+[m			[32mevent = eventMessage.getEvent();[m
+[32m+[m			[32mmetadata = eventMessage.getMetadata();[m
+[32m+[m[41m			[m
+[32m+[m			[32m/**[m
+[32m+[m			[32m * Salva a Projeção InstalacaoTaxas (tela: consulta-taxas)[m
+[32m+[m			[32m */[m
+[32m+[m			[32m//Adiciona apenas as TaxasMensais do Período[m
+[32m+[m	[32m        List<Taxa> taxas = from($(qTaxa),event.getTaxas()).[m
+[32m+[m	[41m        [m		[32mwhere($(qTaxa.getPeriodo().getDataInicio()).eq(event.getDataInicioApuracao()))[m
+[32m+[m	[32m        .fetchResults().getResults();[m
+[32m+[m	[32m        taxas.addAll((List<Taxa>) (List<?>) event.getTaxasAcumuladas());[m
+[32m+[m
+[32m+[m			[32m/**[m
+[32m+[m			[32m * Salva a Projeção Memoria de Calculo ( Taxa Mensal)[m
+[32m+[m			[32m */[m
+[32m+[m	[32m        calcularTaxasServices.saveMemoriaCalculoMensal(taxas,new ArrayList<ParametroTaxa>(event.getParametros()),[m[41m [m
+[32m+[m					[32mevent.getDataInicioApuracao(), metadata);[m
+[32m+[m[41m			[m
+[32m+[m			[32m/**[m
+[32m+[m			[32m * Salva a projeção UGParam(3,2,1) (Tela: memoria-calculo acumulada)[m
+[32m+[m			[32m */[m
+[32m+[m			[32mcalcularTaxasServices.saveMemoriaCalculoAcumuladas((List<Taxa>) (List<?>) event.getTaxasAcumuladas(),[m
+[32m+[m					[32mnew ArrayList<ParametroTaxa>(event.getParametros()),event.getDataInicioApuracao(), metadata);[m
+[32m+[m[41m			[m
+[32m+[m		[32m}catch(Exception e){[m
+[32m+[m			[32mlog.error("handleTaxasAcumuladasCalculadasV1Event",e);[m
+[32m+[m		[32m}[m
+[32m+[m[41m		[m
+ 	}[m
+ 	[m
+ 	@SuppressWarnings("unchecked")[m
+[36m@@ -145,6 +195,9 @@[m [mpublic class ReprodutibilidadeService {[m
+ 			[m
+ 		}[m
+ 	}[m
+[32m+[m[41m	[m
+[32m+[m[41m	[m
+[32m+[m
+ [m
+ [m
+ }[m
+[1mdiff --git a/ons-sager-read/src/main/java/br/org/ons/sager/read/web/rest/TaxaResource.java b/ons-sager-read/src/main/java/br/org/ons/sager/read/web/rest/TaxaResource.java[m
+[1mindex d441659..bb049be 100644[m
+[1m--- a/ons-sager-read/src/main/java/br/org/ons/sager/read/web/rest/TaxaResource.java[m
+[1m+++ b/ons-sager-read/src/main/java/br/org/ons/sager/read/web/rest/TaxaResource.java[m
+[36m@@ -33,132 +33,126 @@[m [mimport br.org.ons.sager.read.repository.ReprodutibilidadeRepository;[m
+ @RestController[m
+ @RequestMapping("/api")[m
+ public class TaxaResource {[m
+[31m-	[m
+[32m+[m
+ 	@Inject[m
+ 	private MCEquipamentoParametroRepository mcEquipParamRepository;[m
+[31m-	[m
+[32m+[m
+ 	@Inject[m
+ 	private ReprodutibilidadeRepository repordutibilidadeRepository;[m
+[31m-	[m
+[32m+[m
+ 	@Inject[m
+[31m-	private CommandBus commandBus; [m
+[31m-	[m
+[32m+[m	[32mprivate CommandBus commandBus;[m
+[32m+[m
+ 	private final Logger log = LoggerFactory.getLogger(TaxaResource.class);[m
+[31m-	[m
+[31m-    @RequestMapping(value = "/compararTaxa",[m
+[31m-            method = RequestMethod.POST,[m
+[31m-            produces = MediaType.APPLICATION_JSON_VALUE)[m
+[31m-        public ResponseEntity<MemoriasCalculo> compararTaxa(@RequestParam String instalacao,[m
+[31m-        		@RequestParam int versaoTaxa,[m
+[31m-        		@RequestParam int versaoCenario,[m
+[31m-        		@RequestParam @DateTimeFormat(iso = ISO.DATE_TIME) ZonedDateTime dataApuracao, [m
+[31m-        		@RequestParam String taxaMemoriaCalculo)[m
+[31m-            throws InterruptedException  {[m
+[31m-    	[m
+[31m-        log.debug("reproduzirTaxa (/reproduzirTaxa) instalacao:["+instalacao+"] "[m
+[31m-        		+"versaoTaxa["+versaoTaxa+"] versaoCenario:["+versaoCenario+"]"[m
+[31m-        		+ "Taxa:["+taxaMemoriaCalculo+"] Data:["+dataApuracao+"]");[m
+[31m-        [m
+[31m-        //Caso for a primeira versão, não existe versão anterior para compara-la.[m
+[31m-        if( versaoTaxa < 2 ){[m
+[31m-        	throw new OnsRuntimeException("Nao existe versão anterior para a taxa selecionada");[m
+[31m-        }[m
+[31m-        [m
+[31m-        //Cria o objeto com as duas memorias de Calculos.[m
+[31m-        MemoriasCalculo memoriasCalc = new MemoriasCalculo();[m
+[31m-        [m
+[31m-      //Recupera a Taxa Principal.[m
+[31m-        QMCEquipamentoParametro qMCequipParam = new QMCEquipamentoParametro("mCEquipamentoParametro");[m
+[31m-        MCEquipamentoParametro mcPrincipal = mcEquipParamRepository.findOne([m
+[31m-        		qMCequipParam.versaoCenario.eq(versaoCenario).and([m
+[31m-        		qMCequipParam.versaoTaxa.eq(versaoTaxa).and([m
+[31m-				qMCequipParam.instalacao.eq(instalacao).and([m
+[31m-				qMCequipParam.dataApuracao.eq(Date.from(dataApuracao.toInstant())).and([m
+[31m-				qMCequipParam.taxaMemoriaCalculo.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[31m-        if(mcPrincipal != null){   [m
+[31m-        	//Seta a Taxa Principal no MC V1.[m
+[31m-        	memoriasCalc.setMemoriaCalculoV1(mcPrincipal.getMemoriaCalculo());[m
+[31m-        }[m
+[31m-    [m
+[31m-        MCEquipamentoParametro mcVersaoAnterior = mcEquipParamRepository.findOne([m
+[31m-        		qMCequipParam.versaoCenario.eq(versaoCenario).and([m
+[31m-        		qMCequipParam.versaoTaxa.eq(versaoTaxa-1).and([m
+[31m-				qMCequipParam.instalacao.eq(instalacao).and([m
+[31m-				qMCequipParam.dataApuracao.eq(Date.from(dataApuracao.toInstant())).and([m
+[31m-				qMCequipParam.taxaMemoriaCalculo.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[31m-        if(mcVersaoAnterior != null){   [m
+[31m-        	//Seta a Taxa Versao Anterior no MC V2[m
+[31m-        	memoriasCalc.setMemoriaCalculoV2(mcVersaoAnterior.getMemoriaCalculo());[m
+[31m-        }        [m
+[31m-[m
+[31m-        return new ResponseEntity<>(memoriasCalc, HttpStatus.OK);[m
+[31m-    }[m
+[31m-	[m
+[31m-    @RequestMapping(value = "/reproduzirTaxa",[m
+[31m-            method = RequestMethod.POST,[m
+[31m-            produces = MediaType.APPLICATION_JSON_VALUE)[m
+[31m-        public ResponseEntity<MemoriasCalculo> reproduzirTaxa(@RequestParam String instalacao,[m
+[31m-        		@RequestParam int versaoTaxa,[m
+[31m-        		@RequestParam int versaoCenario,[m
+[31m-        		@RequestParam @DateTimeFormat(iso = ISO.DATE_TIME) ZonedDateTime dataApuracao, [m
+[31m-        		@RequestParam String taxaMemoriaCalculo)[m
+[31m-            throws InterruptedException  {[m
+[31m-    	[m
+[31m-            log.debug("reproduzirTaxa (/reproduzirTaxa) instalacao:["+instalacao+"] "[m
+[31m-            		+"versaoTaxa["+versaoTaxa+"] versaoCenario:["+versaoCenario+"]"[m
+[31m-            		+ "Taxa:["+taxaMemoriaCalculo+"] Data:["+dataApuracao+"]");[m
+[31m-[m
+[31m-            //Cria o objeto com as duas memorias de Calculos.[m
+[31m-            MemoriasCalculo memoriasCalc = new MemoriasCalculo();[m
+[31m-   [m
+[31m-            //Recupera a MC já salva[m
+[31m-            QMCEquipamentoParametro qMCequipParam = new QMCEquipamentoParametro("mCEquipamentoParametro");[m
+[31m-            MCEquipamentoParametro mcEquipParam = mcEquipParamRepository.findOne([m
+[31m-            		qMCequipParam.versaoCenario.eq(versaoCenario).and([m
+[31m-            		qMCequipParam.versaoTaxa.eq(versaoTaxa).and([m
+[31m-    				qMCequipParam.instalacao.eq(instalacao).and([m
+[31m-    				qMCequipParam.dataApuracao.eq(Date.from(dataApuracao.toInstant())).and([m
+[31m-    				qMCequipParam.taxaMemoriaCalculo.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[31m-            [m
+[31m-            if(mcEquipParam != null){[m
+[31m-            	[m
+[31m-            	//Seta a primeira memoria de calculo com o valor já calculado.[m
+[31m-            	memoriasCalc.setMemoriaCalculoV1(mcEquipParam.getMemoriaCalculo());[m
+[31m-[m
+[31m-	            //chama a Reprodutibilidade [m
+[31m-            	CommandMessage<ReplayCommand<CommandModification>> commandMessage = new CommandMessage<>();[m
+[31m-	     		ReplayCommand<CommandModification> replayCommand = new ReplayCommand<>();[m
+[31m-	     		replayCommand.setCorrelationId(mcEquipParam.getCorrelationId());[m
+[31m-	     		commandMessage.setCommand(replayCommand);[m
+[31m-				commandBus.send(commandMessage);[m
+[31m-				[m
+[31m-				//Busca a o resultado da reprodutibilidade[m
+[31m-				QReprodutibilidade qReprodt = new QReprodutibilidade("reprodutibilidade");[m
+[31m-				Reprodutibilidade reprodutibilidade = null;[m
+[31m-				int segundos = 0;[m
+[31m-				while(reprodutibilidade == null && segundos < 100){[m
+[31m-					reprodutibilidade = repordutibilidadeRepository.findOne([m
+[31m-							qReprodt.correlationId.eq(mcEquipParam.getCorrelationId()).[m
+[31m-							and(qReprodt.instalacao.eq(mcEquipParam.getInstalacao()).[m
+[31m-							and(qReprodt.dataApuracao.eq(Date.from(dataApuracao.toInstant())).[m
+[31m-							and(qReprodt.taxaMemoriaCalculo.equalsIgnoreCase(taxaMemoriaCalculo)))));[m
+[31m-					Thread.sleep(10000); // 1 segundo[m
+[31m-					segundos++;[m
+[31m-				}[m
+[31m-				[m
+[31m-				if( reprodutibilidade != null ){[m
+[31m-					//Seta a segunda memoria de Calculo com o valor da reprodutibilidade[m
+[31m-					memoriasCalc.setMemoriaCalculoV2(reprodutibilidade.getMemoriaCalculo());[m
+[31m-					[m
+[31m-					//Remove do XS[m
+[31m-					repordutibilidadeRepository.delete(reprodutibilidade);[m
+[31m-					[m
+[31m-				}else{[m
+[31m-					throw new OnsRuntimeException("O Calculo de reprodutibilidade não chegou em 10 segundos.");[m
+[31m-				}[m
+[31m-            }[m
+[31m-[m
+[31m-            return new ResponseEntity<>(memoriasCalc, HttpStatus.OK);[m
+[31m-        }[m
+[32m+[m
+[32m+[m	[32m@RequestMapping(value = "/compararTaxa", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)[m
+[32m+[m	[32mpublic ResponseEntity<MemoriasCalculo> compararTaxa(@RequestParam String instalacao, @RequestParam int versaoTaxa,[m
+[32m+[m			[32m@RequestParam int versaoCenario,[m
+[32m+[m			[32m@RequestParam @DateTimeFormat(iso = ISO.DATE_TIME) ZonedDateTime dataApuracao,[m
+[32m+[m			[32m@RequestParam String taxaMemoriaCalculo) throws InterruptedException {[m
+[32m+[m
+[32m+[m		[32mlog.debug("reproduzirTaxa (/reproduzirTaxa) instalacao:[" + instalacao + "] " + "versaoTaxa[" + versaoTaxa[m
+[32m+[m				[32m+ "] versaoCenario:[" + versaoCenario + "]" + "Taxa:[" + taxaMemoriaCalculo + "] Data:[" + dataApuracao[m
+[32m+[m				[32m+ "]");[m
+[32m+[m
+[32m+[m		[32m// Caso for a primeira versão, não existe versão anterior para[m
+[32m+[m		[32m// compara-la.[m
+[32m+[m		[32mif (versaoTaxa < 2) {[m
+[32m+[m			[32mthrow new OnsRuntimeException("Nao existe versão anterior para a taxa selecionada");[m
+[32m+[m		[32m}[m
+[32m+[m
+[32m+[m		[32m// Cria o objeto com as duas memorias de Calculos.[m
+[32m+[m		[32mMemoriasCalculo memoriasCalc = new MemoriasCalculo();[m
+[32m+[m
+[32m+[m		[32m// Recupera a Taxa Principal.[m
+[32m+[m		[32mQMCEquipamentoParametro qMCequipParam = new QMCEquipamentoParametro("mCEquipamentoParametro");[m
+[32m+[m		[32mMCEquipamentoParametro mcPrincipal = mcEquipParamRepository[m
+[32m+[m				[32m.findOne(qMCequipParam.versaoCenario.eq(versaoCenario)[m
+[32m+[m						[32m.and(qMCequipParam.versaoTaxa.eq(versaoTaxa)[m
+[32m+[m								[32m.and(qMCequipParam.instalacao.eq(instalacao).and(qMCequipParam.dataApuracao[m
+[32m+[m										[32m.eq(Date.from(dataApuracao.toInstant())).and(qMCequipParam.taxaMemoriaCalculo[m
+[32m+[m												[32m.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[32m+[m		[32mif (mcPrincipal != null) {[m
+[32m+[m			[32m// Seta a Taxa Principal no MC V1.[m
+[32m+[m			[32mmemoriasCalc.setMemoriaCalculoV1(mcPrincipal.getMemoriaCalculo());[m
+[32m+[m		[32m}[m
+[32m+[m
+[32m+[m		[32mMCEquipamentoParametro mcVersaoAnterior = mcEquipParamRepository[m
+[32m+[m				[32m.findOne(qMCequipParam.versaoCenario.eq(versaoCenario)[m
+[32m+[m						[32m.and(qMCequipParam.versaoTaxa.eq(versaoTaxa - 1)[m
+[32m+[m								[32m.and(qMCequipParam.instalacao.eq(instalacao).and(qMCequipParam.dataApuracao[m
+[32m+[m										[32m.eq(Date.from(dataApuracao.toInstant())).and(qMCequipParam.taxaMemoriaCalculo[m
+[32m+[m												[32m.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[32m+[m		[32mif (mcVersaoAnterior != null) {[m
+[32m+[m			[32m// Seta a Taxa Versao Anterior no MC V2[m
+[32m+[m			[32mmemoriasCalc.setMemoriaCalculoV2(mcVersaoAnterior.getMemoriaCalculo());[m
+[32m+[m		[32m}[m
+[32m+[m
+[32m+[m		[32mreturn new ResponseEntity<>(memoriasCalc, HttpStatus.OK);[m
+[32m+[m	[32m}[m
+[32m+[m
+[32m+[m	[32m@RequestMapping(value = "/reproduzirTaxa", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)[m
+[32m+[m	[32mpublic ResponseEntity<MemoriasCalculo> reproduzirTaxa(@RequestParam String instalacao, @RequestParam int versaoTaxa,[m
+[32m+[m			[32m@RequestParam int versaoCenario,[m
+[32m+[m			[32m@RequestParam @DateTimeFormat(iso = ISO.DATE_TIME) ZonedDateTime dataApuracao,[m
+[32m+[m			[32m@RequestParam String taxaMemoriaCalculo) throws InterruptedException {[m
+[32m+[m
+[32m+[m		[32mlog.debug("reproduzirTaxa (/reproduzirTaxa) instalacao:[" + instalacao + "] " + "versaoTaxa[" + versaoTaxa[m
+[32m+[m				[32m+ "] versaoCenario:[" + versaoCenario + "]" + "Taxa:[" + taxaMemoriaCalculo + "] Data:[" + dataApuracao[m
+[32m+[m				[32m+ "]");[m
+[32m+[m
+[32m+[m		[32m// Cria o objeto com as duas memorias de Calculos.[m
+[32m+[m		[32mMemoriasCalculo memoriasCalc = new MemoriasCalculo();[m
+[32m+[m
+[32m+[m		[32m// Recupera a MC já salva[m
+[32m+[m		[32mQMCEquipamentoParametro qMCequipParam = new QMCEquipamentoParametro("mCEquipamentoParametro");[m
+[32m+[m		[32mMCEquipamentoParametro mcEquipParam = mcEquipParamRepository[m
+[32m+[m				[32m.findOne(qMCequipParam.versaoCenario.eq(versaoCenario)[m
+[32m+[m						[32m.and(qMCequipParam.versaoTaxa.eq(versaoTaxa)[m
+[32m+[m								[32m.and(qMCequipParam.instalacao.eq(instalacao).and(qMCequipParam.dataApuracao[m
+[32m+[m										[32m.eq(Date.from(dataApuracao.toInstant())).and(qMCequipParam.taxaMemoriaCalculo[m
+[32m+[m												[32m.equalsIgnoreCase(taxaMemoriaCalculo))))));[m
+[32m+[m
+[32m+[m		[32mif (mcEquipParam != null) {[m
+[32m+[m
+[32m+[m			[32m// Seta a primeira memoria de calculo com o valor já calculado.[m
+[32m+[m			[32mmemoriasCalc.setMemoriaCalculoV1(mcEquipParam.getMemoriaCalculo());[m
+[32m+[m
+[32m+[m			[32m// chama a Reprodutibilidade[m
+[32m+[m			[32mCommandMessage<ReplayCommand<CommandModification>> commandMessage = new CommandMessage<>();[m
+[32m+[m			[32mReplayCommand<CommandModification> replayCommand = new ReplayCommand<>();[m
+[32m+[m			[32mreplayCommand.setCorrelationId(mcEquipParam.getCorrelationId());[m
+[32m+[m			[32mcommandMessage.setCommand(replayCommand);[m
+[32m+[m			[32mcommandBus.sendAndWait(commandMessage);[m
+[32m+[m
+[32m+[m			[32m// Busca a o resultado da reprodutibilidade[m
+[32m+[m			[32mQReprodutibilidade qReprodt = new QReprodutibilidade("reprodutibilidade");[m
+[32m+[m			[32mReprodutibilidade reprodutibilidade = null;[m
+[32m+[m			[32mint segundos = 0;[m
+[32m+[m			[32mwhile (reprodutibilidade == null && segundos < 500) {[m
+[32m+[m				[32mreprodutibilidade = repordutibilidadeRepository.findOne(qReprodt.correlationId[m
+[32m+[m						[32m.eq(mcEquipParam.getCorrelationId())[m
+[32m+[m						[32m.and(qReprodt.instalacao.eq(mcEquipParam.getInstalacao())[m
+[32m+[m								[32m.and(qReprodt.dataApuracao.eq(Date.from(dataApuracao.toInstant()))[m
+[32m+[m										[32m.and(qReprodt.taxaMemoriaCalculo.equalsIgnoreCase(taxaMemoriaCalculo)))));[m
+[32m+[m				[32mThread.sleep(10000); // 1 segundo[m
+[32m+[m				[32msegundos++;[m
+[32m+[m			[32m}[m
+[32m+[m
+[32m+[m			[32mif (reprodutibilidade != null) {[m
+[32m+[m				[32m// Seta a segunda memoria de Calculo com o valor da[m
+[32m+[m				[32m// reprodutibilidade[m
+[32m+[m				[32mmemoriasCalc.setMemoriaCalculoV2(reprodutibilidade.getMemoriaCalculo());[m
+[32m+[m
+[32m+[m				[32m// Remove do XS[m
+[32m+[m				[32mrepordutibilidadeRepository.delete(reprodutibilidade);[m
+[32m+[m
+[32m+[m			[32m} else {[m
+[32m+[m				[32mthrow new OnsRuntimeException("O Calculo de reprodutibilidade não chegou em 10 segundos.");[m
+[32m+[m			[32m}[m
+[32m+[m		[32m}[m
+[32m+[m
+[32m+[m		[32mreturn new ResponseEntity<>(memoriasCalc, HttpStatus.OK);[m
+[32m+[m	[32m}[m
+ [m
+ }[m
+[1mdiff --git a/ons-sager-read/src/main/resources/config/application-dev.yml b/ons-sager-read/src/main/resources/config/application-dev.yml[m
+[1mindex ce35956..7e5cf47 100644[m
+[1m--- a/ons-sager-read/src/main/resources/config/application-dev.yml[m
+[1m+++ b/ons-sager-read/src/main/resources/config/application-dev.yml[m
+[36m@@ -38,10 +38,10 @@[m [mmq:[m
+     port: 1414[m
+     channel: SYSTEM.DEF.SVRCONN[m
+ [m
+[31m-    username: MUSR_MQADMIN[m
+[31m-    password: temp@123[m
+[31m-#    username: mqm[m
+[31m-#    password: mqm   [m
+[32m+[m[32m#    username: MUSR_MQADMIN[m
+[32m+[m[32m#    password: temp@123[m
+[32m+[m[32m    username: mqm[m
+[32m+[m[32m    password: mqm[m[41m   [m
+ [m
+ wxs:[m
+     catalogServerAddresses: localhost:9810[m

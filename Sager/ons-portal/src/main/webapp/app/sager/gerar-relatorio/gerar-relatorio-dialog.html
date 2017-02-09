@@ -1,0 +1,86 @@
+<form name="editForm" role="form" novalidate ng-submit="vm.save()">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="vm.clear()">&times;</button>
+		<h4 class="modal-title" id="myGerarRelatorioLabel" translate="onsPortalApp.gerarRelatorio.home.createOrEditLabel">
+			Criar ou Editar Agendamento
+		</h4>
+	</div>
+	
+	<div class="modal-body">
+		<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong> Codigo do erro: {{erro.erroCod}}<br> Critica do Erro: {{erro.critica}} <br> Mensagem: {{erro.mensagem}}
+			</div>
+		</div>
+		<div id="mensagemSucesso">
+			<div class="alert alert-success alert-dismissible" role="alert" ng-hide="mostrarAlertaSucesso" ng-repeat="sucesso in listaSucesso">
+				 <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaSucesso=true"><span aria-hidden="true">&times;</span></button>
+				 <strong>Sucesso!</strong> Codigo do sucesso: {{sucesso.sucessoCod}}<br> Mensagem: {{sucesso.mensagem}}
+			</div>
+		</div>
+			
+ 		<!-- <form class="form-group" role="form"> -->
+		<div class="form-group">
+		 	 <label class="col-md-4 control-label">Instalações Selecionadas :</label>
+		 	 <span ng-repeat="usina in vm.usinasSelecionadas">{{usina.nome}} </span>
+		</div>
+		 	<h5 style="margin-left: 75px;">Período de agendamento definido</h5>
+		<div class="form-group" style="margin-left: 74px;">
+		 	 <label class="control-label">Mês Inicial:</label>
+		 	 <span >{{vm.mesInicial | date: "dd/MM/yyyy" }}</span>
+		 	 <label class="control-label">Mês Final:</label>
+		 	 <span >{{vm.mesFinal | date: "dd/MM/yyyy"}} </span>
+		</div>
+		<div class="col-md-12">
+		<div class="form-group" align="center" style="margin-left: -28px;">
+				<label class="col-sm-5 control-label">Data de agendamento:</label>
+				<div class="col-md-3">
+					<p class="input-group" style="width: 337px;">
+                    <input id="field_startDate"  type="text" class="form-control" name="startDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+                    	ng-model="vm.today" is-open="vm.datePickerOpenStatus.startDate" datetime-picker="mediumDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()" required/>
+                    <span class="input-group-btn" style="vertical-align: top !important;">
+                        <button type="button" class="btn btn-default ui-datepicker-start" id="btn-datepicker-start" ng-click="vm.openCalendar('startDate')"><i class="fa-calendar"></i></button>
+                    </span>
+                    </p>
+				</div>
+				<label class="col-sm-5 control-label">Hora de agendamento:</label>
+				<div class="col-md-3">
+					<p class="input-group" style="width: 337px;">
+                    <input  id="horaAgendamento" ng-model="vm.today" type="text" class="form-control" name="horaAgendamento" 
+                    	datetime-picker="HH:mm:ss" is-open="vm.datePickerOpenStatus.horaAgendamento" datepicker-options="vm.datepickerOptionsHoraAgendamento"
+                    	enable-date="false" close-on-selection="true" />
+                    <span class="input-group-btn" style="vertical-align: top !important;">
+                        <button type="button" class="btn btn-default" ng-click="vm.openCalendar('horaAgendamento')">
+                        	<i class="fa-calendar"></i>
+                       	</button>
+                    </span>
+                    </p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="panel contentGrid" id="gridAgendamento">
+				<div class="panel-heading">
+					<strong>Agendamentos pré-existentes</strong>
+				</div>
+				<div class="panel-body">
+					<platform-schedule-list instalacoes="vm.usinasSelecionadas"></platform-schedule-list>
+				</div>
+			</div>
+		</div>
+     	<!-- </form> -->
+	</div><!-- end modal body-->
+	<div class="modal-footer">
+		<button id="btnCancelar" type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+			<span class="fa fa-chevron-left"></span>&nbsp;
+			<span translate="onsPortalApp.gerarRelatorio.home.cancelar">Cancelar</span>
+		</button>
+		<button id="btnAgendar" type="submit" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary" ng-click="vm.validarBtnAgendar()">
+			<span class="fa fa-check"></span>&nbsp;
+			<span translate="onsPortalApp.gerarRelatorio.home.agendar">Agendar</span>
+		</button>
+	</div>
+</form>

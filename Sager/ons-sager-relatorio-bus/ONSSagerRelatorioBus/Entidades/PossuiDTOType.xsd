@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO" xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/ApuracaoDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/ApuracaoDTO" schemaLocation="../Entidades/ApuracaoDTOType.xsd"/>
+	<xs:complexType name="PossuiDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Apuracao" type="ns1:ApuracaoDTOType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

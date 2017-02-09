@@ -1,0 +1,190 @@
+[ {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "RSGBI1",
+    "versao" : "1",
+    "idDpp" : "37001",
+    "cintDpp" : "37",
+    "nomeCurto" : "CI CV.GARABI 1",
+    "dataOutorgaImplantacao" : "2000-06-21T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "ARBRRSGBI1",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2000-06-21T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "1100.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "CIE",
+        "nomeCurto" : "CIEN",
+        "sigla" : "CIE"
+    },
+    "cosr" : "COSR-S"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "PYACY",
+    "versao" : "1",
+    "idDpp" : "383001",
+    "cintDpp" : "383",
+    "nomeCurto" : "CI ACARAY",
+    "dataOutorgaImplantacao" : "2000-06-01T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "BRPYANACY",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2000-06-01T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "50.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "COG",
+        "nomeCurto" : "COPEL-GT",
+        "sigla" : "COG"
+    },
+    "cosr" : "COSR-S"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "SCUTLC",
+    "versao" : "1",
+    "idDpp" : "",
+    "cintDpp" : "",
+    "nomeCurto" : "CI J.LACERDA",
+    "dataOutorgaImplantacao" : "1997-02-01T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "TSTI1",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "1997-02-01T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "363.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "GSU",
+        "nomeCurto" : "ENGIE",
+        "sigla" : "GSU"
+    },
+    "cosr" : "COSR-S"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "RSCUR",
+    "versao" : "1",
+    "idDpp" : "382001",
+    "cintDpp" : "382",
+    "nomeCurto" : "CI CV.URUGUAIANA",
+    "dataOutorgaImplantacao" : "2000-06-01T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "ARBRRSCUR",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2000-06-01T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "50.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "ESU",
+        "nomeCurto" : "ELETROSUL",
+        "sigla" : "ESU"
+    },
+    "cosr" : "COSR-S"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "RSGBI2",
+    "versao" : "1",
+    "idDpp" : "38001",
+    "cintDpp" : "38",
+    "nomeCurto" : "CI CV.GARABI 2",
+    "dataOutorgaImplantacao" : "2002-05-01T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "ARBRRSGBI2",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2002-05-01T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "1100.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "CIE",
+        "nomeCurto" : "CIEN",
+        "sigla" : "CIE"
+    },
+    "cosr" : "COSR-S"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "MAUSUZ",
+    "versao" : "1",
+    "idDpp" : "",
+    "cintDpp" : "",
+    "nomeCurto" : "CI SUZANO",
+    "dataOutorgaImplantacao" : "2014-04-08T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "TSTI2",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2014-04-08T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "127.420000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "SPC",
+        "nomeCurto" : "SUZANO",
+        "sigla" : "SPC"
+    },
+    "cosr" : "COSR-NCO"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.InterligacaoInternacional",
+    "id" : "RSLIV2",
+    "versao" : "1",
+    "idDpp" : "384001",
+    "cintDpp" : "384",
+    "nomeCurto" : "CI LIVRAMENTO 2",
+    "dataOutorgaImplantacao" : "2001-07-16T00:00:00",
+    "equipamento" : {
+        "_class" : "br.org.ons.geracao.cadastro.EquipamentoInterligacaoInternacional",
+        "id" : "UYBRRSLIV2",
+        "quantidadeHorasServico" : "0",
+        "dataImplantacao" : "2001-07-16T00:00:00",
+        "potenciasCalculo" : [ {
+            "vigencia" : {
+                "_class" : "br.org.ons.geracao.modelagem.Periodo",
+                "dataInicio" : "2001-01-01T00:00:00"
+            },
+            "valor" : "74.000000000000"
+        } ]
+    },
+    "agenteResponsavel" : {
+        "id" : "ESU",
+        "nomeCurto" : "ELETROSUL",
+        "sigla" : "ESU"
+    },
+    "cosr" : "COSR-S"
+} ]

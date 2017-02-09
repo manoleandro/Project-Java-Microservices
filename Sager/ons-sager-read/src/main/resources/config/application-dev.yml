@@ -1,0 +1,63 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+
+spring:
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: false # we use gulp + BrowserSync for livereload
+    jackson:
+        serialization.indent_output: true
+    messages:
+        cache-seconds: 1
+    profiles:
+        include: swagger # automatically set the 'swagger' profile
+
+server:
+    port: 8084
+
+
+mq:
+    queueManager: QM01
+    host: localhost
+#    host: 10.11.106.37
+    port: 1414
+    channel: SYSTEM.DEF.SVRCONN
+
+#    username: MUSR_MQADMIN
+#    password: temp@123
+    username: mqm
+    password: mqm   
+
+wxs:
+    catalogServerAddresses: localhost:9810
+    objectGridName: Grid
+
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400
+
+IIBus:
+    url: http://localhost:7800/GerarRelatorio/resources

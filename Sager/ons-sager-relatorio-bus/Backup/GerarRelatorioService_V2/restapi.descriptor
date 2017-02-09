@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:restapiDescriptor xmlns="http://com.ibm.etools.mft.descriptor.base" xmlns:ns2="http://com.ibm.etools.mft.descriptor.restapi" definitionType="swagger_20" definitionFile="geraRelatorioSwagger.json" implementation="gen/GerarRelatorioService_V2.msgflow" https="false">
+    <ns2:operations>
+        <ns2:operation name="geraDispVer" implementation="geraDispVer.subflow"/>
+        <ns2:operation name="geraIndAcum" implementation="geraIndAcum.subflow"/>
+        <ns2:operation name="geraTipSinc" implementation="geraTipSinc.subflow"/>
+    </ns2:operations>
+    <ns2:errorHandlers/>
+</ns2:restapiDescriptor>

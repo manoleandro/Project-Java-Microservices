@@ -1,0 +1,89 @@
+<div ng-cloak></div>
+
+<form id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="breadcrumb-item"><a ng-click="backConsultarTaxas()">Consultar Taxas</a></li>
+	  <li class="breadcrumb-item active">Relatório de Reprodutibilidade de Cálculo de Taxa</li>
+	</ol>
+	<header>Relatório de Reprodutibilidade de Cálculo de Taxa</header>
+	
+	<fieldset>
+		<!-- Mensagens de erro -->
+		<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert"
+				ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert"
+					aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong> 
+				Critica do Erro: {{erro.critica}} <br> Mensagem:
+				{{erro.mensagem}} 
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+	
+		
+	</fieldset>
+		
+	<fieldset>
+		<section class="col-md-5">	
+			<div class="p-message" style="width:100%">
+					<p>Instalação: USINA TESTE</p>
+					<p>Data de Entrada em Operação Comercial da Instalação: </p>
+					<p>Versão de serviços de decisão utilizada na taxa reproduzida: </p>
+					<p>Tipo de Taxa: {{taxaSelecionada}}</p>
+					<p>Mês de cálculo: {{dataRef | date : 'MMMM/yyyy'}}</p>
+					<p>Versão do cálculo reproduzido: v{{versaoTaxa}}</p>
+					<p>Data/hora reprodução: 18/01/2017 10:00</p>
+					<p>Regra de cálculo:</p>
+					<iframe src="app/sager/reproducao-calculo/formula_teip_v2.html" frameborder="0" width="100%" scrolling="no"></iframe>
+			</div>
+		</section>
+		<section class="col-md-7">
+			<section>
+				<label class="label">Unidade Geradora</label>
+				<label class="select">
+					<select id="uge" ng-model="uge" class="ng-valid ng-touched ng-not-empty ng-dirty ng-valid-parse" aria-invalid="false" style="">
+						<option value=""></option>
+						<option value="0" ng-repeat="equip in vm.usinaSelected.equipamentos">{{equip.nome}}</option>
+						
+	
+					</select>
+					<i></i>
+				</label>
+			</section>
+			<div>
+				<div class="caption">
+
+       				<div class="col-md-5">
+       					<p>EOC: 01/01/2001</p>
+       					<p>Potências de cálculo:</p>
+       					<p>50MW desde 01/01/2001 a 01/01/2015</p>
+       					<p>60MW desde 01/01/2015</p>
+       				</div>
+       				<div class="col-md-5">
+       					<p>Taxa de referência: 0,02000000 desde 01/01/2001</p>
+       					<p>Período de suspensão: nenhum</p>
+       					<p>Data de desativação: nenhum</p>
+       					<p>&nbsp;</p>
+       				</div>
+       			</div>
+			</div>
+		</section>
+		<section class="col-md-12">
+			<input type="checkbox" ng-model="vm.mostrarTodosBollean" ng-click="vm.mostrarDiferentes(vm.mostrarTodosBollean)">
+			Mostrar somente diferenças
+		</section>
+		<section class="col-md-12">
+			<button id="pesquisar" type="button" class="btn-dt btn btn-success btn-sm" ng-click="backConsultarTaxas()">
+				<span class="fa fa-chevron-left"></span> Voltar
+			</button>
+		</section>
+		<br/><br/>
+		<section class="col-md-12">
+			<div id="gridUsinas" ui-grid="gridOptionsMemoria" ui-grid-exporter ui-grid-tree-view ui-grid-cellNav class="grid"></div>
+		</section>
+	</fieldset>

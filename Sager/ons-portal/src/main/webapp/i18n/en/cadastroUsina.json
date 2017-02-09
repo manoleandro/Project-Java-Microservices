@@ -1,0 +1,25 @@
+{
+    "onsPortalApp": {
+        "cadastroUsina" : {
+            "home": {
+                "title": "Cadastro Usinas",
+                "createLabel": "Create a new Cadastro Usina",
+                "createOrEditLabel": "Create or edit a Cadastro Usina",
+                "search": "Search for Cadastro Usina"
+            },
+            "created": "A new Cadastro Usina is created with identifier {{ param }}",
+            "updated": "A Cadastro Usina is updated with identifier {{ param }}",
+            "deleted": "A Cadastro Usina is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cadastro Usina {{ id }}?"
+            },
+            "detail": {
+                "title": "Cadastro Usina"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        }
+    }
+}

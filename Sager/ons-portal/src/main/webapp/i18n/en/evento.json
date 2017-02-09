@@ -1,0 +1,31 @@
+{
+    "onsPortalApp": {
+        "evento" : {
+            "home": {
+                "title": "Check Events",
+                "createLabel": "Create a new Event",
+                "createOrEditLabel": "Create or edit a Evento ME",
+                "search": "Search for Evento MEO"
+            },
+            "created": "A new Event is created with identifier {{ param }}",
+            "updated": "A Event is updated with identifier {{ param }}",
+            "deleted": "A Event is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Event {{ id }}?"
+            },
+            "detail": {
+                "title": "Event"
+            },
+            "usiid": "Usiid",
+            "ugeid": "Ugeid",
+            "uge": "Uge",
+            "numons": "Numons",
+            "datahora": "Datahora",
+            "ver": "Ver",
+            "eo": "Eo",
+            "co": "Co",
+            "or": "Or",
+            "disp": "Disp"
+        }
+    }
+}

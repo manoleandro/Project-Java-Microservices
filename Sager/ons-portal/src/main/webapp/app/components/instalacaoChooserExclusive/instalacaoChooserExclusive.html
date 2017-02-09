@@ -1,0 +1,34 @@
+<h4>Seleção de instalações</h4>
+<div ng-controller="ExclusiveChooserController">
+
+<div class="btn-group">
+    <label class="btn btn-success" style="font-weight: bold" ng-model="tpInstalacao" uib-btn-radio="'usi'" uncheckable ng-click="getUsinas()">USINAS</label>
+    <label class="btn btn-success" style="font-weight: bold" ng-model="tpInstalacao" uib-btn-radio="'cint'" uib-uncheckable="uncheckable" ng-click="getInterligacoes()">INTERLIGAÇÕES INTERNACIONAIS</label>
+</div>
+<hr />
+
+<div ng-hide="hideGrid">
+	<div class="col-md-8">
+	<div class="panel contentGrid">
+	    <div class="panel-heading">
+		    <strong>Disponíveis</strong>
+		  </div>
+		<div class="panel-body">
+		  <div id="grid1" ui-grid="gridOptions" ui-grid-selection class="grid"></div>
+         </div>
+    	
+    </div>
+    </div>
+	<div class="col-md-4">
+	<div class="panel contentGrid">
+	    <div class="panel-heading">
+		    <strong>Selecionados</strong>
+		  </div>
+		<div class="panel-body">
+		  <div id="grid2" ui-grid="gridOptions2" ui-grid-selection class="grid"></div>
+         </div>
+    </div>
+    </div>
+</div>
+
+</div>

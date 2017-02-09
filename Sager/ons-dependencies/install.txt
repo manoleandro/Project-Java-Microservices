@@ -1,0 +1,13 @@
+mvn install:install-file -Dfile=com.ibm.mq.allclient.jar -DgroupId=com.ibm -DartifactId=com.ibm.mq.allclient -Dversion=8.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=sqljdbc42.jar -DgroupId=com.microsoft.sqlserver -DartifactId=sqljdbc42 -Dversion=4.2 -Dpackaging=jar
+
+mvn install:install-file -Dfile=jrules-res-session-ejb3-WAS85.jar -DgroupId=jrules -DartifactId=jrules-res-session-ejb3-WAS85 -Dversion=8.8.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=jrules-res-session-java.jar -DgroupId=jrules -DartifactId=jrules-res-session-java -Dversion=8.8.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=com.ibm.ws.ejb.thinclient_8.5.0.jar -DgroupId=com.ibm -DartifactId=com.ibm.ws.ejb.thinclient -Dversion=8.5.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=com.ibm.ws.orb_8.5.0.jar -DgroupId=com.ibm -DartifactId=com.ibm.ws.orb -Dversion=8.5.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=ogclient.jar -DgroupId=com.ibm -DartifactId=com.ibm.websphere.xs.client -Dversion=8.6.0 -Dpackaging=jar

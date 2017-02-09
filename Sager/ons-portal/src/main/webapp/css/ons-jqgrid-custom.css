@@ -1,0 +1,65 @@
+.ui-jqgrid .ui-jqgrid-view {
+    font-size: 12px;
+}
+
+
+.ui-jqgrid .ui-jqgrid-pager {
+	height: 30px !important;
+}
+
+
+.linha-color{
+	background: #dff0d8 !important;
+}
+
+tr.linha-color.ui-state-highlight td {
+    background:#FBE4AE;
+}
+
+.linha-color .ui-state-hover {
+	border: 1px solid #D6E9C6 !important;
+	background: #FBE4AE !important;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+ .ui-jqgrid .ui-pg-button:hover { padding: 1px; }
+
+.ui-jqgrid .ui-jqgrid-htable th div{
+    height: auto;
+    overflow: hidden;
+    /*padding-right: 4px;*/
+    padding-top: 2px;
+    position: relative;
+    vertical-align: text-top;
+    white-space: normal !important;
+}
+.ui-jqgrid tr.jqgrow td, .ui-jqgrid tr.jqgroup td { border-color: #79981B !important; color: #696969; height: 30px; /*white-space: normal;*/ line-height: normal;}
+.ui-jqgrid tr.jqgroup td {font-weight: bold;}
+
+.ui-widget-content.ui-state-hover { background:#FBE4AE !important; color:#000 !important; }
+
+.cell-alert-leve{background: #FFE65F !important; color:#8a6d3b !important; font-weight: bold !important; }
+.cell-alert-severo{background-color: #f2dede !important; color: #a94442 !important; font-weight: bold !important;}
+.ui-jqgrid .ui-pg-input, .ui-jqgrid .ui-pg-selbox {
+
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #79981B;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 11px;
+    height: 22px;
+    line-height: 1.5;
+    padding: 2px 5px;
+    color: #696969;
+}
+
+.cell-alert-leve.ui-state-highlight td, .cell-alert-leve.ui-state-hover td {
+    background-color:#ffcc66 !important;
+
+}
+
+

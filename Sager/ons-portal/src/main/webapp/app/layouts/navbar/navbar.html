@@ -1,0 +1,450 @@
+<form action="#" id="associado-form" class="sky-form sky-form-campos">
+	<header style="background-color: #486018;">
+		<!-- MENU -->
+	<div class="col-md-7">
+	<a href="#" class="btn btn-u btn-u-yellow side-bar-left-menu-open" style="width: 120px;" title="Abrir Menu">
+		MENU
+	</a>
+	<div class="side-menu-overlay menu-close" style="width: 0px; opacity: 0;"></div>
+		<div class="side-menu-wrapper">
+			<a href="#" class="menu-close">×</a>
+			<p></p>
+			<!-- ITENS DO MENU  -->
+			<div class="nav-side-menu">
+				<div class="menu-list">
+					<ul>
+						<!-- <li class="pai-nav-side-menu">
+							<a href="index.html" title="Sistema de Gestão para o Desenvolvimento do Sistema de Apuração da Geração">
+								Página Inicial
+							</a>
+						</li> -->
+						<ul id="menu-content">
+							<li data-toggle="collapse" data-target="#SAGER" class="pai-nav-side-menu">
+								<a href="#">SAGER
+									<span class="arrow"></span>
+								</a>
+							</li>
+							<ul class="sub-menu collapse" id="SAGER">
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="calculo-taxa">Solicitar Cálculo de Taxas</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="consulta-taxa">Consultar Taxas</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="consulta-taxa-ref">Consultar Taxas de Referência</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="manter-param">Manter Parametrização</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="disp">Consultar Disponibilidade</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="evento">Consultar Eventos</a></li>
+								<li class="active menu-close" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+									<a ui-sref="gerar-relatorio">Gerar relatórios</a></li>
+								<li class="active menu-close"><a ui-sref="manter-agendamento">Manter Agendamento</a></li>
+<!-- 								<li class="active menu-close"><a ui-sref="scenario">Manter Cenários</a></li> -->
+<!-- 								<li class="active menu-close"><a ui-sref="timeline">Timeline</a></li> -->
+<!-- 								<li class="active menu-close"><a ui-sref="records">Records</a></li> -->
+							</ul>
+							<li data-toggle="collapse" data-target="#Adm" class="pai-nav-side-menu">
+								<a href="#">Administração<span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="Adm">
+								<li class="active menu-close" ng-show="vm.swaggerEnabled">
+									<a ui-sref="docs">API</a>
+								</li>
+							</ul>
+							<li data-toggle="collapse" data-target="#Idioma" class="pai-nav-side-menu">
+								<a href="#">Idioma<span class="arrow"></span></a>
+							</li>
+							<ul class="sub-menu collapse" id="Idioma">
+								<li class="active menu-close"><a href="#">Português (Brasil)</a></li>
+								<li class="active menu-close"><a href="#">Inglês</a></li>
+							</ul>
+							<ul id="menu-content">
+							<li data-toggle="collapse" data-target="#Sair" class="pai-nav-side-menu" ng-show="vm.isAuthenticated()">
+								<a ng-click="vm.logout()">Sair</a>
+							</li></ul>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- FIM MENU -->
+
+
+<!-- <div class="col-md-7">
+<div class="menuTopoBar" uib-collapse="vm.isNavbarCollapsed" ng-switch="vm.isAuthenticated()">
+	        <ul id="nav" style="margin-top: -22px; position: absolute;">
+	            <li tabindex="1" id="menu">MENU
+	                <ul class="nav first">
+	                    <li ng-switch-when="true" id="menuSager">
+	                    	<a href="javascript:void(0)" title="Sistema de Apura&ccedil;&atilde;o da Gera&ccedil;&atilde;o">
+	                    		SAGER<span class="ui-icon ui-icon-carat-1-e"></span>
+                    		</a>
+                    		<ul class="nav" id="menuSager">
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="calculo-taxa" ng-click="vm.collapseNavbar()">
+                          				Solicitar C&aacute;lculo de Taxas
+                          			</a>
+                          		</li>						
+                          		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN">
+                          			<a ui-sref="consulta-taxa" ng-click="vm.collapseNavbar()" id="consultar_taxas">
+                          				Consultar Taxas
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="consulta-taxa-ref" ng-click="vm.collapseNavbar()">
+                          				Consultar Taxas de Refer&ecirc;ncia
+                          			</a>
+                          		</li>                          		
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="manter-param" ng-click="vm.collapseNavbar()">
+                          				Manter Parametriza&ccedil;&atilde;o
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN">
+                          			<a ui-sref="disp" ng-click="vm.collapseNavbar()">
+                          				Consultar Disponibilidades
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN">
+                          			<a ui-sref="evento" ng-click="vm.collapseNavbar()">
+                          				Eventos
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN">
+                          			<a ui-sref="gerar-relatorio" ng-click="vm.collapseNavbar()">
+                          				Gerar Relat&oacute;rios
+                          			</a>
+                          		</li>
+	                        </ul>
+	                    </li>
+	                    <li ng-switch-when="true" has-any-authority="ROLE_ADMIN, ROLE_CNOS, ROLE_COSR_S, ROLE_COSR_NE">
+	                    	<a href="javascript:void(0)" title="Plataforma">
+	                    		Plataforma<span class="ui-icon ui-icon-carat-1-e"></span>
+                    		</a>
+                    		<ul class="nav">
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="manter-agendamento" ng-click="vm.collapseNavbar()">
+                          				Manter Agendamentos
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="scenario" ng-click="vm.collapseNavbar()">
+                          				Manter Cen&aacute;rios
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="timeline" ng-click="vm.collapseNavbar()">
+                          				Timelines
+                          			</a>
+                          		</li>
+                          		<li ui-sref-active="active">
+                          			<a ui-sref="record" ng-click="vm.collapseNavbar()">
+                          				Records
+                          			</a>
+                          		</li>
+	                        </ul>
+	                    </li>
+                         <li ng-switch-when="true" has-authority="ROLE_ADMIN" uib-dropdown class="dropdown pointer">
+                         	<a class="dropdown-toggle" uib-dropdown-toggle href="" id="admin-menu">
+                         		Administra&ccedil;&atilde;o
+                         	</a>
+                          	<ul class="nav">
+		                        <li ng-show="vm.swaggerEnabled" ui-sref-active="active">
+		                            <a ui-sref="docs" ng-click="vm.collapseNavbar()">
+		                                API
+		                            </a>
+		                        </li>
+                         		</ul>
+                         </li>
+                         <li ui-sref-active="active" uib-dropdown class="dropdown pointer" ng-controller="JhiLanguageController as languageVm">
+                         	<a class="dropdown-toggle" uib-dropdown-toggle href="" ng-if="languageVm.languages.length > 1" translate="global.menu.language">
+                         		Language
+                         	</a>
+                          	<ul class="nav dropdown-menu" uib-dropdown-menu ng-if="languageVm.languages.length > 1">
+                          		<li active-menu="{{language}}" ng-repeat="language in languageVm.languages">
+                          			<a href="" ng-click="languageVm.changeLanguage(language);vm.collapseNavbar();">
+                          				{{language | findLanguageFromKey}}
+                          			</a>
+                          		</li>
+                          	</ul>
+                         </li>
+						<li ng-show="vm.isAuthenticated()" ui-sref-active="active">
+                            <a ng-click="vm.logout()">
+                                Sair
+                            </a>
+                        </li>
+                         	</ul>
+                         </li>
+	                </ul>
+	            </li>
+	        </ul> 
+ 		</div>
+		</div> -->
+		<!-- Dados do usuário -->
+		 <div class="col-md-5" style="font-size:15px; text-align: right;" ng-show="vm.isAuthenticated()">
+			 <ul class="list-inline badge-lists">
+				<li>
+					<a class="btn-u btn-u-xs btn-u-default" href="#">Notifica&ccedil;&otilde;es</a>
+					<span class="badge badge-blue">{{notificacoes.length}}</span>
+				</li>
+				<li>
+					<a class="btn-u btn-u-xs btn-u-dark" href="#">Tarefas</a>
+					<span class="badge badge-red rounded-2x">0</span>
+				</li>
+				<li>
+					<span style="color:#fff;">Bem Vindo, <strong>{{vm.settingsAccount.firstName}}</strong>
+						 - Perfil: 
+						 <strong style="font-size: 10px;">
+						 	<span ng-repeat="authority in vm.settingsAccount.authorities">{{ authority | limitTo: 10 : 5}}</span>
+						 </strong>
+					</span>    
+				</li>
+			</ul>
+		 </div>
+ 			<div style="clear:both;"></div>
+	</header>
+</form>
+<!-- Fim Form -->		
+
+
+<!-- <nav class="navbar navbar-default" role="navigation"> -->
+<!-- 	<div class="container"> -->
+<!-- 		<div class="menuTopoBar" uib-collapse="vm.isNavbarCollapsed" ng-switch="vm.isAuthenticated()"> -->
+<!-- 	        <ul id="nav"> -->
+<!-- 	            <li tabindex="1" id="menu">MENU -->
+<!-- 	                <ul class="nav first"> -->
+<!-- 	                    <li ng-switch-when="true" id="menuSager"> -->
+<!-- 	                    	<a href="javascript:void(0)" title="Sistema de Gestão para o Desenvolvimento do Sistema de Apuração da Geração"> -->
+<!-- 	                    		SAGER<span class="ui-icon ui-icon-carat-1-e"></span> -->
+<!--                     		</a> -->
+<!--                     		<ul class="nav" id="menuSager"> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="calculo-taxa" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Solicitar Calculo de Taxas -->
+<!--                           			</a> -->
+<!--                           		</li>						 -->
+<!--                           		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN"> -->
+<!--                           			<a ui-sref="consulta-taxa" ng-click="vm.collapseNavbar()" id="consultar_taxas"> -->
+<!--                           				Consultar Taxas -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"  id="teste"> -->
+<!--                           			<a ui-sref="consulta-taxa-ref" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Consultar Taxas de Referência -->
+<!--                           			</a> -->
+<!--                           		</li>                          		 -->
+<!--                           		<li ui-sref-active="active"  id="teste"> -->
+<!--                           			<a ui-sref="manter-param" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Manter Parametrização -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN"> -->
+<!--                           			<a ui-sref="disp" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Consultar Disponibilidades -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN"> -->
+<!--                           			<a ui-sref="evento" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Eventos -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_SE,ROLE_ADMIN"> -->
+<!--                           			<a ui-sref="gerar-relatorio" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Gerar Relat&oacute;rios -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
+<!-- 	                        </ul> -->
+<!-- 	                    </li> -->
+<!-- 	                    <li ng-switch-when="true"> -->
+<!-- 	                    	<a href="javascript:void(0)" title="Exemplo"> -->
+<!-- 	                    		Exemplo<span class="ui-icon ui-icon-carat-1-e"></span> -->
+<!--                     		</a> -->
+<!-- 	                        <ul class="nav"> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="cadastro-usina" ng-click="vm.collapseNavbar()" translate="global.menu.entities.cadastroUsina"> -->
+<!--                           				Cadastro Usina -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="apuracao-evento" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Apuração Eventos -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="apuracao-evento2" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Matheus Eventos -->
+<!--                           			</a> -->
+<!--                           		</li>                          		 -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="cadastro-evento" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Retificação Eventos -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!-- 	                        </ul> -->
+<!-- 	                    </li> -->
+<!-- 	                    <li ng-switch-when="true" has-any-authority="ROLE_ADMIN, ROLE_CNOS, ROLE_COSR_S, ROLE_COSR_NE"> -->
+<!-- 	                    	<a href="javascript:void(0)" title="Plataforma"> -->
+<!-- 	                    		Plataforma<span class="ui-icon ui-icon-carat-1-e"></span> -->
+<!--                     		</a> -->
+<!--                     		<ul class="nav"> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="manter-agendamento" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Manter Agendamentos -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="scenario" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Manter Cenarios -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="timeline" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Timelines -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="record" ng-click="vm.collapseNavbar()"> -->
+<!--                           				Records -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!-- 	                        </ul> -->
+<!-- 	                    </li> -->
+<!-- 	                    <li ng-class="{active: vm.$state.includes('account')}" uib-dropdown class="dropdown pointer"> -->
+<!--                          	<a class="dropdown-toggle" uib-dropdown-toggle href="" id="account-menu" translate="global.menu.account.main"> -->
+<!--                          		Account -->
+<!--                          	</a> -->
+<!--                          		<ul class="nav" uib-dropdown-menu> -->
+<!--                           		<li ui-sref-active="active" ng-switch-when="true"> -->
+<!--                           			<a ui-sref="settings" ng-click="vm.collapseNavbar()" translate="global.menu.account.settings"> -->
+<!--                           				Settings -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active" ng-switch-when="true"> -->
+<!--                           			<a ui-sref="password" ng-click="vm.collapseNavbar()" translate="global.menu.account.password"> -->
+<!--                           				Password -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active" ng-switch-when="false"> -->
+<!--                           			<a ui-sref="register" ng-click="vm.collapseNavbar()" translate="global.menu.account.register"> -->
+<!--                           				Register -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           	</ul>inside menu acount -->
+<!--                          </li>end account -->
+                         
+<!--                          <li ng-class="{active: vm.$state.includes('admin')}" has-authority="ROLE_ADMIN" uib-dropdown class="dropdown pointer">ng-switch-when="true" -->
+<!--                          	<a class="dropdown-toggle" uib-dropdown-toggle href="" id="admin-menu" translate="global.menu.admin.main"> -->
+<!--                          		Administration -->
+<!--                          	</a> -->
+<!--                           	<ul class="nav"> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="gateway" ng-click="vm.collapseNavbar()" translate="global.menu.admin.gateway"> -->
+<!--                           				Gateway -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="user-management" ng-click="vm.collapseNavbar()" translate="global.menu.admin.userManagement"> -->
+<!--                           				User management -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!--                           			<a ui-sref="jhi-metrics" ng-click="vm.collapseNavbar()" translate="global.menu.admin.metrics"> -->
+<!--                           				Metrics -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           		<li ui-sref-active="active"> -->
+<!-- 		                            <a ui-sref="jhi-health" ng-click="vm.collapseNavbar()" translate="global.menu.admin.health"> -->
+<!-- 		                                Health -->
+<!-- 		                            </a> -->
+<!-- 		                        </li> -->
+<!-- 		                        <li ui-sref-active="active"> -->
+<!-- 		                            <a ui-sref="jhi-configuration" ng-click="vm.collapseNavbar()" translate="global.menu.admin.configuration"> -->
+<!-- 										Configuration -->
+<!-- 		                            </a> -->
+<!-- 		                        </li> -->
+<!-- 		                        <li ui-sref-active="active"> -->
+<!-- 		                            <a ui-sref="audits" ng-click="vm.collapseNavbar()" translate="global.menu.admin.audits"> -->
+<!-- 		                                Audits -->
+<!-- 		                            </a> -->
+<!-- 		                        </li> -->
+<!-- 		                        <li ui-sref-active="active"> -->
+<!-- 		                            <a ui-sref="logs" ng-click="vm.collapseNavbar()" translate="global.menu.admin.logs"> -->
+<!-- 		                                Logs  -->
+<!-- 		                            </a> -->
+<!-- 		                        </li> -->
+<!-- 		                        <li ng-show="vm.swaggerEnabled" ui-sref-active="active"> -->
+<!-- 		                            <a ui-sref="docs" ng-click="vm.collapseNavbar()" translate="global.menu.admin.apidocs"> -->
+<!-- 		                                API -->
+<!-- 		                            </a> -->
+<!-- 		                        </li> -->
+			                        
+<!--                          		</ul>inside menu administration -->
+<!--                          </li>end administration -->
+                         
+<!--                          <li ui-sref-active="active" uib-dropdown class="dropdown pointer" ng-controller="JhiLanguageController as languageVm"> -->
+<!--                          	<a class="dropdown-toggle" uib-dropdown-toggle href="" ng-if="languageVm.languages.length > 1" translate="global.menu.language"> -->
+<!--                          		Language -->
+<!--                          	</a> -->
+<!--                           	<ul class="nav dropdown-menu" uib-dropdown-menu ng-if="languageVm.languages.length > 1"> -->
+<!--                           		<li active-menu="{{language}}" ng-repeat="language in languageVm.languages"> -->
+<!--                           			<a href="" ng-click="languageVm.changeLanguage(language);vm.collapseNavbar();"> -->
+<!--                           				{{language | findLanguageFromKey}} -->
+<!--                           			</a> -->
+<!--                           		</li> -->
+<!--                           	</ul>inside menu language -->
+<!--                          </li>language  -->
+<!-- 	                </ul> -->
+<!-- 	            </li> -->
+<!-- 	        </ul>  -->
+<!-- 		</div> -->
+<!-- 		<div class="topoInformacoesUsuario" ng-show="vm.isAuthenticated()"> -->
+<!--         	<div class="boasVindasHeader"> -->
+<!--         		Bem vindo, {{vm.settingsAccount.firstName}} - Perfil -->
+<!--                         <span ng-repeat="authority in vm.settingsAccount.authorities">{{ authority | limitTo: 10 : 5}} </span> -->
+                    
+<!--        		</div> -->
+<!--         	<div class="botaoTopoNotificacao" ui-sref="notificacoes"> -->
+<!--         		<span ui-sref="notificacoes" ng-show="notificacoes.length >= 1" class="quantidade-de-notificacao">{{notificacoes.length}}</span> -->
+<!--         		Notifications -->
+<!--         	</div> -->
+<!--         	<div class="botaoTopoLogout" ng-click="vm.logout()" id="logout"> -->
+<!--         		Logout -->
+<!--         	</div> -->
+<!--         </div> -->
+<!-- 		<div class="topoLogin" ng-hide="vm.isAuthenticated()"> -->
+<!--         	<div class="botaoTopoLogin" ng-click="vm.login()" id="login"> -->
+<!--         		Login -->
+<!--         	</div> -->
+<!--         </div> -->
+<!-- 	</div> -->
+<!-- </nav> -->
+  <script type="text/javascript">
+	var slidebar_width  = 340; //slidebar width + padding size
+	var slide_bar       = $(".side-menu-wrapper"); //slidebar
+	var slide_open_btn  = $(".side-bar-left-menu-open"); //slidebar close btn
+	var slide_close_btn = $(".menu-close"); //slidebar close btn
+	var overlay         = $(".side-menu-overlay"); //slidebar close btn
+	
+	slide_open_btn.click(function(e){
+	    e.preventDefault();
+	    slide_bar.css( {"left": "0px"}); //change to "right" for right positioned menu
+	    overlay.css({"opacity":"1", "width":"100%"});
+	});
+	slide_close_btn.click(function(e){
+	    e.preventDefault();
+	    slide_bar.css({"left": "-"+ slidebar_width + "px"}); //change to "right" for right positioned menu
+	    overlay.css({"opacity":"0", "width":"0"});  
+	});
+</script>
+<script type="text/javascript">
+ $(document).keyup(function(e) {
+  if (e.keyCode === 27) {
+    e.preventDefault();
+    slide_bar.css({"left": "-"+ slidebar_width + "px"}); //change to "right" for right positioned menu
+    overlay.css({"opacity":"0", "width":"0"});
+  }
+ });
+</script>

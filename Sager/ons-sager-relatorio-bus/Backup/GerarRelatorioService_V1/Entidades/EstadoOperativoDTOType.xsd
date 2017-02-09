@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstadoOperativoDTO"  elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="EstadoOperativoDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Codigo" type="xs:string"/>
+			<xs:element name="Descricao" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

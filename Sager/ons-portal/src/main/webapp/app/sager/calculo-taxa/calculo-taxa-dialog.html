@@ -1,0 +1,100 @@
+<div class="modal-content" style="padding: 0px 20px;">
+	<form action="#" id="sky-form" class="sky-form sky-form-campos ng-pristine ng-valid-required ng-invalid ng-invalid-datetime" 
+		style="border: 0px;">
+		<!-- Header modal -->
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="vm.clear()">×</button>
+			<h2 class="modal-title" id="myCalculoTaxaLabel" translate="onsPortalApp.calculoTaxa.home.createOrEditLabel">
+				Criar Agendamento
+			</h2>
+		</div>
+		<!-- Comentarios -->
+		<section class="col-xs-12 col-sm-12 col-lg-12" ng-show="hasComments" style="margin-bottom: 0;">
+			<label class="control-label" ng-model="collapsed" ng-click="collapsed=!collapsed">Comentários
+				<span ng-show="!collapsed" class="fa fa-chevron-down collapse" style="color:#486018; margin-top: -4px; font-size: 13px !important;"></span>
+				<span ng-show="collapsed" class="fa fa-chevron-up collapse" style="color:#486018;margin-top: -4px; font-size: 13px !important;"></span>
+				<span class="fa fa-eye" style="margin-top: 2px; float: right; padding-left: 5px; color: #f1c40f;"></span>
+			</label>
+			<div id="comentariosAviso" ng-show="collapsed" style="height: 120px;overflow-y: auto;overflow-x: hidden;">
+			  	<div ng-repeat="comentario in vm.comentarios">
+			    	<div ng-show="comentario.tipo=='AVISO'" class="alert alert-warning alert-dismissible" role="alert">
+			    		<strong>Aviso!</strong> 
+			    		<div class="mensagem">{{comentario.descricao}}</div>
+			    	</div>
+			    	<div ng-show="comentario.tipo=='ERRO'" class="alert alert-danger alert-dismissible" role="alert">
+			    		<strong>Falha!</strong> 
+						<div class="mensagem">{{comentario.descricao}}</div>
+			    	</div>
+			   		<div  ng-show="comentario.tipo=='COMENTARIO'" class="alert alert-info alert-dismissible" role="alert">
+			   			<strong>Comentário!</strong>
+			   			<div class="mensagem">{{comentario.descricao}}</div>
+					</div>
+			    </div>
+		    </div>
+		</section>
+		<!-- Instalações selecionadas -->
+		<section class="col col-6" style="margin: 10px 0px;">
+			<label class="control-label">Instalações Selecionadas:</label> 
+			<span ng-repeat="usina in vm.usinasPossiveis">{{usina.nome}} </span>
+		</section>
+		<!-- Período escolhido -->
+		<section class="col col-6" style="margin: 10px 0px;">
+			<label class="control-label">Mês Inicial:</label> 
+			<span>{{vm.mesInicial | date: "MM/yyyy" }}</span> 
+			<label class="control-label">Mês Final:</label>
+			<span>{{vm.mesFinal | date: "MM/yyyy"}} </span>
+		</section>
+		<!-- Combos data e hora agendamento -->
+		<div class="col-xs-12 col-sm-12 col-lg-12" style="background-color: #f1f3f4; margin-bottom: 10px; padding: 10px 0px;">
+			<section class="col-xs-6 col-sm-6 col-lg-6">
+				<label class="control-label">Data Agendamento:</label>
+				<!-- Data de agendamento -->
+				<div id="id_startDate">
+					<p class="input-group">
+						<input id="field_startDate" type="text" class="form-control ng-pristine ng-untouched ng-not-empty ng-valid-required ng-invalid ng-invalid-datetime"
+							name="startDate" datetime-picker="dd/MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" ng-model="vm.startDate"
+							is-open="vm.datePickerOpenStatus.startDate" enable-time="false" close-on-date-selection="false" ng-change="changeDate()"
+							required="" aria-invalid="true">
+							<span class="input-group-btn" style="vertical-align: top !important;">
+								<button type="button" class="btn-dt btn btn-default" id="btn-datepicker-start" ng-click="vm.openCalendar('startDate')">
+									<i class="fa fa-calendar"></i>
+								</button>
+							</span>
+					</p>
+				</div>
+			</section>
+			<!-- Hora de agendamento -->
+			<section class="col-xs-6 col-sm-6 col-lg-6">
+				<label class="control-label">Hora Agendamento:</label>
+				<div>
+					<p class="input-group">
+						<input id="horaAgendamento" ng-model="vm.today" type="text" class="form-control ng-pristine ng-untouched ng-valid ng-not-empty ng-valid-datetime"
+							name="horaAgendamento" datetime-picker="HH:mm" is-open="vm.datePickerOpenStatus.horaAgendamento" datepicker-options="vm.datepickerOptionsHoraAgendamento"
+							enable-date="false" close-on-selection="true" aria-invalid="false"> 
+							<span class="input-group-btn" style="vertical-align: top !important;">
+								<button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('horaAgendamento')">
+									<i class="fa fa-calendar"></i>
+								</button>
+							</span>
+					</p>
+				</div>
+			</section>
+		</div>
+		<!-- ui-grid -->
+		<div class="feature ng-scope" ng-app="demo">
+			<div class="col-6">Agendamentos pré-existentes</div>
+			<div id="gridAgendamentos" class="grid ui-grid ng-isolate-scope grid1483466308611" ui-grid-expandable ui-grid="gridOptions" style="height: 345px;" ui-grid-resize-columns ui-grid-move-columns ui-grid-empty-base-layer ui-grid-auto-resize ui-grid-pinningclass="grid"></div>
+		</div>
+	<!-- Botões cancelar e agendar -->
+	<footer class="text-right" style="margin: 10px 0px;">
+		<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="vm.clear()">
+			<span class="fa fa-chevron-left"></span>&nbsp; 
+			<span translate="onsPortalApp.calculoTaxa.home.back">Votar</span>
+		</button>
+		<button id="btnAgendar" type="button" class="btn-u" ng-click="vm.validarBtnAgendar()">
+			<span class="fa fa-check"></span>&nbsp; 
+			<span translate="onsPortalApp.calculoTaxa.home.agendar">Agendar</span>
+		</button>
+	</footer>
+	</form>
+</div>

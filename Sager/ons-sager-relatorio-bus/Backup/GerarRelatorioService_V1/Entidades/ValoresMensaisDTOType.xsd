@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO" 
+	xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoMesDTO" 
+	xmlns:ns2="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorInflexibilidadeDTO"  
+	targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/ValoresMensaisDTO" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">	
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoMesDTO" schemaLocation="../Entidades/Tipos/TipoMesDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorInflexibilidadeDTO" schemaLocation="../Entidades/Tipos/TipoValorInflexibilidadeDTOType.xsd"/>
+	<xs:complexType name="ValoresMensaisDTOType">
+		<xs:sequence minOccurs="12" maxOccurs="12">			
+			<xs:element name="Mes" type="ns1:TipoMesDTOType" />
+			<xs:element name="ValorInflexibilidade" type="ns2:TipoValorInflexibilidadeDTOType" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

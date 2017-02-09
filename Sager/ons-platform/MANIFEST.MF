@@ -1,0 +1,11 @@
+Ignore-Scanning-Archives: hystrix-core-1.5.5.jar, hystrix-javanica-1.5.5.jar, 
+ hystrix-metrics-event-stream-1.5.5.jar, hystrix-serialization-1.5.5.jar, netflix-commons-util-0.1.1.jar, 
+ netflix-statistics-0.1.1.jar, spring-cloud-cloudfoundry-connector-1.2.3.RELEASE.jar, 
+ spring-cloud-commons-1.1.3.RELEASE.jar, spring-cloud-context-1.1.3.RELEASE.jar, 
+ spring-cloud-core-1.2.3.RELEASE.jar, spring-cloud-localconfig-connector-1.2.3.RELEASE.jar, 
+ spring-cloud-netflix-core-1.2.0.RELEASE.jar, spring-cloud-netflix-spectator-1.2.0.RELEASE.jar, 
+ spring-cloud-spring-service-connector-1.2.3.RELEASE.jar, spring-cloud-starter-1.1.3.RELEASE.jar, 
+ spring-cloud-starter-archaius-1.2.0.RELEASE.jar, spring-cloud-starter-hystrix-1.2.0.RELEASE.jar, 
+ spring-cloud-starter-ribbon-1.2.0.RELEASE.jar, spring-cloud-starter-spectator-1.2.0.RELEASE.jar, 
+ ribbon-2.2.0.jar, ribbon-core-2.2.0.jar, ribbon-httpclient-2.2.0.jar, ribbon-loadbalancer-2.2.0.jar, 
+ ribbon-transport-2.2.0.jar, archaius-core-0.7.4.jar

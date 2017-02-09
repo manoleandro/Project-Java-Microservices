@@ -1,0 +1,1313 @@
+[ {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1996-12-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG6",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1994-04-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "AMBA--0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1989-09-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG02",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-08-01T00:00:00"
+    },
+    "valor" : "123.330000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1982-01-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1979-04-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2003-11-01T00:00:00"
+    },
+    "valor" : "111.860000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPC0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "360.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPD03",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-05-01T00:00:00"
+    },
+    "valor" : "360.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "PRGBM-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1981-03-01T00:00:00"
+    },
+    "valor" : "419.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUSCP0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1977-07-01T00:00:00"
+    },
+    "valor" : "15.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG10",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "45.543000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG12",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "44.117000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG14",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "46.425000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG16",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-01-01T00:00:00"
+    },
+    "valor" : "47.088000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG18",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-06-01T00:00:00"
+    },
+    "valor" : "46.335000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-11-01T00:00:00"
+    },
+    "valor" : "45.012000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "46.083000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "46.713000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG7",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "46.470000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG9",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "45.992000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RNUPU-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2009-02-01T00:00:00"
+    },
+    "valor" : "13.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "73.800000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UGST",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "118.600000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTNE10UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "16.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0G4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-05-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG12",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-11-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG16",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-04-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG20",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG24",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-05-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG28",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-01-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG32",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-06-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG36",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-11-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG40",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG44",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-07-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-07-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG8",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-09-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUPME0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1986-01-01T00:00:00"
+    },
+    "valor" : "160.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUTCH0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1962-01-01T00:00:00"
+    },
+    "valor" : "18.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSGBI1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "1100.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "TSTI2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "127.420000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1996-07-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "AMBA--0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1989-02-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "AMBA--0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-07-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG03",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-12-01T00:00:00"
+    },
+    "valor" : "123.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1981-04-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG6",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1995-01-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-08-01T00:00:00"
+    },
+    "valor" : "107.997000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPC0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-11-01T00:00:00"
+    },
+    "valor" : "360.137000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPD03",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-07-01T00:00:00"
+    },
+    "valor" : "365.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "PRGBM-0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1982-01-01T00:00:00"
+    },
+    "valor" : "419.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUSCP0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-03-01T00:00:00"
+    },
+    "valor" : "12.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG10",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "44.672000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG12",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.816000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG14",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "47.723000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG16",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.434000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG18",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "45.754000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.270000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "45.960000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG7",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.599000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG9",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.630000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RNUPU-0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2009-02-01T00:00:00"
+    },
+    "valor" : "13.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-10-01T00:00:00"
+    },
+    "valor" : "69.520000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UGST",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-10-01T00:00:00"
+    },
+    "valor" : "111.720000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTNE10UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "16.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-08-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG13",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-01-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG17",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-08-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG21",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-07-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG25",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-05-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG29",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-11-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG33",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-09-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG37",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-09-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG41",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG45",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-07-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG50",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-09-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG9",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUPME0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1987-02-01T00:00:00"
+    },
+    "valor" : "160.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUTCH0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1969-03-01T00:00:00"
+    },
+    "valor" : "18.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSGBI2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "1100.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "UYBRRSCTA-",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "350.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1995-10-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "AMBA--0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1989-03-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG01",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-08-01T00:00:00"
+    },
+    "valor" : "123.330000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG03",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-08-01T00:00:00"
+    },
+    "valor" : "123.330000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1981-02-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2003-09-01T00:00:00"
+    },
+    "valor" : "111.860000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2003-11-01T00:00:00"
+    },
+    "valor" : "122.910000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPC0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-01-01T00:00:00"
+    },
+    "valor" : "360.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "PRGBM-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1980-04-01T00:00:00"
+    },
+    "valor" : "419.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUSCP0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1977-07-01T00:00:00"
+    },
+    "valor" : "15.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-11-01T00:00:00"
+    },
+    "valor" : "45.810000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG11",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "45.544000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG13",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-02-01T00:00:00"
+    },
+    "valor" : "46.435000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG15",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-01-01T00:00:00"
+    },
+    "valor" : "45.660000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG17",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-06-01T00:00:00"
+    },
+    "valor" : "46.124000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG19",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-06-01T00:00:00"
+    },
+    "valor" : "47.258000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG20",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2002-07-01T00:00:00"
+    },
+    "valor" : "47.255000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "46.366000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG6",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "46.500000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG8",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-12-01T00:00:00"
+    },
+    "valor" : "45.884000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RNUPU-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2009-02-01T00:00:00"
+    },
+    "valor" : "13.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "73.800000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "73.800000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTNE10UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "16.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0G2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG10",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG14",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-01-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG18",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG22",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-06-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG26",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-04-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG30",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG34",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-10-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG38",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-08-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG42",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-02-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG46",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-09-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG6",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-08-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUPME0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1974-01-01T00:00:00"
+    },
+    "valor" : "63.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUTCH0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1962-01-01T00:00:00"
+    },
+    "valor" : "18.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUTEC0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2010-11-01T00:00:00"
+    },
+    "valor" : "350.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BRPYANACY",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "UYBRRSLIV2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "74.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1997-08-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ALUXG-0UG5",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1995-01-01T00:00:00"
+    },
+    "valor" : "527.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "AMBA--0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1989-04-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG02",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-10-01T00:00:00"
+    },
+    "valor" : "123.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "APSAJ-0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-12-01T00:00:00"
+    },
+    "valor" : "3.400000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "BAUSB-0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1980-04-01T00:00:00"
+    },
+    "valor" : "175.050000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-08-01T00:00:00"
+    },
+    "valor" : "107.917000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTFO0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-08-01T00:00:00"
+    },
+    "valor" : "110.687000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "CEUTPC0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-11-01T00:00:00"
+    },
+    "valor" : "360.137000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "PRGBM-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1981-01-01T00:00:00"
+    },
+    "valor" : "419.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUSCP0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-03-01T00:00:00"
+    },
+    "valor" : "13.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.991000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG11",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "45.857000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG13",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "45.043000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG15",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.270000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG17",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.125000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG19",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.187000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG20",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "47.785000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG4",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.898000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG6",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "47.702000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RJUTME0UG8",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2012-01-01T00:00:00"
+    },
+    "valor" : "46.682000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RNUPU-0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2009-02-01T00:00:00"
+    },
+    "valor" : "13.300000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-10-01T00:00:00"
+    },
+    "valor" : "69.520000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTN2-0UG3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-10-01T00:00:00"
+    },
+    "valor" : "69.520000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROTNE10UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1990-12-01T00:00:00"
+    },
+    "valor" : "16.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0G3",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-02-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG11",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2013-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG15",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG19",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-12-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG23",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-05-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG27",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2015-03-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG31",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-03-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG35",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-11-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG39",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-02-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG43",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-06-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG49",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2016-10-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ROUHJI0UG7",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2014-08-01T00:00:00"
+    },
+    "valor" : "75.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUPME0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1974-03-01T00:00:00"
+    },
+    "valor" : "63.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "RSUTCH0UG2",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "1962-01-01T00:00:00"
+    },
+    "valor" : "18.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "ARBRRSCUR",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "50.000000000000"
+}, {
+    "_class" : "br.org.ons.geracao.cadastro.PotenciaCalculo",
+    "idEquipamento" : "TSTI1",
+    "vigencia" : {
+        "_class" : "br.org.ons.geracao.modelagem.Periodo",
+        "dataInicio" : "2001-01-01T00:00:00"
+    },
+    "valor" : "363.000000000000"
+} ]

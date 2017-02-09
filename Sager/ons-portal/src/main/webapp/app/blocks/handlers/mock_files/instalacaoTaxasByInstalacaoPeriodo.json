@@ -1,0 +1,3001 @@
+[ {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-12-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 12,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:56.790+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "2",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.04323819,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_ii acumulada",
+    "valor" : 0.05782411,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.04323579,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIFa_ii acumulada",
+    "valor" : 0.05315342,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.0441698,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.0441698,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : 0.10790398,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-11-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 11,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:56.658+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "2",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.04198682,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_ii acumulada",
+    "valor" : 0.05911933,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.04198445,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIFa_ii acumulada",
+    "valor" : 0.05178008,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.04546502,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.04546502,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : 0.10783821,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-10-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 10,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:56.546+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "2",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.04074372,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_ii acumulada",
+    "valor" : 0.06043368,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.04074139,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIFa_ii acumulada",
+    "valor" : 0.05040777,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.04677936,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.04677936,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : 0.10779512,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-09-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 9,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:55.207+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.20261658,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.17060346,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.0041358,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.0041358,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.042533128167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.039558557,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.047834890833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.047834890833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-08-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 8,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:52.325+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.08233647,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.08233647,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.040156185167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.037715166,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.049099294167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.049099294167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-07-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 7,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:52.253+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.07451464,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.07451464,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.038378407333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.035937388167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.049060353,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.049060353,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-06-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 6,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:52.157+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.16666667,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00210262,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00210262,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0366006295,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.034159610333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.049151775667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.049151775667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-05-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 5,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:52.079+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.03656938,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.01875,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.14675926,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.14675926,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.034822851667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0323818325,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.050450065333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.050450065333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-04-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 4,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:52.006+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00000406,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00000386,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00859182,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00859182,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.035213362,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0330693325,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.049337411,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.049337411,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-03-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 3,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:51.900+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00377838,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00377838,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.036213294333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.034069268167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.050527547333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.050527547333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-02-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 2,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:51.819+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00057044,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00057044,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.037213294333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.035069268167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.051797907667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.051797907667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2014-01-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2014,
+  "mes" : 1,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:59:51.709+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.038213294333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.036069268167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.053121733667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.053121733667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-12-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 12,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:57.348+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00014562,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00014561,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00679137,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00679137,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.039213294333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.037069268167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.054455067,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.054455067,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-11-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 11,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.475+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.0170216,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.0170216,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.040210867333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.038066841333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.055675210833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.055675210833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-10-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 10,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.372+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00738127,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00738127,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.041210867333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.039066841333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.056724850833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.056724850833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-09-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 9,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.293+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.10620435,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.01839892,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.042210867333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.040066841333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.057935163,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.057935163,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-08-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 8,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.203+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00134119,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00061231,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.041440794833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.040760192667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.059268496333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.059268496333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-07-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 7,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.108+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.042418441667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0417499875,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.060601829667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.060601829667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-06-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 6,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.062+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00113247,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00090278,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.043418441667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0427499875,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.061935163,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.061935163,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-05-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 5,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:53.018+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.01346261,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00473044,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00289725,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00289725,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.044399567167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.043734941167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.063268496333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.063268496333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-04-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 4,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:52.977+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.03078431,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00072082,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.03249228,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.03249228,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.045175190333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0446561005,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.064553542167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.064553542167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-03-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 3,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:52.878+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.14876045,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.14876045,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0456621185,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.045644086833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.0653453375,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.0653453375,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-02-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 2,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:52.841+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.02819527,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.02819527,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0466621185,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.046644086833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.06419933,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.06419933,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2013-01-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2013,
+  "mes" : 1,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T23:52:51.915+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00023024,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00021281,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0476621185,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.047644086833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.065062742167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.065062742167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "aY3dObYiTYK7raHgahiTgQ",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-12-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 12,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:19:15.865+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00052894,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00047043,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.048658281167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.04864054,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.0663960755,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.0663960755,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "N5jtPviWTH-m2wIzBKg4hg",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-11-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 11,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:19:11.535+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.02026235,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.02026235,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0496494655,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0496326995,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.067729408833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.067729408833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "C8GSjLrKToaiOgok7auUQA",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-10-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 10,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:51.552+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00468536,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00454073,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00074298,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00074298,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.0506494655,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0506326995,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.068725036333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.068725036333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "zAFoXnF6T4WhHy8EgucLsA",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-09-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 9,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:45.519+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.01541281,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.01541281,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.051571376167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.051557020667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.070045986667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.070045986667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "Y9FdE_IFSkK5KrELrcc9AA",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-08-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 8,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:41.085+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.01237836,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.01223439,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.03355735,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.03355735,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.052571376167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.052557020667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.071122439833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.071122439833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "NykgmpUOTLSbGGyYTsrbqQ",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-07-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 7,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:36.597+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00150296,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00137395,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.053365070167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.053353114167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.071896484,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.071896484,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "yp1CJhCyQn6FR-rdaLz3Ig",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-06-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 6,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:33.173+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.054340020833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.054330215,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.073229817333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.073229817333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "E09aFwirS6qk80f4uBgnMQ",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-05-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 5,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:30.283+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00123208,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00123208,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.055340020833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.055330215,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.074563150667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.074563150667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "gpKxzo4gTQ2GCHKHPqjkBg",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-04-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 4,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:27.134+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00064815,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00064815,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.00057485,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.00057485,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.056340020833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.056330215,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.075875949333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.075875949333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "y7Y6fjSWRICGbzW3cDSFzQ",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-03-01T03:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 3,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:24.126+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.01476235,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.01473334,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.03432273,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.03432273,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.057329218333,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.0573194125,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.077199701833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.077199701833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "0O0bEwIRQg290ZKl_qL4iA",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-02-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 2,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:20.935+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00463417,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00409375,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.03661398,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.03661398,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.058083179167,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.058073856833,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.077960989667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.077960989667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+}, {
+  "id" : "ALUXG",
+  "jobId" : "3ru2Pd6mTDKxJ9vEfEVlBQ",
+  "nomeTaxa" : null,
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataApuracao" : "2012-01-01T02:00:00.000+0000",
+  "ident" : 1,
+  "ano" : 2012,
+  "mes" : 1,
+  "versaoCenario" : 1,
+  "versaoTaxa" : 1,
+  "dataCalculo" : "2017-01-17T22:18:16.900+0000",
+  "nomeCenario" : "Principal",
+  "outraVersaoTaxa" : "n",
+  "outraVersaoCenario" : "n",
+  "regulamentacao" : "1",
+  "memoriaCalculo" : [ ],
+  "valores" : [ {
+    "nome" : "TEIP_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper mensal",
+    "valor" : 0.00035658,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa mensal",
+    "valor" : 0.00033766,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc mensal",
+    "valor" : null,
+    "tipo" : "MENSAL",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper mensal",
+    "valor" : 0.0010454,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP mensal",
+    "valor" : 0.0010454,
+    "tipo" : "MENSAL",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIP_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIF_oper acumulada",
+    "valor" : 0.059005943,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa acumulada",
+    "valor" : 0.059005627667,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "TEIFa_fc acumulada",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas. "
+  }, {
+    "nome" : "TEIP_oper acumulada",
+    "valor" : 0.07868409,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  }, {
+    "nome" : "Indice de indisponibilidade",
+    "valor" : null,
+    "tipo" : "ACUMULADA",
+    "comentario" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada. "
+  }, {
+    "nome" : "TEIP acumulada",
+    "valor" : 0.07868409,
+    "tipo" : "ACUMULADA",
+    "comentario" : ""
+  } ],
+  "participacoesEquipamentos" : [ ]
+} ]

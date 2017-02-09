@@ -1,0 +1,50 @@
+[
+  {
+    "_class": "br.org.ons.sager.read.domain.Comentario", 
+    "tipoObjeto": "USINA",
+    "nomeObjeto": "CAMPOS",
+    "dataInicio": null,
+    "dataFim": "2001-07-01T00:00:00Z",
+    "statusObjeto": "FORA_OPERACAO_COMERCIAL",
+    "descricao": "A usina Campos está fora de operação comercial até o dia 01/07/2001.",
+    "tipo": "AVISO",
+    "origem": "SISTEMA",
+    "idInstalacao": "RJUSCP"
+  },
+  {
+    "_class": "br.org.ons.sager.read.domain.Comentario", 
+    "tipoObjeto": "USINA",
+    "nomeObjeto": "CAMPOS",
+    "dataInicio": "2012-12-14T00:00:00Z",
+    "dataFim": null,
+    "statusObjeto": "SUSPENSO",
+    "descricao": "Não há dados no período informado para as seguintes instalações pois as mesmas estavam suspensas.  Instalação CAMPOS Suspensão: 14/12/2012.",
+    "tipo": "AVISO",
+    "origem": "SISTEMA",
+    "idInstalacao": "RJUSCP"
+  },
+  {
+    "_class": "br.org.ons.sager.read.domain.Comentario", 
+    "tipoObjeto": "UNIDADE_GERADORA",
+    "nomeObjeto": "RSUPME_13P8_UG1",
+    "dataInicio": "2013-12-02T00:00:00Z",
+    "dataFim": "2016-04-19T00:00:00Z",
+    "statusObjeto": "SUSPENSO",
+    "descricao": "Mensagem: Não há dados no período informado para os seguintes equipamentos pois os mesmos estavam suspensos. Equipamento: RSUPME_13P8_UG1; Data início: 02/12/2013; Data fim: 19/04/2016, Equipamento: RSUPME_13P8_UG2; Data início: 14/07/2014.",
+    "tipo": "AVISO",
+    "origem": "SISTEMA",
+    "idInstalacao": "RSUPME"
+  },
+  {
+    "_class": "br.org.ons.sager.read.domain.Comentario", 
+    "tipoObjeto": "UNIDADE_GERADORA",
+    "nomeObjeto": "RSUPME_13P8_UG2",
+    "dataInicio": "2014-07-14T00:00:00Z",
+    "dataFim": null,
+    "statusObjeto": "SUSPENSO",
+    "descricao": "Mensagem: Não há dados no período informado para os seguintes equipamentos pois os mesmos estavam suspensos. Equipamento: RSUPME_13P8_UG2; Data início: 14/07/2014.",
+    "tipo": "AVISO",
+    "origem": "SISTEMA",
+    "idInstalacao": "RSUPME"
+  }
+]

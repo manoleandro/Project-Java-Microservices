@@ -1,0 +1,120 @@
+[
+			{	"ident":1,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.423,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			}
+]

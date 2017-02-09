@@ -1,0 +1,72 @@
+# ===================================================================
+# Spring Boot configuration for the "dev" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+zuul:
+    host:
+        connect-timeout-millis: 5000
+        socket-timeout-millis: 150000
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 150000
+                        
+ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 150000
+    
+spring:
+    autoconfigure:
+        exclude: org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: false # we use gulp + BrowserSync for livereload
+    jackson:
+        serialization.indent_output: true
+    mail:
+        host: localhost
+        port: 25
+        username:
+        password:
+    messages:
+        cache-seconds: 1
+    profiles:
+        include: swagger # automatically set the 'swagger' profile
+
+server:
+    port: 8080
+
+pop:
+#    portalUrl: https://poptst.ons.org.br # mapear no arquivo hosts 172.20.249.36
+    portalUrl: http://sager.ons.org.br:8079
+#    serviceUrl: http://172.20.249.26
+    serviceUrl: http://sager.ons.org.br:8079
+    domain: ONS
+    username: rkey.scala
+    password: shinranifga-z5
+
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 300

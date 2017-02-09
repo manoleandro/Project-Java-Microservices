@@ -1,0 +1,25 @@
+{
+    "onsPortalApp": {
+        "cadastroUsina" : {
+            "home": {
+                "title": "Cadastro Usinas",
+                "createLabel": "Criar novo Cadastro Usina",
+                "createOrEditLabel": "Criar ou editar Cadastro Usina",
+                "search": "Pesquisar por Cadastro Usina"
+            },
+            "created": "Um novo Cadastro Usina é criado com o identificador {{ param }}",
+            "updated": "Um Cadastro Usina é atualizado com o identificador {{ param }}",
+            "deleted": "Um Cadastro Usina é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Cadastro Usina {{ id }}?"
+            },
+            "detail": {
+                "title": "Cadastro Usina"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        }
+    }
+}

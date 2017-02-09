@@ -1,0 +1,46 @@
+{
+    "onsPortalApp": {
+        "gerarRelatorio" : {
+            "home": {
+                "title": "Gerar Relatórios",
+                "filter": "Filtros",
+                "initialMonth": "Mês Inicial",
+                "lastMonth": "Mês Final",
+                "usina": "Nome",
+                "agente": "Agente",
+                "tipo": "Tipo",
+                "rateTypes":"Tipos de Taxa",
+                "facilitiesSelection": "Seleção de Instalações",
+                "cancelar": "Cancel",
+                "teipMensal": "TEIP Mensal",
+				"teifMensal": "TEIF mensal",
+				"teifaMensal": "TEIFa mensal",
+				"teifaAcum": "TEIFa acumulada",
+				"teipAcum": "TEIP acumulada",
+				"teipFcAcum": "TEIP_fc acumulada",
+				"teifaFcMensal": "TEIFa_fc mensal",
+				"teifaFcAcum": "TEIFa_fc acumulada",
+				"teipOperMensal": "TEIP oper mensal",
+				"teipOperAcum": "TEIP oper acumulada",
+				"teifOperMensal": "TEIF oper mensal",
+				"teifOperAcum": "TEIF oper acumulada",
+				"indisponibilidade": "Indisponibilidade",
+				"teipFcMensal": "TEIP_fc mensal",
+				"teifAcum": "TEIF acumulada"
+            },
+            "created": "A new Scheduling is created with identifier {{ param }}",
+            "updated": "A Rate Scheduling is updated with identifier {{ param }}",
+            "deleted": "A Rate Scheduling is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Scheduling {{ id }}?"
+            },
+            "detail": {
+                "title": "Gerar Relatórios"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        }
+    }
+}

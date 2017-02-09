@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/RequestDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/RequestDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="RequestDTOType">
+		<xs:annotation>
+			<xs:documentation>Request package is typically used to supply parameters for`GET` requests</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StartTime" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Start time of interest</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EndTime" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>End time of interest</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RequestOption" type="xs:unsignedShort" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Request type specialization</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

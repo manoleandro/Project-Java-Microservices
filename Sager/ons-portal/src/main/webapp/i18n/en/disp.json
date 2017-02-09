@@ -1,0 +1,22 @@
+{
+    "onsPortalApp": {
+        "disp" : {
+            "home": {
+                "title": "Consult Availability",
+                "createLabel": "Consulting Availability",
+                "createOrEditLabel": "Consulting Availability",
+                "search": "Search for Availability",
+                "agente": "Agent",
+                "tipo": "Type",
+                "usina": "Plant",
+                "pesquisar": "Search",
+                "filters": "Filters",
+                "availabilitiesSelection": "Availabilities Selection",
+                "facilitiesSelection": "Facilities Selection",
+                "availabilities": "Availabilities",
+                "back":"Back",
+                "save":"Save"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "onsPortalApp": {
+        "evento" : {
+            "home": {
+                "title": "Consultar Eventos",
+                "createLabel": "Criar novo Evento",
+                "createOrEditLabel": "Criar ou editar Evento",
+                "search": "Pesquisar por Evento"
+            },
+            "created": "Um novo Evento é criado com o identificador {{ param }}",
+            "updated": "Um Evento é atualizado com o identificador {{ param }}",
+            "deleted": "Um Evento é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Evento {{ id }}?"
+            },
+            "detail": {
+                "title": "Evento"
+            },
+            "usiid": "Usiid",
+            "ugeid": "Ugeid",
+            "uge": "Uge",
+            "numons": "Numons",
+            "datahora": "Datahora",
+            "ver": "Ver",
+            "eo": "Eo",
+            "co": "Co",
+            "or": "Or",
+            "disp": "Disp"
+        }
+    }
+}

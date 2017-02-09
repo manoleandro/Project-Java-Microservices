@@ -1,0 +1,35 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration is used for unit/integration tests.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+    instance:
+        appname: ONSPlatformBusMock
+        instanceId: ONSPlatformBusMock:${spring.application.instance_id:${random.value}}
+
+spring:
+    application:
+        name: ONSPlatformBusMock
+    jackson:
+        serialization.write_dates_as_timestamps: false
+    mvc:
+        favicon:
+            enabled: false
+
+security:
+    basic:
+        enabled: false
+
+server:
+    port: 10344
+    address: localhost

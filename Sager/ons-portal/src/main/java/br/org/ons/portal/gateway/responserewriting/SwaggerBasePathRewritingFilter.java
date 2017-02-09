@@ -1,0 +1,70 @@
+package br.org.ons.portal.gateway.responserewriting;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.io.CharStreams;
+import com.netflix.zuul.context.RequestContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.cloud.netflix.zuul.filters.post.SendResponseFilter;
+import springfox.documentation.swagger2.web.Swagger2Controller;
+
+import java.io.*;
+import java.util.LinkedHashMap;
+
+/**
+ * Zuul filter to rewrite micro-services Swagger URL Base Path.
+ */
+public class SwaggerBasePathRewritingFilter extends SendResponseFilter {
+
+	private static final int FILTER_ORDER = 100;
+
+	private static final Logger LOG = LoggerFactory.getLogger(SwaggerBasePathRewritingFilter.class);
+
+    private ObjectMapper mapper = new ObjectMapper();
+
+    @Override
+    public String filterType() {
+        return "post";
+    }
+
+    @Override
+    public int filterOrder() {
+        return FILTER_ORDER;
+    }
+
+    /**
+     * Filter requests to micro-services Swagger docs.
+     */
+    @Override
+    public boolean shouldFilter() {
+        return RequestContext.getCurrentContext().getRequest().getRequestURI().endsWith(Swagger2Controller.DEFAULT_URL);
+    }
+
+    @Override
+    public Object run() {
+        RequestContext context = RequestContext.getCurrentContext();
+        context.getResponse().setCharacterEncoding("UTF-8");
+
+        String rewrittenResponse = rewriteBasePath(context);
+        context.setResponseBody(rewrittenResponse);
+        return null;
+    }
+
+    @SuppressWarnings("unchecked")
+	private String rewriteBasePath(RequestContext context) {
+		InputStream responseDataStream = context.getResponseDataStream();
+		String requestUri = RequestContext.getCurrentContext().getRequest().getRequestURI();
+		try {
+			String response = CharStreams.toString(new InputStreamReader(responseDataStream));
+			LinkedHashMap<String, Object> map = this.mapper.readValue(response, LinkedHashMap.class);
+
+			String basePath = requestUri.replace(Swagger2Controller.DEFAULT_URL, "");
+			map.put("basePath", basePath);
+			LOG.debug("Swagger-docs: rewritten Base URL with correct micro-service route: {}", basePath);
+			return mapper.writeValueAsString(map);
+		} catch (IOException e) {
+			LOG.error("Swagger-docs filter error", e);
+		}
+		return null;
+	}
+}

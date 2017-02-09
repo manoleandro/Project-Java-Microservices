@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/UnidadeGeradoraDTO" xmlns:ns0="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO" xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/AtuouComoDTO" xmlns:ns2="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO" xmlns:ns3="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorDisponibilidadeDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/UnidadeGeradoraDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PertenceADTO" schemaLocation="../Entidades/PertenceADTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/AtuouComoDTO" schemaLocation="../Entidades/AtuouComoDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/SeEncontraDTO" schemaLocation="../Entidades/SeEncontraDTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoValorDisponibilidadeDTO" schemaLocation="../Entidades/Tipos/TipoValorDisponibilidadeDTOType.xsd"/>
+	<xs:complexType name="UnidadeGeradoraDTOType">
+		<xs:sequence>
+			<xs:element name="Cod_DPP" type="xs:integer" minOccurs="0"/>
+			<xs:element name="Nome" type="xs:string" minOccurs="0"/>
+			<xs:element name="CodPontoMedicao" type="xs:integer" minOccurs="0"/>
+			<xs:element name="ID_UGE" type="xs:integer" minOccurs="0"/>
+			<xs:element name="ValorDisponibilidade" type="ns3:TipoValorDisponibilidadeDTOType" minOccurs="0"/>
+			<xs:element name="Comentario" type="xs:string" minOccurs="0"/>
+			<xs:element name="SeEncontra" type="ns2:SeEncontraDTOType" minOccurs="0"/>
+			<xs:element name="PertenceA" type="ns0:PertenceADTOType" minOccurs="0"/>
+			<xs:element name="AtuouComo" type="ns1:AtuouComoDTOType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+

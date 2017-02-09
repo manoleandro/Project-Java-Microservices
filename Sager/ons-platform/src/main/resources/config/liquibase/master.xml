@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160804200403_added_entity_Timeline.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160804200404_added_entity_Record.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160804200402_added_entity_Scenario.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160914173000_added_quartz.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160926000000_added_entity_Schedule.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+</databaseChangeLog>

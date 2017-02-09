@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MathJax TeX Test Page</title>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  	tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+    TeX: {extensions: ["action.js"]}
+  });
+</script>
+<script type="text/javascript" async
+  src="MathJax-2.7.0/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+$$
+
+\texttip{TEIP}{Taxa Equivalente de Indisponibilidade Programada} = 
+\frac{ \displaystyle\sum\limits_{j=1}^{60}  \displaystyle\sum\limits_{i=1}^n \ \texttip{P}{potencia de calculo}_{i}\times(\texttip{HDP}{ número de horas de desligamento programado da unidade i no mês j}+\texttip{HEDP}{ número de horas equivalentes de desligamento programado da unidade i no mês j (a
+unidade opera com potência nominal limitada, associada a uma condição programada)})_{ij} }
+{ \displaystyle\sum\limits_{j=1}^{60}  \displaystyle\sum\limits_{i=1}^n \ \texttip{P}{potência de cálculo}_{i}\times(\texttip{HP}{ número de horas do período de apuração considerado no mês j para a unidade i})_{ij} } $$
+
+</body>
+</html>

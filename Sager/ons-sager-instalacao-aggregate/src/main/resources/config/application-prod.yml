@@ -1,0 +1,60 @@
+# ===================================================================
+# Spring Boot configuration for the "prod" profile.
+#
+# This configuration overrides the application.yml file.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+
+spring:
+    devtools:
+        restart:
+            enabled: false
+        livereload:
+            enabled: false
+    mail:
+        host: localhost
+        port: 25
+        username:
+        password:
+
+server:
+    port: 80
+    compression:
+        enabled: true
+        mime-types: text/html,text/xml,text/plain,text/css, application/javascript, application/json
+        min-response-size: 1024
+
+odm:
+    host: des-ssodm-02
+    port: 80
+    username: wasadmin
+    password: S46er5A4t5ca1A
+    
+mq:
+    queueManager: QMONS01
+    host: des-ssmq-01
+    port: 1414
+    channel: SYSTEM.DEF.SVRCONN
+    username: mqm
+    password: 
+    
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: f72f84f29b269e19e7ffa31816bc523fae1570cc
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400

@@ -1,0 +1,49 @@
+{
+  "fields": [
+    {
+      "fieldName": "minorVersion",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "correlationId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "recordDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "RecordType",
+      "fieldValues": "COMMAND,EVENT,SNAPSHOT"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "metadata",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "payload",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "timelineId",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160804200404",
+  "entityTableName": "record",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "microserviceName": "onsplatform"
+}

@@ -1,0 +1,3372 @@
+[ {
+  "id" : "e60188a5-d58b-427f-aa65-e3b7495e912e",
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataAgendamento" : "2017-01-17T23:51:23.000Z",
+  "situacao" : "FINALIZADO",
+  "resultado" : "OK",
+  "solicitante" : "sageradmin",
+  "dataCriacao" : "2017-01-17T23:51:28.542Z",
+  "dataTermino" : null,
+  "mesInicial" : "2013-01-01T02:00:00.000Z",
+  "mesFinal" : "2013-01-31T01:59:59.999Z",
+  "anoCriacao" : 2017,
+  "jobId" : "C19Jhe1uRuidxZVotPYFGw",
+  "minorVersion" : 1,
+  "protocolo" : 5,
+  "protocoloStr" : "000005-2017",
+  "comentario" : [ {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo foi executado. Não será visualizado, pois o resultado é exatamente igual ao cálculo anterior, respeitando os critérios de criação de nova versão.",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  },{
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:37.064+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:37.064+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:37.035+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:41.256+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:41.256+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:41.242+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:45.828+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:45.828+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:45.815+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:49.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:49.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:49.683+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:53.755+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:53.755+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:53.744+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:59.275+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:59.275+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:51:59.264+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:05.381+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:05.381+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:05.368+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:13.838+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:13.838+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:13.826+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:21.256+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:21.256+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:21.245+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:30.480+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:30.480+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:30.468+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:33.066+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:33.066+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:38.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:38.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:38.430+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:41.430+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:41.430+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:33.066+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:33.066+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:25.176+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:16.614+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:08.958+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:01.695+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:56.442+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:51.648+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:47.622+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:43.938+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:39.490+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:51:35.276+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:13.304+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:19:08.289+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:49.053+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:43.214+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:38.589+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:34.401+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:31.605+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:28.495+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:25.677+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:22.662+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:19.633+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T22:18:14.044+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:48.002+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+    "dataInsercao" : "2017-01-17T23:52:48.002+0000",
+    "origem" : "SISTEMA"
+  }, {
+    "_class" : "br.org.ons.geracao.evento.Comentario",
+    "tipo" : "AVISO",
+    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+    "dataInsercao" : "2017-01-17T23:52:47.990+0000",
+    "origem" : "SISTEMA"
+  } ]
+}, {
+  "id" : "6f1909f1-d9a2-4694-9dde-eca845ad7721",
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataAgendamento" : "2017-01-31T22:17:14.000Z",
+  "situacao" : "AGENDADO",
+  "resultado" : "NA",
+  "solicitante" : "sageradmin",
+  "dataCriacao" : "2017-01-17T22:17:27.996Z",
+  "dataTermino" : null,
+  "mesInicial" : "2014-04-01T03:00:00.000Z",
+  "mesFinal" : "2014-05-01T02:59:59.999Z",
+  "anoCriacao" : 2017,
+  "jobId" : "JIKQDgGBR5yejcwReoM2YQ",
+  "minorVersion" : 1,
+  "protocolo" : 1,
+  "protocoloStr" : "000001-2017",
+  "comentario" : [ ]
+}, {
+  "id" : "ce80f0d9-e31b-43fe-ae61-5d91c92786c7",
+  "idInstalacao" : "ALUXG",
+  "nomeInstalacao" : "USINA XINGO",
+  "dataAgendamento" : "2017-01-17T23:57:04.000Z",
+  "situacao" : "FINALIZADO",
+  "resultado" : "OK",
+  "solicitante" : "sageradmin",
+  "dataCriacao" : "2017-01-17T23:57:06.226Z",
+  "dataTermino" : null,
+  "mesInicial" : "2014-01-01T02:00:00.000Z",
+  "mesFinal" : "2015-01-01T01:59:59.999Z",
+  "anoCriacao" : 2017,
+  "jobId" : "KhBj15y8RFeqfIXdqVtm_w",
+  "minorVersion" : 1,
+  "protocolo" : 6,
+  "protocoloStr" : "000006-2017",
+  "calculos": [
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-01-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-01-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-03-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-03-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-04-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-04-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-05-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-05-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-06-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-06-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-07-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-07-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-08-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-08-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-09-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-09-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-10-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-10-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-11-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-11-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário Principal)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-12-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+	},
+	{
+		"nomeCenario": "Cálculo de Taxas (Cenário XYZ)",
+		"resultado" : "OK",
+		"situacao" : "FINALIZADO",
+		"mes":"2014-12-01T02:00:00.000Z",
+		"comentario" : [ {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "O cálculo das taxas fc aplicam-se apenas a usinas térmicas",
+		    "dataInsercao" : "2017-01-17T23:58:57.707+0000",
+		    "origem" : "SISTEMA"
+		  }, {
+		    "_class" : "br.org.ons.geracao.evento.Comentario",
+		    "tipo" : "AVISO",
+		    "descricao" : "Esta instalação não é elegível pela resolução ANEEL 541/2013 para o cálculo do índice de indisponibilidade verificada",
+		    "dataInsercao" : "2017-01-17T23:59:16.421+0000",
+		    "origem" : "SISTEMA"
+		  }]
+
+	}
+  ],
+  "comentario" : []
+} ]

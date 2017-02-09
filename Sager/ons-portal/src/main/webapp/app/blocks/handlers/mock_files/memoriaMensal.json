@@ -1,0 +1,436 @@
+[ {
+  "ident" : 1,
+  "idOrdenacao" : 0,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "valor" : 0.0041358,
+  "taxaEventosId" : [ "2383553", "2387002" ]
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 1,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG1",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG1",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 100.0,
+    "equipamentosEventosId" : [ "2383553", "2387002" ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 2,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG1",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 3,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG1",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 17.866666666667,
+    "paramEventosId" : [ "2383553", "2387002" ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 4,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG1",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 5,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG2",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG2",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 0,
+    "equipamentosEventosId" : [ ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 6,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG2",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 7,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG2",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 8,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG2",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 9,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG3",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG3",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 0,
+    "equipamentosEventosId" : [ ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 10,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG3",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 11,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG3",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 12,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG3",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 13,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG4",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG4",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 0,
+    "equipamentosEventosId" : [ ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 14,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG4",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 15,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG4",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 16,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG4",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 17,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG5",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG5",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 0,
+    "equipamentosEventosId" : [ ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 18,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG5",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 19,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG5",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 20,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG5",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 2,
+  "idOrdenacao" : 21,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamento" : {
+    "id" : "ALUXG_18P0_UG6",
+    "versao" : null,
+    "nome" : "ALUXG_18P0_UG6",
+    "tipoInstalacao" : null,
+    "idInstalacao" : null,
+    "valorPotencia" : 527,
+    "participacao" : 0,
+    "equipamentosEventosId" : [ ],
+    "dataEventoEOC" : null,
+    "dataDesativacao" : null,
+    "quantidadeHorasServico" : null,
+    "dataImplantacao" : null,
+    "dataRenovacaoProrrogacaoConcessao" : null,
+    "potenciasCalculo" : null,
+    "franquias" : null,
+    "suspensoes" : null,
+    "codid_dpp" : null,
+    "iddpp" : null,
+    "codigoCcee" : null,
+    "codigoOns" : null,
+    "idVisaoPlanejamentoOpEnergetica" : null,
+    "tipoFonteEnergetica" : null
+  },
+  "codigo" : null
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 22,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG6",
+  "param" : {
+    "nomeParametro" : "HEDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 23,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG6",
+  "param" : {
+    "nomeParametro" : "HP",
+    "valorParametro" : 720.0,
+    "paramEventosId" : [ ]
+  }
+}, {
+  "ident" : 3,
+  "idOrdenacao" : 24,
+  "data" : "2014-09-01T03:00:00.000+0000",
+  "idTaxa" : null,
+  "taxa" : "TEIP mensal",
+  "tipoTaxa" : null,
+  "equipamentoNome" : "ALUXG_18P0_UG6",
+  "param" : {
+    "nomeParametro" : "HDP",
+    "valorParametro" : 0.0,
+    "paramEventosId" : [ ]
+  }
+} ]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoGeracaoDTO" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoGeracaoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="TipoGeracaoDTOType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Programada|Despachada|Verificada"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

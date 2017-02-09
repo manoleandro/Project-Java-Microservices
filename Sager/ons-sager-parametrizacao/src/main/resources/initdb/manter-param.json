@@ -1,0 +1,12 @@
+[
+	{
+		"_class": "br.org.ons.sager.parametrizacao.domain.RetificacoesParam",
+		"dia":14,
+		"hora": "12:00:00.000"
+	},
+	{
+		"_class": "br.org.ons.sager.parametrizacao.domain.RetificacoesParam",
+		"dia":18,
+		"hora": "11:00:00.000"
+	}
+]

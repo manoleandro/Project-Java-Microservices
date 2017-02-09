@@ -1,0 +1,68 @@
+[
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG1",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	},
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG2",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	},
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG3",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	},
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG4",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	},
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG5",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	},
+	{
+		"_class": "br.org.ons.geracao.evento.franquia.Franquia",
+		"idEquipamento": "ALUXG-0UG6",
+		"codigo": "GMT",
+		"valorDisponivel": 72,
+		"valorLimite": 72,
+		"periodoVigencia": { "_class": "br.org.ons.geracao.modelagem.Periodo",
+			"dataInicio": "2001-01-01T00:00:00",
+			"dataFim": "2014-09-30T00:00:00"
+		}
+	}
+]

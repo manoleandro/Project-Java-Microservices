@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/FlgSincronoDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/FlgSincronoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="FlgSincronoDTOType">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="0|1"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
+

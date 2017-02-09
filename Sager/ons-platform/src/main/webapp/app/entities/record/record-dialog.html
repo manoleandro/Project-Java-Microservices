@@ -1,0 +1,105 @@
+
+<form name="editForm" role="form" novalidate ng-submit="vm.save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="vm.clear()">&times;</button>
+        <h4 class="modal-title" id="myRecordLabel" translate="onsPortalApp.record.home.createOrEditLabel">Create or edit a Record</h4>
+    </div>
+    <div class="modal-body">
+        <jhi-alert-error></jhi-alert-error>
+        <div class="form-group" ng-show="vm.record.id">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="vm.record.id" readonly />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.correlationId" for="field_correlationId">Correlation Id</label>
+            <input type="text" class="form-control" name="correlationId" id="field_correlationId"
+                    ng-model="vm.record.correlationId"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.type" for="field_type">Type</label>
+            <select class="form-control" name="type" ng-model="vm.record.type" id="field_type">
+                <option value="COMMAND" translate="onsPortalApp.RecordType.COMMAND">COMMAND</option>
+                <option value="EVENT" translate="onsPortalApp.RecordType.EVENT">EVENT</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.name" for="field_name">Name</label>
+            <input type="text" class="form-control" name="name" id="field_name"
+                    ng-model="vm.record.name"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.handlerName" for="field_handlerName">Handler Name</label>
+            <input type="text" class="form-control" name="handlerName" id="field_handlerName"
+                    ng-model="vm.record.handlerName"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.handlerVersion" for="field_handlerVersion">Handler Version</label>
+            <input type="text" class="form-control" name="handlerVersion" id="field_handlerVersion"
+                    ng-model="vm.record.handlerVersion"
+                     />
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.timelineDate" for="field_timelineDate">Timeline Date</label>
+                <div class="input-group">
+                    <input id="field_timelineDate" type="text" class="form-control" name="timelineDate" datetime-picker="{{dateformat}}" ng-model="vm.record.timelineDate" is-open="vm.datePickerOpenStatus.timelineDate"
+                      />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="vm.openCalendar('timelineDate')"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" translate="onsPortalApp.record.creationDate" for="field_creationDate">Creation Date</label>
+                <div class="input-group">
+                    <input id="field_creationDate" type="text" class="form-control" name="creationDate" datetime-picker="{{dateformat}}" ng-model="vm.record.creationDate" is-open="vm.datePickerOpenStatus.creationDate"
+                      />
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default" ng-click="vm.openCalendar('creationDate')"><i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+                </div>
+        </div>
+        <div class="form-group" ngf-drop ngf-change="vm.setContent($file, vm.record)">
+            <label class="control-label" translate="onsPortalApp.record.content" for="field_content">Content</label>
+            <div>
+                <div ng-if="vm.record.content" class="help-block clearfix">
+                    <a class="pull-left" ng-click="vm.openFile(vm.record.contentContentType, vm.record.content)" translate="entity.action.open">open</a><br>
+                    <span class="pull-left">{{vm.record.contentContentType}}, {{vm.byteSize(vm.record.content)}}</span>
+                    <button ng-click="vm.record.content=null;vm.record.contentContentType=null;"
+                            class="btn btn-default btn-xs pull-right">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                </div>
+                <button type="file" ngf-select class="btn btn-default btn-block"
+                        ngf-change="vm.setContent($file, vm.record)" translate="entity.action.addblob">
+                    Add blob
+                </button>
+            </div>
+            <input type="hidden" class="form-control" name="content" id="field_content"
+                    ng-model="vm.record.content"
+                     />
+            <input type="hidden" class="form-control" name="contentContentType" id="field_contentContentType"
+                    ng-model="vm.record.contentContentType" />
+        </div>
+
+        <div class="form-group">
+            <label translate="onsPortalApp.record.timeline" for="field_timeline">Timeline</label>
+            <select class="form-control" id="field_timeline" name="timeline" ng-model="vm.record.timeline" ng-options="timeline as timeline.id for timeline in vm.timelines track by timeline.id">
+                <option value=""></option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

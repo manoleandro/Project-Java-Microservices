@@ -1,0 +1,9 @@
+version: '2'
+services:
+    onssagerread-mongodb:
+        container_name: onssagerread-mongodb
+        image: mongo:3.3.9
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/ONSSagerRead/mongodb/:/data/db/

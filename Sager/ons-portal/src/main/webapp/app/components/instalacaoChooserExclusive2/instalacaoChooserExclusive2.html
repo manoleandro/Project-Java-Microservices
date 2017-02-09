@@ -1,0 +1,28 @@
+<h4>Seleção de instalações</h4>
+<div ng-controller="ExclusiveChooserController2">
+
+
+	<div ng-cloak>
+	  <md-content>
+	    <md-tabs md-dynamic-height md-border-bottom>
+	      <md-tab label="USINAS">
+	        <md-content class="md-padding">
+	          <div id="grid1" ui-grid="gridOptions" ui-grid-selection class="grid"></div>
+	        </md-content>
+	      </md-tab>
+	      <md-tab label="INTERLIGAÇÕES INTERNACIONAIS">
+	        <md-content class="md-padding">
+	          <div id="grid2" ui-grid="gridOptions2" ui-grid-selection class="grid"></div>
+	        </md-content>
+	      </md-tab>
+	    </md-tabs>
+	  </md-content>
+	  <!-- <md-chips ng-model="selectedItems">
+        <md-chip-template>
+          <strong>{{$chip.nome}}</strong>
+          <em>(usina)</em>
+        </md-chip-template>
+      </md-chips> -->
+	</div>
+
+</div>

@@ -1,0 +1,91 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration is used for unit/integration tests.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+    instance:
+        appname: ONSPlatform
+        instanceId: ONSPlatform:${spring.application.instance_id:${random.value}}
+
+spring:
+    application:
+        name: ONSPlatform
+    jackson:
+        serialization.write_dates_as_timestamps: false
+    datasource:
+        url: jdbc:h2:mem:ONSPlatform;DB_CLOSE_DELAY=-1;INIT=create schema if not exists platform
+        name:
+        username:
+        password:
+    jpa:
+        database-platform: br.org.ons.platform.domain.util.FixedH2Dialect
+        database: H2
+        open-in-view: false
+        show-sql: false
+        hibernate:
+            ddl-auto: none
+            naming-strategy: org.springframework.boot.orm.jpa.hibernate.SpringNamingStrategy
+        properties:
+            hibernate.cache.use_second_level_cache: false
+            hibernate.cache.use_query_cache: false
+            hibernate.generate_statistics: true
+            hibernate.hbm2ddl.auto: validate
+    mail:
+        host: localhost
+    mvc:
+        favicon:
+            enabled: false
+    profiles:
+        active: test
+
+liquibase:
+    contexts: test
+    default-schema: platform
+
+security:
+    basic:
+        enabled: false
+
+server:
+    port: 10344
+    address: localhost
+
+mq:
+    queueManager: QMONS01
+    host: des-ssmq-01
+    port: 1414
+    channel: SYSTEM.DEF.SVRCONN
+    username: mqm
+    password: 
+    
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: e4d5183d2230ecac88b053a163fe81fe651384ae
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400
+    swagger:
+        title: ONSPlatform API
+        description: ONSPlatform API documentation
+        version: 0.0.1
+        termsOfServiceUrl:
+        contactName:
+        contactUrl:
+        contactEmail:
+        license:
+        licenseUrl:

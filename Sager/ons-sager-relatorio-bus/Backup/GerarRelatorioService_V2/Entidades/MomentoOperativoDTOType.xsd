@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/MomentoOperativoDTO" xmlns:ns1="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstaAssociadoADTO" xmlns:ns2="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/MomentoOperativoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/EstaAssociadoADTO" schemaLocation="../Entidades/EstaAssociadoADTOType.xsd"/>
+	<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/TipoHoraDTO" schemaLocation="../Entidades/Tipos/TipoHoraDTOType.xsd"/>
+	<xs:complexType name="MomentoOperativoDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="Data" type="xs:date" minOccurs="0"/>
+			<xs:element name="Hora" type="ns2:TipoHoraDTOType" minOccurs="0"/>
+			<xs:element name="EstaAssociadoA" type="ns1:EstaAssociadoADTOType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+
+
+

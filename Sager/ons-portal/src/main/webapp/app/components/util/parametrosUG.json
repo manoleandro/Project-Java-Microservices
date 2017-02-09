@@ -1,0 +1,1893 @@
+[
+			{	"ident":1,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.123,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 7,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 14,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 22,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 22,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.290,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 14,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 19,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 16,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.490,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 21,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 6,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-06-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-07-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-09-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-10-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-11-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2013-12-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-01-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-02-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-03-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-04-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{	"ident":1,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"valor": 0.090,
+				"taxaEventosId": ["id1", "id2"]
+			},
+			{
+				"ident":2,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG01",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 20,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG01",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 15,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				"ident":2,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamento": 
+				{
+					"nome": "UG02",
+					"valorPotencia": 50,
+					"participacao": 8,
+					"equipamentosEventosId": ["id1", "id2"]
+					
+				}
+				
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HDP",
+					"valorParam": 3,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HP",
+					"valorParam": 10,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			},
+			{
+				
+				"ident":3,
+				"data": "2014-05-01",
+				"taxa": "TEIP mensal",
+				"equipamentoNome":"UG02",
+				"param": 
+				{
+					"nomeParam": "HPE",
+					"valorParam": 35,
+					"paramEventosId": ["id1", "id2"]
+				}
+			
+			}
+			
+			
+			
+		]

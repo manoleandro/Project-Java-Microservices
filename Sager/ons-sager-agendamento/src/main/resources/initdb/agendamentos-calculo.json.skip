@@ -1,0 +1,43 @@
+[ 
+	{
+		"_class" : "br.org.ons.sager.agendamento.domain.AgendamentoCalculo",
+		"protocolo" : "20160401-001",
+		"idInstalacao" : "FURNAS",
+		"dataAgendamento" : "2014-01-01T00:00:00.000Z", 
+		"solicitante" : "cnos1",
+		"situacao" : "AGENDADO",
+		"resultado" : "OK",
+		"mesInicial" : "2014-01-01T00:00:00.000Z",
+		"mesFinal" : "2014-01-01T00:00:00.000Z"
+	}, {
+		"_class" : "br.org.ons.sager.agendamento.domain.AgendamentoCalculo",
+		"protocolo" : "20160401-002",
+		"idInstalacao" : "FURNAS",
+		"dataAgendamento" : "2014-01-01T00:00:00.000Z",
+		"solicitante" : "cnos1",
+		"situacao" : "FINALIZADO",
+		"resultado" : "ERRO",
+		"mesInicial" : "2014-01-01T00:00:00.000Z",
+		"mesFinal" : "2014-01-01T00:00:00.000Z"
+	}, {
+		"_class" : "br.org.ons.sager.agendamento.domain.AgendamentoCalculo",
+		"protocolo" : "20160401-002",
+		"idInstalacao" : "TUCURUI",
+		"dataAgendamento" : "2014-01-01T00:00:00.000Z",
+		"solicitante" : "cnos1",
+		"situacao" : "FINALIZADO",
+		"resultado" : "ERRO",
+		"mesInicial" : "2014-01-01T00:00:00.000Z",
+		"mesFinal" : "2014-01-01T00:00:00.000Z"
+	}, {
+		"_class" : "br.org.ons.sager.agendamento.domain.AgendamentoCalculo",
+		"protocolo" : "20160401-003",
+		"idInstalacao" : "TUCURUI",
+		"dataAgendamento" : "2014-01-01T00:00:00.000Z",
+		"solicitante" : "cnos1",
+		"situacao" : "CANCELADO",
+		"resultado" : "ERRO",
+		"mesInicial" : "2014-01-01T00:00:00.000Z",
+		"mesFinal" : "2014-01-01T00:00:00.000Z"
+	}
+]

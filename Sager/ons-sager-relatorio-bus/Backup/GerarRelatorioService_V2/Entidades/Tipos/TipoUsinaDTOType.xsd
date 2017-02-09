@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoUsinaDTO" targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoUsinaDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="TipoUsinaDTOType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="MP|MT"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

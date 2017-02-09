@@ -1,0 +1,51 @@
+{
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "dataVerificada",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "estadoOperativo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "condicaoOperativa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "classificacaoOrigem",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "potenciaDisponivel",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "aggregateId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "aggregateVersion",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "timelineId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timelineDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "correlationId",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160812132341",
+  "entityTableName": "cadastro_evento",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "microserviceName": "onsplatform"
+}

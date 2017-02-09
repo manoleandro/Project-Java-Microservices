@@ -1,0 +1,53 @@
+{
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "aggregateId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "aggregateName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timelineId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "ScenarioType",
+      "fieldValues": "DEFAULT,PARALLEL,TEST"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "ScenarioStatus",
+      "fieldValues": "ACTIVE,INACTIVE"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "userId",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160804200402",
+  "entityTableName": "scenario",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "microserviceName": "onsplatform"
+}

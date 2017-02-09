@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoUsinaDTO" xmlns:ns2="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoRestricaoDTO" xmlns:ns3="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO" xmlns:ns4="http://schemas.ons.org.br/ger/dto/2011/04/07/GeraDTO" xmlns:ns5="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO"
+targetNamespace="http://schemas.ons.org.br/ger/dto/2011/04/07/UsinaDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/TipoUsinaDTO" schemaLocation="../Entidades/Tipos/TipoUsinaDTOType.xsd"/>
+  <xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/TipoRestricaoDTO" schemaLocation="../Entidades/Tipos/TipoRestricaoDTOType.xsd"/>
+  <xs:import namespace="http://schemas.ons.org.br/ger/dto/2011/04/07/GeraDTO" schemaLocation="../Entidades/GeraDTOType.xsd"/>
+  <xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/PossuiDTO" schemaLocation="../Entidades/PossuiDTOType.xsd"/>
+  <xs:import namespace="http://schemas.ons.org.br/cnx/dto/2011/04/07/InflexibilidadeContratualDTO" schemaLocation="../Entidades/InflexibilidadeContratualDTOType.xsd"/>
+  <xs:complexType name="UsinaDTOType">
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="Cod_DPP" type="xs:integer" minOccurs="0"/>
+      <xs:element name="Nome" type="xs:string" minOccurs="0"/>
+      <xs:element name="CodPontoMedicao" type="xs:integer" minOccurs="0"/>
+      <xs:element name="TipoUsina" type="ns1:TipoUsinaDTOType" minOccurs="0"/>
+      <xs:element name="Gera" type="ns4:GeraDTOType" minOccurs="0"/>
+      <xs:element name="Possui" type="ns3:PossuiDTOType" minOccurs="0"/>
+      <xs:element name="InflexibilidadeContratual" type="ns5:InflexibilidadeContratualDTOType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

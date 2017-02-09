@@ -1,0 +1,65 @@
+<div ng-cloak></div>
+
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active">Consultar Taxas de Referência</li>
+	</ol>
+	<header>Consultar Taxas de Referência</header>
+	<!-- Mensagens de erro -->
+    <div id="mensagemErro">
+		<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			<strong>Falha!</strong><div class="criticaErro"> Crítica do Erro: {{erro.critica}} </div><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+		</div>
+	</div>
+	<jhi-alert></jhi-alert>
+	
+	<fieldset>
+		<section class="col col-12">
+			<div class="tab-v1" id="tabs" ng-app ng-init="tab=1">
+				<md-tabs md-dynamic-height md-border-bottom md-swipe-content md-autoselect>
+					<md-tab ng-click="alterarInstalacao('usina')">
+						<md-tab-label style="background-color:#486018">
+							<div>USINAS</div>
+						</md-tab-label>						
+						<md-tab-body>
+							<div class="panel-heading" style="margin-top: 0; width: 100%; z-index: 1; background: #486018 !important"> 
+								<strong>Taxas de Referência</strong>
+								<div class="btn-group btn-group-xs pull-right">
+									<button type="button" class="btn-dt btn btn-success" ng-click="vm.exportToExcel()" id="Exportar Excel">
+										Exportar Excel <span class="fa fa-download"></span>
+									</button>
+									<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+								</div>
+							</div>
+							<div id="gridUsinas" ui-grid="gridOptionsUsina" ui-grid-exporter ui-grid-cellNav class="grid"></div>
+						</md-tab-body>
+					</md-tab>
+					
+					<md-tab ng-click="alterarInstalacao('interligacao')">
+						<md-tab-label style="background-color:#486018">
+							<div>INTERLIGAÇÕES INTERNACIONAIS</div>
+						</md-tab-label>						
+						<br/>
+						<md-tab-body>
+							<div class="panel-heading" style="margin-top: 0; width: 100%; z-index: 1; background: #486018 !important">
+								<strong>Taxas de Referência</strong>
+								<div class="btn-group btn-group-xs pull-right">
+									<button type="button" class="btn-dt btn btn-success" ng-click="vm.exportToExcel()" id="Exportar Excel">
+										Exportar Excel <span class="fa fa-download"></span>
+									</button>
+									<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+								</div>
+							</div>
+							<div id="gridInterligacao" ui-grid="gridOptionsInterligacao" ui-grid-exporter  class="grid"></div>
+						</md-tab-body>
+					</md-tab>
+				</md-tabs>
+			</div>
+		</section>
+	</fieldset>
+</form>

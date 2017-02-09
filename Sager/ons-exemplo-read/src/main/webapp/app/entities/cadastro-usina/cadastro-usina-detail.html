@@ -1,0 +1,90 @@
+
+<div>
+	<h2>
+		<span translate="onsPortalApp.cadastroUsina.detail.title">Cadastro
+			Usina</span> {{vm.cadastroUsina.id}}
+	</h2>
+	<hr>
+	<jhi-alert-error></jhi-alert-error>
+	<dl class="dl-horizontal jh-entity-details">
+		<dt>
+			<span translate="onsPortalApp.cadastroUsina.version">Version</span>
+		</dt>
+		<dd>
+			<span>{{vm.cadastroUsina.version}}</span>
+		</dd>
+		<dt>
+			<span translate="onsPortalApp.cadastroUsina.nomeCurto">Nome
+				Curto</span>
+		</dt>
+		<dd>
+			<span>{{vm.cadastroUsina.nomeCurto}}</span>
+		</dd>
+		<dt>
+			<span translate="onsPortalApp.cadastroUsina.tipoUsina">Tipo
+				Usina</span>
+		</dt>
+		<dd>
+			<span>{{vm.cadastroUsina.tipoUsina}}</span>
+		</dd>
+		<dt>
+			<span translate="onsPortalApp.cadastroUsina.potenciaCalculo">Potencia
+				Calculo</span>
+		</dt>
+		<dd>
+			<span>{{vm.cadastroUsina.potenciaCalculo}}</span>
+		</dd>
+	</dl>
+
+	<div ui-tree data-drag-enabled="false">
+		<ol ui-tree-nodes="" ng-model="vm.apuracoes">
+			<li ng-repeat="apuracao in vm.apuracoes" ui-tree-node collapsed="true" data-collapsed="true">
+				<div ui-tree-handle>
+					<a ng-click="toggle(this)"><span ng-class="{'glyphicon glyphicon-chevron-right': collapsed, 'glyphicon glyphicon-chevron-down': !collapsed}"></span></a>
+					<span>Apuracao: </span>
+					<span style="font-weight: normal">{{apuracao.dataInicio | date : 'MMMM/yyyy'}} ({{apuracao.status}})</span>
+				</div>
+				<ol ui-tree-nodes="" ng-model="apuracao.taxas">
+					<li ng-repeat="taxa in apuracao.taxas" ui-tree-node collapsed="true">
+						<div ui-tree-handle>
+							<a ng-click="toggle(this)"><span ng-class="{'glyphicon glyphicon-chevron-right': collapsed, 'glyphicon glyphicon-chevron-down': !collapsed}"></span></a>
+							<span>Taxa: </span>
+							<span style="font-weight: normal">{{taxa.codigo}} = {{taxa.valor}}</span>
+						</div>
+						<ol ui-tree-nodes="" ng-model="taxa.parametros">
+							<li ng-repeat="parametro in taxa.parametros" ui-tree-node collapsed="true">
+								<div ui-tree-handle>
+									<a ng-click="toggle(this)"><span ng-class="{'glyphicon glyphicon-chevron-right': collapsed, 'glyphicon glyphicon-chevron-down': !collapsed}"></span></a>
+									<span>Parametro: </span>
+									<span style="font-weight: normal">{{parametro.codigo}} = {{parametro.valor}}</span>
+								</div>
+								<ol ui-tree-nodes="" ng-model="parametro.eventos">
+									<li ng-repeat="evento in parametro.eventos" ui-tree-node>
+										<div ui-tree-handle>
+											<span>Evento: </span>
+											<span style="font-weight: normal">{{evento.dataVerificada | date : 'dd/MM/yyyy HH:mm'}} - {{evento.estadoOperativo}} - {{evento.condicaoOperativa}} - {{evento.classificacaoOrigem}} - {{evento.potenciaDisponivel | number : 2}}</span>
+										</div>
+									</li>
+								</ol>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</div>
+
+	<button type="submit" ui-sref="{{ vm.previousState }}"
+		class="btn btn-info">
+		<span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span
+			translate="entity.action.back"> Back</span>
+	</button>
+
+	<button type="button"
+		ui-sref="cadastro-usina-detail.edit({id:vm.cadastroUsina.id})"
+		class="btn btn-primary">
+		<span class="glyphicon glyphicon-pencil"></span> <span
+			class="hidden-xs hidden-sm" translate="entity.action.edit">
+			Edit</span>
+	</button>
+</div>

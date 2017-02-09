@@ -1,0 +1,31 @@
+{
+    "onsPortalApp": {
+        "calculoTaxa" : {
+            "home": {
+                "title": "Cálculo de Taxa",
+                "createLabel": "Agendar Cálculo",
+                "createOrEditLabel": "Criar ou editar Agendamento",
+                "search": "Pesquisar por agendamento",
+                "usina": "Nome",
+                "agente": "Agente",
+                "tipo": "Tipo",
+                "agendar":"Agendar",
+                "back": "Voltar",
+                "filter": "Fitro"
+            },
+            "created": "Um novo Agendamento é criado com o identificador {{ param }}",
+            "updated": "Um Agendamento é atualizado com o identificador {{ param }}",
+            "deleted": "Um Agendamento é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Agendamento {{ id }}?"
+            },
+            "detail": {
+                "title": "Agendamento de cálculo"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        }
+    }
+}

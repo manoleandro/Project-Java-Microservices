@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="mb" mainMap="true" targetNamespace="default" version="8.0.5.0" xmlns:map="default">
+    <inlinedXMLSchema><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">      
+                <xsd:element name="restOperation" type="xsd:string"/> 
+    <xsd:element name="tipoArquivo" type="xsd:string"/>     
+    <xsd:element name="download" type="xsd:string"/>      
+</xsd:schema>]]></inlinedXMLSchema>
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var"/>
+    <input inlinedXMLSchema="true" path="../schema_0.xsd" var="var2"/>
+    <input path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var3"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/predefined/JsonDomainMsg.xsd" var="var1"/>
+    <output path="jar:file://!com/ibm/etools/mft/map/xsds/assembly/Environment.xsd" var="var4"/>
+    <imports>
+        <import kind="java" location="com.sager.Utils" namespace="xalan://com.sager.Utils"/>
+    </imports>
+    <namespaces>
+        <namespace kind="supplement" prefix="io" uri="http://www.ibm.com/iib/msl/json"/>
+        <namespace kind="extension" prefix="Utils" uri="xalan://com.sager.Utils"/>
+    </namespaces>
+    <generation engine="xquery"/>
+    <mappingDeclaration name="GeraRouteLabel">
+        <input namespace="http://www.ibm.com/iib/msl/json" path="$var/mb:msg(JSON,assembly,JSON,LocalEnvironment,Properties)" var="ComIbmMessageAssembly_JSON">
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONObject" ref="var" var="anyType"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Parameters/any" qualifier="download" ref="var2" var="any"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Parameters/any" qualifier="tipoArquivo" ref="var2" var="any1"/>
+        </input>
+        <input path="$var3/mb:env(Environment)" var="Environment"/>
+        <output namespace="http://www.ibm.com/iib/msl/json" path="$var1/mb:msg(JSON,assembly,JSON,LocalEnvironment,Properties)" var="ComIbmMessageAssembly_JSON1">
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON1/JSON/Data/type('anyType')" qualifier="{http://www.ibm.com/iib/msl/json}JSONObject" ref="var1" var="anyType1"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON1/LocalEnvironment/Variables/any" qualifier="tipoArquivo" ref="var2" var="any2"/>
+            <cast castType="userDefined" path="$ComIbmMessageAssembly_JSON1/LocalEnvironment/Variables/any" qualifier="restOperation" ref="var2" var="any3"/>
+        </output>
+        <output path="$var4/mb:env(Environment)" var="Environment1"/>
+        <passthrough>
+            <input path="$Environment/."/>
+            <output path="$Environment1/."/>
+            <updates/>
+        </passthrough>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/Properties" var="Properties"/>
+            <output path="$ComIbmMessageAssembly_JSON1/Properties"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/JSON"/>
+            <output path="$ComIbmMessageAssembly_JSON1/JSON"/>
+        </move>
+        <customFunction lang="java" ref="Utils:DevolveDownload">
+            <input path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Parameters/download" var="download"/>
+            <input path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Operation" var="Operation"/>
+            <output path="$ComIbmMessageAssembly_JSON1/LocalEnvironment/Destination/RouterList/DestinationData/labelName"/>
+            <param name="download" value="$download"/>
+            <param name="tipoRelat" value="$Operation"/>
+        </customFunction>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Parameters/tipoArquivo" var="tipoArquivo"/>
+            <output path="$ComIbmMessageAssembly_JSON1/LocalEnvironment/Variables/tipoArquivo"/>
+        </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_JSON/LocalEnvironment/REST/Input/Operation"/>
+            <output path="$ComIbmMessageAssembly_JSON1/LocalEnvironment/Variables/restOperation"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

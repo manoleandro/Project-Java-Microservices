@@ -1,0 +1,32 @@
+<md-dialog aria-label="Mango (Fruit)" class="modal-content" style="max-height:100%;max-width:100%; min-width:80%; min-height:70%">
+	<div ng-cloak></div>
+	<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border: 0px;">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="ctrl.cancel()">&times;</button>
+			<section class="col col-3">
+				<h4 class="modal-title" id="exampleModalLabel">Eventos Selecionados</h4>
+			</section>
+		</div>
+		<div class="panel-heading" style="margin-top: 25px; margin-left: 14px; background: #486018 !important; width: 97%">
+			<strong>Eventos</strong>
+			<div class="btn-group btn-group-xs pull-right">
+				<button type="button" class="btn-dt btn btn-success" ng-click="itemAction($event, title)" id="Exportar Excel">
+					Exportar Excel <span class="fa fa-download"></span>
+				</button>
+				<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+			</div>
+		</div>
+		<section class="col col-12">
+			<div id="example_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
+				<div id="gridUsinas" ui-grid="ctrl.parent.gridOptions" ui-grid-exporter ui-grid-cellNav class="grid"></div>
+			</div>
+			<div class="col col-12 text-right" style="margin: 10px 0px;">
+				<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="ctrl.cancel()">
+					<span class="fa fa-chevron-left"></span>&nbsp; 
+					<span>Votar</span>
+				</button>
+			</div>
+		</section>
+	</form>
+</md-dialog>
+

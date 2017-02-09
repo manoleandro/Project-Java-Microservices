@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/DispVer_PayloadDTO"    targetNamespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/DispVer_PayloadDTO" xmlns:ns1="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/MomentoOperativoDTO" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:import namespace="http://schemas.ons.org.br/infra/instrumentacao/2011/04/08/MomentoOperativoDTO" schemaLocation="Entidades/MomentoOperativoDTOType.xsd"/>
+	<xs:complexType name="DispVer_PayloadDTOType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="MomentoOperativo" minOccurs="0" type="ns1:MomentoOperativoDTOType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
+
+
+
+
+
+
+
+
+

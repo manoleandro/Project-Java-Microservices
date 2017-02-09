@@ -1,0 +1,224 @@
+<div ng-cloak></div>
+
+<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+	<!-- / breadcrumb -->
+	<ol class="breadcrumb">
+	  <li><a href="#">SAGER</a></li>
+	  <li class="active">Consultar Taxas</li>
+	</ol>
+	<header ng-model="collapsed" ng-click="collapsed=!collapsed">Consultar Taxas
+		<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+		<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+	</header>
+	
+	<!-- Mensagens de erro -->
+	<fieldset style="padding: 0 30px 0;">
+	 	<div id="mensagemErro">
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-hide="mostrarAlertaErro" ng-repeat="erro in listaErro">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="mostrarAlertaErro=true">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Falha!</strong><div class="criticaErro"> Crítica do Erro: {{erro.critica}} </div><div class="mensagem"> Mensagem: {{erro.mensagem}}</div>
+			</div>
+		</div>
+		<jhi-alert></jhi-alert>
+	</fieldset>
+	<fieldset ng-show="collapsed">
+		<div class="row">
+			<!-- <legend ng-model="collapsed" ng-click="collapsed=!collapsed" class="col sm-3 headline" style="color: #486018">Filtros
+				<span ng-show="!collapsed" class="fa fa-chevron-down collapse"></span>
+   				<span ng-show="collapsed" class="fa fa-chevron-up collapse"></span>
+			</legend> -->
+			<!-- linha 1 -->
+			<div>
+				<div class="col col-12 date-fields">
+					<section class="col col-4" style="margin-bottom: 10px">
+						<label class="label">Data Inicial:</label>
+						<div>	
+			                <p class="input-group">
+			                   <input id="mesInicial" ng-model="mesInicial" type="text" class="form-control" name="mesInicial" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsInicial" 
+		                     	is-open="vm.datePickerOpenStatus.mesInicial" enable-time="false" readonly ng-change="changeDate()" />
+			                    <span class="input-group-btn" style="vertical-align: top !important;">
+			                    	<button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('mesInicial')">
+			                        <i class="fa fa-calendar"></i></button>
+			                    </span>
+			                </p>
+			           </div>
+		           </section>
+		           <section class="col col-4" style="margin-bottom: 10px">
+						<label class="label">Data Final:</label>
+						<div>
+			                <p class="input-group">
+			                    <input  id="mesFinal" ng-model="mesFinal" type="text" class="form-control" name="mesFinal" datepicker-mode="'year'" datetime-picker="MM/yyyy" datepicker-options="vm.datepickerOptionsFinal" 
+		                     		is-open="vm.datePickerOpenStatus.mesFinal" enable-time="false" readonly ng-change="changeDate()"/>
+			                    <span class="input-group-btn" style="vertical-align: top !important;">
+			                        <button type="button" class="btn-dt btn btn-default" ng-click="vm.openCalendar('mesFinal')">
+			                        <i class="fa fa-calendar"></i></button>
+			                    </span>
+			                </p>
+						</div>
+					</section>
+				</div>
+				<section>
+					<div class="centerTipoTaxa" style="display: -webkit-inline-box;">
+						<div layout="row" layout-wrap>
+							<div flex="100" flex-gt-sm="100" layout="column">
+								<div>
+									<!-- In IE, we cannot apply flex directly to <fieldset>
+										@see https://github.com/philipwalton/flexbugs#9-some-html-elements-cant-be-flex-containers-->
+									<fieldset class="standard">
+										<h4>
+											<legend>
+												<span style="color: #7a991a" class="span-label"> Tipo de taxa: </span>
+											</legend>
+										</h4>
+										<div layout="row" layout-wrap flex>
+											<div flex="30" ng-repeat="taxa in tipoTaxa">
+												<label class="checkbox">
+													<input type="checkbox" ng-checked="exists(taxa, taxasSelecionadas)" id="{{taxa}}" ng-click="toggle(taxa, taxasSelecionadas)">
+														<i></i>{{taxa}} 
+												</label>
+											</div>
+										</div>
+									</fieldset>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="col col-12">
+					<ui-instalacoes instalacao="usinas" instalacoes-selecionadas="vm.usinasSelecionadas"></ui-instalacoes>
+				</section>
+			</div>
+		</div>
+
+		<section ng-show="collapsed" class="col col-2" style="float: right; margin-right: -60px;">
+			<button id="pesquisar" type="button" class="btn-dt btn btn-success btn-sm" ng-click="vm.consultarTaxa()">
+				<span class="fa fa-search"></span> Pesquisar
+			</button>
+		</section>
+	</fieldset>
+	
+	<header ng-if="mostrarTaxas">Taxas</header>
+	<fieldset>
+		<div class="row">
+			<md-content ng-if="mostrarTaxas" id="TaxasGeralUsinas">
+				<md-tabs md-dynamic-height md-border-bottom md-swipe-content md-autoselect>
+					<md-tab ng-repeat="usina in vm.instalacoesRetornadas" label="{{usina.nome}}">
+						<md-tab-label style="background-color:#486018">
+							<div id="aba{{usina.nome}}">{{usina.nome}}</div>
+						</md-tab-label>
+						<br/> 
+						<md-tab-body>
+							<div class="panel-heading" style="margin-top: 15px; width: 100%; z-index: 1; position: fixed; background: #486018 !important"> 
+								<strong>Taxas calculadas</strong>
+								<div class="btn-group btn-group-xs pull-right">
+									<button type="button" class="btn-dt btn btn-success" id="gerar_grafico" ng-click="gerarGrafico(usina.id, taxasUsinas, usina.nome)">
+										Gerar Gráfico <span class="fa fa-bar-chart"></span>
+									</button>
+									<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+								</div>
+								<div class="btn-group btn-group-xs pull-right">
+									<button type="button" class="btn-dt btn btn-success" ng-click="exportToExcel()" id="Exportar Excel">
+										Exportar Excel <span class="fa fa-download"></span>
+									</button>
+									<span class="ui-grid-exporter-csv-link">&nbsp;</span>
+								</div>
+							</div>
+							<md-content class="md-padding">
+								<div id="dataTable" style="width:100%; max-width: 1095px;">
+									<table id="{{usina.nome}}" class="table table-striped table-bordered dataTable no-footer" cellspacing="0" width="100%" role="grid" aria-describedby="example_info" style="width: 100%; overflow-x:scroll;">
+										<!-- <thead style="background: white; color: #636266"> -->
+										<thead>
+											<tr role="row">
+												<th id="head" class="thCOE">Mês de Refência</th>
+												<th id="head" class="thCOE" ng-repeat="taxaSelecionada in taxasSelecionadas | orderBy">{{taxaSelecionada}}</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr ng-repeat="taxa in taxasUsinas | filter : {idInstalacao: usina.id}" ng-if="(taxa.nomeCenario == 'Principal' && taxa.ident == 1) || vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano)" id="taxa{{usina.nome}}" class="taxa{{taxa.data | date : 'MMyyyy'}} " >
+												<td  ng-if="taxa.ident == 1">
+													<div style="margin-left:0px; height:1px; float:left;"></div>
+													<span ng-if="taxa.ident == 1 && !vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && (taxa.outraVersaoTaxa == 's' || taxa.outraVersaoCenario == 's' )" class="fa fa-plus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													<span ng-if="taxa.ident == 1 && vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && (taxa.outraVersaoTaxa == 's' || taxa.outraVersaoCenario == 's' )" class="fa fa-minus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													{{taxa.data | date: "MMM/yyyy" }} 
+													<versaoDaTaxa>
+														<md-tooltip md-direction="up">{{taxa.dataCalculo | date: "dd/MM/yyyy"}} (V{{taxa.versaoTaxa}})</md-tooltip>(V{{taxa.versaoTaxa}})
+													</versaoDaTaxa>
+												</td>
+												<td  ng-if="taxa.ident == 3">
+													<div style="margin-left:100px; height:1px; float:left;"></div>
+													<span ng-if="taxa.ident == 1 && !vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && taxa.outraVersaoTaxa == 's'" class="fa fa-plus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													<span ng-if="taxa.ident == 1 && vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && taxa.outraVersaoTaxa == 's'" class="fa fa-minus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													{{taxa.nomeCenario}}
+													<versaoDaTaxa>
+														<md-tooltip md-direction="up">{{taxa.dataCalculo | date: "dd/MM/yyyy"}} (V{{taxa.versaoTaxa}})</md-tooltip>(V{{taxa.versaoTaxa}})
+													</versaoDaTaxa>
+												</td>
+												<td  ng-if="taxa.ident == 2">
+													<div style="margin-left:48px; height:1px; float:left;"></div>
+													<span ng-if="taxa.ident == 1 && !vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && taxa.outraVersaoTaxa == 's'" class="fa fa-plus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													<span ng-if="taxa.ident == 1 && vm.isVersaoTaxaMostrar(taxasUsina.idInstalacao+taxa.mes+taxa.ano) && taxa.outraVersaoTaxa == 's'" class="fa fa-minus" aria-hidden="true" ng-click="vm.addVersao(taxasUsina.idInstalacao+taxa.mes+taxa.ano)"></span>
+													<versaoDaTaxa>
+														<md-tooltip md-direction="up">{{taxa.dataCalculo | date: "dd/MM/yyyy"}} (V{{taxa.versaoTaxa}})</md-tooltip>(V{{taxa.versaoTaxa}})
+													</versaoDaTaxa>
+												</td>
+												
+												<td ng-repeat="taxaSelecionada in taxasSelecionadas | orderBy" id="taxa{{taxaSelecionada}}">
+													<taxa ng-repeat="tx in taxa.valores | filter : {nome:taxaSelecionada}">
+														<taxaValor ng-if="tx.valor == null ">
+															<md-tooltip md-direction="up">{{tx.comentario}}</md-tooltip>
+																-
+														</taxaValor>
+														<input type="hidden" id="tooltip" value={{tx.comentario}} />
+														<taxaValor ng-if="tx.valor == '0.0' || tx.valor == 0.0 || tx.valor == 0">
+															<div class="btn-group" role="group" style="float:right; padding-left: 10px;">
+																    <button type="button" class="btn btn-u btn-u-yellow dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																      Ação
+																      <span class="caret"></span>
+																    </button>
+																    <ul id="button" class="dropdown-menu">
+																      <li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN" ng-click="vm.consultarMemoriaCalculo({ dataRef : taxa.data, taxa : taxaSelecionada , tipoInstalacao : 'usina' , instalacao : usina.nome, idInstalacao : usina.id, regulamentacao : taxa.regulamentacao, tipoTaxa: tx.tipo, versaoTaxa: taxa.versaoTaxa, versaoCenario: taxa.versaoCenario, instalacaoEquip:usina})">
+																      	<span class="fa fa-book" ></span>
+																      	Memória de Cálculo
+																      </li>
+																      <li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN" ng-click="vm.reproduzirCalculo({ dataRef : taxa.data, taxa : taxaSelecionada , tipoInstalacao : 'usina' , instalacao : usina.nome, idInstalacao : usina.id, regulamentacao : taxa.regulamentacao, tipoTaxa: tx.tipo, versaoTaxa: taxa.versaoTaxa, versaoCenario: taxa.versaoCenario, instalacaoEquip:usina})">
+																      <span class="fa fa-play-circle-o"></span>Reproduzir Cálculo</li>
+																      <li><span class="fa fa-exchange"></span>Comparar com Taxa Anterior</li>
+																    </ul>
+														  	</div>
+														  	<div style="text-align: right;">0,00000000</div>
+														</taxaValor>
+														<taxaValor ng-if="tx.valor != '' && tx.valor != null ">
+															<div class="btn-group" role="group" style="float:right; padding-left: 10px; ">
+															    <button type="button" class="btn btn-u btn-u-yellow dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															      Ação
+															      <span class="caret"></span>
+															    </button>
+															    <ul class="dropdown-menu">
+															      <li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN" ng-click="vm.consultarMemoriaCalculo({ dataRef : taxa.data, taxa : taxaSelecionada , tipoInstalacao : 'usina' , instalacao : usina.nome, idInstalacao : usina.id, regulamentacao : taxa.regulamentacao, tipoTaxa: tx.tipo, versaoTaxa: taxa.versaoTaxa, versaoCenario: taxa.versaoCenario, instalacaoEquip:usina})">
+															      	<span class="fa fa-book" ></span>
+															      	Memória de Cálculo
+															      </li>
+															      <li ui-sref-active="active" has-any-authority="ROLE_CNOS,ROLE_COSR_NE,ROLE_ADMIN" ng-click="vm.reproduzirCalculo({ dataRef : taxa.data, taxa : taxaSelecionada , tipoInstalacao : 'usina' , instalacao : usina.nome, idInstalacao : usina.id, regulamentacao : taxa.regulamentacao, tipoTaxa: tx.tipo, versaoTaxa: taxa.versaoTaxa, versaoCenario: taxa.versaoCenario, instalacaoEquip:usina})">
+															      	<span class="fa fa-play-circle-o"> Reproduzir Cálculo</a></span></li>
+															      <li><span class="fa fa-exchange"><a ng-href="http://rodrigo-tsuru.bitbucket.org/v3/compararMemoriaCalculo4_2.html"> Comparar com Taxa Anterior</a></span></li>
+															    </ul>
+														  </div>
+															<div style="text-align: right;">{{tx.valor | number:8}}</div>
+														</taxaValor>
+													</taxa>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</md-content> 
+						</md-tab-body> 
+					</md-tab>
+				</md-tabs>
+			</md-content>
+		</div>
+	</fieldset>
+</form>
+	

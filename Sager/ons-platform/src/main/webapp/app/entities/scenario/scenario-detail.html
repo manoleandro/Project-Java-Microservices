@@ -1,0 +1,52 @@
+
+<div>
+    <h2><span>Scenario</span> {{vm.scenario.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span>Aggregate Id</span></dt>
+        <dd>
+            <span>{{vm.scenario.aggregateId}}</span>
+        </dd>
+        <dt><span>Nome</span></dt>
+        <dd>
+            <span>{{vm.scenario.aggregateName}}</span>
+        </dd>
+        <dt><span>Descricao</span></dt>
+        <dd>
+            <span>{{vm.scenario.description}}</span>
+        </dd>
+        <dt><span>Tipo</span></dt>
+        <dd>
+            <span>{{vm.scenario.type}}</span>
+        </dd>
+        <dt><span>Status</span></dt>
+        <dd>
+            <span>{{vm.scenario.status}}</span>
+        </dd>
+        <dt><span>Inicio Vigencia</span></dt>
+        <dd>
+            <span>{{vm.scenario.startDate | date:'medium'}}</span>
+        </dd>
+        <dt><span>Encerramento</span></dt>
+        <dd>
+            <span>{{vm.scenario.endDate | date:'medium'}}</span>
+        </dd>
+        <dt><span>Criacao</span></dt>
+        <dd>
+            <span>{{vm.scenario.creationDate | date:'medium'}}</span>
+        </dd>
+        <dt><span>Usuario</span></dt>
+        <dd>
+            <span>{{vm.scenario.userId}}</span>
+        </dd>
+    </dl>
+
+	<canvas id="gitGraph"></canvas>
+	
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+</div>

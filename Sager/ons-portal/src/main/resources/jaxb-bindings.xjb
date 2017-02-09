@@ -1,0 +1,10 @@
+<jaxb:bindings xmlns:jaxws="http://java.sun.com/xml/ns/jaxws"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	version="2.0">
+	<jaxws:bindings node="wsdl:definitions/wsdl:types/xs:schema">
+		<jaxb:bindings>
+			<jaxb:globalBindings generateElementProperty="false" />
+		</jaxb:bindings>
+	</jaxws:bindings>
+</jaxb:bindings>

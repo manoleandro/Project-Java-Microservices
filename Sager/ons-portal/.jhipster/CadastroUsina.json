@@ -1,0 +1,27 @@
+{
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "version",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nomeCurto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoUsina",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "potenciaCalculo",
+      "fieldType": "Double"
+    }
+  ],
+  "changelogDate": "20160807142309",
+  "entityTableName": "cadastro_usina",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "microserviceName": "onsplatform"
+}

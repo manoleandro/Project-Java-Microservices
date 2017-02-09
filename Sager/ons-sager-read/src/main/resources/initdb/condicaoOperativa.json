@@ -1,0 +1,16 @@
+[{
+"_class": "br.org.ons.sager.read.domain.CondicaoOperativa", 
+"id":"NOR",
+"descricao":"Em operação Normal"},
+{
+"_class": "br.org.ons.sager.read.domain.CondicaoOperativa", 
+"id":"RPR","descricao":"Restrição Programada"},
+{
+"_class": "br.org.ons.sager.read.domain.CondicaoOperativa", 
+"id":"RFO","descricao":"Restrição Forçada"},
+{
+"_class": "br.org.ons.sager.read.domain.CondicaoOperativa", 
+"id":"NOT","descricao":"Operação em teste de comprovação de disponibilidade"},
+{
+"_class": "br.org.ons.sager.read.domain.CondicaoOperativa", 
+"id":"TST","descricao":"Aguardando teste de comprovação de disponibilidade"}]

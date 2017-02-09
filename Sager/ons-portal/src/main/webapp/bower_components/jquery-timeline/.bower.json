@@ -1,0 +1,43 @@
+{
+  "name": "jquery-timeline",
+  "description": "History timeline jQuery plugin",
+  "keywords": [
+    "timeline",
+    "timelinejs",
+    "history",
+    "jquery"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Mashentsev",
+      "email": "d.ashesss@gmail.com"
+    }
+  ],
+  "version": "0.3.1",
+  "dependencies": {
+    "jquery": ">=1.4"
+  },
+  "main": [
+    "dist/timeline.min.js",
+    "dist/timeline.min.css"
+  ],
+  "ignore": [
+    ".gitignore",
+    ".npmignore",
+    "tsd.json",
+    "package.json",
+    "gulp",
+    "gulpfile.js"
+  ],
+  "homepage": "https://github.com/d-ashesss/jquery-timeline",
+  "_release": "0.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.1",
+    "commit": "94cb9d29f045200fdfc0a3bdf94303f7d7550b7b"
+  },
+  "_source": "https://github.com/d-ashesss/jquery-timeline.git",
+  "_target": "^0.3.1",
+  "_originalSource": "jquery-timeline"
+}

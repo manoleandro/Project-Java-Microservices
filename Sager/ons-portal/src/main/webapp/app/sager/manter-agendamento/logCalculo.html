@@ -1,0 +1,45 @@
+<div ng-cloak></div>
+<md-dialog aria-label="Mango (Fruit)" class="modal-content">
+	<form action="#" id="sky-form" class="sky-form sky-form-campos" style="border:0px;">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="ctrl.cancel()" >&times;</button>
+			<h4 class="modal-title" id="exampleModalLabel">Log do Agendamento 
+				<span class="fa fa-exclamation-circle"></span>
+			</h4>
+		</div>
+	
+		<fieldset>
+			<div class="row">
+				<section class="col col-12" style="height: 250px; overflow-y: scroll; overflow-x: hidden;">
+					  <div id="comentariosAviso" ng-repeat="comentario in ctrl.comentarios">
+					  	<label ng-model="collapsed" ng-click="collapsed=!collapsed">{{comentario.mes | date: 'MM/yyyy'}}
+					  		<span ng-show="!collapsed" class="fa fa-chevron-down collapse" style="color:#486018; margin-top: -4px; font-size: 13px !important;"></span>
+							<span ng-show="collapsed" class="fa fa-chevron-up collapse" style="color:#486018;margin-top: -4px; font-size: 13px !important;"></span>
+							<span class="fa fa-eye" style="margin-top: 2px; float: right; padding-left: 5px; color: #f1c40f;"></span>
+					  	</label>
+					  	<div ng-repeat="lista in comentario.listaComentarios" ng-show="collapsed">
+					    	<div ng-show="lista.tipo=='AVISO'" class="alert alert-warning alert-dismissible" role="alert">
+					    		<strong>Aviso!</strong> 
+					    		<div class="mensagem">{{lista.descricao}}</div>
+					    	</div>
+					    	<div ng-show="lista.tipo=='ERRO'" class="alert alert-danger alert-dismissible" role="alert">
+					    		<strong>Falha!</strong> 
+								<div class="mensagem">{{lista.descricao}}</div>
+					    	</div>
+					   		<div  ng-show="lista.tipo=='COMENTARIO'" class="alert alert-info alert-dismissible" role="alert">
+					   			<strong>Comentário!</strong>
+					   			<div class="mensagem">{{lista.descricao}}</div>
+							</div>
+					    </div>
+				    </div>
+				</section>
+			</div>
+			<footer class="text-right">
+				<button id="btnCancelar" type="button" class="btn-u" data-dismiss="modal" ng-click="ctrl.cancel()">
+					<span class="fa fa-chevron-left"></span>&nbsp;
+					<span translate="onsPortalApp.manter-agendamento.home.back">Voltar</span>
+				</button>
+			</footer>
+		</fieldset>
+	</form>
+</md-dialog>

@@ -1,0 +1,235 @@
+[ {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "ROTN2",
+    "usi" : "TERMONORTE II",
+    "dtRef" : "1990-12-01T00:00:00",
+    "teif" : "0.050000000000",
+    "ip" : "0.050000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "CEUTPC",
+    "usi" : "PORTO PECEM I",
+    "dtRef" : "2012-12-01T00:00:00",
+    "teif" : "0.017000000000",
+    "ip" : "0.083000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "CEUTPD",
+    "usi" : "PORTO PECEM II",
+    "dtRef" : "2013-10-01T00:00:00",
+    "teif" : "0.015000000000",
+    "ip" : "0.035000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "APSAJ",
+    "usi" : "STO.ANT.JARI",
+    "dtRef" : "2014-09-01T00:00:00",
+    "teif" : "0.025330000000",
+    "ip" : "0.080910000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-SE",
+    "usiid" : "RJUSCP",
+    "usi" : "CAMPOS",
+    "dtRef" : "1977-07-01T00:00:00",
+    "teif" : "0.020600000000",
+    "ip" : "0.122500000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-S",
+    "usiid" : "RSUTCH",
+    "usi" : "U.CHARQUEADAS",
+    "dtRef" : "1962-01-01T00:00:00",
+    "teif" : "0.139400000000",
+    "ip" : "0.122500000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-S",
+    "usiid" : "PRGBM",
+    "usi" : "BENTO MUNHOZ",
+    "dtRef" : "1980-10-01T00:00:00",
+    "teif" : "0.029170000000",
+    "ip" : "0.121220000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "BAUSB",
+    "usi" : "U.SOBRADINHO",
+    "dtRef" : "1979-04-01T00:00:00",
+    "teif" : "0.025330000000",
+    "ip" : "0.080910000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "RNUPU",
+    "usi" : "POTIGUAR",
+    "dtRef" : "2009-03-01T00:00:00",
+    "teif" : "0.020000000000",
+    "ip" : "0.020000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "TSTC2",
+    "usi" : "PORTO PECEM II - CEN",
+    "dtRef" : "2013-10-01T00:00:00",
+    "teif" : "0.015000000000",
+    "ip" : "0.035000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-SE",
+    "usiid" : "TSTU2",
+    "usi" : "B.FLUMINENSE",
+    "dtRef" : "2014-03-01T00:00:00",
+    "teif" : "0.020000000000",
+    "ip" : "0.030000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "INTERLIGACAO_INTERNACIONAL",
+    "cos" : "COSR-S",
+    "usiid" : "RSGBI1",
+    "usi" : "CI CV.GARABI 1",
+    "dtRef" : "2001-01-01T00:00:00",
+    "teif" : "0.000000000000",
+    "ip" : "0.030000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "INTERLIGACAO_INTERNACIONAL",
+    "cos" : "COSR-S",
+    "usiid" : "SCUTLC",
+    "usi" : "CI J.LACERDA",
+    "dtRef" : "1996-11-01T00:00:00",
+    "teif" : "0.041100000000",
+    "ip" : "0.054400000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "ROTNE1",
+    "usi" : "TERMONORTE I",
+    "dtRef" : "1990-12-01T00:00:00",
+    "teif" : "0.050000000000",
+    "ip" : "0.050000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-S",
+    "usiid" : "RSUTEC",
+    "usi" : "CANDIOTA III",
+    "dtRef" : "2011-01-01T00:00:00",
+    "teif" : "0.055000000000",
+    "ip" : "0.041000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "ROUHJI",
+    "usi" : "UHE JIRAU",
+    "dtRef" : "2013-09-01T00:00:00",
+    "teif" : "0.005000000000",
+    "ip" : "0.000000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-S",
+    "usiid" : "RSUTEC",
+    "usi" : "CANDIOTA III",
+    "dtRef" : "2014-06-01T00:00:00",
+    "teif" : "0.164380000000",
+    "ip" : "0.102740000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "AMBA",
+    "usi" : "UHE BALBINA",
+    "dtRef" : "2015-05-01T00:00:00",
+    "teif" : "0.016720000000",
+    "ip" : "0.054030000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-S",
+    "usiid" : "RSUPME",
+    "usi" : "P.MEDICI",
+    "dtRef" : "1974-01-01T00:00:00",
+    "teif" : "0.133800000000",
+    "ip" : "0.097800000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "CEUTFO",
+    "usi" : "UT. FORTALEZA",
+    "dtRef" : "2003-12-01T00:00:00",
+    "teif" : "0.019400000000",
+    "ip" : "0.019100000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-SE",
+    "usiid" : "RJUTME",
+    "usi" : "UT MARIO LAGO",
+    "dtRef" : "2001-12-01T00:00:00",
+    "teif" : "0.035000000000",
+    "ip" : "0.020000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "ALUXG",
+    "usi" : "USINA XINGO",
+    "dtRef" : "1994-04-01T00:00:00",
+    "teif" : "0.060000000000",
+    "ip" : "0.080000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NE",
+    "usiid" : "TSTC1",
+    "usi" : "PORTO PECEM I - CENA",
+    "dtRef" : "2012-12-01T00:00:00",
+    "teif" : "0.017000000000",
+    "ip" : "0.083000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "USINA",
+    "cos" : "COSR-NCO",
+    "usiid" : "TSTU1",
+    "usi" : "U.NV.VENECIA2 - DESA",
+    "dtRef" : "2013-10-01T00:00:00",
+    "teif" : "0.010000000000",
+    "ip" : "0.020000000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "INTERLIGACAO_INTERNACIONAL",
+    "cos" : "COSR-S",
+    "usiid" : "RSGBI2",
+    "usi" : "CI CV.GARABI 2",
+    "dtRef" : "2001-01-01T00:00:00",
+    "teif" : "0.000000000000",
+    "ip" : "0.027400000000"
+}, {
+    "_class" : "br.org.ons.sager.read.domain.TaxaRef",
+    "tipoInstalacao" : "INTERLIGACAO_INTERNACIONAL",
+    "cos" : "COSR-S",
+    "usiid" : "MAUSUZ",
+    "usi" : "CI SUZANO",
+    "dtRef" : "2014-04-01T00:00:00",
+    "teif" : "0.000000000000",
+    "ip" : "0.000000000000"
+} ]

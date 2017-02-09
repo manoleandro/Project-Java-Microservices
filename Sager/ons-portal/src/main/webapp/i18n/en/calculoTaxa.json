@@ -1,0 +1,31 @@
+{
+    "onsPortalApp": {
+        "calculoTaxa" : {
+            "home": {
+                "title": "Schedule Rate Calculation",
+                "createLabel": "Schedule Rate",
+                "createOrEditLabel": "Create or edit a Scheduling",
+                "search": "Search for Scheduling",
+                "usina": "Name",
+                "agente": "Agent",
+                "tipo": "Type",
+                "agendar":"Schedule",
+                "back": "Back",
+                "filter": "Filter"
+            },
+            "created": "A new Scheduling is created with identifier {{ param }}",
+            "updated": "A Rate Scheduling is updated with identifier {{ param }}",
+            "deleted": "A Rate Scheduling is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Scheduling {{ id }}?"
+            },
+            "detail": {
+                "title": "Schedule Rate Calculation"
+            },
+            "version": "Version",
+            "nomeCurto": "Nome Curto",
+            "tipoUsina": "Tipo Usina",
+            "potenciaCalculo": "Potencia Calculo"
+        }
+    }
+}

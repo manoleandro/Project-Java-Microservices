@@ -1,0 +1,312 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<base href="/onsportal/"></base>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ONS Portal</title>
+    <meta name="description" content="">
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css content/css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/gitgraph.js/build/gitgraph.css">
+    <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-tree/dist/angular-ui-tree.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.min.css">
+    <link rel="stylesheet" href="bower_components/angular-xeditable/dist/css/xeditable.css">
+    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline.css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link type="text/css" href="bower_components/angular-object-diff/dist/angular-object-diff.css" rel='stylesheet'>
+
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- build:css content/css/main.css -->
+    <link rel="stylesheet" href="content/css/main.css">
+    <link rel="stylesheet" href="content/css/jquery-ui.css">
+    <!-- Artefatos BSI -->
+	    <link rel="stylesheet" href="content/css/sky-forms.css">
+	    <link rel="stylesheet" href="content/css/custom-sky-forms.css">
+	    <link rel="stylesheet" href="content/css/app.css">
+	    <!-- CSS com as cutomizações -->
+	    <link rel="stylesheet" href="content/css/ui-grid-ONS.css">
+	    <link rel="stylesheet" href="content/css/dataTables.bootstrap.min.css">
+	    <link rel="stylesheet" href="content/css/custom.css">
+	    <link rel="stylesheet" href="content/css/font-awesome.min.css">
+		<!-- CSS MENU -->
+		<link rel="stylesheet" href="content/css/menu-sliding.css">
+		<!-- SCRIPTS com customizações -->
+		<script type="text/javascript" src="content/js/menu-sliding.js"></script>
+		
+    <!-- endbuild -->
+</head>
+<body ng-app="onsPortalApp" ng-strict-di>
+    <!--[if lt IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <page-ribbon></page-ribbon>
+    
+    <div>
+	    <!--=== Conteúdo ===-->
+	    <div class="container content">
+		
+			<div class="header">
+				
+				<!-- LOGOS -->
+				<div id="cabecalho-logos">
+					<img src="./content/imagens/logo-4-full.jpg"/>
+					<div style="float:right;" class="img-torres-target">
+						<img src="./content/imagens/bg-header.jpg">
+					</div>
+				</div>
+		        <div class="row">
+		            <!-- Inicio -->
+		            <div class="col-md-9">
+	    				<div ui-view="navbar" ng-cloak></div>
+	    
+			          	<div  ui-view="content">
+				            <!-- Angular views -->
+				        </div>
+				
+				        <div class="footer" ng-cloak>
+				            <p></p>
+				        </div>
+					</div>            
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+
+    <!-- Google Analytics: uncomment and change UA-XXXXX-X to be your site's ID.
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>-->
+
+    <!-- build:js app/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/messageformat/messageformat.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <script src="bower_components/gitgraph.js/build/gitgraph.js"></script>
+    <script src="bower_components/chart.js/dist/Chart.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-cache-buster/angular-cache-buster.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-dynamic-locale/src/tmhDynamicLocale.js"></script>
+    <script src="bower_components/ngstorage/ngStorage.js"></script>
+    <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.js"></script>
+    <script src="bower_components/angular-translate-interpolation-messageformat/angular-translate-interpolation-messageformat.js"></script>
+    <script src="bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+    <script src="bower_components/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/bootstrap-ui-datetime-picker/dist/datetime-picker.js"></script>
+    <script src="bower_components/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+    <script src="bower_components/ng-file-upload/ng-file-upload.js"></script>
+    <script src="bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js"></script>
+    <script src="bower_components/angular-ui-tree/dist/angular-ui-tree.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.min.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-smart-table/dist/smart-table.js"></script>
+    <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+    <script src="bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+    <script src="bower_components/angular-timeline/dist/angular-timeline.js"></script>
+    <script src="bower_components/angular-scroll-animate/dist/angular-scroll-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/pdfmake/build/pdfmake.js"></script>
+    <script src="bower_components/pdfmake/build/vfs_fonts.js"></script>
+	<script type="text/javascript" src="bower_components/angular-object-diff/dist/angular-object-diff.js"></script>    
+    
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- build:js app/app.js  -->
+    <!-- inject:js -->
+    <script src="app/app.module.js"></script>
+    <script src="app/services/schedule/schedule.serviceByInstalacao.js"></script>
+	<script src="app/services/schedule/schedule-cenarios.service.js"></script>
+    <script src="app/services/schedule/schedule-retificacoes.service.js"></script>
+    <script src="app/services/schedule/schedule.service.js"></script>
+    <script src="app/services/rest/usinas.service.js"></script>
+    <script src="app/services/rest/taxaByInstalacaoPeriodo.service.js"></script>
+    <script src="app/services/rest/calculo-taxa.service.js"></script>
+    <script src="app/services/rest/taxa-ref.service.js"></script>
+    <script src="app/services/rest/taxa.service.js"></script>
+    <script src="app/services/rest/memoriaCalculo.service.js"></script>
+    <script src="app/services/rest/interligacoes.service.js"></script>
+    <script src="app/services/rest/instalacaoTaxasByInstalacaoPeriodo.service.js"></script>
+    <script src="app/services/rest/instalacaoTaxas.service.js"></script>
+    <script src="app/services/rest/agendamento-calculo-taxa-by-date.service.js"></script>
+    <script src="app/services/rest/agendamento-calculo-by-protocolo.service.js"></script>
+    <script src="app/services/rest/verificarInstalacaoByDate.service.js"></script>
+    <script src="app/services/profiles/profile.service.js"></script>
+    <script src="app/services/profiles/page-ribbon.directive.js"></script>
+    <script src="app/services/instalacao/usina.service.js"></script>
+    <script src="app/services/instalacao/interligacao.service.js"></script>
+    <script src="app/services/evento/evento.service.js"></script>
+    <script src="app/services/auth/principal.service.js"></script>
+    <script src="app/services/auth/has-authority.directive.js"></script>
+    <script src="app/services/auth/has-any-authority.directive.js"></script>
+    <script src="app/services/auth/auth.service.js"></script>
+    <script src="app/services/auth/account.service.js"></script>
+    <script src="app/sager/usinas/usinas.service.js"></script>
+    <script src="app/sager/sager.state.js"></script>
+    <script src="app/sager/notificacoes/notificacoes.state.js"></script>
+    <script src="app/sager/notificacoes/notificacoes.service.js"></script>
+    <script src="app/sager/notificacoes/notificacoes.controller.js"></script>
+    <script src="app/sager/manter-param/manter-param.state.js"></script>
+    <script src="app/sager/manter-param/manter-param.service.js"></script>
+    <script src="app/sager/manter-param/manter-param.controller.js"></script>
+    <script src="app/sager/manter-agendamento/schedule-detail.controller.js"></script>
+    <script src="app/sager/manter-agendamento/schedule.state.js"></script>
+    <script src="app/sager/manter-agendamento/schedule.service.js"></script>
+    <script src="app/sager/manter-agendamento/schedule.controller.js"></script>
+    <script src="app/sager/manter-agendamento/retificacao-schedule.controller.js"></script>
+    <script src="app/sager/manter-agendamento/cenario-schedule.controller.js"></script>
+    <script src="app/sager/manter-agendamento/cenario-detail.controller.js"></script>
+    <script src="app/sager/manter-agendamento/retificacao-detail.controller.js"></script>
+    <script src="app/sager/manter-agendamento/calc-taxa-schedule.controller.js"></script>
+    <script src="app/sager/interligacoes/interligacoes.service.js"></script>
+    <script src="app/sager/gerar-relatorio/gerar-relatorio-dialog.controller.js"></script>
+    <script src="app/sager/gerar-relatorio/gerar-relatorio-detail.controller.js"></script>
+    <script src="app/sager/gerar-relatorio/gerar-relatorio.state.js"></script>
+    <script src="app/sager/gerar-relatorio/gerar-relatorio.service.js"></script>
+    <script src="app/sager/gerar-relatorio/gerar-relatorio.controller.js"></script>
+    <script src="app/sager/evento/evento.state.js"></script>
+    <script src="app/sager/evento/evento.controller.js"></script>
+    <script src="app/sager/disp/disp-chart.controller.js"></script>
+    <script src="app/sager/disp/disp-comentarios.controller.js"></script>
+    <script src="app/sager/disp/disp.state.js"></script>
+    <script src="app/sager/disp/disp.service.js"></script>
+    <script src="app/sager/disp/disp-excel.service.js"></script>
+    <script src="app/sager/disp/disp.controller.js"></script>
+    <script src="app/sager/consulta-teste/consulta-teste.state.js"></script>
+    <script src="app/sager/consulta-teste/consulta-teste.service.js"></script>
+    <script src="app/sager/consulta-teste/consulta-teste.controller.js"></script>
+    <script src="app/sager/consulta-taxa-ref/consulta-taxa-ref.state.js"></script>
+    <script src="app/services/rest/taxa-ref.service.js"></script>
+    <script src="app/sager/consulta-taxa-ref/consulta-taxa-ref.controller.js"></script>
+    <script src="app/sager/consulta-taxa/consulta-taxa.state.js"></script>
+    <script src="app/sager/consulta-taxa/consulta-taxa.service.js"></script>
+    <script src="app/sager/consulta-taxa/consulta-taxa.controller.js"></script>
+    <script src="app/sager/consulta-memoria-calculo/consulta-memoria-calculo.state.js"></script>
+    <script src="app/sager/consulta-memoria-calculo/consulta-memoria-calculo.service.js"></script>
+    <script src="app/sager/consulta-memoria-calculo/consulta-memoria-calculo.controller.js"></script>
+    <script src="app/sager/calculo-taxa/calculo-taxa-dialog.controller.js"></script>
+    <script src="app/sager/calculo-taxa/calculo-taxa.state.js"></script>
+    <script src="app/sager/calculo-taxa/calculo-taxa.controller.js"></script>
+    <script src="app/sager/reproducao-calculo/reproducao-calculo.controller.js"></script>
+    <script src="app/sager/reproducao-calculo/reproducao-calculo.service.js"></script>
+    <script src="app/sager/reproducao-calculo/reproducao-calculo.state.js"></script>
+    <script src="app/layouts/navbar/navbar.controller.js"></script>
+    <script src="app/layouts/navbar/active-menu.directive.js"></script>
+    <script src="app/layouts/navbar/active-link.directive.js"></script>
+    <script src="app/layouts/error/error.state.js"></script>
+    <script src="app/home/home.state.js"></script>
+    <script src="app/home/home.controller.js"></script>
+    <script src="app/entities/entity.state.js"></script>
+    <script src="app/components/util/usinaFilter.js"></script>
+    <script src="app/components/util/number-fixed-len.js"></script>
+    <script src="app/components/util/truncate-words.filter.js"></script>
+    <script src="app/components/util/truncate-characters.filter.js"></script>
+    <script src="app/components/util/TaxaPorDateFilter.js"></script>
+    <script src="app/components/util/taxaFilter.js"></script>
+    <script src="app/components/util/sort-by.directive.js"></script>
+    <script src="app/components/util/sort.directive.js"></script>
+    <script src="app/components/util/remove-white-space-filter.js"></script>
+    <script src="app/components/util/remove-dot-filter.js"></script>
+    <script src="app/components/util/parse-links.service.js"></script>
+    <script src="app/components/util/pagination-util.service.js"></script>
+    <script src="app/components/util/leading-zeros-filter.js"></script>
+    <script src="app/components/util/jhi-item-count.directive.js"></script>
+    <script src="app/components/util/excel/xlsx.core.min.js"></script>
+    <script src="app/components/util/excel/FileSaver.js"></script>
+    <script src="app/components/util/excel/Export2Excel.js"></script>
+    <script src="app/components/util/excel/Blob.js"></script>
+    <script src="app/components/util/date-util.service.js"></script>
+    <script src="app/components/util/data-util.service.js"></script>
+    <script src="app/components/util/capitalize.filter.js"></script>
+    <script src="app/components/util/base64.service.js"></script>
+    <script src="app/components/platform-schedule-list/platform-schedule-list.directive.js"></script>
+    <script src="app/components/login/login.service.js"></script>
+    <script src="app/components/language/language.service.js"></script>
+    <script src="app/components/language/language.filter.js"></script>
+    <script src="app/components/language/language.controller.js"></script>
+    <script src="app/components/language/language.constants.js"></script>
+    <script src="app/components/instalacoes/instalacoes.directive.js"></script>
+    <script src="app/components/instalacaoChooserExclusive2/instalacaoChooserExclusive2.directive.js"></script>
+    <script src="app/components/instalacaoChooserExclusive/instalacaoChooserExclusive.directive.js"></script>
+    <script src="app/components/form/show-validation.directive.js"></script>
+    <script src="app/components/form/pagination.constants.js"></script>
+    <script src="app/components/form/minbytes.directive.js"></script>
+    <script src="app/components/form/maxbytes.directive.js"></script>
+    <script src="app/components/data/data.directive.js"></script>
+    <script src="app/components/alert/alert-error.directive.js"></script>
+    <script src="app/components/alert/alert.service.js"></script>
+    <script src="app/components/alert/alert.directive.js"></script>
+    <script src="app/blocks/interceptor/notification.interceptor.js"></script>
+    <script src="app/blocks/interceptor/errorhandler.interceptor.js"></script>
+    <script src="app/blocks/interceptor/auth-expired.interceptor.js"></script>
+    <script src="app/blocks/handlers/translation.handler.js"></script>
+    <script src="app/blocks/handlers/state.handler.js"></script>
+    <script src="app/blocks/handlers/mock.handler.js"></script>
+    <script src="app/blocks/config/uib-pagination.config.js"></script>
+    <script src="app/blocks/config/uib-pager.config.js"></script>
+    <script src="app/blocks/config/translation-storage.provider.js"></script>
+    <script src="app/blocks/config/translation.config.js"></script>
+    <script src="app/blocks/config/localstorage.config.js"></script>
+    <script src="app/blocks/config/http.config.js"></script>
+    <script src="app/blocks/config/compile.config.js"></script>
+    <script src="app/blocks/config/alert.config.js"></script>
+    <script src="app/app.state.js"></script>
+    <script src="app/app.constants.js"></script>
+    <script src="app/admin/docs/docs.state.js"></script>
+    <script src="app/admin/admin.state.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- <script src="onsplatform/app/entities/scenario/scenario-end-dialog.controller.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario-dialog.controller.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario-detail.controller.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario-delete-dialog.controller.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario.state.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario.service.js"></script>
+    <script src="onsplatform/app/entities/scenario/scenario.controller.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline-dialog.controller.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline-detail.controller.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline-delete-dialog.controller.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline.state.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline.service.js"></script>
+	<script src="onsplatform/app/entities/timeline/timeline.controller.js"></script>
+	<script src="onsplatform/app/entities/record/record-dialog.controller.js"></script>
+	<script src="onsplatform/app/entities/record/record-detail.controller.js"></script>
+	<script src="onsplatform/app/entities/record/record-delete-dialog.controller.js"></script>
+	<script src="onsplatform/app/entities/record/record.state.js"></script>
+	<script src="onsplatform/app/entities/record/record.service.js"></script>
+	<script src="onsplatform/app/entities/record/record.controller.js"></script> -->
+	
+	<!-- generate excel -->    			 
+    <script src="app/components/util/excel/Blob.js"></script>
+    <script src="app/components/util/excel/Export2Excel.js"></script>
+    <script src="app/components/util/excel/FileSaver.js"></script>
+    <script src="app/components/util/excel/xlsx.core.min.js"></script>
+	<script src="app/components/util/usinaFilter.js"></script>
+    <script src="app/components/util/taxaFilter.js"></script>
+    <script src="app/components/util/TaxaPorDateFilter.js"></script>
+	
+</body>
+</html>

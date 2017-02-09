@@ -1,0 +1,62 @@
+# language: pt
+
+Funcionalidade: Realizar Agendamento de Cálculo (Insucesso)
+
+Cenário: Solicitar cálculo de Taxas para determinado período para uma Instalação do tipo Usina com agendamento pré-existente para mesmo período do novo agendamento
+	Dado que eu esteja autenticado com usuário "cnos" e perfil "CNOS" 
+	E eu esteja na página "Solicitar cálculo de taxa"
+	Quando eu informo o valor "Março 2016" para o campo "Mês inicial"
+	E eu informo o valor "Março 2016" para o campo "Mês final"
+	E eu aperto a guia "Usinas"
+	E eu seleciono o item "U.SOBRADINHO" na lista "Usinas"
+	E eu aperto o botão "Agendar Cálculo"
+	E eu informo o valor "01/11/2016" para o campo "Data de agendamento"
+	E eu informo o valor "10:00" para o campo "Hora de agendamento"
+	E eu aperto o botão "Agendar"
+	#	Então eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: U.SOBRADINHO; Mês inicial: Março 2016; Mês final: Março 2016"
+
+Cenário: Solicitar cálculo de Taxas para determinado período para uma Instalação do tipo Interligação Internacional com agendamento pré-existente para mesmo período do novo agendamento
+	Dado que eu esteja autenticado com usuário "cnos" e perfil "CNOS" 
+	E eu esteja na página "Solicitar cálculo de taxa"
+	Quando eu informo o valor "Março 2016" para o campo "Mês inicial"
+	E eu informo o valor "Março 2016" para o campo "Mês final"
+	E eu aperto a guia "Interligações Internacionais"
+	E eu seleciono o item "CI LIVRAMENTO 2" na lista "Interligações Internacionais"
+	E eu aperto o botão "Agendar cálculo"
+	E eu informo o valor "01/11/2016" para o campo "Data de agendamento"
+	E eu informo o valor "10:00" para o campo "Hora de agendamento"
+	E eu aperto o botão "Agendar"
+	#	Então eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI LIVRAMENTO 2; Mês inicial: Março 2016; Mês final: Março 2016"
+
+Cenário: Solicitar cálculo de Taxas para determinado período para todas instalações do tipo Usina com agendamento pré-existente para mesmo período do novo agendamento
+	Dado que eu esteja autenticado com usuário "cnos" e perfil "CNOS" 
+	E eu esteja na página "Solicitar cálculo de taxa"
+	Quando eu informo o valor "Março 2016" para o campo "Mês inicial"
+	E eu informo o valor "Outubro 2016" para o campo "Mês final"
+	E eu aperto a guia "Usinas"
+	E eu seleciono todos os itens da lista "Usinas"
+	E eu aperto o botão "Agendar cálculo"
+	E eu informo o valor "01/03/2017" para o campo "Data de agendamento"
+	E eu informo o valor "10:00" para o campo "Hora de agendamento"
+	E eu aperto o botão "Agendar"
+	#	Então eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CAMPOS; Mês inicial: Março 2016; Mês final: Outbro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: U.SOBRADINHO; Mês inicial: Março 2016; Mês final: Outbro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: UT MARIO LAGO; Mês inicial: Março 2016; Mês final: Outbro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: BENTO MUNHOZ; Mês inicial: Março 2016; Mês final: Outbro 2016"
+
+Cenário: Solicitar cálculo de Taxas para determinado período para todas instalações do tipo Interligação Internacional com agendamento pré-existente para mesmo período do novo agendamento
+	Dado que eu esteja autenticado com usuário "cnos" e perfil "CNOS" 
+	E eu esteja na página "Solicitar cálculo de taxa"
+	Quando eu informo o valor "Março 2016" para o campo "Mês inicial"
+	E eu informo o valor "Outubro 2016" para o campo "Mês final"
+	E eu aperto a guia "Interligações Internacionais"
+	E eu seleciono todos os itens da lista "Interligações Internacionais"
+	E eu aperto o botão "Agendar cálculo"
+	E eu informo o valor "01/03/2017" para o campo "Data de agendamento"
+	E eu informo o valor "10:00" para o campo "Hora de agendamento"
+	E eu aperto o botão "Agendar"
+	#	Então eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI CV.URUGUAIANA; Mês inicial: Março 2016; Mês final: Novembro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI LIVRAMENTO 2; Mês inicial: Março 2016; Mês final: Novembro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI CV.GARABI 1; Mês inicial: Março 2016; Mês final: Novembro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI CV.GARABI 2; Mês inicial: Março 2016; Mês final: Novembro 2016"
+	#	E eu deveria ver a mensagem de erro "RS_MENS_018" e crítica "Instalação: CI ACARAY; Mês inicial: Março 2016; Mês final: Novembro 2016"

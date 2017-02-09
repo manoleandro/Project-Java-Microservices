@@ -1,0 +1,45 @@
+[1003/222113:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1003/222113:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1003/222113:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1003/222113:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1003/222114:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1006/220746:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1006/220746:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffd7000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1006/220748:ERROR:process_info.cc(608)] range at 0xfffa9000, size 0xf84 fully unreadable
+[1007/000928:ERROR:crash_report_database_win.cc(460)] failed to truncate: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
+[1007/000932:ERROR:crash_report_database_win.cc(460)] failed to truncate: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
+[1007/000932:ERROR:crash_report_database_win.cc(460)] failed to truncate: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)

@@ -1,0 +1,1257 @@
+[
+{
+"nome":"AGUA VERMELHA",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"BARIRI",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"BARRA BONITA",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"CACONDE",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"E.CUNHA",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"IBITINGA",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"LIMOEIRO",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"N.AVANHANDAVA",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"PROMISSAO",
+"tipo":"UHE",
+"agente":"AES TIETÊ"
+},
+{
+"nome":"U.URUGUAIANA",
+"tipo":"UTE",
+"agente":"AES URUGUAIANA"
+},
+{
+"nome":"DARDANELOS",
+"tipo":"UHE",
+"agente":"AGUAS DA PEDRA"
+},
+{
+"nome":"ITAPEBI US",
+"tipo":"UHE",
+"agente":"AHE ITAPEBI"
+},
+{
+"nome":"UHE BALBINA",
+"tipo":"UHE",
+"agente":"AMAZONAS GT"
+},
+{
+"nome":"UTE APARECIDA",
+"tipo":"UTE",
+"agente":"AMAZONAS GT"
+},
+{
+"nome":"UTE MAUA BL 3",
+"tipo":"UTE",
+"agente":"AMAZONAS GT"
+},
+{
+"nome":"UTE MAUA BL4",
+"tipo":"UTE",
+"agente":"AMAZONAS GT"
+},
+{
+"nome":"U.ARAUCARIA",
+"tipo":"UTE",
+"agente":"ARAUCÁRIA"
+},
+{
+"nome":"UTE SOL",
+"tipo":"UTE",
+"agente":"ARCELORMITTAL SOL"
+},
+{
+"nome":"UTE IPAUSSU",
+"tipo":"UTE",
+"agente":"B BIOENERGIA"
+},
+{
+"nome":"U.BARRAGRANDE",
+"tipo":"UHE",
+"agente":"BAESA"
+},
+{
+"nome":"BAGUARI",
+"tipo":"UHE",
+"agente":"BAGUARI I GERAÇÃO"
+},
+{
+"nome":"UT.CAM.GRANDE",
+"tipo":"UTE",
+"agente":"BORBOREMA ENERGETICA"
+},
+{
+"nome":"UTE JARAQUI",
+"tipo":"UTE",
+"agente":"BREITENER JARAQUI"
+},
+{
+"nome":"UTE TAMBAQUI",
+"tipo":"UTE",
+"agente":"BREITENER TAMBAQUI"
+},
+{
+"nome":"GOIANIA II",
+"tipo":"UTE",
+"agente":"BRENTECH"
+},
+{
+"nome":"U.PIRATININGA",
+"tipo":"UTE",
+"agente":"BSE"
+},
+{
+"nome":"U.QUEB.QUEIXO",
+"tipo":"UHE",
+"agente":"C. E. CHAPECÓ"
+},
+{
+"nome":"UTE GLOBAL I",
+"tipo":"UTE",
+"agente":"CANDEIAS"
+},
+{
+"nome":"UTE GLOBAL II",
+"tipo":"UTE",
+"agente":"CANDEIAS"
+},
+{
+"nome":"RISOLETANEVES",
+"tipo":"UHE",
+"agente":"CANDONGA"
+},
+{
+"nome":"OURINHOS",
+"tipo":"UHE",
+"agente":"CBA"
+},
+{
+"nome":"PIRAJU",
+"tipo":"UHE",
+"agente":"CBA"
+},
+{
+"nome":"S.R.VERDINHO",
+"tipo":"UHE",
+"agente":"CBA"
+},
+{
+"nome":"SALTO PILAO",
+"tipo":"UHE",
+"agente":"CBA"
+},
+{
+"nome":"AMADORAGUIAR1",
+"tipo":"UHE",
+"agente":"CCBE"
+},
+{
+"nome":"AMADORAGUIAR2",
+"tipo":"UHE",
+"agente":"CCBE"
+},
+{
+"nome":"C. DOURADA",
+"tipo":"UHE",
+"agente":"CDSA"
+},
+{
+"nome":"ESTREITO",
+"tipo":"UHE",
+"agente":"CE ESTREITO"
+},
+{
+"nome":"TER BRASILIA",
+"tipo":"UTE",
+"agente":"CEB - GER"
+},
+{
+"nome":"US.MAUA",
+"tipo":"UHE",
+"agente":"CECS"
+},
+{
+"nome":"ITAUBA",
+"tipo":"UHE",
+"agente":"CEEE GT"
+},
+{
+"nome":"JACUI",
+"tipo":"UHE",
+"agente":"CEEE GT"
+},
+{
+"nome":"P.MEDICI",
+"tipo":"UTE",
+"agente":"CEEE GT"
+},
+{
+"nome":"PASSO REAL",
+"tipo":"UHE",
+"agente":"CEEE GT"
+},
+{
+"nome":"U.D.FRANCISCA",
+"tipo":"UHE",
+"agente":"CEEE GT"
+},
+{
+"nome":"CAMARGOS",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"EMBORCACAO",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"IGARAPE",
+"tipo":"UTE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"IRAPE-US",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"ITUTINGA-US",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"JAGUARA-US",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"MIRANDA",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"NOVA PONTE",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"PORTO ESTRELA",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"QUEIMADO",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"SALTO GRANDE",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"SAO SIMAO-US",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"TRES MARIAS",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"VOLTA GRANDE",
+"tipo":"UHE",
+"agente":"CEMIG GT"
+},
+{
+"nome":"POTIGUAR",
+"tipo":"UTE",
+"agente":"CEP"
+},
+{
+"nome":"POTIGUAR III",
+"tipo":"UTE",
+"agente":"CEP"
+},
+{
+"nome":"14 DE JULHO",
+"tipo":"UHE",
+"agente":"CERAN"
+},
+{
+"nome":"CASTRO ALVES",
+"tipo":"UHE",
+"agente":"CERAN"
+},
+{
+"nome":"U.MONTE CLARO",
+"tipo":"UHE",
+"agente":"CERAN"
+},
+{
+"nome":"ILHA SOLTEIRA",
+"tipo":"UHE",
+"agente":"CESP"
+},
+{
+"nome":"JAGUARI",
+"tipo":"UHE",
+"agente":"CESP"
+},
+{
+"nome":"JUPIA",
+"tipo":"UHE",
+"agente":"CESP"
+},
+{
+"nome":"P. PRIMAVERA",
+"tipo":"UHE",
+"agente":"CESP"
+},
+{
+"nome":"PARAIBUNA",
+"tipo":"UHE",
+"agente":"CESP"
+},
+{
+"nome":"CANDIOTA III",
+"tipo":"UTE",
+"agente":"CGTEE"
+},
+{
+"nome":"NUTEPA",
+"tipo":"UTE",
+"agente":"CGTEE"
+},
+{
+"nome":"P.MEDICI",
+"tipo":"UTE",
+"agente":"CGTEE"
+},
+{
+"nome":"SAO JERONIMO",
+"tipo":"UTE",
+"agente":"CGTEE"
+},
+{
+"nome":"UT. FORTALEZA",
+"tipo":"UTE",
+"agente":"CGTF"
+},
+{
+"nome":"AIMORES",
+"tipo":"UHE",
+"agente":"CHA"
+},
+{
+"nome":"U. A. SALES",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"U.SOBRADINHO",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"UB.ESPERANCA",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"US. L.GONZAGA",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"US.CAMACARI",
+"tipo":"UTE",
+"agente":"CHESF"
+},
+{
+"nome":"USINA PA-I",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"USINA PA-II",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"USINA PA-III",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"USINA PA-IV",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"USINA XINGO",
+"tipo":"UHE",
+"agente":"CHESF"
+},
+{
+"nome":"BENTO MUNHOZ",
+"tipo":"UHE",
+"agente":"COPEL-GT"
+},
+{
+"nome":"G.JOSE RICHA",
+"tipo":"UHE",
+"agente":"COPEL-GT"
+},
+{
+"nome":"NEY BRAGA",
+"tipo":"UHE",
+"agente":"COPEL-GT"
+},
+{
+"nome":"US. FIGUEIRA",
+"tipo":"UTE",
+"agente":"COPEL-GT"
+},
+{
+"nome":"USI PAR.SOUZA",
+"tipo":"UHE",
+"agente":"COPEL-GT"
+},
+{
+"nome":"CORUMBA III",
+"tipo":"UHE",
+"agente":"CORUMBÁ III"
+},
+{
+"nome":"CORUMBA IV",
+"tipo":"UHE",
+"agente":"CORUMBÁ IV"
+},
+{
+"nome":"US.CARIOBA",
+"tipo":"UTE",
+"agente":"CPFL PAULISTA"
+},
+{
+"nome":"UTE ATLANTICO",
+"tipo":"UTE",
+"agente":"CSA"
+},
+{
+"nome":"DAIA",
+"tipo":"UTE",
+"agente":"DAIA"
+},
+{
+"nome":"U.D.FRANCISCA",
+"tipo":"UHE",
+"agente":"DFESA"
+},
+{
+"nome":"CANOAS I",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"CANOAS II",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"CAPIVARA",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"CHAVANTES",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"JURUMIRIM",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"ROSANA",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"SALTO GRANDE CS",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"TAQUARUCU",
+"tipo":"UHE",
+"agente":"DUKE ENERGY"
+},
+{
+"nome":"STO.ANT.JARI",
+"tipo":"UHE",
+"agente":"ECE PARTICIPAÇÕES"
+},
+{
+"nome":"FUNDAO",
+"tipo":"UHE",
+"agente":"ELEJOR"
+},
+{
+"nome":"STA. CLARA PR",
+"tipo":"UHE",
+"agente":"ELEJOR"
+},
+{
+"nome":"RONDON II",
+"tipo":"UHE",
+"agente":"ELETROGOES"
+},
+{
+"nome":"CURUA-UNA",
+"tipo":"UHE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"UHE SAMUEL",
+"tipo":"UHE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"US. TUCURUI",
+"tipo":"UHE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"US.COA.NUNES",
+"tipo":"UHE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"UTE SANTANA",
+"tipo":"UTE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"UTE SANTANA II",
+"tipo":"UTE",
+"agente":"ELETRONORTE"
+},
+{
+"nome":"ANGRA",
+"tipo":"UTN",
+"agente":"ELETRONUCLEAR"
+},
+{
+"nome":"PASSO S JOAO",
+"tipo":"UHE",
+"agente":"ELETROSUL"
+},
+{
+"nome":"U.CHARQUEADAS",
+"tipo":"UTE",
+"agente":"ELETROSUL"
+},
+{
+"nome":"U.PASSO FUNDO",
+"tipo":"UHE",
+"agente":"ELETROSUL"
+},
+{
+"nome":"H.BORDEN EXT",
+"tipo":"UHE",
+"agente":"EMAE"
+},
+{
+"nome":"H.BORDEN SUB",
+"tipo":"UHE",
+"agente":"EMAE"
+},
+{
+"nome":"U.C NOVOS",
+"tipo":"UHE",
+"agente":"ENERCAN"
+},
+{
+"nome":"U.MASCARENHAS",
+"tipo":"UHE",
+"agente":"ENERGEST"
+},
+{
+"nome":"UTE MADEIRAS",
+"tipo":"UTE",
+"agente":"ENERGIA MADEIRAS"
+},
+{
+"nome":"UHE JIRAU",
+"tipo":"UHE",
+"agente":"ENERGIA SUSTENTÁVEL"
+},
+{
+"nome":"PEIXE ANGICAL",
+"tipo":"UHE",
+"agente":"ENERPEIXE"
+},
+{
+"nome":"ARACATI",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"BATURITE",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"CAUCAIA",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"CRATO",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"IGUATU",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"JUAZEIRO NORT",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"UT.PECEM",
+"tipo":"UTE",
+"agente":"ENGUIA GEN CE"
+},
+{
+"nome":"ALTOS",
+"tipo":"UTE",
+"agente":"ENGUIA GEN PI"
+},
+{
+"nome":"CAMPO MAIOR",
+"tipo":"UTE",
+"agente":"ENGUIA GEN PI"
+},
+{
+"nome":"MARAMBAIA",
+"tipo":"UTE",
+"agente":"ENGUIA GEN PI"
+},
+{
+"nome":"NAZARIA",
+"tipo":"UTE",
+"agente":"ENGUIA GEN PI"
+},
+{
+"nome":"TERMONORDESTE",
+"tipo":"UTE",
+"agente":"EPASA"
+},
+{
+"nome":"TERMOPARAIBA",
+"tipo":"UTE",
+"agente":"EPASA"
+},
+{
+"nome":"UTE CUIABA",
+"tipo":"UTE",
+"agente":"EPE PRODUTORA"
+},
+{
+"nome":"TERMOMANAUS",
+"tipo":"UTE",
+"agente":"EPESA"
+},
+{
+"nome":"UTE P.FERRO 1",
+"tipo":"UTE",
+"agente":"EPESA"
+},
+{
+"nome":"UTE STA VITORIA",
+"tipo":"UTE",
+"agente":"ERB MG"
+},
+{
+"nome":"ESPORA",
+"tipo":"UHE",
+"agente":"ESPORA"
+},
+{
+"nome":"FERREI.GOMES",
+"tipo":"UHE",
+"agente":"FERREIRA GOMES"
+},
+{
+"nome":"U.FOZ CHAPECO",
+"tipo":"UHE",
+"agente":"FOZ CHAPECÓ"
+},
+{
+"nome":"JLM.G.PEREIRA",
+"tipo":"UHE",
+"agente":"FOZ DO RIO CLARO"
+},
+{
+"nome":"FUNIL GRANDE",
+"tipo":"UHE",
+"agente":"FUNIL GRANDE"
+},
+{
+"nome":"BATALHA",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"CAMPOS",
+"tipo":"UTE",
+"agente":"FURNAS"
+},
+{
+"nome":"CORUMBA",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"FUNIL",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"FURNAS",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"ITUMBIARA",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"L.C.BARRETO",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"M. MORAES",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"MANSO",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"MARIMBONDO",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"P. COLOMBIA",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"SANTA CRUZ",
+"tipo":"UTE",
+"agente":"FURNAS"
+},
+{
+"nome":"SIMPLICIO",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"UHE S.DA MESA",
+"tipo":"UHE",
+"agente":"FURNAS"
+},
+{
+"nome":"T.PONTA NEGRA",
+"tipo":"UTE",
+"agente":"GERA AMAZONAS"
+},
+{
+"nome":"GERAMAR I",
+"tipo":"UTE",
+"agente":"GERA MARANHAO"
+},
+{
+"nome":"GERAMAR II",
+"tipo":"UTE",
+"agente":"GERA MARANHAO"
+},
+{
+"nome":"UH BCOQUEIROS",
+"tipo":"UHE",
+"agente":"GERDAU SA"
+},
+{
+"nome":"UHE CACU",
+"tipo":"UHE",
+"agente":"GERDAU SA"
+},
+{
+"nome":"GUILMA AMORIM",
+"tipo":"UHE",
+"agente":"GUILMAN/AMORI"
+},
+{
+"nome":"IGARAPAVA",
+"tipo":"UHE",
+"agente":"IGARAPAVA"
+},
+{
+"nome":"SAO JOSE",
+"tipo":"UHE",
+"agente":"IJUI ENERGIA"
+},
+{
+"nome":"LAJEADO",
+"tipo":"UHE",
+"agente":"INVESTCO"
+},
+{
+"nome":"ITAIPU 50 HZ",
+"tipo":"UHE",
+"agente":"ITAIPU"
+},
+{
+"nome":"ITAIPU 60 HZ",
+"tipo":"UHE",
+"agente":"ITAIPU"
+},
+{
+"nome":"UT.POR.ITAQUI",
+"tipo":"UTE",
+"agente":"ITAQUI GERACAO"
+},
+{
+"nome":"ITIQUIRA I",
+"tipo":"UHE",
+"agente":"ITIQUIRA"
+},
+{
+"nome":"ITIQUIRA II",
+"tipo":"UHE",
+"agente":"ITIQUIRA"
+},
+{
+"nome":"FONTES NOVA",
+"tipo":"UHE",
+"agente":"LIGHT GT"
+},
+{
+"nome":"ILHA POMBOS",
+"tipo":"UHE",
+"agente":"LIGHT GT"
+},
+{
+"nome":"NILO PECANHA",
+"tipo":"UHE",
+"agente":"LIGHT GT"
+},
+{
+"nome":"PEREIRA PASSO",
+"tipo":"UHE",
+"agente":"LIGHT GT"
+},
+{
+"nome":"SANTA BRANCA",
+"tipo":"UHE",
+"agente":"LIGHT GT"
+},
+{
+"nome":"LUIZ O R MELO",
+"tipo":"UTE",
+"agente":"LINHARES"
+},
+{
+"nome":"UTE MANAUARA",
+"tipo":"UTE",
+"agente":"MANAUARA"
+},
+{
+"nome":"UT.MARACANAU1",
+"tipo":"UTE",
+"agente":"MARACANAÚ"
+},
+{
+"nome":"ALZIR SANTOS",
+"tipo":"UHE",
+"agente":"MONEL MONJOLINHO"
+},
+{
+"nome":"UTE CRIST ROCHA",
+"tipo":"UTE",
+"agente":"MULTINER S.A."
+},
+{
+"nome":"NO.FLUMINENSE",
+"tipo":"UTE",
+"agente":"NORTE FLUMINENSE"
+},
+{
+"nome":"PALMEIRAS GO",
+"tipo":"UTE",
+"agente":"PALMEIRAS CEPASA"
+},
+{
+"nome":"U.NV.VENECIA2",
+"tipo":"UTE",
+"agente":"PARANAIBA III"
+},
+{
+"nome":"UT.MARANHAO 4",
+"tipo":"UTE",
+"agente":"PARNAIBA I GERAÇÃO"
+},
+{
+"nome":"UT.MARANHAO 5",
+"tipo":"UTE",
+"agente":"PARNAIBA I GERAÇÃO"
+},
+{
+"nome":"UT.PARNAIBA 4",
+"tipo":"UTE",
+"agente":"PARNAIBA I GERAÇÃO"
+},
+{
+"nome":"POR PECEM II",
+"tipo":"UTE",
+"agente":"PECEM II"
+},
+{
+"nome":"B.FLUMINENSE",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"B.L.SOBRINHO",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"BAHIA I",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"CELSO FURTADO",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"EUZEBIO ROCHA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"FER.GASPARIAN",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"GOV.L.BRIZOLA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"JE.SO.PEREIRA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"JUIZ DE FORA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"L.C.PRESTES",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"ROMULOALMEIDA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"SEPE TIARAJU",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"UT MARIO LAGO",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"UT.AUR.CHAVES",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"UT.TERMOCEARA",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"UTE AREMBEPE",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"UTE MURICY",
+"tipo":"UTE",
+"agente":"PETROBRAS"
+},
+{
+"nome":"PETROLINA",
+"tipo":"UTE",
+"agente":"PETROLINA"
+},
+{
+"nome":"PORTO ESTRELA",
+"tipo":"UHE",
+"agente":"PORTO ESTRELA"
+},
+{
+"nome":"PORTO PECEM I",
+"tipo":"UTE",
+"agente":"PORTO PECEM"
+},
+{
+"nome":"USI JAURU",
+"tipo":"UHE",
+"agente":"QUEIROZ GALVÃO"
+},
+{
+"nome":"RETIRO BAIXO",
+"tipo":"UHE",
+"agente":"RETIRO BAIXO"
+},
+{
+"nome":"UHE GARIBALDI",
+"tipo":"UHE",
+"agente":"RIO CANOAS"
+},
+{
+"nome":"UTE CACU I",
+"tipo":"UTE",
+"agente":"RIO CLARO AGROIND."
+},
+{
+"nome":"SALTO",
+"tipo":"UHE",
+"agente":"RIO VERDE"
+},
+{
+"nome":"ROSAL",
+"tipo":"UHE",
+"agente":"ROSAL ENERGIA"
+},
+{
+"nome":"SANTO ANTONIO",
+"tipo":"UHE",
+"agente":"SAESA"
+},
+{
+"nome":"STA.CLARA-MG",
+"tipo":"UHE",
+"agente":"SANTA CLARA"
+},
+{
+"nome":"S.DO FACAO",
+"tipo":"UHE",
+"agente":"SEFAC"
+},
+{
+"nome":"UTE SUAPE II",
+"tipo":"UTE",
+"agente":"SUAPE II"
+},
+{
+"nome":"UTE SUZANO",
+"tipo":"UTE",
+"agente":"SUZANO"
+},
+{
+"nome":"UTE SYKUE 1",
+"tipo":"UTE",
+"agente":"SYKUÉ"
+},
+{
+"nome":"SA CARVALHO",
+"tipo":"UHE",
+"agente":"SÁ CARVALHO"
+},
+{
+"nome":"GUAPORE",
+"tipo":"UHE",
+"agente":"TANGARÁ"
+},
+{
+"nome":"TELES PIRES",
+"tipo":"UHE",
+"agente":"TELES PIRES"
+},
+{
+"nome":"TERMOCABO",
+"tipo":"UTE",
+"agente":"TERMOCABO"
+},
+{
+"nome":"TERMONORTE II",
+"tipo":"UTE",
+"agente":"TERMONORTE"
+},
+{
+"nome":"TERMOPERNAMBU",
+"tipo":"UTE",
+"agente":"TERMOPERNAMBUCO"
+},
+{
+"nome":"UTE VIANA",
+"tipo":"UTE",
+"agente":"TEVISA"
+},
+{
+"nome":"TRES IRMAOS",
+"tipo":"UHE",
+"agente":"TIJOA"
+},
+{
+"nome":"CANA BRAVA",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"PONTE PEDRA",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"SAO SALVADOR",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U. ALEGRETE",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U. W.ARJONA",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.CHARQUEADAS",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.ITA",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.JLACERDA-A",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.JLACERDA-B",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.JLACERDA-C",
+"tipo":"UTE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.MACHADINHO",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.PASSO FUNDO",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.S.OSORIO",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"U.S.SANTIAGO",
+"tipo":"UHE",
+"agente":"TRACTEBEL"
+},
+{
+"nome":"UTE PERNAMB.3",
+"tipo":"UTE",
+"agente":"UTE PERNAMBUCO III"
+},
+{
+"nome":"P.DO CAVALO",
+"tipo":"UHE",
+"agente":"VOTORANTIM CIMENTOS"
+},
+{
+"nome":"PICADA",
+"tipo":"UHE",
+"agente":"VOTORANTIM SBM"
+},
+{
+"nome":"SOBRAGI",
+"tipo":"UHE",
+"agente":"VOTORANTIM SBM"
+},
+{
+"nome":"XAVANTES",
+"tipo":"UTE",
+"agente":"XAVANTES"
+}
+]

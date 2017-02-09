@@ -1,0 +1,77 @@
+<div>
+    <h2 translate="onsPortalApp.record.home.title">Records</h2>
+    <jhi-alert></jhi-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="record.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span  translate="onsPortalApp.record.home.createLabel">
+                        Create new Record
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span translate="global.field.id">ID</span></th>
+                    <th><span translate="onsPortalApp.record.correlationId">Correlation Id</span></th>
+                    <th><span translate="onsPortalApp.record.type">Type</span></th>
+                    <th><span translate="onsPortalApp.record.name">Name</span></th>
+                    <th><span translate="onsPortalApp.record.handlerName">Handler Name</span></th>
+                    <th><span translate="onsPortalApp.record.handlerVersion">Handler Version</span></th>
+                    <th><span translate="onsPortalApp.record.timelineDate">Timeline Date</span></th>
+                    <th><span translate="onsPortalApp.record.creationDate">Creation Date</span></th>
+                    <th><span translate="onsPortalApp.record.content">Content</span></th>
+                    <th><span translate="onsPortalApp.record.timeline">Timeline</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="record in vm.records track by record.id">
+                    <td><a ui-sref="record-detail({id:record.id})">{{record.id}}</a></td>
+                    <td>{{record.correlationId}}</td>
+                    <td translate="{{'onsPortalApp.RecordType.' + record.type}}">{{record.type}}</td>
+                    <td>{{record.name}}</td>
+                    <td>{{record.handlerName}}</td>
+                    <td>{{record.handlerVersion}}</td>
+                    <td>{{record.timelineDate | date:'medium'}}</td>
+                    <td>{{record.creationDate | date:'medium'}}</td>
+                    <td>
+                        <a ng-if="record.content" ng-click="vm.openFile(record.contentContentType, record.content)" translate="entity.action.open">open</a>
+                        <span ng-if="record.content">{{record.contentContentType}}, {{vm.byteSize(record.content)}}</span>
+                    </td>
+                    <td>
+                        <a ui-sref="timeline-detail({id:record.timeline.id})">{{record.timeline.id}}</a>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="record-detail({id:record.id})"
+                                    class="btn btn-info btn-sm">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="record.edit({id:record.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="record.delete({id:record.id})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-xs hidden-sm" translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

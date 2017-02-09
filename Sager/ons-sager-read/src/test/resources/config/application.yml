@@ -1,0 +1,73 @@
+# ===================================================================
+# Spring Boot configuration.
+#
+# This configuration is used for unit/integration tests.
+# ===================================================================
+
+# ===================================================================
+# Standard Spring Boot properties.
+# Full reference is available at:
+# http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+# ===================================================================
+
+eureka:
+    client:
+        enabled: false
+    instance:
+        appname: ONSSagerRead
+        instanceId: ONSSagerRead:${spring.application.instance_id:${random.value}}
+
+spring:
+    profiles:
+        active: test
+    application:
+        name: ONSSagerRead
+    jackson:
+        serialization.write_dates_as_timestamps: false
+    mail:
+        host: localhost
+    mvc:
+        favicon:
+            enabled: false
+
+security:
+    basic:
+        enabled: false
+
+server:
+    port: 10344
+    address: localhost
+
+mq:
+    queueManager: QMONS01
+    host: des-ssmq-01
+    port: 1414
+    channel: SYSTEM.DEF.SVRCONN
+    username: mqm
+    password: 
+    
+# ===================================================================
+# JHipster specific properties
+# ===================================================================
+
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: 18011521f939a61d3293f27a9553c6fcc55233f5
+                # Token is valid 24 hours
+                tokenValidityInSeconds: 86400
+    swagger:
+        title: ONSSagerRead API
+        description: ONSSagerRead API documentation
+        version: 0.0.1
+        termsOfServiceUrl:
+        contactName:
+        contactUrl:
+        contactEmail:
+        license:
+        licenseUrl:
+        
+IIBus:
+    url: http://localhost:7800/GerarRelatorio/resources
+        
